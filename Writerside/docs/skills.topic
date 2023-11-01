@@ -3,7 +3,336 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Skills" id="skills">
+       title="Combat Skills &amp; Abilities" id="combat-skills-abilities">
 
-    <p>Start typing here...</p>
+    <p>
+        Tutorials are learning-oriented articles that help users to go through a process and achieve a deliverable.
+        Start with an introduction: for whom is this tutorial and what the reader will achieve by reading it.
+        Answer the question: "Why should I follow this?".
+    </p>
+
+    <p>
+        Combat skills are abilities which make your character more deadly when fighting,
+        things such as the ability to wield two weapons at once, or parry.
+    </p>
+
+
+    <chapter title="Advanced Evade" id="advanced-evade">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Berserk" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Camouflage" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Celtic Dual" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Charge" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Climb Walls" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Critical Strike" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Dirty Tricks" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Distract" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Dual Wield" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Engage" id="engage">
+        <p>
+            The ability to use Endurance to greatly increase the rate to block incoming
+            attacks from a single enemy. This ability can not be used on an opponent that
+            is currently under attack. Engage is received upon specializing in shields up
+            to level 7.
+        </p>
+    </chapter>
+
+    <chapter title="Evade" id="evade">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Envenom" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Flurry" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Guard" id="guard">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Intercept" id="intercept">
+        <p>
+            The ability to take blows for someone else. Your character literally throws
+            himself/herself in front of another character, sheilding that character with
+            your body. Because of your recklessness, you will gain no bonuses from the
+            armor you are wearing at the time you try to intercept. A shield is not
+            required for this skill.
+        </p>
+    </chapter>
+
+    <chapter title="Left Axe" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Parry" id="parry">
+        <p>
+            The ability to block a blow from your opponent using your weapon. This is an
+            invaluable ability for those not using shields. The base chance to parry is 5%,
+            and every time you train in parry, your chance to parry is increased by .5%.
+        </p>
+    </chapter>
+
+    <chapter title="Protect" id="protect">
+        <p>
+            The ability for a tank class to guard a weaker class, reducing the enemy's
+            aggro towards the weaker class, and transferring it onto the tank. This skill
+            can be likened to a taunt. Only one Protect skill can be used on a character
+            at a time. When multiple Protect skills are used the highest protect skill's
+            value is used.
+        </p>
+        <chapter title="Protect I" id="protect-1">
+            <p>The first level of protection a character receives.</p>
+        </chapter>
+        <chapter title="Protect II" id="protect-2">
+            <p>Like Protect I, only you are better at it.</p>
+        </chapter>
+        <chapter title="Protect III" id="protect-3">
+            <p>The most efficient protection a tank class can offer.</p>
+        </chapter>
+    </chapter>
+
+    <chapter title="Quick Cast" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+
+    <chapter title="Safe Fall" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Savagery" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="" id="Spirit of the Hunt">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Sprint" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Stealth" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+    <chapter title="Triple Wield" id="">
+        <p>
+            The
+        </p>
+    </chapter>
+
+
+
+
+
+
+
+    Guard I
+
+    The ability to block melee attacks aimed at one person in close proximity. This ability is received upon specializing in Shields to level 5.
+    Guard II
+
+    An improved version of Guard that has a higher chance to block attacks. This ability is received upon specializing in Shields to level 10.
+    Guard III
+
+    An improved version of Guard that has a higher chance to block attacks. This ability is received upon specializing in Shields to level 15.
+    Evade I
+
+    The ability to evade blows from your opponent. This ability is completely passive and will begin to work as soon as you acquire it.
+    Evade II
+
+    Like Evade I, only you are better at it.
+    Evade III
+
+    Like Evade II, only you are better at it.
+    Evade IV
+
+    Like Evade III, only you are better at it.
+    Evade V
+
+    Like Evade IV, only you are better at it.
+    Evade VI
+
+    Like Evade V, only you are better at it.
+    Evade VII
+
+    Like the rest of the Evades... With this ability one could evade Death himself.
+    Advanced Evade
+
+    Certain classes have learned to evade attacks even when they cannot physically see their opponent. Advanced Evade allows evasion from attacks on you occurring from any direction.
+    Celtic Dual
+    -> Combat Style List
+
+    The ability to effectively use two weapons in combat instead of one. This works only with one-handed weapons in Hibernia. The base chance to swing both weapons is 25%, and every time you train in Celtic Dual, your chance to swing both weapons is increased by .5%
+    Dual Wield
+    -> Combat Style List
+
+    The ability to effectively use two weapons in combat instead of one. This works only with one-handed weapons in Albion. The base chance to swing both weapons is 25%, and every time you train in Dual Wield, your chance to swing both weapons is increased by .5%
+    Left Axe
+    -> Combat Style List
+
+    Like Dual Wield, but only good with axes in Midgard. With Left Axe, you swing both weapons during every combat round, but your damage with those weapons is decreased.
+    Berserk I
+
+    This ability is native to the Berserker, and allows him to do more damage than would normally be possible by throwing himself into a berserker rage, transforming into a Vendo (BearPerson) during combat. Berserk makes every hit for a certain time a critical hit, but can only be used once every 7 minutes.
+    Berserk II
+
+    Like Berserk I, only better.
+    Berserk III
+
+    Like Berserk II, only better.
+    Berserk IV
+
+    You're a maniac, what else can I say? Baddies Beware!
+    Spirit of the Hunt: Initiate
+
+    This ability is Native to the Hero. He can shapeshift into a fearsome stag-headed Hunstman of Celtic Lore, once per 30 minutes, lasting 30 seconds. This level of Spirit of the Hunt grants a 20% hitpoint bonus.
+    Spirit of the Hunt: Member
+
+    This level of Spirit of the Hunt grants a 30% hitpoint bonus.
+    Spirit of the Hunt: Leader
+
+    This level of Spirit of the Hunt grants a 40% hitpoint bonus.
+    Spirit of the Hunt: Master
+
+    This level of Spirit of the Hunt grants a 50% hitpoint bonus.
+    Dirty Tricks
+
+    This ability is Native to the Mercenary. These hired hands will do anything to win a fight - including this dirty trick of throwing dirt into the enemy's eyes. For 30 seconds, the Mercenary has a chance of throwing dirt into the enemy's eyes whenever he swings. If hit, the enemy will miss 25% more often, and fumble 50% more often for 10 seconds. This ability can be used once per 7 minues.
+    Triple Wield
+
+    This ability is native to the Blademaster. These masters of the blade art have learned to summon a magic sword to fight with them for 30 seconds, once per 7 minutes. The magical sword damages the enemy every time the Blademaster hits, inflicting 50% of the damage of the swing, and protects the Blademaster from all critical hit damage during that 30 seconds.
+    Critical Strike
+    -> Combat Style List
+
+    The Thief-Only skill dealing with backstabs and roguish maneuvers.
+    Savagery
+    -> Savagery List
+
+    This skill is native to the Savage. Savagery is a set of spell-like abilities that modify the Savage's combat performance - chance to block, chance to evade, etc. However, unlike spells, the Savagery abilities cost Health and not Power.
+
+
+    Miscellaneous Skills ~
+
+
+
+    Stealth
+
+    The ability to hide yourself in the surrounding landscape. The better you are at this, the closer you can come to an enemy without it detecting your presence. Assassins and Minstrels gain access to the Distract, Safefall, and Climb Walls abilities by speccing Stealth. Please read the FAQ for more information.
+    Distract
+
+    The ability to temporarily direct a monster's attention in a different direction.
+    Climb Walls
+
+    The ability to climb up certain points on frontier keep walls. Available to Minstrels and Assassins at 25 spec in Stealth.
+    Safefall
+
+    An automatic ability that partially reduces the damage from falling. Available to Ministrels and Assassins at 10 spec in stealth, with improved versions at 20, 30, 40, and 50.
+    Envenom
+
+    All thieves learn the Envenom skill at level 5. This allows them to apply poisons to their weapons before going into battle. Different poisons have different effects on your enemy -- some debuff, some apply a damage-over-time, etc. It is expected that a thief will always attack with an envenomed weapon, so make sure you stock up on poison before you head out hunting.
+    Camouflage
+
+    The purpose of Camouflage is for the Archer to be able to move about unseen, but not be able to use it to engage in stealthed combat. You use it just like any other ability - first, you must be stealthed, then click on the Camouflage icon to activate the ability. When you are Camouflaged, essentially you are invisible from the assassin See Hidden ability - however, you abide by all the rules of being stealthed normally; i.e. you have a greater chance of being visible to those that are higher level than yourself. You will move at your normal stealthed speed, and you will become visible if you engage in combat (take damage, attack someone, shoot someone with a bow, etc.).
+    Flurry
+
+    Once every two minutes, certain classes have the ability to add an instant attack to their normal melee, however, Flurry is only useable in RvR Combat.
+    Charge
+
+    When Charging, the tank sprints at full sprint speed, with no endurance loss, for 10 seconds towards the target. If he breaks off, or changes target, or the 10 seconds expires, the tank goes back to normal running speed. Can be used every 5 minutes.
+    Sprint Ability
+
+    The ability sprint, and for a short while, run faster than normal. This ability drains stamina very quickly. Every class in the game has this skill at level one, but each class also has varying degrees of stamina.
+
+
+
+
+    <chapter title="Sources" id="sources">
+        <p>This page is based upon the data provided by <a href="https://web.archive.org/web/20031012073152/http://www.classesofcamelot.com:80/skills/combat.asp">The Classes of Camelot (Oct. 2003), courtesy of the Wayback Machine</a></p>
+    </chapter>
+
+    <seealso>
+        <!--Give some related links to how-to articles-->
+    </seealso>
 </topic>

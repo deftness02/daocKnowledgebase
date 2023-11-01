@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Example XML" id="Tutorial">
+
+    <chapter title="Elements" id="elements">
+        <chapter title="List">
+            <list>
+                <li>
+                    <p>Item.</p>
+                </li>
+                <li>
+                    <p>Item.</p>
+                </li>
+            </list>
+        </chapter>
+
+        <chapter title="List Within a List">
+            <list>
+                <li>
+                    <p>Item.</p>
+                </li>
+                <li>
+                    <p>Item</p>
+                    <list>
+                        <li>
+                            <p>Item.</p>
+                        </li>
+                        <li>
+                            <p>Item.</p>
+                        </li>
+                    </list>
+                </li>
+            </list>
+        </chapter>
+
+        <chapter title="Procedure">
+            <procedure title="How To" id="">
+                <step>
+                    <p>Step.</p>
+                </step>
+                <step>
+                    <p>Step.</p>
+                </step>
+                <step>
+                    <p>Step.</p>
+                </step>
+            </procedure>
+        </chapter>
+
+        <chapter title="Note">
+            <note>
+                <p><control>Highlight important information.</control></p>
+                <p>
+                    You can change this element to <code>&lt;tip&gt;</code> or <code>&lt;warning&gt;</code>.
+                </p>
+            </note>
+
+        </chapter>
+
+        <chapter title="Characters">
+            <p>Non-breaking space: &nbsp;</p>
+            <p>Less than: &lt;</p>
+            <p>Greater than: &gt;</p>
+            <p>Ampersand: &amp;</p>
+            <p>Double quotes: &quot;</p>
+            <p>Single quote: &apos;</p>
+            <p>Copyright: &copy;</p>
+            <p>En Dash: &ndash;</p>
+            <p>Em Dash: &mdash;</p>
+        </chapter>
+
+        <chapter title="Code Block">
+            <code-block lang="c#">
+                var variable = 4;
+            </code-block>
+        </chapter>
+
+        <chapter title="Code">
+            <code>&lt;tip&gt;</code>
+        </chapter>
+
+        <chapter title="Control">
+            <p><control>Highlight important information.</control></p>
+        </chapter>
+
+        <chapter title="Term List">
+            <deflist>
+                <def title="Term1">
+                    This is the definition.
+                </def>
+                <def title="Term2">
+                    This is the definition.
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="UI Path">
+            <p>From the menu, select <ui-path>Foo | Bar</ui-path>.</p>
+        </chapter>
+
+        <chapter title="">
+
+        </chapter>
+
+        <chapter title="">
+
+        </chapter>
+
+        <chapter title="">
+
+        </chapter>
+
+        <chapter title="">
+
+        </chapter>
+
+        <chapter title="">
+
+        </chapter>
+
+    </chapter>
+
+
+    <seealso>
+        <category ref="source-links">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

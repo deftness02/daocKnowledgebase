@@ -5,5 +5,34 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Classic" id="patch-classic">
 
-    <p>Start typing here...</p>
+    <chapter title="Classic" id="classic-patch-notes" instance="daoc155,daoc165">
+        <p>
+            The following patches mark the the "Classic" era of DAoC.
+        </p>
+
+        <list id="classic-patch-list">
+            <li id="patch-link-v135"><a href="patch-v135.topic">v1.35</a></li>
+            <li id="patch-link-v136"><a href="patch-v136.topic">v1.36</a></li>
+            <li id="patch-link-v137"><a href="patch-v137.topic">v1.37</a></li>
+            <li id="patch-link-v138"><a href="patch-v138.topic">v1.38</a></li>
+            <li id="patch-link-v139"><a href="patch-v139.topic">v1.39</a></li>
+            <li id="patch-link-v140"><a href="patch-v140.topic">v1.40</a></li>
+            <li id="patch-link-v141"><a href="patch-v141.topic">v1.41</a></li>
+            <li id="patch-link-v142"><a href="patch-v142.topic">v1.42</a></li>
+            <li id="patch-link-v143"><a href="patch-v143.topic">v1.43</a></li>
+            <li id="patch-link-v144"><a href="patch-v144.topic">v1.44</a></li>
+            <li id="patch-link-v145"><a href="patch-v145.topic">v1.45</a></li>
+            <li id="patch-link-v146"><a href="patch-v146.topic">v1.46</a></li>
+            <li id="patch-link-v147"><a href="patch-v147.topic">v1.47</a></li>
+            <li id="patch-link-v148"><a href="patch-v148.topic">v1.48</a></li>
+            <li id="patch-link-v149"><a href="patch-v149.topic">v1.49</a></li>
+            <li id="patch-link-v150"><a href="patch-v150.topic">v1.50</a></li>
+            <li id="patch-link-v151"><a href="patch-v151.topic">v1.51</a></li>
+            <li id="patch-link-v152"><a href="patch-v152.topic">v1.52</a></li>
+            <li id="patch-link-v153"><a href="patch-v153.topic">v1.53</a></li>
+            <li id="patch-link-v154"><a href="patch-v154.topic">v1.54</a></li>
+            <li id="patch-link-v155"><a href="patch-v155.topic">v1.55</a></li>
+        </list>
+    </chapter>
+
 </topic>

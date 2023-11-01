@@ -3,8 +3,19 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="daoc165"
-                 name="DAoC Knowledgebase"
-                 start-page="starter-topic.md">
+                 name="DAoC Haven"
+                 start-page="daoc-haven.md">
 
-    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="daoc-haven.md"/>
+    <toc-element topic="realm-ranks-list.topic"/>
+    <toc-element topic="skills.topic"/>
+    <toc-element topic="classes.topic">
+        <toc-element topic="class-alb.topic"/>
+    </toc-element>
+    <toc-element topic="grab-bags.topic">
+        <toc-element topic="grab-20011214.topic"/>
+    </toc-element>
+    <toc-element topic="patch-notes.topic">
+        <toc-element topic="patch-v135.topic"/>
+    </toc-element>
 </instance-profile>

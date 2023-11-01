@@ -5,5 +5,126 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Patch Notes" id="patch-notes">
 
-    <p>Start typing here...</p>
+    <link-summary>A comprehensive and organized list of patch notes.</link-summary>
+    <card-summary></card-summary>
+
+    <p>
+        This page provides an extensive archive of patch notes for Dark
+        Age of Camelot, primarily focusing on the period between v1.35 and v1.65.
+        However, unlike other patch note archives, this
+        resource has been organized and formatted to be more easily
+        searchable and readable. With time, we hope to further organize
+        patch notes based on their topic and affected game systems.
+    </p>
+
+    <include from="patch-classic.topic" element-id="classic-patch-notes" instance="daoc165,daoc155"/>
+
+    <chapter title="Shrouded Isles" id="shrouded-isles-patch-notes" instance="daoc165">
+        <p>
+            The following patches mark the the "Shrouded Isles" expansion of DAoC.
+            Any data referenced on this website relating to this expansion will be
+            marked with the following icon: <img src="si.jpg" alt="Shrouded Isles icon"/>.
+        </p>
+
+        <list>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </list>
+    </chapter>
+
+    <chapter title="Foundations" id="foundations-patch-notes">
+        <p>
+            The following patches mark the the "Foundations" expansion of DAoC.
+        </p>
+
+        <list>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </list>
+    </chapter>
+
+
+    <chapter title="Trials of Atlantis" id="trials-of-atlantis-patch-notes">
+        <p>
+            The following patches mark the the "Trials of Atlantis" expansion of DAoC.
+            Any data referenced on this website relating to this expansion will be
+            marked with the following icon: <img src="toa.jpg" alt="Trials of Atlantis icon"/>.
+        </p>
+
+        <list>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </list>
+    </chapter>
+
+    <chapter title="New Frontiers" id="new-frontiers-patch-notes">
+        <p>
+            The following patches mark the the "New Frontiers" expansion of DAoC.
+        </p>
+
+        <list>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </list>
+    </chapter>
+
+    <chapter title="Catacombs" id="catacombs-patch-notes">
+        <p>
+            The following patches mark the the "Catacombs" expansion of DAoC.
+        </p>
+
+        <list>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </list>
+    </chapter>
+
+
+    <chapter title="What you've learned" id="what-learned">
+        <p>Summarize, what the reader achieved by completing this tutorial.</p>
+    </chapter>
+
+    <seealso>
+        <!--Give some related links to how-to articles-->
+    </seealso>
 </topic>

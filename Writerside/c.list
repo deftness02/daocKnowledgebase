@@ -2,5 +2,8 @@
 <!DOCTYPE categories
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
 <categories>
-    <category id="wrs" name="Writerside documentation" order="1"/>
+    <category id="patch-notes" name="Patch Notes" order="3"/>
+    <category id="external-links" name="External Links" order="4"/>
+    <category id="source-links" name="Sources" order="1"/>
+    <category id="related-content" name="Related Content" order="2"/>
 </categories>

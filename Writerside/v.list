@@ -2,4 +2,481 @@
 <!DOCTYPE vars SYSTEM "https://resources.jetbrains.com/writerside/1.0/vars.dtd">
 <vars>
     <var name="product" value="Writerside"/>
+    <var name="latest_version" instance="daoc155,daoc162,daoc165" value="1.65" />
+    <var name="daoc" value="DAoC" />
+
+
+    <!-- Realms -->
+    <var name="albion" value="Albion" />
+    <var name="hibernia" value="Hibernia" />
+    <var name="midgard" value="Midgard" />
+
+    <!-- Albion Classes -->
+    <var name="armsman" value="Armsman" />
+    <var name="cabalist" value="Cabalist" />
+    <var name="cleric" value="Cleric" />
+    <var name="friar" value="Friar" />
+    <var name="heretic" value="Heretic" />
+    <var name="infiltrator" value="Infiltrator" />
+    <var name="mercenary" value="Mercenary" />
+    <var name="minstrel" value="Minstrel" />
+    <var name="necromancer" value="Necromancer" />
+    <var name="paladin" value="Paladin" />
+    <var name="reaver" value="Reaver" />
+    <var name="scout" value="Scout" />
+    <var name="sorcerer" value="Sorcerer" />
+    <var name="theurgist" value="Theurgist" />
+    <var name="wizard" value="Wizard" />
+
+    <!-- Albion Base Classes -->
+    <var name="acolyte" value="Acolyte" />
+    <var name="disciple" value="Disciple" />
+    <var name="elementalist" value="Elementalist" />
+    <var name="fighter" value="Fighter" />
+    <var name="mage" value="Mage" />
+    <var name="roguealb" value="Rogue" />
+
+    <!-- Albion Races -->
+    <var name="avalonian" value="Avalonian" />
+    <var name="briton" value="Briton" />
+    <var name="halfogre" value="Half Ogre" />
+    <var name="highlander" value="Highlander" />
+    <var name="inconnu" value="Inconnu" />
+    <var name="saracen" value="Saracen" />
+
+    <!-- Hibernia Classes -->
+    <var name="animist" value="Animist" />
+    <var name="bainshee" value="Bainshee" />
+    <var name="bard" value="Bard" />
+    <var name="blademaster" value="Blademaster" />
+    <var name="champion" value="Champion" />
+    <var name="druid" value="Druid" />
+    <var name="eldritch" value="Eldritch" />
+    <var name="enchanter" value="Enchanter" />
+    <var name="hero" value="Hero" />
+    <var name="mentalist" value="Mentalist" />
+    <var name="nightshade" value="Nightshade" />
+    <var name="ranger" value="Ranger" />
+    <var name="valewalker" value="Valewalker" />
+    <var name="vampiir" value="Vampiir" />
+    <var name="warden" value="Warden" />
+
+    <!-- Hibernia Base Classes -->
+    <var name="forester" value="Forester" />
+    <var name="guardian" value="Guardian" />
+    <var name="magician" value="Magician" />
+    <var name="naturalist" value="Naturalist" />
+    <var name="stalker" value="Stalker" />
+
+    <!-- Hibernia Races -->
+    <var name="celt" value="Celt" />
+    <var name="elf" value="Elf" />
+    <var name="firbolg" value="Firbolg" />
+    <var name="lurikeen" value="Lurikeen" />
+    <var name="shar" value="Shar" />
+    <var name="sylvan" value="Sylvan" />
+
+    <!-- Midgard -->
+
+    <!-- Midgard Classes -->
+    <var name="berserker" value="Berserker" />
+    <var name="bonedancer" value="Bonedancer" />
+    <var name="healer" value="Healer" />
+    <var name="hunter" value="Hunter" />
+    <var name="runemaster" value="Runemaster" />
+    <var name="savage" value="Savage" />
+    <var name="shadowblade" value="Shadowblade" />
+    <var name="shaman" value="Shaman" />
+    <var name="skald" value="Skald" />
+    <var name="spiritmaster" value="Spiritmaster" />
+    <var name="thane" value="Thane" />
+    <var name="valkyrie" value="Valkyrie" />
+    <var name="warlock" value="Warlock" />
+    <var name="warrior" value="Warrior" />
+
+    <!-- Midgard Base Classes -->
+    <var name="mystic" value="Mystic" />
+    <var name="roguemid" value="Rogue" />
+    <var name="seer" value="Seer" />
+    <var name="viking" value="Viking" />
+
+    <!-- Midgard Races -->
+    <var name="dwarf" value="Dwarf" />
+    <var name="frostalf" value="Frostalf" />
+    <var name="kobold" value="Kobold" />
+    <var name="norseman" value="Norseman" />
+    <var name="troll" value="Troll" />
+    <var name="valkyn" value="Valkyn" />
+
+    <!-- Expansions -->
+    <var name="expClassic" value="Classic" />
+    <var name="expSi" value="Shrouded Isles" />
+    <var name="expFoundations" value="Foundations" />
+    <var name="expToa" value="Trials of Atlantis" />
+    <var name="expNf" value="New Frontiers" />
+    <var name="expCata" value="Catacombs" />
+    <var name="expDr" value="Darkness Rising" />
+    <var name="expLotm" value="Labyrinth of the Minotaur" />
+    <var name="expAdr" value="A Dragon's Revenge" />
+
+    <!-- Misc -->
+
+    <!-- Acronyms -->
+    <var name="pbaoe" value="PBAoE" />
+    <var name="aoe" value="AoE" />
+    <var name="dd" value="DD" />
+    <var name="dps" value="DPS" />
+    <var name="af" value="AF" />
+    <var name="abs" value="ABS" />
+    <var name="" value="" />
+
+    <!-- Resists -->
+    <var name="slash" value="Slash" />
+    <var name="crush" value="Crush" />
+    <var name="thrust" value="Thrust" />
+    <var name="energy" value="Energy" />
+    <var name="matter" value="Matter" />
+    <var name="spirit" value="Spirit" />
+    <var name="body" value="Body" />
+    <var name="cold" value="Cold" />
+    <var name="heat" value="Heat" />
+
+    <!-- Attributes -->
+    <var name="strength" value="Strength" />
+    <var name="str" value="STR" />
+    <var name="constitution" value="Constitution" />
+    <var name="con" value="CON" />
+    <var name="dexterity" value="Dexterity" />
+    <var name="dex" value="DEX" />
+    <var name="quickness" value="Quickness" />
+    <var name="qui" value="QUI" />
+    <var name="intelligence" value="Intelligence" />
+    <var name="int" value="Int" />
+    <var name="empathy" value="Empathy" />
+    <var name="emp" value="EMP" />
+    <var name="charisma" value="Charisma" />
+    <var name="cha" value="CHA" />
+    <var name="piety" value="Piety" />
+    <var name="pie" value="PIE" />
+    <var name="acuity" value="Acuity" />
+    <var name="acu" value="ACU" />
+    <var name="hits" value="Hits" />
+    <var name="hp" value="HP" />
+    <var name="power" value="Power" />
+
+    <!-- Skills -->
+    <var name="advevade" value="Advanced Evade" />
+    <var name="evade" value="Evade" />
+    <var name="parry" value="Parry" />
+    <var name="protect" value="Protect" />
+    <var name="guard" value="Guard" />
+    <var name="intercept" value="Intercept" />
+    <var name="engage" value="Engage" />
+    <var name="celticdual" value="Celtic Dual" />
+    <var name="dualwield" value="Dual Wield" />
+    <var name="leftaxe" value="Left Axe" />
+    <var name="berserk" value="Berserk" />
+    <var name="spirithunt" value="Spirit of the Hunt" />
+    <var name="dirtytricks" value="Dirty Tricks" />
+    <var name="triplewield" value="Triple Wield" />
+    <var name="criticalstrike" value="Critical Strike" />
+    <var name="savagery" value="Savagery" />
+    <var name="stealth" value="Stealth" />
+    <var name="distract" value="Distract" />
+    <var name="climbwalls" value="Climb Walls" />
+    <var name="safefall" value="Safefall" />
+    <var name="envenom" value="Envenom" />
+    <var name="camouflage" value="Camouflage" />
+    <var name="flurry" value="Flurry" />
+    <var name="charge" value="Charge" />
+    <var name="sprint" value="Sprint" />
+
+    <!-- Realm Rank Titles -->
+
+    <!-- Albion RR Titles -->
+    <var name="rr1alb" value="Guardian" />
+    <var name="rr2alb" value="Warder" />
+    <var name="rr3alb" value="Myrmidon" />
+    <var name="rr4alb" value="Gryphon Knight" />
+    <var name="rr5alb" value="Eagle Knight" />
+    <var name="rr6alb" value="Phoenix Knight" />
+    <var name="rr7alb" value="Alerion Knight" />
+    <var name="rr8alb" value="Unicorn Knight" />
+    <var name="rr9alb" value="Lion Knight" />
+    <var name="rr10alb" value="Dragon Knight" />
+    <var name="rr11alb" value="" />
+    <var name="rr12alb" value="" />
+
+    <!-- Hibernia RR Titles -->
+    <var name="rr1hib" value="Savant" />
+    <var name="rr2hib" value="Cosantoir" />
+    <var name="rr3hib" value="Brehon" />
+    <var name="rr4hib" value="Grove Protector" />
+    <var name="rr5hib" value="Raven Ardent" />
+    <var name="rr6hib" value="Silver Hand" />
+    <var name="rr7hib" value="Thunderer" />
+    <var name="rr8hib" value="Gilded Spear" />
+    <var name="rr9hib" value="Tiarna" />
+    <var name="rr10hib" value="Emerald Rider" />
+    <var name="rr11hib" value="" />
+    <var name="rr12hib" value="" />
+
+
+    <!-- Midgard RR Titles -->
+    <var name="rr1mid" value="Skiltvakten" />
+    <var name="rr2mid" value="Isen Vakten" />
+    <var name="rr3mid" value="Flammen Vakten" />
+    <var name="rr4mid" value="Elding Vakten" />
+    <var name="rr5mid" value="Stormur Vakten" />
+    <var name="rr6mid" value="Isen Herra" />
+    <var name="rr7mid" value="Flammen Herra" />
+    <var name="rr8mid" value="Elding Herra" />
+    <var name="rr9mid" value="Stormur Herra" />
+    <var name="rr10mid" value="Einherjar" />
+    <var name="rr11mid" value="" />
+    <var name="rr12mid" value="" />
+
+    <!-- Master Levels -->
+    <var name="masterLevel" value="Master Level" />
+    <var name="ml" value="ML" />
+    <var name="banelord" value="Banelord" />
+    <var name="battlemaster" value="Battlemaster" />
+    <var name="convoker" value="Convoker" />
+    <var name="perfecter" value="Perfecter" />
+    <var name="sojourner" value="Sojourner" />
+    <var name="spymaster" value="Spymaster" />
+    <var name="stormlord" value="Stormlord" />
+    <var name="warlord" value="Warlord" />
+
+    <!-- Champion Levels -->
+    <var name="championLevel" value="Champion Level" />
+    <var name="cl" value="CL" />
+
+    <!-- Realm Abilities -->
+
+    <!-- Old Frontier Abilities -->
+    <var name="ofAugStr" value="Augmented Strength" />
+    <var name="ofAugCon" value="Augmented Constitution" />
+    <var name="ofAugDex" value="Augmented Dexterity" />
+    <var name="ofAugQui" value="Augmented Quickness" />
+    <var name="ofAugAcu" value="Augmented Acuity" />
+    <var name="ofLongWind" value="Long Wind" />
+    <var name="ofTireless" value="Tireless" />
+    <var name="ofRegeneration" value="Regeneration" />
+    <var name="ofSerenity" value="Serenity" />
+    <var name="ofToughness" value="Toughness" />
+    <var name="ofEtherealBond" value="Ethereal Bond" />
+    <var name="ofMasteryWater" value="Mastery of Water" />
+    <var name="ofAvoidanceMagic" value="Avoidance of Magic" />
+    <var name="ofLifter" value="Lifter" />
+    <var name="ofVeilRecovery" value="Veil Recovery" />
+    <var name="ofMasteryBlocking" value="Mastery of Blocking" />
+    <var name="ofMasteryParrying" value="Mastery of Parrying" />
+    <var name="ofDodger" value="Dodger" />
+    <var name="ofMasteryPain" value="Mastery of Pain" />
+    <var name="ofWildPower" value="Wild Power" />
+    <var name="ofWildArcana" value="Wild Arcana" />
+    <var name="ofWildHealing" value="Wild Healing" />
+    <var name="ofWildMinion" value="Wild Minion" />
+    <var name="ofMasteryStealth" value="Mastery of Stealth" />
+    <var name="ofMasteryArchery" value="Mastery of Archery" />
+    <var name="ofMasteryArms" value="Mastery of Arms" />
+    <var name="ofMasteryArt" value="Mastery of the Art" />
+    <var name="ofArrowSalvaging" value="Arrow Salvaging" />
+    <var name="ofMinionControl" value="Minion Control" />
+    <var name="ofMasteryHealing" value="Mastery of Healing" />
+    <var name="ofMasteryMagery" value="Mastery of Magery" />
+    <var name="ofMasteryArcane" value="Mastery of the Arcane" />
+    <var name="ofFalconEye" value="Falcon's Eye" />
+    <var name="ofDualistReflexes" value="Dualist's Reflexes" />
+    <var name="ofSeeHidden" value="See Hidden" />
+    <var name="ofDetermination" value="Determination" />
+    <var name="ofPreventFlight" value="Prevent Flight" />
+    <var name="ofFirstAid" value="First Aid" />
+    <var name="ofTrip" value="Trip" />
+    <var name="ofGrapple" value="Grapple" />
+    <var name="ofAvoidPain" value="Avoid Pain" />
+    <var name="ofArmorFaith" value="Armor of Faith" />
+    <var name="ofWhirlingDervish" value="Whirling Dervish" />
+    <var name="ofBladedance" value="Bladedance" />
+    <var name="ofHailBlows" value="Hail of Blows" />
+    <var name="ofSecondWind" value="Second Wind" />
+    <var name="ofBattleYell" value="Battle Yell" />
+    <var name="ofIgnorePain" value="Ignore Pain" />
+    <var name="ofRainFire" value="Rain of Fire" />
+    <var name="ofRainIce" value="Rain of Ice" />
+    <var name="ofRainAnnihilation" value="Rain of Annihilation" />
+    <var name="ofLongshot" value="Longshot" />
+    <var name="ofVolley" value="Volley" />
+    <var name="ofConc" value="Concentration" />
+    <var name="ofMoc" value="Mastery of Concentration" />
+    <var name="ofEmptyMind" value="The Empty Mind" />
+    <var name="ofMajesticWill" value="Majestic Will" />
+    <var name="ofMcl" value="Mystic Crystal Lore" />
+    <var name="ofRagingPower" value="Raging Power" />
+    <var name="ofPurge" value="Purge" />
+    <var name="ofReflexAttack" value="Reflex Attack" />
+    <var name="ofViper" value="Viper" />
+    <var name="ofTrueSight" value="True Sight" />
+    <var name="ofSoldierBarricade" value="Soldier's Barricade" />
+    <var name="ofBunkerFaith" value="Bunker of Faith" />
+    <var name="ofSiegeBolt" value="Siege Bolt" />
+    <var name="ofFaithHealing" value="Faith Healing" />
+    <var name="ofWhipEncouragement" value="Whip of Encouragement" />
+    <var name="ofExcitedFrenzy" value="Excited Frenzy" />
+    <var name="ofGroupPurge" value="Group Purge" />
+    <var name="ofPerfectRec" value="Perfect Recovery" />
+    <var name="ofVanish" value="Vanish" />
+    <var name="ofShadowRun" value="Shadow Run" />
+    <var name="ofSpeedSound" value="Speed of Sound" />
+    <var name="ofAmeliorating" value="Ameliorating Melodies" />
+    <var name="ofFuryGods" value="Fury of the Gods" />
+    <var name="ofWrathChamp" value="Wrath of the Champion" />
+    <var name="ofVolcPiller" value="Volcanic Pillar" />
+    <var name="ofRuneDecimation" value="Rune of Decimation" />
+    <var name="ofNegativeMaelstrom" value="Negative Maelstrom" />
+    <var name="ofThornweedField" value="Thornweed Field" />
+    <var name="ofCorporealDis" value="Corporeal Disintegration" />
+    <var name="ofIchor" value="Ichor of the Deep" />
+    <var name="ofBrilliantAuraDeflect" value="Brilliant Aura of Deflection" />
+    <var name="ofSeverTether" value="Severing the Tether" />
+    <var name="ofJuggernaut" value="Juggernaut" />
+    <var name="ofStaticTemp" value="Static Tempest" />
+    <var name="ofVoid" value="Void" />
+    <var name="ofDoombringer" value="Doombringer" />
+    <var name="ofTundra" value="Tundra" />
+    <var name="ofWinterMoon" value="Winter Moon" />
+    <var name="ofRazorback" value="Razorback" />
+
+    <!-- New Frontier Abilities -->
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+    <var name="" value="" />
+
+
+
+
 </vars>

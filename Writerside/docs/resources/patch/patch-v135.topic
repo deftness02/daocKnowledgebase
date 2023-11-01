@@ -5,5 +5,206 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="v1.35" id="patch-v135">
 
-    <p>Start typing here...</p>
+    <p>
+        <control>November 8, 2001</control>
+    </p>
+
+    <chapter title="NEW THINGS AND BUG FIXES" id="v135-bug-fixes">
+        <list id="v135-bug-fixes-list">
+            <li id="v135-bug-trade-001">Fixed platinum/mithril display problem on trade windows. It should all be working correctly now.</li>
+            <li id="v135-bug-message-001">You can now set the "You've been hit" message to a different color (red is now the default).</li>
+            <li id="v135-bug-petui-001">Some pet health bars were still showing up in the pet health window after the pet was released.
+                This has been fixed.</li>
+            <li id="v135-bug-buff-001">Strength buffs cast on a player while he is encumbered now immdediately affects encumbrance.</li>
+            <li id="v135-bug-spiritmaster-001">High-level Spiritmasters (40+) should now have all missing spells restored.</li>
+            <li >When sending to a "best fit" name, if there is more than one fit, the server will tell you that
+                the name is not unique (it will no longer send to the first best-fit match).</li>
+            <li>The chatgroup and friends commands now require that you type in an exact match for the user's
+                name. Previously it worked on "best fit".</li>
+            <li>You should no longer get the "All chat groups are full" message</li>
+            <li>Loot dropping on slopes in dungeons should no longer fall through the floor.</li>
+            <li>When you zone, you now stay on your selected chat window tab.</li>
+            <li>Stores now show correct Platinum and Mithril (x1000 instead of x100)</li>
+            <li>When you release a pet, the pet's health bar no longer remains on screen.</li>
+            <li>When switching chat tabs with full chat buffers - random messages are no longer printed at the
+                bottom of the buffer.</li>
+            <li>When you scroll down in the Trade Skill window then switch trade skills, the window resets to
+                the first page.</li>
+            <li>Light teal enamel no longer causes funkiness in the character selection screen (would force a
+                robed figure)</li>
+            <li>Buffs that are refreshed no longer inherit blinking from previous buffs.</li>
+            <li>Off-hand usable and two-handed is now shown when right-clicking on an item in a store.</li>
+            <li>Bard-type classes can now drop instruments in their ranged weapons slot to more easily switch
+                between them.</li>
+            <li>Bard-type instruments with stat buffs now correctly add in to a player's stats when the
+                instrument is held.</li>
+            <li>Bard-type instruments should now "con" correctly. They also show correct condition, durability,
+                etc.</li>
+            <li>You cannot FOLLOW or STICK to an opponent unless you are relatively close to them. A STICK now
+                breaks if the target gets outside of a certain range.</li>
+            <li>A new command has been added, /FACE, that allows to you auto-face a target (for mages and archers).</li>
+            <li>DPS instead of Damage is now shown when right clicking on weapons.</li>
+            <li>You can now click on other monsters and players while you are /FOLLOWing a target without breaking
+                the follow.</li>
+            <li>Class names now show the first four characters (instead of the first three) in the looking for
+                group window.</li>
+            <li>Pets should now properly award realm points in RVR combat when they strike the killing blow.</li>
+            <li>Pets now should trigger task kills on task monsters when striking the killing blow.</li>
+            <li>When you right click on an item and sell it - the item now correctly disappears from the
+                quickview window.</li>
+            <li>The /MACRO command has been changed to be /MACRO [name] [text] to allow you to better name your
+                macros.</li>
+            <li>Magical item levels now show properly in the quickview window.</li>
+            <li>When you hand in a shield to be repaired or enchanted, the shield is now re-readied properly in
+                your left hand.</li>
+            <li>Stats over 200 (when buffed) now print properly in the character screen.</li>
+            <li>The "open door" key selects a monster as the target when he is in front of you (if there is no
+                door).</li>
+            <li>Repair cost of fast weapons has been reduced since they lose condition more quickly.</li>
+            <li>In a city, the /STUCK command takes you to a safe spot in the middle of the city when you are
+                stuck.</li>
+            <li>Consignments no longer count towards the max number of tasks you can do for a level.</li>
+            <li>You now get a dialog confirmation when choosing your trade skill profession.</li>
+            <li id="v135-archer-stealth-001">Archer classes now have a chance of becoming visible when they nock their arrow. The way it
+                worked up until now is that archers would always be invisible if they were using stealth until
+                they fired their bow. Now, a skill check is performed when they "nock" their arrow. If they
+                fail the check, they become visible. The chance to become visible is based on their
+                specialization in Stealth. On normal (i.e. NOT critical shots), if they are 50% specc'ed in
+                stealth, they will have a 50% chance of becomming visible; if they are 100% specc'ed, they will
+                have a 100% chance of remaining hidden. On Critical Shots, the chance is the same as a normal
+                shot, minus 20% - so an archer max specced in stealth will have an 80% of remaining hidden
+                after nocking his bow. Please note that in all cases, an archer will become visible once the
+                shot is actually fired.</li>
+            <li id="v135-archer-stealth-002">You can no longer hide when your arrow is in-flight (before it hits your opponent).</li>
+            <li>You now will correctly block/evade/parry when not in combat mode. A bug was preventing you from
+                using these abilities when not in combat mode.</li>
+            <li>Cloth armor factors fixed - they were printing as too high for your level and were degrading too
+                quickly as a result. They should now "con" and degrade correctly.</li>
+            <li>Better /WHO filter - you can now type /WHO to see people who match a certain text and level range.
+                The Level range can be 1-5 or 10 or any combo.</li>
+            <li>/FRIENDS command has been changed to work like the /IGNORE command. You now type /FRIEND to add
+                or remove a friend or just /FRIENDS to see you current friends list.</li>
+            <li>When you are aiming a bow, you don't regenerate endurance.</li>
+            <li>When attacking a keep door with a normal hand-held weapon (i.e. NOT a siege weapon), now the
+                correct damage is printed - it was printing your damagex20 previously.</li>
+            <li>As one Realm controls more and more keeps in an enemy frontier, those keeps will spawn fewer
+                and fewer guards.</li>
+            <li>Material text now prints correctly for Bardic-Class type instruments in stores.</li>
+            <li>Enchanters were charging a bit too much for their services. This has been fixed - you'll note
+                that enchanting armor/weapons is now cheaper.</li>
+            <li>Enemy Realm guards should no longer follow you into a Realm's home area.</li>
+        </list>
+    </chapter>
+
+    <chapter title="OBJECT NOTES" id="v135-object-notes">
+        <list>
+            <li>Many new weapon models have been added. These are special weapons that cannot be purchased in
+                stores. You can craft them or receive them as quest bounty. Please note that it will be a week
+                or so before you'll start seeing them pop up in game; however, you are downloading them now.</li>
+            <li>The Kobold Ring in Midgard is now configured correctly. It was inadvertantly set to require
+                3000 trains in a random skill to now use.</li>
+            <li>The Pitted Drake Talon in Albion should now look like a dagger.</li>
+            <li>The Carved Sphene Ring in Hibernia now adds to the Piercing skill.</li>
+            <li>The level epic Friar staff now adds to the Staff skill.</li>
+            <li>The rest of the epic cloaks in Albion can now take emblems.</li>
+            <li>The rats in Skona should now drop a tails that can be sold.</li>
+            <li>The Flame Helm in Midgard can now be dyed.</li>
+            <li>There were some items in the Spraggon Den and Ursine Lair that had resistances set too high.
+                These items have been replaced with duplicates that have slightly lower resistances on them to
+                bring them in line with all other resistance items. If you already have any of the original
+                items the resistances on them will not be affected in any way.</li>
+        </list>
+    </chapter>
+
+    <chapter title="WORLD NOTES" id="v135-world-notes">
+        <chapter title="Albion" id="v135-world-albion">
+            <list>
+                <li>The leaky ceilings in some buildings in Camelot have been fixed, and it no longer rains
+                    in them.</li>
+                <li>Continued addition of high level encounters in the home region.</li>
+                <li>The black lion and lioness in Camp. forest have been adjusted so they are more
+                    accessible.</li>
+                <li>Minstrels can now perform quests associated with the Black Lions.</li>
+            </list>
+        </chapter>
+        <chapter title="Midgard" id="v135-world-midgard">
+            <list>
+                <li>A new horse route has been added in Midgard between Ft. Atla and Mularn (in both
+                    directions)</li>
+                <li>Duplicate Named NPCs in Midgard fixed:
+                    <list style="bullet">
+                        <li>Hedin in Gna Faste is now Kedin</li>
+                        <li>Hedin in Huginfell is now Ryden</li>
+                        <li>Ingrid in Mularn is now Linna</li>
+                        <li>Svala in Audliten is now Inga</li>
+                        <li>Tait in E. Svealand is now Pater</li>
+                        <li>Ozur in E. Svealand is now Tozur</li>
+                        <li>Dalla of Jordheim is now Falla</li>
+                        <li>Bersi of Galplen is now Nyden</li>
+                        <li>Halla of Jordheim is now Anya</li>
+                    </list>
+                </li>
+                <li>Krek and Glum now give correct directions to trainers.</li>
+                <li>Gordin Tuhan no longer spits out text not related to the quest.</li>
+                <li>Halla gives out her quest now.</li>
+                <li>The name Njessi is now correctly spelled in the Silent Death Quest.</li>
+                <li>Sapherds, pine imps, and wood imps have experienced a time of weakening. Their melee
+                    offense, defense, and their hit points have been tweaked down a bit.</li>
+                <li>QUEST: Grenlock Clan's Epic and Reach of the shadow
+                    <list style="bullet">
+                        <li>There existed a problem with certain players who were on step two of the Grenlock
+                            Clan's epic and who needed to kill Ulga to complete the Reach of the shadow quest.
+                            Players can now complete Siv's Spirit quest (the bulk of Grenlock Clan's step 2),
+                            and return to kill Ulga to finish off the Reach of the shadow quest.</li>
+                    </list>
+                </li>
+                <li>QUEST: Shadowblade level 11 Quest: Jewel Hunt
+                    <list style="bullet">
+                        <li>Some players were not able to get their level 11 quest. If you are a Shadowblade
+                            above level 11 and did not receive the Jewel Hunt quest at level 11 from your
+                            trainer, you can now go back to your class trainer and right-click on him.
+                            Completion of this quest will now allow you to get the rest of your Epic Quests.</li>
+                    </list>
+                </li>
+            </list>
+        </chapter>
+        <chapter title="Hibernia" id="v135-world-hibernia">
+            <list>
+                <li>The leaky ceilings in some buildings in Tir na Nog have been fixed, and it no longer rains
+                    in them.</li>
+                <li>The roaming merchant Achaius in Lough Derg is now set so he'll pretty much follow the road
+                    rather than roam the countryside.</li>
+                <li>Added two more named guards: Sentinel Eimile in Ardagh, and Sentinel Moya in Ardee.</li>
+                <li>Added poison venders in the nightshade training room in Tir na Nog.</li>
+                <li>Players on the Balance of Nature quest were supposed to remove the creature Sabha by
+                    offering it fish. The trainer wasn't giving them fish, so they were just killing Sabha
+                    rather than talking. Players that are on that step but don't have fish to give Sabha can
+                    see Caoimhe, in Ardee, for some fish.</li>
+                <li>Some adjustments are being made to the parthanan fields. Currently, only one (Lough Gur)
+                    of the four parthanan fields has been adjusted. More adjustments to that field and the
+                    other fields will make their way into the zone in the near future.</li>
+            </list>
+        </chapter>
+    </chapter>
+
+    <chapter title="SPELL NOTES" id="v135-spell-notes">
+        <list id="v135-spell-notes-list">
+            <li id="">Spiritmaster pets now look Norse.</li>
+            <li>Increased damage of Skald battle shouts.</li>
+            <li>The lines of the Warden spell Nature's Ward with different target types no longer overwrite each other. This means you can now have the self-cast bladeturn and the "cast on others" bladeturn.</li>
+            <li>The Enchanter spell Lesser Disenchanting Emission is now awarded at L16. This isn't the perfect level since the next upgrade comes at L20 (instead of 21), but it is now at least available. Note that the name of this spell, and the one following have had their names changed to Lesser Disenchanting Emission and Disenchanting Emission.</li>
+            <li>Area effect upgrades to Healer and Shaman stun and mesmerize shouts no longer overwrite the non-area effect versions.</li>
+            <li>The area effect versions of the Bard Lullaby no longer overwrite the original non-area effect version</li>
+            <li>Theurgist pets should now work correctly in Dungeons.</li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
 </topic>

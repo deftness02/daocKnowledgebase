@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Template" id="template">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <title></title>
+
+
+    <section-starting-page>
+        <title>Template</title>
+        <description>
+            Add an introductory paragraph.
+        </description>
+
+        <spotlight>
+            <a href="patch-notes.topic" type="account" summary="Some patch notes.">Patch Notes</a>
+            <a href="grab-bags.topic" type="search" summary="Some QnA.">Grab Bags</a>
+        </spotlight>
+
+        <primary>
+            <title>Info about %daoc%</title>
+            <a href="realm-abilities.topic"/>
+            <a href="patch-v135.topic" summary="Some patch notesd."/>
+            <a href="patch-v136.topic">Patch Notes: v1.36</a>
+            <a href="patch-v137.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
+        </primary>
+
+
+        <secondary>
+            <title>Info about %daoc%</title>
+            <a href="realm-abilities.topic"/>
+            <a href="patch-v135.topic" summary="Some patch notesd."/>
+            <a href="patch-v136.topic">Patch Notes: v1.36</a>
+            <a href="patch-v137.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
+        </secondary>
+
+
+        <misc>
+            <cards>
+                <title>Info about %daoc%</title>
+                <a href="realm-abilities.topic"/>
+                <a href="patch-v135.topic" summary="Some patch notesd."/>
+                <a href="patch-v136.topic">Patch Notes: v1.36</a>
+                <a href="patch-v137.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
+            </cards>
+
+            <cards narrow="true">
+                <title>Narrow %daoc%</title>
+                <a href="patch-v135.topic">Infiltrator</a>
+                <a href="patch-v136.topic">Ranger</a>
+                <a href="patch-v137.topic">Minstrel</a>
+                <a href="patch-v138.topic">Bonedancer</a>
+                <a href="patch-v139.topic">Skald</a>
+                <a href="patch-v140.topic">Bard</a>
+            </cards>
+
+            <!-- 2 Columns of links -->
+            <links>
+                <group>
+                    <title>Some Patch Notes</title>
+                    <a href="patch-v135.topic"/>
+                    <a href="patch-v136.topic"/>
+                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
+                </group>
+                <group>
+                    <title>Some Patch Notes</title>
+                    <a href="patch-v135.topic"/>
+                    <a href="patch-v136.topic"/>
+                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
+                </group>
+            </links>
+
+            <!-- 3 Columns of links -->
+            <links narrow="true">
+                <group>
+                    <title>Some Patch Notes</title>
+                    <a href="patch-v135.topic"/>
+                    <a href="patch-v136.topic"/>
+                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
+                </group>
+                <group>
+                    <title>Some Patch Notes</title>
+                    <a href="patch-v135.topic"/>
+                    <a href="patch-v136.topic"/>
+                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
+                </group>
+                <group>
+                    <title>Some Patch Notes</title>
+                    <a href="patch-v135.topic"/>
+                    <a href="patch-v136.topic"/>
+                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
+                </group>
+            </links>
+        </misc>
+    </section-starting-page>
+
+</topic>
