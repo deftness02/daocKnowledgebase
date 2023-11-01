@@ -1,0 +1,3 @@
+# About DAoC Haven
+
+Start typing here...
