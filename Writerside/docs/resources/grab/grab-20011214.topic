@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="2001-12-14" id="grab-20011214">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Grab Bag: 2001-12-14</title>
+
+    <tip>
+        <p><control>Posted By:</control> Sanya Thomas</p>
+        <p><control>Date:</control> 2001-12-14 18:01:05</p>
+    </tip>
+
+    <p>These questions have no relation to one another, they were just recurring themes in my email and on the boards this week. There were more, of course, but these I have ANSWERS to. Y'all have a good weekend.</p>
+
+    <deflist>
+        <def title="Q: The Igraine server went down tonight at approx 9:30pm. Ok no prob. Figured I would just log into the Tristan server and play my character over there. But alas, when trying to log back in I received the message - account already logged in. Therefore, I was stuck in limbo until the Igraine server was brought back online (or the *backup* server). What if the turn around time on this was more than 24 hours?? I am a techy and can understand servers going down from time to time. But not being able to log in to another server?? Doesn't seem reasonable to a paying customer." id="gb-q-server-down">
+            <p id="gb-a-server-down-1">
+                <control>A:</control> Okay, this is how it works:
+            </p>
+            <p id="gb-a-server-down-2">
+                Normally, when a server is shut down while players are still in it, the last thing it does before exiting is to "log out" each of the players. This notifies the accounting system that the player is no longer in the game and makes it available for use on other servers. When a server goes down in an uncontrolled manner, there is no notification for the accounting system, and so accounts logged into that server remain unavailable until the server restarts and lets the accounting system know what happened.
+            </p>
+        </def>
+        <def title="Q: The /command list is great, but there were some that I don’t even RECOGNIZE. Please define upgrade, repair, salvage, and make. Hey! Make isn’t on the list anymore! What gives?" id="gb-q-upgrade-repair-salvage">
+            <p id="gb-a-upgrade-repair-salvage-1">
+                <control>A:</control> Here you go:
+            </p>
+            <p id="gb-a-upgrade-repair-salvage-2">
+                <code>/upgrade</code> (crafter skill) - Allows for the upgrading of keep doors. This will increase the AF and Total Health of said door.
+            </p>
+            <p id="gb-a-upgrade-repair-salvage-3">
+                <code>/repair</code> (crafter skill) - Allows for the repair of items similar to the Smith NPC. Increases the condition back towards 100% while dropping the durability appropriately.
+            </p>
+            <p id="gb-a-upgrade-repair-salvage-4">
+                <code>/salvage</code> (crafter skill) - Allows for the "melting down" of an item for the purpose of extracting the base material used to make the item.
+            </p>
+            <p id="gb-a-upgrade-repair-salvage-5">
+                (Note: for all three of the above, if you have no skill points in that specialization, you can type the command, but it won’t do anything until you have the skill.)
+            </p>
+            <p id="gb-a-upgrade-repair-salvage-6">
+                <code>/make</code> - An internal command that lets Mythic make crafted items to test them. It shouldn't be on a player guide. If players can make this work, we’d really, REALLY like to know why.
+            </p>
+        </def>
+        <def title="Q: When I cast the spells is says you cast the spell, or, you cast the spell and the creatures is whatever, or your spell is resisted. I know what the resisted one means, I know what the success one means, but what about the one where it just says I cast the spell? ....Is it resisted? Cast but not effective? Cast but just no success statement? It only happens the first time I cast them in a fight...after that is always lets me know if it works or not." id="gb-q-cast-message">
+            <p id="gb-a-cast-message">
+                <control>A:</control> You're out of range of the effect print; if it doesn't say it's resisted, the effect stuck.
+            </p>
+        </def>
+        <def title="Q:How can you tell if autosplit has been turned off by your group leader?" id="gb-q-autosplit-off">
+            <p id="gb-a-autosplit-off">
+                <control>A:</control> The group gets a message when the leader first makes the change. But if you miss that, or you have joined the group late, you can tell simply by checking your system messages whenever someone loots. If autosplit is on, all looting messages will have (autosplit) in front of the text. If autosplit is off, the message will read “So and so loots an item.”
+            </p>
+        </def>
+    </deflist>
+
+    <chapter title="Source" id="source">
+        <p>This content was obtained courtesy of <a href="https://web.archive.org/web/20040608091617/http://www.camelotherald.com/more/70.shtml">Camelot Herald (2004), via the Wayback Machine</a>.</p>
+    </chapter>
+
+    <seealso>
+        <!--Give some related links to how-to articles-->
+    </seealso>
+</topic>

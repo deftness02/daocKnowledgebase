@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.55" id="patch-v155">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.55</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ===========================
+
+
+    Dark Age of Camelot
+
+    Version 1.55 Release Notes
+
+    Monday, November 25, 2002
+
+    ===========================
+
+
+
+
+    THE LURIKEEN UPRISING HAS PREVAILED
+
+    - As of this patch, Lurikeen can become Heroes. Thanks for the great roleplaying moments to everyone involved in the Uprising. Enjoy!
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - We have made it so you can no longer duel in cities. Peace has once again been restored to crafters.
+
+    - Fixes a problem where archers would play one frame of a combat swing animation after killing an opponent with a bow. This was a client animation problem only - it didn't actually affect bow shot times, and it appeared randomly.
+
+    - Couriers should now honor all pathing geometries and should obey zone wall boundaries.
+
+    - Realm guards should now follow leaders and maintain speed with leader. This should also fix the aggro problem when realm guards would lag behind and not aggro on enemies.
+
+    - We have implemented a /GROUNDASSIST command on the server. By using this command, your own groundtarget assumes the same location as your targeted player's ground target. This allows for a "front spotter" who is possibly stealthed to set a ground target for a siege equipment controller or spellcaster.
+
+    - We fixed the delving of combat spell abilities - these were printing incorrectly.
+
+    - When you upgrade an outpost you are setting a desired level on the outpost. The level will only increase or decrease one notch per 6 minutes.
+
+    - Performing a successful Guard or Intercept no longer causes an interrupt to a caster who is guarded.
+
+    - Level 51 cloth armor should now get the correct amount of bonus levels.
+
+    - Legendary crafting titles should now set and display correctly.
+
+    - Bards can now hold and use staves (although they cannot train in them). This is a longstanding bug. All classes should be able to hold and use staves.
+
+    - You can no longer put proc effects on jewelry, cloaks or instruments to artificially boost their level.
+
+    - Monsters will no longer attempt to cast a 20th concentration effect repeatedly.
+
+    - The Realm Abilities First Aid and Mystic Crystal Lore can no longer be used in combat. Using them in combat was a bug, and it is now fixed.
+
+
+
+    HELM PROBLEMS
+
+    We are halfway through transitioning to a new, better system of displaying helms. This system will allow us to create new helmet graphics much faster, and allow them to fit player models much more effectively. Please be aware that there may be some display issues with some helmet/race combinations until we fully migrate to the new helm system.
+
+
+
+    REALM POINTS FOR RESURRECTING NOTE
+
+    Please note that on Pendragon, we've been testing a system that gives classes that can resurrect their fallen comrades Realm Points for doing so. For now, we're holding off rolling this system live until we've worked all the kinks out of the system, based on the concerns of the Pendragon community and the team leads. So, none of the Pendragon resurrection-specific spell changes that you may have read about in the various 1.55 test release notes have been implemented in this live version, which includes getting Realm Points for rezzing, decreased casting times for higher-level rezzes, etc.
+
+
+
+    RVR CHANGES
+
+    - We have made it so you can gain experience points for engaging in RvR and killing, or helping to kill, enemies. You will not lose experience when you die, but when you kill an enemy, you will now be awarded "normal" (i.e. as if the enemy was a monster, based on level) experience for the kill. Thus if the player is blue to you, you will be given normal "blue" monster experience for the kill. Please note that there is a known bug currently in this system where under some circumstances if you are grouped you won't get experience for a group-member's kill. We are looking at this problem right now and will fix it as soon as we can.
+
+
+
+    SPELL NOTES
+
+    In advance of Shrouded Isles, we have taken steps to correct a longstanding spell issue. Several spells allow casters to buff lower-level characters without adhering to a cap of any type, thus enabling lower-level characters to be able to fight monsters far above their level, with almost no danger. This allows low-level characters to level far faster than intended. We want these spells to help low level characters, but not without a cap of some type.
+
+    So, these Damage Add and Damage Shield spells are now capped, so they will no longer give 50th level damage-per-second to a 1st level character. However, given that some players are used to being able to do this, we have made the cap higher than it normally would be - you'll still be able to help out lower level characters with these spells, but not to the extremes that existed up until now.
+
+    Please note that we have implemented this on a sliding scale as per the rest of the buffs in the game. If you are a mage that has these spells, the lower level you are, the less this change will impact you. The most impact will be from an extremely high mage (i.e. 40+) buffing a 1st or 2nd level character. The damage allowed slides up from there.
+
+
+
+    SIEGE WARFARE NOTES
+
+    Siege damage has been flattened across the entire area affected. In other words, there is no drop off from a direct hit and someone at the edge of the bolt.
+
+    Additional types of catapult ammunition have been added to the ammunition stores. Note that the cost of existing ammunition has been raised, to be more in line with the new ammunition:
+
+    - A catapult bullet - which is a higher damage, low area shot.
+
+    - Grapeshot - which is a lower damage, high area shot.
+
+    - A ball of ice - which is similar to the existing catapult stone, but does cold damage.
+
+    The "power level" of all siege ammunition has been increased. This should lead to higher, more consistent damage when using these weapons.
+
+
+
+    WORLD NOTES
+
+    - Many of the Midgard NPC's have removed the robes favored in enemy lands, and replaced them with appropriate Midgard vests.
+
+    - Dungeon: Summoner Hall: Grand Summoner Govannon should no longer be able to heal himself multiple times in the course of combat.
+
+    - Darkness Falls: Beliathan can no longer be fought in the tunnels of Darkness falls, however, he will now linger longer in the room when he spawns.
+
+    - Hibernia: Touched now correctly resembles the diseased Celt that he is.
+
+    - Albion: We have added a bindstone near Swanton Keep in North Black Mountains. The Snowdonia Relic keep (Albion Power) was the relic keep that was the farthest from any bindstone. This bindstone should provide a binding location for Albion players who wish to defend this relic.
+
+
+    Realm v. Realm - Frontier Keeps
+
+    Keep Lords - At low health, the Keep lords will now summon help from the courtyard and the new "personal guard" spawned at keep upgrade level 8. Given their newfound confidence in their allies, keep lords will no longer use their anti-bladeturn abilities.
+
+    - When a keep is upgraded to level 8 - 4 additional Keep Guards will spawn near the lord room.
+
+    - If you take over an enemy's keep and that realm has at least one of your relics, if you upgrade the keep to level 10 it will spawn a corpse summoner NPC. If you die in PvP and type /transfercorpse "keep name" without the quotes your corpse will transfer to that keep, although you will still need to be resurrected once you get there. Note that enemy players can kill this NPC and if they do so, the /transfercorpse command will be unavailable to you for that keep until he respawns (in one hour).
+
+
+
+    TRADESKILL NOTES
+
+    - Fixed the higher material Wrought Jewelry Boxes so they are able to be made correctly now in Albion.
+
+    - Fixed the stable leeching tincture recipe so that it creates the leeching tincture and not the ablative tincture.
+
+    - In Albion labeled the stable leeching tincture recipe correctly.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

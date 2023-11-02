@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.44" id="patch-v144">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.44</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ========================
+
+
+    Dark Age of Camelot
+
+    Version 1.44 Release Notes
+
+    Tuesday, January 29, 2002
+
+    ========================
+
+
+    NEW THINGS AND BUG FIXES
+
+    - Ground targeting mode no longer causes your figure to "run in place".
+
+    - When using /STUCK or falling through a city, you'll now return to a safe spot in the city instead of your bindpoint.
+
+    - We have converted all your existing Realm Points into Bounty Points.
+
+    - Pet buffs are now shown in the Pet control window.
+
+    - Fixed a crash bug dealing with nocking arrows. This bug would cause players in view of the archer to crash.
+
+    - Fixed a rare client crash bug that happened when players were interacting with interface dialog boxes.
+
+    - Fixed a bug where if a player went linkdead while zoning when carrying the relic, the relic would respawn at the shrine. It now respawns in the portal keep (last known position before the player zoned).
+
+    - In the next step of modifying our buffing system, you'll now notice that your stat-buffing items have much more effect than they did before - 50% more. So, if you had a +10 strength buffing item, it will now be (automatically) a +15 strength item. You can see the new buff amounts on your items by right-clicking on them and pressing shift-I (by default, if shift-I doesn't work type /keyboard and scroll down to "Information" to see where you have it hotkeyed) for information.
+
+    - Debuff spells are now very effective against enemy buffs. You'll now notice that debuff spells can "take down" an enemy buff quite well. Debuff spells are still effective against non-buffed enemies, but are stronger against buffed ones.
+
+    - We fixed a bug where parrying against another player in PvP would work inconsistently. You'll now notice that you parry much more reliably when fighting other players.
+
+    - When a pet in a group kills a monster, anyone in the group can now pick up the treasure. Previously, there was a bug that only the master of the pet could pick up the loot.
+
+    - Bardic/Minstrel instruments now have stat and skill bonuses just like other objects. They also now have condition/durability like other objects, and will degrade with use. We have set all existing instruments (i.e. the ones your character is now using)to max condition - but they will start degrading from there.
+
+    - New monster pathing data has been integrated that keeps pets from walking through closed keep doors.
+
+    - A bug where dialog boxes (system messages, group invites, etc.) were not being displayed to characters who were moving has been fixed. The dialog now displays correct no matter if the character is moving or standing still.
+
+    - You should no longer be able to squirm through a boundary wall (it does a double collision check).
+
+    - Names for stag form Heroes is now displayed at a proper height - it no longer intersects with the model's head and antlers.
+
+    - You can now get extra information about combat styles by right clicking on them and hitting shift-i (by default) to view information. This works much the same way that it does for spells - you'll see extended information about the style, including when you can perform the style, and what effects (if any) it has. It also lists the specific style required as an opening move, if one is required.
+
+    - The bug where players could fire spells and arrows through doors has been fixed.
+
+    - The bug where players could cast certain spell (such as buffs and ressurections) through walls has been fixed.
+
+    - Dual wield and Celtic dual wield percentages have been increased slightly. Lower level (pre-20th) dual-wielding classes won't notice much difference, but up at the higher levels, you'll notice that you attack more often with both weapons.
+
+    - Fletchers can now repair bows.
+
+    - Weaponcrafters can now repair shields.
+
+    - Salvaging Natural Material items will now return correct type of material.
+
+    - Pets will no longer attack doors continously after they are released.
+
+    - Assassin-type classes (Infiltrators, Shadowblades, Nightshades) were being awarded level 1 of Safe Fall twice instead of Level 2, when they qualified for level 2. This has been fixed, and if your character has enough specialization to warrant level 2 in Safe Fall, they will have it when you log in.
+
+    - Dexterity now modifies a spellcaster's casting time. Your casting speed can be modified up to 25% faster for a character that is max-buffed and has a high dexterity.
+
+    - We removed range restriction from pets in Defend mode. Now they can go after archers autonomously.
+
+    - Pulsing group based spells now work for solo casters and their pets. Previously, they only worked if the caster was in a group.
+
+    - Pets may now be commanded to attack doors and objects.
+
+    - In Defend mode, Pets will no longer go into combat mode against attackers unless that attacker does damage (meaning the pet will no longer attack on a miss/bladeturn).
+
+    - When a member of your group goes linkdead - they'll change to a different color and their name will be surrounded by *'s.
+
+    - You can now map a new "strafe toggle" key - hold this with turn left/right to strafe left/right.
+
+    - When chatting, you can now use SHIFT-HOME and SHIFT-END to move the cursor to the front or back of the chat line.
+
+    - You can now see larger monsters from farther away.
+
+    - Right clicking on an empty slot in the backpack no longer shows a question mark.
+
+    - You no longer have to hit the tilde key (camera toggle) to recenter the camera with the camera recenter key.
+
+    - When you shift-rightclick to get rid of a concentration buff, you'll no longer quick view the spell.
+
+    - When you die and release, your camera recenters behind your character in third person view.
+
+    - Spell effects cast on your player can now have extended information displayed with the SHIFT-I key. Right click on the effect to quickview it then hit SHIFT-I to get more information.
+
+    - The tradeskill timer window now remembers alpha and position settings.
+
+    - The middle mouse button is now mappable in the keyboard configuration screen.
+
+    - The quest accept/decline window will now properly go away if you move too far away from the NPC who gave you the quest.
+
+    - Treasure in dungeons should no longer fall through the floor.
+
+    - New setting added to monsters to make them light up at night, if they are configured to do so.
+
+    - The CONTROL-ENTER key no longer allows you to print text in your system chat window.
+
+
+    RELIC SYSTEM NOTES
+
+    Stealthed characters can no longer sneak into a Relic Keep, pick up a Relic, and sneak out. The intent when designing the class was to let them sneak into a keep, but become visible once the Relic was picked up - so they could be able to do reconnaisance, or take advantage of a chaotic situation by sneaking in the keep in the middle of a fight, grabbing the relic, and running. They were not intended to be able to steal Relics on their own. So, in light of this, we have made the following two changes:
+
+    - Whenever a stealthed character picks up a Relic, they will become visible.
+
+    - You can no longer go into stealth mode when you are carrying a Relic.
+
+
+    SPELL SYSTEM NOTES
+
+    - Robe caster shield spells have been increased in effectiveness to bring them on par with the target armor factor for their level.
+
+    - Some new damage absorption spells have been added to bolster robed mage defense, giving them some absorption from non-magical damage. Each Robed caster now gets a new spell at 30th and 41st level, which gives 5% and 10% damage absorption, respectively.
+
+    Wizard/Theurgist, Path of Earth
+    30 Buffer of Earth
+    41 Buffer of Stone
+
+    Sorcerer/Cabalist, Matter
+    30 Dampening Ward
+    41 Nullifying Ward
+
+    Spiritmaster/Runemaster, Suppression
+    30 Magical Buffer
+    41 Suppressive Buffer
+
+    Eldritch/Mentalist/Enchanter, Way of the Moon
+    30 Ward of Power
+    41 Barrier of Power
+
+    - We updated the the concentration spell system, so now concentration spells point costs have now been changed to use absolute costs. This means that when you cast lower level concentration buff spells, you'll be able to cast more of them, but when you cast higher level ones, you can cast fewer.
+
+    - All concentration buff spell casters now have a choice of at least one lower level spell in addition to their normal higher level spell. This now gives them the choice to cast many low level buff spells, or a few higher level ones.
+
+    - Players can now cast a maximum of 16 concentration spells, no matter their level.
+
+    - Midgard Shaman have a new spell line in their Augmentation specialization that buffs dexterity and quickness.
+
+    3 Gloom's Guide
+    6 Gloom's Wisdom
+    10 Gloom's Enlightenment
+    14 Murk's Guide
+    21 Murk's Wisdom
+    28 Murk's Enlightenment
+    37 Shadow's Wisdom
+    47 Shadow's Enlightenment
+
+    - We changed the way buffs work to make them more useful to casters who wish to specizlize in advanced buff spell lines. Previously, there was little reason to specialize in advanced buff spell lines - you could buff enough with baseline buff spells to hit the level cap, making it essentially useless to specliaze in advanced buffs. Also, because spell buffs had such high values, the effect of constitution and strength enhancing items were severely reduced. The intent of the recent change was to modify the effect of the buffs as little as possible, but make items and buffs consistent across all classes and levels. With this new system, you now can have as much enhancement as you did under the old system, but you must gain the buffs from items, base buffs, and specialized buffs - they all stack with one another and are now capped separately. So, with this new system, you can have as much buff in strength and constitution as you did before, but you must receive buffs from different places in order to reach the same level. Now, stat-buffing objects are much more useful, as are buff-specialized casters.
+
+    Stat buffs and debuffs should effect the following factors:
+
+    Strength: affects offensive skill for players and monsters.
+    Dexterity: affects defensive skills and casting time for players, and defensive skill for monsters.
+    Quickness: affects attack speed for players and monsters.
+    Constitution: affects hitpoints for players, and affects damage absorption for monsters.
+
+    Remember that pets use the monster bonuses. Players can have a stat buffed up to 10 points or their level, whichever is higher. Also, "Combo Buffs" stack on top of normal buffs to add even more points (up to double).
+
+    - Mage dexterity buffs now correctly reduce (not add to) casting time.
+
+    - Fixed the graphical spell effects for numerous monster spells. The correct graphical effect should now play when a monster casts a spell.
+
+    - Increased ranges on Theurgist spell lines Blasting Breeze, Searing Wind, and Frost Blast.
+
+    - The Runic Ward line was set up improperly in the Runes of Suppression list for Runemasters. The levels had to be changed to keep the spells from overwriting each other. The new progression is as follows:
+
+    L2 Runic Ward
+    L10 Runic Fend
+    L16 Runic Shield
+    L26 Runic Guard
+    L34 Runic Barrier
+    L44 Runic Wall
+
+
+
+    TRADESKILL SYSTEM NOTES
+
+    - Fixed a bug when using /salvage on Reinforced armor. It will now give you the correct type of strips, not leather squares.
+
+    - Stiletto hilt and blade recipe icons now show the correct dagger icon.
+
+    - Trinket recipes no longer should have ?'s as their icons.
+
+    - Changed the icon for the trinket recipes to be a bit more uniform across the board. The trinkets for the lower half of the skill range will be a white gem icon, with the trinkets for the upper half will be the black gem icon.
+
+    - Fixed Midgard cloak recipe so that there should be a separate hooded cloak recipe.
+
+    - We changed the difficultiy of Hibernian two handed sword hilt to be similar difficulty to the blade and final combine.
+
+
+    OBJECT NOTES
+
+    - We made large-scale changes to the treasure drops in the Bog of Cullen and Vanern Swamp. You'll now notice lots more treasure there and much more variety. Also, if you currently have items that you've already gotten from these areas, you may notice that they are slightly more powerful than they were before.
+
+
+    WORLD NOTES
+
+    Midgard Quests:
+
+    Quest Wisdom of Time: Inaksha will no longer skip over her entire talk when you first speak with her.
+
+    Quest: Spat the Cat: Players can now continue speaking with Vik if they are on steps 1 or 2 and lost their dialog box.
+
+
+    Hibernia Quests:
+
+    Two new Hibernian quests have been added. Players should speak to their local wandering Filidh's for more details.
+
+    Lusmorebane and Driss no longer have one-time drops - they now have quests associated with them.
+
+
+    Midgard Objects:
+
+    The Mischief Maker’s Axe will now proc its spell.
+
+
+    Albion Monsters:
+
+    While trying to obtain more information about the newly discovered diamondback toads in the Llyn Barfog area, scouts came across what they describe as a "two-legged no-armed goblin with a nasty set of teeth." The scouts also said that these creatures appear to live in colonies that center around ancient mystical rock formations. Caution is advised to all who travel along the western shores of the lake.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

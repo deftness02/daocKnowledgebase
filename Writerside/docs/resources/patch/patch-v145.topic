@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.45" id="patch-v145">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.45</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ========================
+
+
+    Dark Age of Camelot
+
+    Version 1.45 Release Notes
+
+    February 7, 2002
+
+    ========================
+
+
+    Dark Age of Camelot Version 1.45 introduces three new "Epic" zones into the game, plus a load of bug fixes, itemized zones, objects, monsters and much more. This list of additions and changes is extensive, so please read these release notes closely.
+
+
+    NEW MONSTER GRAPHICS AND SOUNDS
+
+    - Three Dragons (Wolf-headed, Stone, and Glimmer), with sounds.
+    - Demon model, with sounds
+    - Imp model, with sounds.
+    - Afanc model, with sounds.
+    - Baby afanc model, with sounds.
+    - three Rock Ogres (one new model, three new skins).
+    - new flying pixie model, with sounds.
+    - new werewolf-model skins.
+    - There is a new giant humanoid monster model.
+    - New "glow in the dark" Glimmer Knight (2 types), Glimmer Witch (2 types), and Glimmer Ghoul figures have been added to the Hibernian Epic zone.
+    - By public demand, the frog model finally has his own sound effects.
+    - The Svartalf (dark elf) now has his own model.
+    - There is a new "scaly wolf" skin to go with the new Midgard Epic zone.
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - Stats are now "clamped" at 300 (i.e. 300 is the most that any one stat can be buffed) as far as the underlying buff effect is concerned. Previously, the clamp was at 250, so now you can get an extra 50 points added to a stat when it is buffed. Please note that this change is different from the one tested on Pendragon, which was determined not to be as good for the game as intended.
+
+    - The experience point death penalty was too high for those players in the mid to high 30's level range. We have scaled back the number of experience points you lose on death in those level ranges.
+
+    - In response to player demand, you can now turn spell effects off if you wish to increase your frame rate in situations where there are lots of spells being cast. You can now toggle spell effects to all/none/self only with the /EFFECTS NONE, /EFFECTS ALL, /EFFECTS SELF toggles. With /effects self turned on, you see your own spell effects, but not those of other casters.
+
+    - The Detect Hidden ability was changed to increase the range at which Nightshades, Shadowblades, and Infiltrators (the only classes that receive Detect Hidden) can detect other hidden players.
+
+    - In our buff system overhaul of last version, we introduced a bug that we must take steps to fix. The effect of Quickness buffs increased overall player damage per second far more than same-level strength and dexterity buffs (thus removing the need to have strength and dexterity buffs in some cases). So, we've reduced the effectiveness of quickness buffs by 10-15% (depending on the level of the spell). This change will affect all melee and archer characters who have Quickness buffs cast on them. You will notice that you attack a little slower now than you used to when your Quickness is buffed.
+
+    - We found that Combat Haste buffs are far too effective - they lower player's attack timers down to 1.5 seconds or less, in some cases. Their effectiveness has been reduced, and it now abides by the overall 1.5 second attack timer clamp. This change affects melee character who had Combat Haste buffs cast on them (although not archers, who were not affected by Combat Haste buffs). Please note that we have lessened the effect this change has on Friars by bumping up the effectiveness of their self-haste buff to compensate.
+
+    - Fixed the spell information (shift - I) function such that "damage type" only appears for spells that actually do damage.
+
+    - Monster corpses will no longer spin to face the killer.
+
+    - The /WHERE command (to make a guard point towards an NPC) should now be more reliable.
+
+    - When you target yourself, you'll always be yellow.
+
+    - The appeal window will no longer disappear when moving (you can now appeal while falling for instance).
+
+    - The Performance Meter (SHIFT-P) has been fixed - previously it did not update correctly. Now you can see network latency (lag), dropped packets, and frame rate performance.
+
+    - You should no longer see a dead player perform his death animation long after he died. This happened when you came within download (visible) range of him while he was dead.
+
+    - Realm titles have been added to other player's names in RVR warfare. For instance, instead of seeing a "Briton Defender" you'll see a "Briton Dragonknight" if the other player has a realm title.
+
+    - When zoning, if your client crashed, you would re-enter at your bindpoint (a free teleport). This has been fixed.
+
+    - The /FRIENDS command should now show your full friends list correctly.
+
+    - Players whose framerates would drop below 5 fps would run more slowly (and fail to catch up with the rest of their group). This has been fixed.
+
+    - Dead people can no longer see stealthed enemies.
+
+    - On a ladder (or when climbing), when you hit the ground, you will now automatically detach from the ladder (or wall).
+
+    - You now should go to the correct "safe spot" in the cities when you fall through the city or type /STUCK.
+
+    - New sounds now play when you change inventory items.
+
+    - You should now be able to get information (shift-I) on an item that is in a player trade window (i.e. when you are selling or trading items with other players).
+
+    - Scouting monsters now have the Detect Hidden ability. If you are higher level than they, then you still have a good chance of staying hidden, but beware of scouting monsters that are higher level than you.
+
+    - You can no longer "lock up" NPC archers who are defending keeps. Previously, some players were exploiting a bug where when you had an archer with 0 max velocity, you could engage him from a distance then back out of his arrow range where he could not be attacked. The NPC archer would remain "locked up" and would not attack anyone else. This has been fixed - the NPC archer will now pick a different target within range if he can't reach his original target.
+
+    - Fixed a collision problem where people could warp through doors and walls.
+
+    - You can now click on open doors to select them.
+
+    - fixed upgrading of doors to level 9 and 10 for free. You now have to have the requisite number of materials to upgrade to these levels.
+
+    - The minimum attack timer has been reduced, so you should see quickness buffs have more positive effect on your attack timer than they used to - i.e. you should now see yourself attacking more quickly. Previously, it was too easy to hit the minimum attack timer when quickness was buffed, this reducing the effectiveness of these buffs.
+
+    - You now have to use a "use item" key when using a charged item's special magical ability. In order to use these charged items, you must have first dragged the magical item's icon to your quick bar. Then, to fire it, press the use item key, and then within 1 second, press the quick bar number of the item. Please note that there is currently no way to use the mouse to use these items.
+
+    - Troll males had one hair combination that referenced a bad art file that resulted in their "hair" not having a texture. This has been fixed.
+
+    - We slightly increased the damage of some of the non-backstab styles in the Assassin's critical strikes combat style line.
+
+
+
+    SPELL SYSTEM NOTES
+
+    General Changes
+
+    - We've made a change in the way that specialization affects Self Armor Factor buffs for robed casters. Now, robed casters are no longer affected by specialization (casters who specced outside their shield line's skill were taking a significant defense hit). However, Armor Factor Buffs for concentration casters remain affected by specialization.
+
+    - Damage clamp of spell damages raised to be comparable with damage clamps from melee attacks. These should only come into play when you smack low level targets (grays). Now caster max damage against low level players and monsters should be about the same as melee max damage.
+
+    - Low level monsters could previously interrupt much higher level spell casters and archers. This has been fixed.
+
+    - You should no longer get the "You cannot cast while moving!" print when you stand and try to immediately cast.
+
+    - Wizards, Theurgists, Spiritmasters, and Runemasters will now be awarded all specialization spell lists when they change class (before you had to specialize to level 5 in your base skills to get your specialization lists). Existing characters will get their new lists after the first time they train in their base skills (at any level).
+
+    - Please note that many spell graphics have changed since the last version. We are currently revamping the way spell graphics are assigned to spells. The graphics will be in flux for a short time before we complete the change. Pay special attention to your spells and be sure you are familiar with their new visual appearance.
+
+    - We've added the chance for "robe" caster spells to do additional critical damage. Specifically, the classes whose direct damage (bolt, AE, regular DD) spells will have the chance to do extra critical damage are: Wizard, Theurgist, Cabalist, Sorcerer, Runemaster, Spiritmaster, Eldritch, Mentalist, and Enchanter.
+
+
+    Buff Spell Changes
+
+    - The Constitution buff in Midgard has been moved from the Healer Augmentation specialization track to the Seer basic abilities (meaning now Shaman and Healers will both get the base Con buff). We made this change to bring Healer/Shaman in line with healing/buffing classes in other realms that have con buffs as a base class abilities. The levels awarded are:
+
+    3 Augment Health
+    9 Increase Health
+    14 Enhance Health
+    20 Strengthen Health
+    29 Exaggerate Health
+    38 Intensify Health
+    47 Amplify Health
+
+
+    - Mage "acuity" buffs are now in the game, in the primary buffing track in each realm. This buff enhances the primary stat of the realm's "robe" casters, which directly raises the damage output of direct damage spells. Classes helped by this buff: Wizard, Cabalist, Theurgist, Sorcerer, Runemaster, Spiritmaster, Mentalist, Eldritch, and Enchanter.
+
+    Cleric Enhancement Spec
+    11 Acuity of the Seer
+    22 Acuity of the Prophet
+    31 Acuity of the Sage
+    42 Acuity of the Magi
+
+    Shaman Augmentation Spec
+    12 Sight of the Deep
+    22 Wisdom of the Deep
+    31 Sagacity of the Deep
+    42 Vision of the Deep
+
+    Druid Nurture Spec
+    11 Nature's Sight
+    22 Nature's Wisdom
+    31 Nature's Sagacity
+    42 Nature's Vision
+
+
+    New Area Effect Spells
+
+    - Several new area effect damage lines were added to the Wizard, Runemaster, and Eldritch. The problem that is addressed by this fix was that in most cases, robe-casters had only one line which contained area effect damage spells. Because area effect damage spells are by far the most popular and effective RvR spell to use, most players were specializing only in those lines that contained area effect damage spells, because they wanted to be sure that they had these spells when they raised to a high enough level to RvR. This led to many under utilized spell specializations, and worse, players that did specialize in those lines that did not contain area effect spells sometimes found themselves in a situation where they wanted to contribute area effect damage to RvR, but could not, because they simply did not specialize that way.
+
+    So, now more spell lines contain area effect damage spells, but be aware that the specializations that received these spells previously (such as the Fire Specialization for the Albion Wizard) do more damage than the new spells. All of these new AOE damage spells cost more power to cast and do less damage than the primary AOE spells (the ones that were in the game previous to this update). So, a Wizard who is specc'ed in Fire will still do more area effect damage (more spells cast, more damage per spell) than a Wizard who is specialized in Earth; however, the Earth-specc'ed wizard can now contribute area effect damage against enemy players and monsters, albeit at a lower rate.
+
+    The new AOE spells:
+
+    Wizard
+    Calefaction (Earth spec list)
+    8 Molten Earth
+    11 Lava Field
+    15 Expanse of Magma
+    20 Molten Puddle
+    28 Molten Pool
+    36 Molten Lake
+    47 Molten Ocean
+
+    Liquifaction (Ice spec list)
+    8 Simmering Cloud
+    14 Broiling Cloud
+    22 Sweltering Cloud
+    29 Burning Cloud
+    36 Torrid Cloud
+    46 Boiling Cloud
+
+    Runemaster
+    Runes of Darkness (Darkness spec list)
+    9 Raven Drove
+    14 Raven Flock
+    19 Raven Horde
+    25 Raven Throng
+    32 Raven Host
+    40 Raven Cloud
+    50 Raven Legion
+
+    Runes of Suppression (Suppression spec list)
+    7 Field of Suppression
+    14 Field of Slackening
+    20 Field of Entrapping
+    27 Field of Snaring
+    36 Field of Tangling
+    46 Field of Mazing
+
+    Eldritch
+    Vacuumancy (Mana spec list)
+    10 Lesser Kinetic Dispersal
+    14 Kinetic Dispersal
+    19 Lesser Kinetic Dampening
+    25 Kinetic Dampening
+    34 Lesser Kinetic Siphon
+    44 Kinetic Siphon
+
+
+    Resistances
+
+    In order to make the resistance system more streamlined, we've consolidated the various damage types and resistances inside of the game to six basic groups:
+
+    Heat - Fire and Light
+    Cold - Void and Dark
+    Matter - Earth and Matter
+    Spirit - Spirit, Mind, and Wind
+    Energy - Electricity and Mana
+    Body - Body, Poison and Disease
+
+
+    For now, this change will have little effect on your character. When you use the /resist command, you will now see these resistances printed instead of the old ones - also, when you get information about an item (shift-I), you'll see the item's resistance buffs printed in this new format as well. Please note that in the near future we will be adding resistance buffs and debuffs that will adhere to this new system.
+
+
+
+    Pet System Changes
+
+    The pets summoned by the Cabalist, Enchanter, and Spiritmaster have been revised to fix some bugs and improve functionality. Each Cabalist pet has different effects that trigger in combat, Enchanter pets can now cast various spells, and Spiritmaster pet effects are cumulative - each higher level pet will have the effects of all the lower level ones.
+
+    Please note that we are aware that some of the pet self-buffs are sometimes redundant with buffs that the player can cast on their pets. This is a known issue and it is on our list to address.
+
+    - You'll no longer see your pet self-buffing in combat instead of fighting.
+
+    The new Pets and their effects:
+
+    Cabalist
+
+    Amber Simulacrum - Has a self shield to improve defense, and extra hitpoints. A basic tank, plus has a chance to stun its target.
+    Ruby Simulacrum - Has a self damage-add spell that improves melee damage, but has lower defense and hitpoints.
+    Sapphire Simulacrum - Has a lifetap proc that improves survivability
+    Emerald Simulacrum - Has a chance of proccing either a poison dot or disease effect.
+    Jade Simulacrum - Has a self damage shield buff to do damage to attackers.
+
+    Spiritmaster (special abilities are cumulative)
+    - Spiritmaster summoned creatures can now be female.
+
+    Spirit fighter - no special abilities.
+    Spirit soldier - adds chance to proc a stun effect.
+    Spirit swordsman - adds chance to proc cold damage
+    Spirit warrior - adds chance to proc lifedrain
+    Spirit champion - adds chance to proc self bladeturn
+
+    Enchanter
+
+    Underhill friend - basic tank, no special abilities
+    Underhill companion - caster, low offense and hp, has a direct damage spell
+    Underhill ally - low offense and hp healer, casts a regen buff and will heal seriously injured group mates
+    Underhill compatriot - tank with enhanced defense, casts a self shield
+    Underhill zealot - advanced caster, has a chance of casting two different types of direct damage, and has a self dmg shield for melee.
+
+
+    ARCHER CHANGES
+
+    We are making several archer changes in this version. In short, archers are too powerful in RvR combat, but feel they don't have enough to offer in group-based monster hunting. We have spent a lot of time testing this in-house over the last week, as well as analyzing player and tester feedback, and have come to the conclusion that archers can kill higher-level players far more easily than we ever intended. Currently, low-40's archers can two-shot kill 50th level mages (who are red or purple to the archer), which is far too powerful. The testing also found that archers were not as effective fighting monsters in groups as we designed the classes. This version takes steps to correct both these problems.
+
+    - Archers no longer receive a to-hit bonus against sitting opponents. Low level archers could previously crit shot much higher level sitting targets - ones they normally could not hit at all if the target was standing.
+
+    - We've lessened the damage that Critical Shots do against higher-level player targets. Against same-level or lower enemy players, your critical shots will do exactly the same damage they always have. However, against higher-level enemy players, your damage will be less, depending on how much higher the player is than you. Please note that this change does not affect critical shot damage versus monsters at all - the change only effects RvR combat.
+
+    - Arrows do exactly the same amount of damage in combat versus monsters as they always have, but they now accumulate less "aggro". This means that you can use your critical shot or normal shot in combat with monsters and the monster will be less likely to aggro on you, and will be easier to pull off you if you it does aggro. We made this change because of archer complains (and subsequent testing) showed that archers indeed did so much damage to monsters that they automatically had the monster attack them exclusively for the entire encounter - an encounter which the archer would rarely survive. Now it will be much easier for them to do critical shot/normal bow damage against that same monster with much less chance of the monster focusing exclusively on them.
+
+
+
+    WORLD NOTES
+
+    3 New Zones added:
+
+    Three new "Epic" zones make their debut in this patch: one in each realm's home region. These zones are full of high level content intended for large groups of players 35 - 50th level. The encounters in these zones are fully itemized with appropriate treasure. The zones are laid out differently from most of our other outdoor areas, they are designed to more tightly constrict player movement, funneling groups (to some extent) through more targeted encounters that have to be bypassed or defeated before they can move on. Each of the zones has as its ultimate encounter a fearsome creature of monstrous power, let those who wander these zones take plenty of friends!
+
+    Please note that many of the monster models that appear in the new zones are placeholders and will be replaced with new ones over the course of this week.
+
+    Albion Zone: Dartmoor
+
+    In the times of Uther Pendragon, Articus, son of a Roman dignitary left his homeland to get away from the politics of Rome. He and his family settled in an area in the Cornwall region known as Dartmoor, a beautiful moorland with wooded valleys and windswept Tors. They had built a castle and established a respectable holding in the rugged area. About ten years had passed and still little was known about Lord Articus and his family, since they often preferred to keep to themselves. Duke Marcus of Cornwall dispatched a messenger to his quiet neighbor with invitations for them to attend an upcoming celebration. When the messenger never returned, a second messenger was sent. The second one, like the first, was never seen again. Whether out of concern or suspicion, Duke Marcus sent his son along with a contingent of knights to both investigate the disappearance of the messengers and the welfare of Lord Articus. Two weeks later, Duke Marcus' son returned alone. He was badly injured and his armor singed. He never told his father or anyone else what he saw. Some say it was fear. Others claim that it was his pride. The only thing he did convey was that Lord Articus, his family, and his servants were all dead. Until recently, people of Briton were warned away from Dartmoor. However, the people have grown restless and hunger for adventure. Their memories fade, and most have forgotten the warnings.
+
+    Last month, Sir Arward and 30 of his best fighters ventured deep in to the depths of Dartmoor. Two days ago, Sir Arward’s scribe’s journal, slightly singed and stained with blood fell out of the sky and landed in front of the guards at Prydwen Keep.
+
+    A summary of the journal explains a bit of what the party discovered. At first, all they found were wild ponies, small but tough little beasts. The group, thinking that they’ve been afraid to venture to the area because of a bunch of wild ponies, relaxed their guard considerably. Sir Arward ordered one of his scouts to climb a nearby granite tor so that he might see further in to the distance. However, as soon as the scout approached the giant granite mass, it turned and faced them. It was a giant, made entirely from granite, carrying a giant shepherd’s staff. The poor scout never had a chance. The armored fighters engaged the massive creature and managed to defeat it. Their need for caution had been restored.
+
+    As they moved deeper into Dartmoor, it became immediately obvious that the giant they fought was neither unique nor alone. What had previously been mistaken for giant rocks seemed to come alive with movement. Trying to avoid the behemoths (though some fights were unavoidable), the group found themselves in a giant granite quarry surrounded by a group of ogre-like creatures. Surprisingly, they didn’t attack the party. In a limited, barbaric grasp of the Briton language, the ogres claimed to be the Stonecrush Clan. They mined and ate granite, which angered the granite giants to no end. It was obvious that there had been some hostilities between the giants and the ogres, and the Stonecrush Clan considered Sir Arward’s group as friends since they had fought and killed giants.
+
+    The journal contained little more information. The next page seemed to have been partially burned. Only one large word near the bottom could be read: Golestandt.
+
+
+    Midgard Zone: Malmohus
+
+    Hunters have reported that the Svartalfar have been extremely active in the Skona Ravine area. It seems they have been sending masses of their best scouts and infiltrators in to the woodland south of Skona Ridge, a little-known and less-explored region known as Malmohus. The werewolves of Skona, however, seem to be afraid of the area - they avoid it almost as if they believed Malmohus to be cursed.
+
+    A large group of hunters was sent to follow the Svartalfar into Malmohus, for it was obvious they were up to something. The hunters temporarily lost the Svartalfar trail when they stumbled across some odd looking creatures. They looked like wolves, but had scales and a lizard’s tail. The hunters called them scaled vargs, and found out happily that their beast charms worked on the creatures.
+
+    They renewed their tracking of the Svartalfar and were fortunate enough to find a single Svartalf scout, who they restrained and interrogated. The svartalf was young and was almost happy to give the hunters the information they desired, so long as his life would be spared. The svartalf explained that these lands were the home of Gjalpinulva, a daughter of great beast Fenris Wolf, and some huge unknown creature. The scout said that Gjalpinulva, herself a gigantic abomination, in her loneliness, created creatures that would be loyal to her and serve her: intelligent scaled wolves that walk on two legs. The Svartalfar, the scount claimed, came to Malmohus to investigate the Gjalpinulva and her brood and possibly destroy them. The Svartalvear needed to gather more information about the huge creatures before contemplating any action against Malmohus.
+
+    The hunters let the young svartalf go, anxious to return to Jordheim and report their findings. The great beast Gjalpinulva and her minions have not yet been sighted. Their appearance and power remain a mystery, although it is assumed that she is gigantic and immensely powerful.
+
+
+
+    Hibernian Zone: Sheeroe Hills
+
+    In a routine scouting pass through the outskirts of the Bog of Cullen, a small group of seasoned rangers found that the landscaped had changed along the bog’s northern edge. A pass, which had not been there previously, appeared from under a thick layer of mists. The rangers, dubious of the nature of the pass, scouted it cautiously. Before they ventured too far, small spirits that seemed to "glimmer" with an unusual light confronted them with aggressive intentions. Suspecting it to be a siabra trick, the rangers quickly dispatched the odd creatures. Not too long after their first encounter larger spirit-type creatures, sharing the same type of “glimmer” as the previous spirits, also attacked the group. These were obviously more powerful than the small spirits that were encountered previously, almost too powerful. The behavior of these spiritual beings was very unlike the siabra, and this new experience was more than the rangers wanted to handle without more information about what they were facing.
+
+    The rangers returned with their findings and decided to consult others. They found themselves reciting their story to many, but no one seemed to have any more information on these glimmers, as they came to be known. That was, until they found themselves in the company of the ancient elven sage, Tyldifyl. "Like the kingdoms of man," he began, "the Otherworld is also divided into regions, each often having its own ruler and laws. Some of those "kingdoms" are more known than others, since some wish to remain unseen. One such place is called the Sheeroe Hills, ruled by Cuuldurach the Glimmer King. Cuuldurach is an ancient and powerful being. He rules with absolute power in his realm, in the realm of what you call the Glimmers..."
+
+    The rangers gathered more information and found that the worshippers of the Great Azure, ancient relatives of the Firbolg who find their faith in the unclouded sky, have sent strong expeditions into the Sheeroe Hills. In their zealot-like reverence for their god, they believe that the glimmers are evil, tainted creatures of death, and because of that, they believe it is their duty to cleanse the land of their presence. They have established strongholds in the Sheeroe Hills and guard them closely, distrusting anyone but one of their own to venture near.
+
+
+    Dragon Behavior
+
+    The Dragon encounters in the new zones have been given special AI and abilities. These abilities will be used by the dragon at various times during combat, depending on the situation. Among other nasty things that the dragon does during combat (that we will not divulge) the dragon will get restless and go on a patrol once a day throughout his territory. Players in the zone will be given a warning via a zone-wide broadcast that the beast is on his way. He will fly through the zone, dive-bombing certain spots throughout the zone (clearings, monster camps, well-traveled pathways, etc.). So if you are hunting in one of the new zones and see a broadcast indicating the dragon is getting restless keep a sharp eye out.
+
+    Note that when the dragon on patrol does a "swoop down" on a player or group, he won't stick around to complete the fight - he'll keep on his path and return to his lair after dealing out some death from above. So, you're not going to be able to fight him fully while he's patrolling, but you can damage him.
+
+
+    Other Monster Encounter Changes:
+
+    Albion:
+    - The telamon of Lyonesse seem to be a tad less vigilant than before.
+
+    - Extremely nasty and intimidating creatures have been seen around Llyn Barfog. Some even claim that the Legendary Afanc, a demonic water creature of King Arthur's time, has returned to tend to her young. Use extreme caution when exploring this area.
+
+
+    Midgard:
+    - The isalf forayer population has increased slightly throughout the Midgard frontier.
+
+    - Relic Keep doors now set to Wood (material type) 10 instead of Wood 1. This means that they never need to be upgraded, since Relic Keeps can never be taken over by an enemy team.
+
+    Graphics Update:
+
+    - Several new monster models have been provided by our wonderful art team. Here is a list of some of the creatures that are sporting a new look.
+
+    ALBION
+    manes demon
+    grumoz demon
+    Fielath
+    wind mephit
+    impling
+    gwr-drwgiaid
+    fiery fiend
+    Ash
+    afanc hatchling
+    faerie mischief-maker
+    faerie wolf-crier
+    faerie bellwether
+    Lady Leanna
+    Ellyll windchaser
+    mist sprite
+    pixie
+    pixie scout
+    pixie imp
+    Pixie Queen
+
+    MIDGARD
+    flaming raukomaz
+    Lord Fire
+    wind sprite
+    Swift
+    mora rider
+    mora dancer
+
+    HIBERNIA
+    cruiach demon
+    Idol of Crom Cruiach
+    cruach imp
+    Spifnar
+    deamhan aeir
+    Aoife
+    mountain mephit
+    tunnel imp
+    Scratch
+    bocaidhe
+    bocaide
+    Yrial
+    orchard nipper
+
+
+    NPC Fixes
+
+    Runthal Devyn, the imposter fletching master that would not let you join the trade order has been removed from Camelot City by the city guard. Acey Dalston is the only fletching master authorized to admit new members.
+
+
+    Item Recharger NPCs
+
+    These NPCs will recharge all chargeable items (for a price, of course).
+
+    Albion:
+    - Camelot City: Miran Esric, at the Palace
+    - Cornwall: Larel Esric, at Cornwall Station
+
+    Hibernia:
+    - Kigua in Connla
+    - Tegau, in Tir na Nog. Tegau is located in the building across the street from the guard building where Sentinel Teadoir and Sentinel Kynon hang out.
+
+    Midgard:
+    - Ingirun in Jordheim
+    - Alrik in Gna Faste.
+
+
+    Hibernian Quests:
+
+    Quest - Criofan's Fish: Casters that finished Criofan's Fish can turn in the leather boots to Criofan, in Connla, for a set of cloth boots. Nightshades and Rangers can now do the quest.
+
+
+    Midgard Quests:
+
+    Quest – The Red Daggers: Players now have a reminder in their quest journal to turn in the scroll of seithkona to the Gythja of Bragi. Players that do not turn it in will now automatically have it deleted from their inventory when they complete that section of the guild track quest. Players that have it stored in their bank may DELETE IT!
+
+    Quest – Widower’s Hunt: Healers have been added to the list of classes able to do this quest.
+
+    Ick and Piercer now have quests associated with them. Speak to the Barkeeps for details.
+
+    The Mischief Maker’s Axe now procs correctly.
+
+
+    Albion Quests:
+
+    Quest: Amulet of the Planes
+    More detail regarding Borwyr's spawn time has been added to the journal.
+
+    Quest: Legione perso
+    Players on this quest should now be able to continue normally when fighting Lunaris primus pilus. Pets will no longer cause players difficulty when attempting to complete this quest.
+
+    Quest: The Captured Courier
+    Dunsten can now be re-spawned killing Elithralia Nodith. Dunsten should also remain in place longer so that players can turn their items into him.
+
+
+    OBJECT NOTES
+
+    Chargeable and other Magic Items
+
+    Some of the very high level monsters may drop charged items on occasion. This is a new object type that has just been added to the game. Chargeable items are regular weapons/armor/jewelry that have magical spells associated with them. These spells have a limited number of time that they can be used. To use a charged item, drag the object's icon to the quick bar (please note that the object must be equipped for this to work) and then click on it.
+
+    There are two types of charged items. The first type is non-rechargeable but the item will still function as normal (i.e. without its spell) once the charge has been expended. This means that if you have a sword with a fire spell attached to it, once the fire spell has been cast, you cannot cast any more spells with the sword, but the sword itself still functions as a regular sword.
+
+    The second type of recharged item can be used over and over again, requiring recharging from a special NPC (currently called a spellcrafter, but this name will change shortly). The NPC will charge a fee based on the item type you trying to recharge. See the world notes for a list of Spellcrafter locations.
+
+    This version also includes a ton of additional weapons with particle effects, and some new spell effects on items.
+
+
+    Many zones have been totally itemized or tweaked:
+
+    Note: Albion being the oldest realm, had more rare items to begin with. You will notice many of those rare objects have been modified so they now drop with updated magic bonuses. Existing items will not be affected.
+
+    - Cursed Forest (Hibernia) - is now itemized
+    - Raumarik (Midgard) - is now itemized.
+    - Salisbury (Albion) - added rare items and fixed non-humanoid drops
+    - Black Mountains South (Albion) - fixed non-humanoid drops
+    - Black Mountains North (Albion) - added rare items and fixed non-humanoid drops
+    - Camp Forest (Albion) - added Rare items and fixed non-humanoid drops
+    - Avalon Marsh (Albion) - added Rare items and fixed non-humanoid drops
+    - Llyn Barfog (Albion) - itemized the remaining new camps and added rare items to old camps.
+    - Lyonesse (Albion), item levels 30-50 (existing zone)
+    - Dartmoor (Albion), item levels 35-50 (new epic zone)
+    - Malmohus (Midgard), item levels 35-50 (new epic zone)
+    - Sherroe Hills (Hibernia), item levels 35-50 (new epic zone)
+    - Cornwall (Albion)
+    - Skona Ravine (Midgard)
+    - Silvermine Mts. (Hibernia)
+    - Cliffs of Moher (Hibernia)
+    - Shannon Estuary (Hibernia) - added rare drops
+    - Myrkwood Forest (Hibernia) - added rare drops
+    - Svaeland West (Midgard) - added rare drops
+    - Lough Gur (Hibernia) - added rare drops
+
+    Please note that Raumarik, Cursed Forest, and parts of Llyn Barfog have treasure that drops less often than other zones, but the items that are dropped are far more valuable.
+
+    We also went back through a couple of zones that were rare item drops, and made changes where appropriate. You'll now find that these zones have much more to offer:
+
+    - Muspelheim (Midgard), item levels 20-32
+    - Valley of Bri Leith (Hibernia), item levels 15-40
+
+    Other Object notes
+
+    - The Shadowed Vest should now be dyeable with leather dye (was previously only
+    using enamel)
+
+    - Gloves of the Spined Backpiercer should now be dyeable.
+
+    - Yellow Silken Robes can now be dyed.
+
+    - Hammer of Smiting should be sellable now.
+
+    - Band of Woven Gold (enc quest reward) had the +cha bonus changed to +dex instead.
+
+    - Supple Serpent-Hide Vest should now be correctly displaying information (one of the fields had resistance chosen but no actual value put in, so it was displaying "0%")
+
+    - Fixed a typo in the name of the Eagle Eye Talon.
+
+    - Changed the Gossamer Seolc Cap of Mentalism to correctly buff mentalism.
+
+    - Changed the article associated with the Kraggon Cloak to "a", and also changed the armor class to none so that it doesn't try to display an armor factor when information about it is shown.
+
+    - Changed the armor class to none on the Morbid Mantle (see Kraggon Cloak above)
+
+    - The Spectral Shroud (Hibernia) should now be dyable.
+
+    - The Shadowhands Cloak shouldn't display Armor Factor anymore.
+
+    - The following should now display con/dur/qua etc. : Glowing Ball of Mud, Gyrg's Cloak, Silver Chain, Belt of Animation, and Boneclaw Ring of Morra.
+
+
+
+    TRADESKILL SYSTEM NOTES
+
+    - Fixed a bug when using /salvage on Reinforced armor. It will now give you the correct type of strips, not leather squares.
+
+    - Stiletto hilt and blade recipe icons now show the correct dagger icon.
+
+    - Trinket recipes no longer should have ?'s as their icons.
+
+    - Changed the icon for the trinket recipes to be a bit more uniform across the board. The trinkets for the lower half of the skill range will be a white gem icon, with the trinkets for the upper half will be the black gem icon.
+
+    - Fixed Midgard cloak recipes so that there should be a cloak recipe a separate hooded cloak recipe.
+
+    - You should be able to buy the correct tanned torsion cables now instead of the incorrect linen torsion cables
+
+    - Icons for Midgard stave recipes show an actual staff icon now instead of a shield.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

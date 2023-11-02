@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.47" id="patch-v147">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.47</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ========================
+
+
+    Dark Age of Camelot
+
+    Live Server Update
+
+    March 7, 2002
+
+    ========================
+
+
+    - The middle keep in the Battlegrounds zone is now climbable.
+
+    - The Minstrel charm shout was incorrectly set to have no cast timer. It has been updated to have a short (5 second) recast timer. This is to prevent an exploit whereby one could acquire a purple pet.
+
+    - One Guild can no longer claim two keeps at the same time.
+
+    - Sorcerer Charm spells have been returned to their proper pet level threshold. They were inadvertently set to charm monsters that were too low level.
+
+    - Guards will now upgrade properly when you upgrade their keep. This means they will do more damage and have more hit points.
+
+    - Minstrel charm spells had a bug where Minstrels "lost" their pet as a target after the first resist. This meant they had to immediately re-cast the charm song or risk having the monster turn on them. Now it works properly - if the monster resists the first time, targeting will not be lost, and the next "pulse" of the song will re-charm the monster (assuming it doesn't resist twice).
+
+    - Roots and snares now have "diminishing returns", which means each successive time they are cast on the same monster/enemy PC, their duration is halved. However, now they start wearing off 80% into the duration, instead of 50%. This increases the duration of full effectiveness of the spells. Also, now you can recast the spell during this period to reset the timer without getting the "your target already has that effect" message.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Terminology" id="terminology">
+
+    <link-summary>This information is displayed in the link popup</link-summary>
+    <card-summary>This information is displayed in the card on the starting page.</card-summary>
+    <web-summary>This is information for the search engines.</web-summary>
+
+    <p id="intro">The following is a catalog is terms commonly used by %daoc% players. Some of these you may already be familiar with, as they may be general internet slang or RPG game terms. However, many are specific to %daoc%, thus why we've included them.</p>
+
+    <chapter title="Common DAoC Words &amp; Phrases" id="glossary">
+
+        <chapter title="A" id="terms-a" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!-- Absorption -->
+                <!-- Archer -->
+                <!-- Amnesia -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="Add" id="term-add">
+                    <p id="def-"></p>
+                    Used to describe a monster (<a anchor="term-mob">mob</a>) that has joined a fight already in progress. These are usually unexpected and quite troublesome. Your current target can sometimes call for help, thus adding another mob.
+                </def>
+                <def title="AE" id="term-ae">
+                    See <a anchor="term-aoe">AoE</a>.
+                </def>
+                <def title="AF" id="term-af">
+                    See <a anchor="term-armor-factor">Armor Factor</a>.
+                </def>
+                <def title="AFAIK" id="term-afaik">
+                    "As Far As I Know." Indicates you're not certain you are correct, but you have no reason to believe you are wrong.
+                </def>
+                <def title="AFK" id="term-afk">
+                    "Away from Keyboard." The player is going to be away from their keyboard for a time. If you are in a group, be ready to protect the AFK person and don't attack something you can't kill without their help.
+                </def>
+                <def title="AFK bio" id="term-afk-bio">
+                    <a anchor="term-afk">AFK</a> for a bathroom break.
+                </def>
+                <def title="Aggro" id="term-aggro">
+                    "Aggression." Used to describe 1) a <a anchor="term-mob">mob</a> that is close enough to a character that it starts to run towards them to engage in combat, and 2) the amount of aggression a character has built up with a mob. The more damage you do to a mob, the more aggro you build up. The more aggro you have, the more likely the mob is to attack you. If you have too much aggro, the mob will attack you even if you are not the closest person to it. If you have too much aggro, you can try to reduce it by running away from the mob, or by using a <a anchor="term-detaunt">detaunt</a> combat style.
+                </def>
+                <def title="AI" id="term-ai">
+                    This is the programming that controls the <a anchor="term-mob">mobs</a> and <a anchor="term-npc">NPCs</a> alike in-game.
+                </def>
+                <def title="Alb" id="term-alb">
+                    Either a shortening of the realm name, "Albion," or in reference to a member of that realm.
+                </def>
+                <def title="AoE" id="term-aoe">
+                    Area of Effect. Spell that affects area around the target, not just the target. Good when needing to affect more than one mob at a time. Is also dangerous, can affect mobs not wanted and break <a anchor="term-mez">mezzes</a> or <a anchor="term-snare">snares</a>.
+                </def>
+                <def title="Area of Effect" id="term-area-effect">
+                    Describes spells that affects area around a target, not just the target itself. Such spells are helpful when dealing with multiple mobs at once, but can also be dangerous if they affect mobs that are not wanted or <a anchor="term-crowd-control">crowd controlled</a>.
+                </def>
+                <def title="Armor Factor" id="term-armor-factor">
+                    Describes the amount of damage that is absorbed by armor. The higher the AF, the more damage is absorbed. The AF of a piece of armor is determined by the material it is made of (e.g., leather, chain, plate). Heavier armor provides greater AF, but also has a higher impact on <a anchor="term-encumbrance">encumbrance</a>.
+                </def>
+                <def title="Assist" id="term-assist">
+                    A group situation where it is expected that more than one <a anchor="term-mob">mob</a> will attack when pulled, so a coordinated attack is required. Whereas most groups have a designated "puller," they also have a main tank that picks the target everyone in the group is to kill first. The group is then "assisting" the tank by attacking the same mob.
+                </def>
+                <def title="ATM" id="term-atm">
+                    "At the Moment."
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="B" id="terms-b" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!-- Bomb -->
+                <!-- Bomber -->
+                <!-- Buffbot -->
+                <!-- Bolt -->
+                <!-- Bleed -->
+                <!-- Battlegroup -->
+                <!-- Battleground -->
+
+            <deflist>
+                <def title="BAF">
+                    <p id="def-baf">See <a anchor="term-bring-friend">Bring a Friend</a>.</p>
+                </def>
+                <def title="Bait" id="term-bait">
+                    <p id="def-bait">A person who lures a <a anchor="term-mob">mob</a> into a group and gets attacked first. This is typically the main designated tank of the group, but can also be a <a anchor="term-puller">puller</a>.</p>
+                </def>
+                <def title="Bind" id="term-bind">
+                    When you bind yourself at a bind stone, you will <a anchor="term-release">release</a> to that location again after you die.
+                </def>
+                <def title="Bladeturn" id="term-bladeturn">
+                    A type of spell that nullifies the first melee or ranged hit against the protected target. Some variations on this spell type <a anchor="term-pulse">pulse</a> every few seconds, nullifying the first hit each time. Also referred to as "BT."
+                </def>
+                <def title="Blue" id="term-blue">
+                    A term for a <a anchor="term-mob">mob</a> that is a level or so below you and thus usually soloable. When you click on such mobs, this is the color their name appears in on your targeting window. So a player might say that it "<a anchor="term-con">cons</a> blue to me."
+                </def>
+                <def title="BRB" id="term-brb">
+                    "Be Right Back."
+                </def>
+                <def title="Bring a Friend" id="term-bring-friend">
+                    A term used to describe mobs that, when aggroed, attract other mobs to the fight. These are usually the most dangerous mobs to fight, as they can quickly overwhelm a group. Also referred to as "BAF."
+                </def>
+                <def title="Broadcast" id="term-broadcast">
+                    A message that is sent to everyone in a region or zone.
+                </def>
+                <def title="BRT" id="term-brt">
+                    "Be Right There."
+                </def>
+                <def title="BT" id="term-bt">
+                    See <a anchor="term-bladeturn">Bladeturn</a>.
+                </def>
+                <def title="BTW" id="term-btw">
+                    "By the Way."
+                </def>
+                <def title="Bubble" id="term-bubble">
+                    <p>This can be used to describe two things:</p>
+                    <list>
+                        <li>Refers to the 10 circles that indicate XP and RP gains in the user interface. A single bubble connotes a tenth (1/10) of the progress to your next level or rank. When someone says that they only have "one bubble" to go to 11th level or RR4, that is what they mean.
+                        </li>
+                        <li>Another way of referring to the <a name="term-bladeturn">Bladeturn</a> spell, due to its visual effect when cast in-game.</li>
+                    </list>
+                </def>
+                <def title="Buff" id="term-buff">
+                    Refers to casting or using skill or ability enhancing spells or items on someone to increase their various stats. Also referred to as "buffing."
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="C" id="terms-c" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!-- Confusion -->
+                <!-- Charm -->
+                <!-- Center Keep / CK -->
+                <!-- Crafting -->
+                <!-- crit -->
+                <!-- critical hit -->
+                <!-- chat group -->
+                <!-- cone -->
+                <!-- Clothworking -->
+                <!-- Chain pull -->
+                <!-- CM/Consignment Merchant -->
+                <!-- Copper -->
+                <!--  -->
+
+
+            <deflist>
+                <def title="Camp" id="term-camp">
+                    <!-- Rewrite -->
+                    1. Refers to the practice of sitting at a spawn point and waiting for monsters to regenerate and then picking them off as they appear. Also, A place where a group stays together and have a puller go out and look for mobs to bring back to camp. Usually, camps are set up in safe-spots. 2. Waiting for event. 3. End playing session
+                </def>
+                <def title="Caster" id="term-caster">
+                    <!-- Rewrite -->
+                    One who casts magic spells.
+                </def>
+                <def title="CC" id="term-cc">
+                    <!-- Rewrite -->
+                </def>
+                <def title="Crack" id="term-crack">
+                    <!-- Rewrite -->
+                    Taken from Everquest,this term used to describe a type of spell that increases mana (power) regeneration. Also commonly referred to as "crack" because of the fact that you always want it after your character has received its effects for the 1st time.
+                </def>
+                <def title="Con" id="term-con">
+                    <!-- Rewrite -->
+                </def>
+                <def title="Consider" id="term-consider">
+                    <!-- Rewrite -->
+                    Taken from Everquest, this is the color level of the Mob when you click on it. Depending on it's "con" or color tells you whether you would get exp or get killed.
+                </def>
+                <def title="Crowd Control" id="term-crowd-control">
+                    <!-- Rewrite -->
+                    Term used mostly by those who possess mesmerize spells. Used when more than 1 mob has been pulled and all but one has been mez'd so that the group can concentrate on a single mob, without interference from the other ones.
+                </def>
+                <def title="CSR" id="term-csr">
+                    <!-- Rewrite -->
+                    Customer Service Representative
+                </def>
+                <def title="Cya" id="term-cya">
+                    <!-- Rewrite -->
+                    See you. Goodbye.
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="D" id="terms-d" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!-- Death/dying -->
+                <!-- DPS -->
+                <!-- Damage shield -->
+                <!-- Damage add -->
+                <!-- Direct damage -->
+                <!-- Damage over time -->
+                <!-- Detaunt -->
+                <!-- Debuff -->
+                <!--  -->
+
+            <deflist>
+                <def title="DD" id="term-dd">
+                    See <a anchor="term-direct-damage">Direct Damage</a>.
+                </def>
+                <def title="Ding" id="term-ding">
+                    <!-- Rewrite -->
+                    Go up a level
+                </def>
+                <def title="Direct Damage" id="term-direct-damage">
+                    <!-- Rewrite -->
+                    Mostly used by spell casters to describe that type of spell, as opposed to bolt (who have a visible ball of magic hurled at the enemy) or dots.
+                </def>
+                <def title="DoT" id="term-dot">
+                    <!-- Rewrite -->
+                    Damage over Time spell
+                </def>
+                <def title="Drain" id="term-drain">
+                    <!-- Rewrite -->
+                    Health transfer spell
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="E" id="terms-e" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!-- EvE -->
+                <!-- End -->
+                <!-- Encumbrance -->
+                <!-- Enc -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="End" id="term-end">
+                    <p id="def-"></p>
+                </def>
+                <def title="Endurance" id="term-endurance">
+                    <p id="def-"></p>
+                </def>
+                <def title="EXP" id="term-exp">
+                    <p id="def-"></p>
+                </def>
+                <def title="Experience Points" id="term-experience-points">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="F" id="terms-f" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!-- Frigg -->
+                <!-- Friend -->
+                <!-- Fletching -->
+                <!-- FG/Full Group -->
+                <!-- Fumble -->
+                <!--  -->
+                <!--  -->
+
+            •   Farming: Term used when a person or group stays in one place and repeatedly kills the same mob or set of mobs for specific items. This is a little more difficult in DAoC than EQ.
+            •   Fatigue: Less endurance
+            •   Fetch or Fetcher:Refers to a member of a group that 'fetches' or gets a monster to chase them to an ambush spot where the other members of the party are ready to attack it. Used to avoid being surrounded deep in hostile territory.
+            •   FM:Full Manaor Full Magic Power.
+            •   Focus:Spell enhancement
+            •   FYI:For Your Information.
+
+            <deflist>
+                <def title="Farming" id="term-farming">
+                    <p id="def-"></p>
+                </def>
+                <def title="Fatigue" id="term-fatigue">
+                    <p id="def-"></p>
+                </def>
+                <def title="FP" id="term-fp">
+                    <p id="def-"></p>
+                </def>
+                <def title="Focus" id="term-focus">
+                    <p id="def-"></p>
+                </def>
+                <def title="FYI" id="term-fyi">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="G" id="terms-g" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!-- GN/Good night -->
+                <!-- Gamemaster -->
+                <!-- Group -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   Gank: Beat up/defeat
+            •   GC:Guild Chat
+            •   Gimp: Cripple
+            •   GM:Game Master
+            •   Grape: Purple conned creature.
+            •   Gray:A term for a mob that is so low in level compared to you that you will get no experience or loot for killing it.
+            •   Green or Greenies: A term for a monster(s) that look easy when you click on it. The monster description comes in green text. You should be able to easily kill a green Mob.
+            •   Griefer: Troublemaker
+            •   GTG:Good To Go. Normally used to signal when you are ready to fight or move.
+            •   GTM:Green to me. Describes a consider of a monster (see green above).
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="H" id="terms-h" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!-- Heal -->
+                <!-- HoT -->
+                <!-- HP -->
+                <!-- Hits -->
+                <!-- Hit -->
+                <!--  -->
+                <!--  -->
+
+            •   Haste: Term used to describe a property of an item or weapon that grants faster speed of attack to the wielder. Such items remain to be seen in DAoC thus far.
+            •   Hibby:Hibernia.
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+
+            </deflist>
+        </chapter>
+
+        <chapter title="I" id="terms-i" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   IC:In Character.
+            •   IMHO:In My Humble Opinion.
+            •   IMO:In My Opinion.
+            •   Inc:Incoming. Shouted when a member of your group has lured a monster and is bringing it back to be killed.
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="J" id="terms-j" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   J/K:Just Kidding.
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="K" id="terms-k" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   K or kk:OK. Yeah it is pretty lazy to skip the O, but many people do it.
+            •   Kill stealing:The act of taking a kill from another player by attacking a creature they have already engaged and doing enough damage to get the experience and treasure. Also called KS'ing
+            •   Kite:The use of a combination of spells which allow the caster to immobilize target, DoT, then meditate or run while the target attempts to reach the caster.
+            •   KOS:Killed on Site. Refers to the welcome, or rather lack of welcome, some players get from NPC's of opposite factions.
+            •   KS'ing: See Kill Stealing.
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="L" id="terms-l" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   Lag: Slow Connection
+            •   Lamo: Stupid
+            •   LD:Linkdead. If a person is linkdead, they are still in the game, but cannot defend themselves do to lag or another computer error.
+            •   Leeching: Unwelcome help
+            •   Level up: Increase your character level.
+            •   LOL:Laughing out Loud (That was funny)
+            •   LOM:Low On Mana.The M stands for mana and means you are probably playing with a former EQ player. See LOP.
+            •   loot: The process of stripping a kill of all it's useful possessions.
+            •   LOP:The P is for power which is used in DAoC. See LOM.
+            •   LOS: Line Of Sight
+            •   Lowbies: What some high level characters call people under 20th level
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="M" id="terms-m" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   Mana: Casting power
+            •   Med:Meditate. If a magic user says he has to Med it means he is low on power and has to regenerate it by sitting down.
+            •   Meleer: One who hits for damage, melees
+            •   Mez:Mesmerize.Term used to describe the action of mesmerizing a mob. Mostly used by those who possess this type of spell.
+            •   Middy:Midgard
+            •   MOB:Mobile Object. Basically, any computer controlled creature which moves, which describes most EQ monsters.
+            •   MT:Empty or Main Tank. 1. Used in EQ when a mob had no loot on it's corpse. 2. Used mostly in high-end situations where a large number of people are required to defeat 1 mob, a designated "main tank" is used to take all the damage and keep the mob on him. Thus, healers can concentrate healing 1 person.
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="N" id="terms-n" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   Nerf: Programmed to be less affective.
+            •   Newbie:Anyone new to the game, and thus unfamiliar with the rules. Also refers to low level characters.
+            •   Newbie Garden/Zone:Area with low level monsters.
+            •   NP:No Problem. It is usually used after someone gets thanked.
+            •   NPC:Non Player Character. Any character that can be interacted with that is handled by the computer or even a GM rather than another player.
+            •   Nuke:The process of unleashing the most powerful spells everyone has as fast as you can.
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="O" id="terms-o" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   OHW:On His/Her Way.Used to let someone know that he or she is on the way to meet them.
+            •   OMFG:Oh My Fu**ing God/GawdOh no. (really Oh no!)
+            •   OMG:Oh My God/Gawd(usually depends on religous preference) Oh no!
+            •   OMW:On my Way. This is to let someone know you are coming to meet them.
+            •   OOC:Out Of Character. Used when talking on a chat channel from the player's perspective, as opposed to the character you incarnate in the game (as opposed to Roleplaying).
+            •   OOE: Out Of Endurance. See OOS.
+            •   OOM:Out of Mana. The M stands for mana and means you are probably playing with a former EQ player. Being out of mana/power means the inability to cast any more spells.
+            •   OOP:Out of Power. See OOM.
+            •   OOR:Out Of Range.Used when someone is trying to do an action (most often healing) and the recipient or other player involved is too far away.
+            •   OOS:Out Of Stamina.Used mostly by meleers and those that use styles. In DAoC, the term stamina is replaced by Endurance. You will most likely hear OOE instead.
+            •   OOT:Out of Time.
+            •   OOW:On Our Way.Used to let someone know you and more are coming to meet them.
+            •   OTW:On The Way.
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="P" id="terms-p" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            •   Pet: A creature summoned or charmed by one of the summoning/charming magic classes who will obey and fight for him.
+            •   PC:Player CharacterorPrice Check.
+            •   PH:Placeholder. The creature that spawns in place of the creature you really want to kill.
+            •   PK:Player Kill. The act of attacking players from another Realm.
+            •   PoM:Purity Of Mind. Spell (Midgard only)
+            •   Pop: Term describing that a mob has spawned near-by. Used mostly to alert the group that there might be an add to deal with soon.
+            •   Powerleveling: Tanking or healing a lower level friend while he gets the experience.
+            •   Pray:/pray at a gravestone to get back lost experience from a death.
+            •   Proc:Process. Used to describe a weapon that has an effect that activates (randomly) while you fight. None have been found or reported thus far in DAoC, and applies mostly to rogue poisoned weapons for the moment.
+            •   Pull:Same thing as baiting: bringing a MOB to a more defensible position so your party can beat the snot out of it in relative safety. People that do this are called "Pullers"
+            •   Purple: Term for a Mob that is many levels higher than you. When you click on it the text is purple. Attacking a purple Mob is usually instant death.
+            •   PVE:Player Versus Environment.
+            •   PVP:Player versus Player. Those who choose to be plus PVP can attack and be attacked by other players. A plus PVP player can's be healed or aided by non PVP players.
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="Q" id="terms-q" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="Quest" id="term-quest">
+                    <p id="def-quest">
+
+                    </p>
+                </def>
+                <def title="Quest Item" id="term-quest-item">
+                    <p id="def-quest-item">
+                        Rare item. An item that can only be aquired throught the fulfillment of a quest/task.
+                    </p>
+                </def>
+                <def title="Quest Reward" id="term-quest-reward">
+                    <p id="def-quest-reward">
+
+                    </p>
+                </def>
+                <def title="Quit" id="term-quit">
+                    <p id="def-quit">
+
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="R" id="terms-r" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="R" id="term-r">
+                    <p id="def-r">
+                        Ready. Signals readiness to attack or move on.
+                    </p>
+                </def>
+                <def title="Realm Points" id="term-realm-points">
+                    <p id="def-realm-points">
+                        In-game "scoring" points. Finishing quests, or participating in the capture or defense of a relic will earn Realm Points.
+                    </p>
+                </def>
+                <def title="Red" id="term-red">
+                    <p id="def-red">
+                        Term for a monster that is several levels higher than you. When you click on it the text is in red. These Mobs need a group to kill.
+                    </p>
+                </def>
+                <def title="Release" id="term-release">
+                    <p id="def-release">
+                        Return to life. If you type /release you will return to your bind stone with full res sickness and an extra 5% experience and constitution loss.
+                    </p>
+                </def>
+                <def title="Resurrect" id="term-resurrect">
+                    <p id="def-resurrect">
+                        Term used to describe the action of resurrecting someone by magic. You are returned to life where you died, with less experience loss and constitution loss than if you simply released yourself.
+                    </p>
+                </def>
+                <def title="Rez Sickness" id="term-rez-sickness">
+                    <p id="def-rez-sickness">
+                        Temporarily lowered stats. This is from getting a rez.
+                    </p>
+                </def>
+                <def title="Rest" id="term-rest">
+                    <p id="def-rest">
+                        To sit, med, to bring stats back up. ie-power and endurance.
+                    </p>
+                </def>
+                <def title="RL" id="term-rl">
+                    <p id="def-rl">
+                        Used mostly in OOC conversations that have reference to real life. Also referred to as IRL (In Real Life). Occassionally referred to as RW: real world.
+                    </p>
+                </def>
+                <def title="Roamer" id="term-roamer">
+                    <p id="def-roamer">
+                        Used to describe mobs that have a patrol route and move around. These are the most prone to become "adds". Also referred to as wanderers.
+                    </p>
+                </def>
+                <def title="ROFL" id="term-rofl">
+                    <p id="def-rofl">
+                        Rolling on the floor laughing(That was really funny)
+                    </p>
+                </def>
+                <def title="ROFLMAO" id="term-roflmao">
+                    <p id="def-roflmao">
+                        Rolling on the Floor Laughing My Ass Off (That was simply hilarious)
+                    </p>
+                </def>
+                <def title="RP" id="term-rp">
+                    <p id="def-rp">
+                        /roleplay or roleplaying.
+                    </p>
+                </def>
+                <def title="Root" id="term-root">
+                    <p id="def-root">
+                        Root is a spell type which keeps a person or monster from moving.
+                    </p>
+                </def>
+                <def title="RvR" id="term-rvr">
+                    <p id="def-rvr">
+                        Realm Versus Realm.
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="S" id="terms-s" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="Snare" id="term-snare">
+                    <p id="def-snare">
+                        Slow spell
+                    </p>
+                </def>
+                <def title="Term1" id="term-social">
+                    <p id="def-social">
+                        Creatures that defend each other.
+                    </p>
+                </def>
+                <def title="Spam" id="term-spam">
+                    <p id="def-spam">
+                        sending the same message over and over again rapidly much to the displeasure of everyone else. Very annoying.
+                    </p>
+                </def>
+                <def title="Spawn" id="term-spawn">
+                    <p id="def-spawn">
+                        Creature creation. Where a creature pops into existence, it is said to have spawned.
+                    </p>
+                </def>
+                <def title="Spec" id="term-spec">
+                    <p id="def-spec">
+
+                    </p>
+                </def>
+                <def title="Specialization" id="term-specialization">
+                    <p id="def-specialization">
+
+                    </p>
+                </def>
+                <def title="SS" id="term-ss">
+                    <p id="def-ss">
+                        Safe-spot or Screenshot. 1. Used when describing a place where no mobs spawn or roam near. You'll want to look for those to set up camp, few as they are in DAoC. 2. Used when talking about taking a screenshot.
+                    </p>
+                </def>
+                <def title="Static Mob" id="term-static-mob">
+                    <p id="def-static-mob">
+                        The opposite of roamers. Describes mobs that stay in place until they are pulled or otherwise agro'd.
+                    </p>
+                </def>
+                <def title="Stun" id="term-stun">
+                    <p id="def-stun">
+                        Immobilze momentarily.
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="T" id="terms-t" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="Tank" id="term-tank">
+                    <p id="def-tank">
+                        Refers to one person in a group that usually takes the brunt of an attack from a MOB while the others in the group attack with spells or from different angles. Usually the group member with the highest AC and melee skills.
+                    </p>
+                </def>
+                <def title="Taunt" id="term-taunt">
+                    <p id="def-taunt">
+
+                    </p>
+                </def>
+                <def title="Toon" id="term-toon">
+                    <p id="def-toon">
+                        Term used to describe your character/avatar.
+                    </p>
+                </def>
+                <def title="Train" id="term-train">
+                    <p id="def-train">
+                        Anyone running and followed by one or more bad guys has created a train. If you find yourself in the way, you could very well be attacked and die.
+                    </p>
+                </def>
+                <def title="TTFN" id="term-ttfn">
+                    <p id="def-ttfn">
+                        Ta Ta For Now. Casual good bye
+                    </p>
+                </def>
+                <def title="Twinking" id="term-twinking">
+                    <p id="def-twinking">
+                        The process of giving decent items from your high level character to your new character, thus puffing him up far beyond the abilities he should have. This is difficult to do in DAoC.
+                    </p>
+                </def>
+                <def title="Term1" id="term-ty">
+                    <p id="def-ty">
+                        Thank You
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="U" id="terms-u" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="V" id="terms-v" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-">
+
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="W" id="terms-w" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="WB" id="term-wb">
+                    <p id="def-wb">
+                        Welcome Back
+                    </p>
+                </def>
+                <def title="Woot" id="term-woot">
+                    <p id="def-woot">
+                        Woohoo, great or congratulations.
+                    </p>
+                </def>
+                <def title="WTB" id="term-wtb">
+                    <p id="def-wtb">
+                        Want To Buy.
+                    </p>
+                </def>
+                <def title="WTF" id="term-wtf">
+                    <p id="def-wtf">
+                        What the fu**. No more need be said about this.
+                    </p>
+                </def>
+                <def title="WTT" id="term-wtt">
+                    <p id="def-wtt">
+                        Want To Trade.
+                    </p>
+                </def>
+                <def title="WTS" id="term-wts">
+                    <p id="def-wts">
+                        Want To Sell.
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="X" id="terms-x" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="XP" id="term-xp">
+                    <p id="def-xp">
+                        Experience Points. Also EP or EXP
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="Y" id="terms-y" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="Yellow" id="term-yellow">
+                    <p id="def-yellow">
+                        Term for a monster that is the same level as you are. When you click on it, the description is in yellow. Yellow Mobs are questionable to solo, but fairly easy in a group.
+                    </p>
+                </def>
+                <def title="YW" id="term-yw">
+                    <p id="def-yw">
+                        You're Welcome
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+
+        <chapter title="Z" id="terms-z" collapsible="true" default-state="expanded">
+
+            <!-- Additional Terms to Define -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <!--  -->
+
+            <deflist>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+                <def title="Term1" id="term-">
+                    <p id="def-"></p>
+                </def>
+            </deflist>
+        </chapter>
+
+        https://web.archive.org/web/20031205022407/http://camelot.allakhazam.com/Chat_Terms.html
+
+    </chapter>
+
+</topic>

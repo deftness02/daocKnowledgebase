@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.42" id="patch-v142">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.42</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    =======================
+
+
+    Dark Age of Camelot
+
+    Version 1.42 Release Notes
+
+    =======================
+
+
+
+    NEW CLASS ABILITIES
+
+    - Assassin classes can now receive the Climb ability, which lets the scale keep walls. You use this ability to infilrate into keeps before your Realm has broken down its doors. You will get Climb at your 25th train in the Stealth specialization. Once you have the Climb ability, you must walk around each keep until you find an area suitable to climb (there are a few per relic and frontier keep), and once you find the area, you may climb it as if it were a ladder.
+
+    - Berserkers now change into a Bear-Person (i.e. a Vendo) when they go into their Berserker Frenzy. The Frenzy ability itself has not changed - we've simply added shapechanging to it. You will continue to hold your weapons, but you will not see your armor (although you are still wearing it). Please note that there is only one bear-person form - male and female berserkers will shapeshift into the same creature.
+
+    - Hibernian Heroes have receieved a new ability - "Spirit of the Hunt". Whenever this ability is used, the Hero will shapeshift into a fearsome stag-headed Huntsman from Celtic Lore, and will receive bonus hit points. There are four different levels of of this ability: Initiate(15th level), Member(25th level), Leader(35th level), and Master(45th level). While in this form, the hero has increased hit points - +20% for the 15th level ability up to +50% for the 45th level ability. The ability lasts for thirty seconds - at the end of this time, the hero's maximum hits will return to normal, but he keeps any hit point gain from the ability in his current hits (but he cannot exceed his pre-buffed maximum). The ability can be used once every 30 minutes played. Please note that there is only one Huntsman creature - male and female Heroes will both shapeshift into the same creature.
+
+    - Mercenaries get a new ability called "Dirty Tricks". This essentially throws a puff of dirt into their enemy's eyes (use while enemy is targeted). The effect lasts for 30 seconds and while the monster is under the ability's influence, they will miss you 25% more often and when they missed their fumble rate is 50% more often than their base fumble rate. This ability operates as a shout-type spell, so it has a chance to be resisted by higher-level players and monsters. You can use it once every half hour. In a related event, monsters now have a chance to fumble while this effect is on them (Monsters didn't fumble in previous versions at all).
+
+    - Blademasters get a new ability called "Triple Wield" where they summon a magical sword that adds damage to their attacks. This sword will enable you to do 50% more damage (i.e. via a Damage Add spell) for 30 seconds (assuming you hit your target, of course). This ability also can be used once every 30 minutes.
+
+
+    OTHER NEW THINGS AND BUG FIXES
+
+    - Graphical weapon effects are in the game now, so you'll see flaming swords, ice swords, etc. Please note that your current weapon *may* have an effect on it, as we chose to imbue many of the 43-and-higher weapons with effects. We will be adding graphically-enhanced weapons on an on-going basis.
+
+    - A bunch of new monster skins have been added into the game, and a few new models. See the world notes for updates to the monster population.
+
+    - We fixed a guild chat bug - now, when you quit a guild, you will no longer receive guild chat messages from it.
+
+    - A bug where following monsters got separated from their leader that caused them to warp erratically has been fixed.
+
+    - Monsters following leaders will no longer stop and face you when you interact with them.
+
+    - Guild Realm points will now be tracked much more effectively. Your Guild should no longer "lose" guild realm points randomly.
+
+    - When you are stealthed, and are attacked, you will now come out of hiding for everyone. Previously under certain circumstances, you'd be visible to some character in the area, but not others.
+
+    - You can no longer upgrade keep doors unless you have the proper amount of wood.
+
+    - Keep door material types (i.e. level of wood) will now be saved when a server reboots.
+
+    - Destroying a keep door will now reset it down to the lowest level of wood - you'll then have to upgrade it from there.
+
+    - Critical failures in weapon crafting will now cost less materials - you'll lose less when you fail.
+
+    - You can no longer cast instant-cast spells (i.e. shouts) when you are mesmerized.
+
+    - In Player vs. Player situations, all "sleep" type spells (mesmerize, stun, root) now can be cast only once per minute per target. This should alleviate some player concerns about being "chain-stunned". You can still cast the spell as normal, however, it will have no effect on a player if he has had that same effect on him in the previous minute. Please note that this change effects only PvP combat - other players and realm-flagged monsters (i.e. guards). Sleep spells cast at normal monsters will act the way they always have.
+
+    - Leaders of guard patrols can no longer be "directed" around by players.
+
+    - Bounty Points and Bounty Stores are now in. See the section on Bounty Points and Stores below.
+
+
+    BOUNTY POINTS AND STORES
+
+    Bounty points and stores have been added to Dark Age of Camelot. It works as follows: as you accrue Realm Points, you now accrue Bounty Points, which you can spend in special stores to get special magical items. Once you spend bounty points, they go away just like money does. There are three types: healing, stamina , and spell power healing. There are a few levels of these, please see the list below. Please note that will will add more bounty store objects over time.
+
+    You can find the Bounty stores in each Realm's main city. See the World notes for the precise store locations.
+
+    You may have a maximum number of bounty items based on your realm rank - i.e. one per Realm Rang. To use a bounty item, the item must be your level or lower - otherwise the item will not work for you.
+
+    To use the item, place it somewhere in your inventory (they do not have to be equipped). Then left click on the item to make a short cut to the item on your hot bar. After this to use simply click on the hot-bar icon. At that point the items spell will be cast and it will disappear. One bounty item may be used every 3 minutes of real time - you can use it while fighting, but you'll have to exit out of combat mode and wait for your weapon timer to expire to do so (usually just a few seconds). Then click the item to "fire" its effect and re-enter combat.
+
+    Higher level objects have more healing power than lower level ones.
+
+    The cost is as follows:
+    level 20 - 100 bounty points
+    level 30 - 200 bounty points
+    level 40 - 300 bounty points
+    level 50 - 400 bounty points
+
+    Albion
+
+    Stamina Heals
+    Smooth Earthen Stone - level 20 stamina
+    Imbued Earthen Stone - level 30 stamina
+    Luminescent Earthen Stone - level 40 stamina
+    Pulsing Earthen Stone - level 50 stamina
+
+    Health Heals
+    Smooth Watery Stone - level 20 healing
+    Imbued Watery Stone - level 30 healing
+    Luminescent Watery Stone - level 40 healing
+    Pulsing Watery Stone - level 50 healing
+
+    Power Heals
+    Smooth Fiery Stone - level 20 power
+    Imbued Fiery Stone - level 30 power
+    Luminescent Fiery Stone - level 40 power
+    Pulsing Fiery Stone - level 50 power
+
+    Midgard
+
+    Stamina Heals
+    Carved Totem of Heimdal - level 20 stamina
+    Polished Totem of Heimdal - level 30 stamina
+    Embossed Totem of Heimdal - level 40 stamina
+    Encrusted Totem of Heimdal - level 50 stamina
+
+    Health Heals
+    Carved totem of Eir - level 20 healing
+    Polished Totem of Eir - level 30 healing
+    Embossed Totem of Eir - level 40 healing
+    Encrusted Totem of Eir - level 50 healing
+
+    Power Heals
+    Carved Totem of Odin - level 20 power
+    Polished Totem of Odin - level 30 power
+    Embossed Totem of Odin - level 40 power
+    Encrusted Totem of Odin - level 50 power
+
+    Hibernia
+
+    Stamina Heals
+    Tiny Crystal of Arduina - level 20 stamina
+    Small Crystal of Arduina - level 30 stamina
+    Crystal of Arduina - level 40 stamina
+    Precious Crystal of Arduina - level 50 stamina
+
+    Health Heals
+    Tiny Crystal of Dianecht - level 20 healing
+    Small Crystal of Dianecht - level 30 healing
+    Crystal of Dianecht - level 40 healing
+    Precious Crystal of Dianecht - level 50 healing
+
+    Power Heals
+    Tiny Crystal of Fintan - level 20 power
+    Small Crystal of Fintan - level 30 power
+    Crystal of Fintan - level 40 power
+    Precious Crystal of Fintan - level 50 power
+
+
+    WORLD NOTES
+
+    Midgard Quests
+
+    Quest – Brack - Rollo’s Story: Players are now instructed to return to their trainer in Jordheim, not in Mularn and Haggerfel. Also, Hunters can now complete the quest by speaking to Singrid in Jordheim.
+
+    Quest – Bowyer’s Draw: Players will now only need to right-click on Hakon in Huginfell to complete the quest if your quest journal says ‘Talk to Hakon to see if he's finish crafting the bow.’
+
+    Quest – Sveawolf Guardian: The wounded sveawolf will now spawn neutral instead of aggressive.
+
+    Quest – Cape of the mother wolf: Shadowblades may now do this quest. Speak to Sveck in East Svealand for details.
+
+    Quest – Rogue Trainer Quest: Hauk will now reward rogues with experience in addition to money when they complete the Rogue Trainer quest.
+
+    Quest – Venture to Gotar: This quest will no longer give out experience, only money. This quest was initially put in to compensate players facing the dangers of travelling from Galplen to Fort Atla at low levels (only vikings and seers that started in Galplen got this quest). With the addition of horses, traveling is safer and we felt it was no longer necessary to reward experience for this quest. Players will still receive 5 silver to compensate them for the cost of a horse ride.
+
+    Quest – Hole of the Dead: Dwarves who have lost or dropped their house gift will now be able to get a new one (ONLY ONE!) from Frimeth in Vasudheim. Return to him and he will give you a new one, provided you have not killed any dwarf bone skeletons. Dwarves just starting the quest will be asked if they need a new house gift. Please do not lose the gift Frimeth gives you, because he will only give you one.
+
+    Quest – Spat the Cat: Players that killed Spat, didn’t receive the object, and were stepped to a blank step will now see a journal entry for that step. Kill Spat again and you will receive the object and be placed on the correct step. Players already on step 3 will now receive the object from Spat when they kill him.
+
+    Misc Midgard World Items:
+
+    - Ulfgar for the Price of Excellence quest should be showing up more.
+
+    - Baron Falwur is now associated with a quest rather than a one-time drop. Speak to Darrius in Fort Atla.
+
+    - The Gythja of Bragi in Jordheim will no longer tell warriors to give her the Stormrider’s Hauberk if they already have the War Gauntlets in their inventory.
+
+    - Object – Ring of the Stealthy. The Ring of the Stealthy no longer has a material type of cloth.
+
+    - Level 40 guild track rewards are now ‘no sell’.
+
+    - Shields have been added as a choice for all level 40 guild track quests. A large shield had been added for warriors, a medium shield for thanes, a small shield for skalds, berserkers, shadowblades and hunters, and a different small shield for shamans and healers. If you wish you exchange your weapon for a shield, speak to Mildrid in Haggerfel. Players may only exchange their weapon for a shield once!
+
+    - The boundary of Vasudheim has been adjusted so that all the buildings are included in the region.
+
+
+    Albion Quests
+
+    Quest: Hidden Insurrection: A left-handed crushing weapon for Mercenaries, a left-handed thrusting weapon for Mercenaries and Infiltrators, and a left-handed thrusting weapon for Infiltrators has been added to the list of rewards for this quest. Mercenaries and Infiltrators who have completed this quest can return to Captain Rhodri at the Snowdonia border keep to obtain a one time swap of their quest item.
+
+    Quest: Departed Fellowship: A Hammer with Enhancement properties for Clerics has been added to the list of rewards for this quest. Cleric who have completed this quest can visit their trainers in Camelot to obtain a one time swap of their quest item.
+
+    Quest: Departed Fellowship: A two-handed crushing weapon, and two-handed thrusting weapon for Paladins has been added to the list of rewards for this quest. Paladins who chose the Greatsword of Eternal Virtue can visit their trainers in Camelot to obtain a one time swap of their quest item.
+
+    Quest: Craft of Retribution: A two-handed crushing weapon, two-handed thrusting weapon, crushing polearm, and thrusting polearm for Armsmen has been added to the list of reward for this quest. Armsmen who chose the Great Axe of Retribution or the Bardiche of Retribution can visit Captain Leri at the Snowdonia border keep to obtain a one time swap of their quest item.
+
+    Quest: Bedelia's Grief: Players who were stuck at step 1 or 2 of this quest can now turn in Barnett's portrait as indicated in their journal to proceed.
+
+    Quest: The Walelden's Pendant: Fixed a keyword issue when players were interacting with Fianya. Please NOTE that players on this quest will now be dealing strictly with Eiddin.
+
+
+    Hibernia Quests
+
+    Quest: Sile’s Sight: Heroes can now do the Sile's Sight Quest.
+
+    Quest: The Feud: Casters who completed "The Feud" quest can turn in their staff to Lasrina for a class-specific staff. Non-casters who completed "The Feud" can turn their staff in for coin.
+
+    Quest: The Lost Townsfolk of Bran Llyr: Heroes that have completed the level 40 portion of their guild track and chose a shield can turn in their medium shield to Kimba in exchange for a large shield.
+
+
+    Midgard Monsters
+
+    Werewolves: We fixed a faction bug with many of the werewolves and wolfaur of Midgard, who were set to an incorrect faction. Be careful travelling, as all werewolves
+    should now be honoring the correct alliances, and previously safe travel may now be unsafe.
+
+    Dungeon Change, Varulvhamm: Some minor tweaks have been made to Varulvhamn, most of which affect the lunarian chamber. Soloing there may become more difficult.
+
+    - Frostbite wildlings, nip mephits, and snow imps have all taken on a more wintery appearance.
+
+    - Raumarik is being updated to contain more encounters for higher level players. Work on this zone is ongoing, so be on the lookout over the next couple of versions for new encounters.
+
+    - Be careful in areas that were once relatively empty and safe for travel, as they may now contain unfriendly inhabitants.
+
+    - Raumarik: New inhabitants have migrated to Raumarik. The ancient guardians of the area have become more tolerable to those that wish to help rid their once peaceful area of their bothersome neighbors. Even bounty hunters have been called in to exterminate some of the local wildlife.
+
+    - Added monsters for players level 40 - 50
+
+
+    Hibernia Monsters
+
+    - A bug was found with the path of the Unseelie Envoy and his escort. His escorts and stallions should no longer decide that the trip to the Bog is not worth their time and cross through Innis to return home. This group may now also show up during the day or night (previously, he only came out in the day).
+
+    - The cliff dwellers were previously seen gathering on the shores of Moher in a massive packs to witness a spectacle that seemed to baffled outsiders. Apparently, the spectacle has passed, and they will now continue along their daily routine.
+
+    - The giant ants found in various areas of Hibernia have lost their bright red luster.
+
+    - The giant lusus, an abomination of nature, was reported as looking even more bizarre than previous sightings.
+
+    - The Cursed Forest is undergoing an update to add more encounters for higher level players.
+
+    - Beware of new denizens stalking what once may have been safe areas. Changes to this zone are ongoing so be on the lookout for new additions over the next couple of versions.
+
+    - Cursed forest: Rangers are reporting that the Cursed Forest is stirring with more creature activity than before. It is advised that you do not explore the forest alone. Poachers have flocked to the area to take advantage of the more fertile hunting grounds. Powerful and dangerous forest scorpions have been spotted in certain areas as well. Fomorians have invaded the southern region of the Cursed Forest. Also, undead have been appearing in the northern expanses of the forest. (player levels 40-50)
+
+
+    Albion Monsters
+
+    - The Keltoi casters should no longer "chain" cast.
+
+    - Some changes are being made to Llyn Barfog. If you frequented that area, know that your same favorite creatures to hunt are still there, but they may have migrated to different areas. Expect to see more changes soon.
+
+    - Some of the more powerful cythraul are now called wicked cythraul
+
+    - Scholars have discovered that creatures in the lake called "afanc" are actually just afanc hatchlings. One of the scholars warns of the day when their mother will return.
+
+    - Boggarts, found in Pennine Mountains, have taken on a somewhat more sinister hue to their appearance.
+
+    - The bogmen of Avalon Marsh have learned to blend in better with their surrounding environment.
+
+    - Scouts have classified a new creature in Llyn Barfog that they call the diamondback toad. The amphibian is described as being large, fast, and has a very tough diamondlike skin that is hard to pierce. Fortunately, the animal appears to be content with its surroundings and does not appear bother other creatures.
+
+
+
+    SPELL SYSTEM NOTES
+
+    - All spells were gone through and ranges made consistent. No spell was reduced in range, but many were increased, in order to be consistent with spells from other casters, and in some cases with spells from other Realms. The following spells had their ranges increased: Shift Health, Reflect Attack, Inflict Minor Forgetfulness, Wake Senseless, Fungal Dispersion, Grasping Creepers, Fungal Covering, Minor Earthen Power, Minor Shield of Magma, Renew Spirit, Spirit Flow, Hugin's Affliction, Lesser Mind Jolt, Summon Fire, Minor Combustion, Minor Raven Bolt, Misleading Rapture, Minor Lullaby, Detect Flaw, Encourage Aggression, Convert Spirit, Persuade Will.
+
+    - Fixed bug with resistance debuff on Searing Wind line and Minor Raven Bolt. These should properly debuff resistance now.
+
+
+    Albion Stores
+
+    Bounty Stores-
+    Calldir Edelmar - Guild Hall, Camelot City
+    Freya Edelmar - Guild of Shadows, Camelot City
+    Maye Edelmar - The Academy, Camelot City
+    Dare Edelmar - Defenders of Albion, Camelot City
+    Aklee Edelmar - Church of Albion, Camelot City
+
+    Quilted Store
+    Sebil Lenut - Lethantis Association, Campacorentin Station
+
+    Staves:-
+    Brother Salvar - Defenders of Albion, Camelot City
+
+
+    Hibernia Stores:
+
+    Bounty Stores-
+    Kiley -- Located in the Way of Stealth advanced trainer's building
+    Antaine -- Located outsided the Way of Arms advanced trainer's building
+    Grainne -- Located in the Way of Nature advanced trainer's area
+    Ailson -- Located in the Way of Magic building
+    Aghaistin -- Located in the Palace
+
+
+    Midgard Stores:
+
+    Bounty Stores-
+    Royd – Aesir Temple
+    Elli – Jotun Temple
+    Tora – the Main Hall, with the guild registrar
+
+
+    OBJECT NOTES
+
+    - All magic item drop rates for dungeons were tuned down slightly, while all drop rates for surface magic items were tuned up slightly. Dungeon drop rates are still higher than surface drop rates overall.
+
+    - Some of Bri Lieth's denizens were itemized (level 10-20).
+
+    - The Cap of Mind Bending can now be dyed.
+
+    - Mantle of bear-like visage can now be dyed.
+
+    - The Singed Fellwood Shield had the class restrictions removed. Now only classes that can use large shields can equip it. It now raises Strength and Constitution instead of Piety.
+
+    - The Jewel Dusted Robe now raises the Mentalism skill instead of Mind.
+
+    - The Ancient Oak Longbow now raises the Longbow skill instead of bow.
+
+    - The Glowing Sherrie beads is now set with its correct level.
+
+    - The Rangers Charm should have its correct level now.
+
+    - The Encrusted Truesilver necklace should have its correct level now.
+
+    - The Eir Blessed Tunic now can take enamel dyes.
+
+    - The Reincarnated Femur War Maul now has a 2 handed hammer graphic.
+
+    - The Ebony Axe of Mindless Rage now raises Strength instead of Berserk.
+
+    - The Gauntlets of Black Death now raises Strength instead of Celtic Dual
+    Wield.
+
+    - Winter's Spears now "proc" for appropriate level Hunters.
+
+    - The "Spirit Threaded Cloak" (cabalist quest reward) now take emblems.
+
+    - The Riva hauberk (Midgard) can be dyed.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.57" id="patch-v157">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.57</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ===========================
+
+
+    Dark Age of Camelot
+
+    Version 1.57 Release Notes
+
+    Thursday, December 12, 2002
+
+    ===========================
+
+
+
+
+    SCHEDULING AND COOPERATIVE SERVER NOTE
+
+    With this version, Gaheris is live, and as such is being moved to the live patcher instead of the test patcher. There will be no character wipe.
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - On a Co-Op server, the realm skill respec should now grant the correct number of realm skill points.
+
+    - All armor/weapon dye colors should now be much closer to what they were in the Classic Client (SI Only)
+
+    - Performance Meter window should now save alpha value correctly between logging/zoning (SI & Classic)
+
+    - (Gaheris/CoOp only) "Select nearest enemy" key (default F8) should now only target monsters.
+
+    - (Gaheris/CoOp only) Name coloring of other players, NPCs, and Pets should now be correct.
+
+    - You can now use the "Ambient Music" setting in the character manager and in-game options menus to change the ambient music volume separate from the ambient effect volume.
+
+    - Savages had access to two versions of Purge and Ignore Pain. Savages who purchased both types of both abilities will have one stripped and the points refunded.
+
+    - Savages were not being awarded the Protect I skill, as they should have been. Savages will now be granted this ability at 15th level, and all current Savages level 15 or higher will automatically be given it.
+
+
+
+    NEW EMOTES
+
+    We're adding some more emote animations into this version. Please note that one of these is a replacement for the current "taunt" emote. When we put the original taunt emote in, we didn't foresee the problems people would have with it, and perhaps we should have. In hindsight it really doesn't fit the spirit of the game as well as the newer (and far funnier) taunt emote that is included in this version. We realize that some of you had no problem with the old taunt, but it just didn't "feel" right, so we are replacing it.
+
+    - Hug - self-explanatory.
+    - Charge - onward!
+    - No - shake your head.
+    - Yes - nod your head.
+    - Raise - raise your hand, as in volunteering or getting attention.
+    - Shrug - shrug your shoulders.
+    - Slap - slap someone.
+    - Slit - let your enemy know what you want to do to him.
+    - Surrender - I give up!
+
+
+
+    SPELL NOTES
+
+    - Animist turrets will no longer attack "gray" level monsters.
+
+    - Fixed delve info on support bombers (e.g. Healing Spirit and Spirit of Remedy in the Animist Verdant Path list).
+
+    - GTAE direct damage spells will now critical for list casters like their other spells. Wild Power affects this normally.
+
+    - Fixed a bug with GTAEs sometimes hitting twice.
+
+    - Decreased amount of exp taken by Animist controlled turrets (Forest's Servant, Grove's Assailant, and Battle Messenger lines).
+
+    - Lowered level of Animist spell Tangler Youngling in the Arborial Mastery list by one level to L21. It was overwriting the Spirit of Wrath DD spell.
+
+    - Put level caps on the Animist Battle Messenger summons in the Verdant Mastery list. Since their melee damage (their primary attack) scales up with level differently from all other turrets, this is a necessary balancing factor to keep low-specced Animists from using full power turrets.
+
+
+
+    CRAFTING NOTES
+
+    - Fixed the issue with the Ashen Primal Rune, and Ashen Rune in Midgard Spellcraft not showing up properly in the lists
+
+    - Enchantment Dusts: The magical dusts that are used in spellcrafting had incorrect prices, in some cases over 10x what they should have been. These prices have been fixed. NOTE: This change is retro-active and has lowered the value of existing dusts in inventories.
+
+
+
+    CLASSIC CAMELOT WORLD NOTES
+
+    Albion:
+
+    - The horse route from Castle Sauvage to Snowdonia Fortress has been shortened a bit.
+    - The horse route from Snowdonia Fortress to Castle Sauvage has been shortened a bit.
+
+    Marfach Caverns: The Ancient Black Oak in Marfach Caverns has granted the Black Lady new abilities to better defend herself against attackers who choose to flee combat and return upon healing themselves.
+
+
+    ITEM NOTES
+
+    - The reaver-specific diamond seal armor in Darkness Falls should now be available.
+
+    - All of the arrows and bolts in the game should now look like arrows and bolts in inventory and on the ground.
+
+    - Jailer Vifil, in Albion, should now drop loot each time he is killed.
+
+
+
+    SHROUDED ISLES WORLD NOTES
+
+    Midgard Quests: Players with the sword, the Claw of Ibicus, can turn the sword in to Ota Ylring in Aegierhamn for a hand-to-hand version of the Claw of Ibicus.
+
+    Hibernia Quests: Players with the lvl 14 item "Valewalker Reward" can turn the item in to Ailionora Parra in the Grove of Domnann for a Shadow Scythe.
+
+    Dungeon: Doden's Gruva: You can no longer send a pet at Aros the Spiritmaster in Doden's Gruva to distract him and run to the other side of the room. Some guards have decided to move closer to their leader.
+
+    Monsters: Midgard: Iarnwood: Unok is now the proper size and no longer smaller than the surrounding redcaps in the area.
+
+
+    Items
+
+    - The charges on the Morvalt Ring of the Ancients (Midgard) should now be useable.
+
+    - Dagar’s Light Crossbow is now Dagar’s Composite Bow (Midgard).
+
+    - The Wight-scarred Breastplate (Albion) can now be dyed.
+
+    - The non-merchant inhabitants of Altan Garran and Krrzck in Hibernia have been itemized.
+
+
+
+    COOPERATIVE SERVER WORLD NOTES
+
+    - We have increased the amount of Glowing Seals dropped at the frontier and relic keeps.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

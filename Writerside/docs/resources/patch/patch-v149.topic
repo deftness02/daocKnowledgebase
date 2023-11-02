@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.49" id="patch-v149">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.49</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    =====================
+
+
+    Dark Age of Camelot
+
+    Version 1.49 Release Notes
+
+    =====================
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - Groups now get more Realm Points when killing other players. A full group of 8 people gets a 100% bonus - 12.5% per person in the group.
+
+    - The range that Realm Points are awarded for group members has been doubled from 4000 to 8000 units.
+
+    - When forming a guild or purchasing/changing an emblem, the group leader's cash display is now updated properly.
+
+    - Guild promotion/demotion now shows immediately on the player's interface. Previously, it was not updated until the player logged off and back on.
+
+    - Changes to rank titles now show up in the listing.
+
+    - Monsters will no longer become "unrooted" when the character casting the root is healed by another player.
+
+    - You can now change your guild's emblem one time only. It costs 100 gold.
+
+    - Very long falls in a dungeon now result in a player's immediate death.
+
+    - You can now raise above 1000 in your tradeskills.
+
+    - You now see a message when using an item.
+
+    - You can no longer cast charm on other players.
+
+
+
+    CUSTOMER SERVICE REMINDER
+
+    A reminder from Customer Support about the possibility of XP loss in RvR combat: The new Darkness Falls dungeon is a place to hunt monsters where there is a significant chance that you will encounter enemy players. Remember that when you are injured by a monster and have not healed to 100% health before getting killed by an enemy in RvR, you will take XP loss just as if you were killed by the monster. This is not a bug, and Customer Support cannot help with any XP lost in this manner. Be careful out there and have fun!
+
+
+
+    SPELL SYSTEM CHANGES
+
+    We have gone through all spells and graphical spell effects to make them consistent and more easily identifiable. Please note that these changes are in appearance only - the actual effectiveness of the spells have not been changed, just their icons and graphics. Because of this, you will notice that the graphical effects and/or icons for your spells may have changed. We realize that this change will cause some confusion, but it's much more consistent than it was previously, and you'll be able to identify all spells on sight.
+
+    The spell effects have undergone the following general changes:
+
+    1) Some were split into components that can be more readily re-used without being realm-specific. (e.g. the angel wings and Norse runes)
+
+    2) Lists have been diversified to have fewer repeat effects within lines. Some casting classes that had a lot of the same effects repeated over and over should get much more variety.
+
+    3) Several older effects have received minor facelifts to look a bit more attractive and to be more easily discernable
+
+    4) A number of new effects were created to help with diversifying the spell lists as per #2
+
+    5) Sound sets have been re-assigned for many spells to something more appropriate than the previous sound assigned to it.
+
+
+    Spell functionality Changes
+
+    - In order to give the Shamans who specialize in cave magic a little more offensive power, we've increased damage on the Shaman Cave magic spell lines Fungal Dispersion and Fungal Pin lines by 20%.
+
+    - Increased range on Minstrel Compelling Cadence line.
+
+    - Warden spell line Nature's Revenge is now a shout. Ferocity of Nature is now a self buff instead of a chant. Fixed bug with Attack Unending; it is now a shout, and is no longer overwritten by Attack Unfading.
+
+    - Healer spells in the Guardian's Ward line and Wake Forgetful line should no longer overwrite each other.
+
+    - The Theurgist Refrigeration spell Snow Blast is now awarded at L12 instead of
+    13 (which is when Summon Ice Spirit is awarded).
+
+
+
+    DARKNESS FALLS
+
+    A new dungeon makes its debut in this version of Dark Age of Camelot: the subterranean land of the dead known as Darkness Falls. Populated by Demons, Imps, and other hellish creatures, Darkness Falls is an immense sprawling underground kingdom dominated by the arch-demon Legion.
+
+
+    Accessing Darkness Falls
+
+    Any character brave (or foolish) enough to want to explore Darkness Falls will have to find one of the portals that have been put in each Realm's home zone. Additionally, there are portals in each Realm's Relic Keeps. Please note that Darkness Falls is attuned to the power of each Realm - only those members of the Realm that hold more territory than the others are allowed entry. In order to activate your Realm's portal, your Realm must hold more frontier keeps (Outposts) than either of the other two Realms.
+
+    Please note that you can only use portals located in your Realm, not an enemy Realm.
+
+    In the dungeon there are several different exits that take you different places based on your realm.
+
+    Each realm has a wing in which they enter the dungeon, Near each entrance (a couple rooms away) is an exit that will take the 'home' realm to back to their home region, but will take 'enemies' to their portal keep in the opposing frontier. Thus, a Midgard player going through Albion's exit portal will end up in Hadrian's Wall in the Midgard portal keep, while an Albion player going through Albion's exit will end up near the dungeon entrance portal in Camelot Hills.
+
+    Darkness Falls has many sub-bosses in addition to Legion, the main boss of the dungeon. Each boss encounter has an exit portal nearby that takes each realm to their home zone.
+
+    Near the center of the dungeon (near the transition to the lower level) is a portal that takes each realm to their home zone.
+
+    When you are in Darkness Falls and another Realm takes control of the portals, you can stay in the underworld until you exit (via a portal) or /release on death. This means that while adventuring in Darkness Falls, please be aware that you will probably run into members of opposing Realms. RvR combat is fully supported in the underworld, so beware. When portal control changes from one Realm to another, those members of the original Realm that had control are still able to adventure throughout Darkness Falls, so long as they don't release on death. As long as they are resurrected on death by a friendly healer-type that is with them, they can stay in Darkness Falls for as long as they want.
+
+
+
+    The Political Situation in Darkness Falls
+
+    The demons residing within Darkness Falls adhere to a strict structural hierarchy that is based on the power of the demon. The most powerful of the demons have titles and underlings who serve them. Of all the demons in the Darkness Falls, no group is physically weaker or smaller than the Picullus Imps. Because they are so small and weak, the larger, nastier demons take pleasure in harassing them or make them do menial labor. Like small fish that live in the sea, the Picullus Imps have learned to survive by gathering together around their siblings and relatives and hiding out as far away from the big demons as they can.
+
+    While they may be small and weak, the Picullus have learned to use their small size to their advantage, perfecting the art of sneaking and infiltrating. Since they are unable to fight back against the large demons physically, they have found other ways to extract their revenge…by stealing away anything and everything they can from the big demons. Fortunately for them, the demons never even think that the imps are clever enough (or brave enough) to try something so foolish as to raid the demons’ hordes.
+
+    The imps never use anything that they steal, and unfortunately for them, the one thing that they covet above all else is something they cannot get on their own. Each demon possesses a seal, a center of focus that is a part of the demon. There are different types of seals, which are determined by the power of the demons. The seals are shiny, and the shinier they are, the more they are desired by the imps. The unfortunate part is that they can only be obtained upon the death of a demon, something the imps are incapable of doing.
+
+    Unlike most demons, the imps do not dislike humanity. In fact, they tend to like just about anyone who won’t hurt them. The Picullus Imps have learned to obtain that which they covet by offering up their stolen goods to those who would kill the greater demons and bring back their seals. The different types of seals carry different value in the eyes of the imps, and the imps will barter for them like money. So by accumulating a lot of seals, one could potentially acquire many items of value.
+
+
+    Darkness Falls Loot System
+
+    Darkness Falls uses a different set of rules for the acquisition of loot. The common denizens of this dungeon drop magic items but they are not the ones you usually see. There are various types of jewel-like seals that can be found. You will likely find more of them on the powerful demons and lords.
+
+    There are imps that want the seals. The stealthy imps have stolen a lot of treasure from the demons and will offer it in return for the different types of magical seals. The imps could not steal the items from the powerful demons in the dungeon, and will gladly trade you their items for your seals.
+
+    When trading, seals are deducted from your inventory as you barter with the imps. Different imps want different magic seals so check with all of them. When you speak with the imp he will tell you what type of magical seal he wants. Any items from that imp will require the correct type of seal. There is a value next to each item in the store window, which is its cost in seals.
+
+    Note: this method allows for very even loot distribution in groups, but keep in mind you cannot unstack items, so be careful when you decide to stack them.
+
+
+
+    THROWN WEAPONS CHANGES
+
+    We've made a few changes that should make throwing weapons - for Midgard Warriors and Shadowblades - much more effective.
+
+    There are now 2 types of each thrown weapon. The cheapest type are called balanced knives/axes/hammers. They have a 30% range increase over the old thrown weapons, sell in stacks of 20, and stack up to 40 - and now cost much less than they used to.
+
+    The second version of the weapons - called "weighted" hammers/axes/knives - have a 60% range increase over the old thrown weapons. These cost more than the balanced version but are still cheaper than the old thrown weapons overall. The stores also now feature these weapons up to the Asterite level in material - we did this so the new throwing weapons could compete a little better with the huge variety of arrows and bolts.
+
+    Note: "balanced" throwing weapons still have a small range disadvantage over xbows, short bows (when using normal range arrows) and a large range disadvantage against regular archer bows (using normal range arrows or bolts). The weighted versions still have a small range disadvantage over xbows and short bows, and a large range disadvantage against archer bows when they use extra range arrows.
+
+
+
+    WORLD NOTES
+
+    - Rumor Mill NPCs: We've added more backstory and world-related information to the Rumor Mill NPCs in each realm (criers, barkeeps, and filidhs).
+
+    - Hibernian players can now get simple directions and descriptions for appropriate level dungeons. See a wandering Filidh for more details.
+
+
+    Albion World:
+
+    There were certain conditions where a some monsters in Keltoi dungeon would not respawn. Now they will respawn slowly under those conditions (as opposed to not at all).
+
+    Mootang should no longer be displayed as "the Mootang".
+
+    Lyonesse: The pygmy goblin sapper and bombardier were correctly set up as uncharmable, and now they are now properly displaying as uncharmable humanoids.
+
+    Basilisks and cockatrices will now have a stun-like ability. They were trying to use an ability that had no effect on players previously.
+
+    Golestandt's allies will heal less frequently.
+
+    Llyn Barfog: The bearded gorger, frenzied feeder and needletooth devourer population has risen in Llyn Barfog. These beasts are more ravenous than ever, sometimes swarming their prey.
+
+
+    Midgard World:
+
+    Vanern and Muspelheim: You will no longer need to be right on top of the Jotuns in Vanern or the Fire Giants in Muspelheim to hit them.
+
+    Vanern: Reduced the Hagbui’s defensive abilities and hit points to balance their improved spell powers and special abilities.
+
+    Vanern: Mokkurvalve’s shards will now be slightly aggressive.
+
+    Gotar: The crabs on the beaches should no longer be "too far away to attack" upon spawning.
+
+    Gjalpinulva's allies will heal less frequently.
+
+
+
+    Hibernia World:
+
+    Cuuldurach's allies will heal less frequently.
+
+    The monsters in Muire Tomb should now be correctly displaying their adjectives. "a mummy hag" vs. "mummy hag"
+
+
+    Quests:
+
+    Midgard: The level 43 to 50 guild track quests are now available to players that have completed the previous guild track quests. Please speak to your class trainer in the city of Jordheim and the surrounding towns for details.
+
+    Midgard: A new troll named Trustan has moved into Huginfell from Myrkwood. He fled in a hurry to due problems with the arachites, svartalfs, and werewolves and could use some help with a few problems he is still having. He and his friend Atzar know quite a bit about the three groups and are willing to share their information.
+
+
+    Albion: The level 43 to 50 guild track quests are now available to players that have completed the previous guild track quests. Please speak to your class trainer in the city of Camelot for details.
+
+    Albion: Although the rumors have been denied by some, it is said that Lieutenant Kuebler in Castle Sauvage is having trouble with the fellwoods of Forest Sauvage.
+
+    Albion: Sister Rhigwyn of the Church of Albion is looking for strong, brave citizens to assist her in recovering a lost artifact of the Church. She has been praying for assistance in the church in Camelot.
+
+    Albion: Master Kless of Cotswold Village is seeking someone to help the Academy with a problem it has encountered recently.
+
+
+    Hibernia: The level 43 to 50 guild track quests are now available to players that have completed the previous guild track quests. Please speak to your class trainer in the city of Tir na Nog for details.
+
+    Hibernia: Four low level quests have been added to Hibernia. These quests are for player levels 1 to 4 and give out experience and coin.
+
+    Hibernia: The unseelie court has plagued the natives of Hibernia for many years. Some feel it is in their best interest to remain impartial to them. Many try not to cross their path at all. Some even hope to ally themselves with the unseelie court, since they are such a great power. Few know the truth, or the reasons, the unseelie court remains in Hibernia. But players seeking to find knowledge would be wise to seek out their filidh, for some residents of Hibernia have taken it upon themselves to study the unseelie court; others have taken it upon themselves to help rid the land of the unseelie court, seeking assistance from more powerful adventurers; still others simply wish to share their knowledge of the unseelie court, for the small price of a favor.
+
+
+    RVR - Battlegrounds:
+
+    The central keep gates in Thidranki and Murdaigean have been reduced in strength. Additionally all Albion gates can now be upgraded in all Battlegrounds.
+
+
+    Realm v. Realm - Frontier Keeps:
+
+    Players can now speak a keyword as well as interact with gatekeepers at the frontier and relic keeps in order to enter and exit. Note that the keywords are now "Enter" or "Exit" as appropriate.
+
+
+    Frontier Changes
+
+    The frontier keep guards at the relic keeps have gone through an overhaul - most have been reassigned to stationary posts and greater numbers now man the keeps.
+
+    Arkavr Faste should no longer have a blank Albion guild banner when owned by other realms.
+
+    The guard patrols from the frontier keeps have returned to their old aggressive ways.
+
+
+
+    CRAFTING SYSTEM NOTES
+
+    Albion
+
+    - Changed Hand Axe Blade to Hand Axe Head
+
+    - Change War Axe Blade to War Axe Head
+
+
+    Midgard
+
+    - Changed War Cleaver and War Cleaver head skill to be in line with War Cleaver Haft skill
+
+    - Changed Torsion Cable leatherworking sub-skill to be correct minimum
+
+    - Removed the basic Blunt Arrows from being able to be picked in a consignment, again.
+
+    - Dwarven Short Sword hilt recipe icon now the correct icon
+
+    - Dwarven Great Sword blade recipe icon now the correct icon
+
+
+    Hibernia
+
+    - Changed Pick Hammer Haft skill to be in line with Pick Hammer and Pick Hammer Head
+
+    - Changed Torsion Cable leatherworking sub-skill to be correct minimum
+
+    - Fixed an issue with leatherworking being tagged as a sub-skill needed for the Sledge Hammer, Pick Hammer, and Hooked Spear
+
+    - Staff and Shod Staff recipe icons now the correct icons
+
+
+    Fletching
+
+    - Added Crossbows for Albion
+
+    - Added Instruments for Albion and Hibernia
+
+
+
+    OBJECT AND TREASURE NOTES
+
+    This version of Dark Age of Camelot has the guild track quests for characters level 43-50. The reward for completing these quests are class-specific armors and robes (depending on the class). Please note that there is not yet new art for these armors - they will use the standard armor "look" - but we will have the new armor art in the game by the next patch. Please remember that this armor that you get in version 1.49 will look different (and much better!) in the next patch.
+
+
+    - The Accursed Scroll in Albion and Hibernia is now working properly.
+
+    - The Maligned Summoners staff now focuses the proper skill.
+
+    - The Hibernian Diabolic Helm now has stat bonuses.
+
+    - The Warden Avernal Gloves had the bow skill increase changed.
+
+    - The Friar Atramentous Bile Gauntlets now increase staff skill instead of quarterstaff.
+
+    - The Demonic Turmoil Gauntlets are now friar only instead of cleric only.
+
+    - The Abysal helm for thanes has been changed and now increases sword and axe.
+
+    - Albion Cloth armors got a tweak and now increase more stats that are used more.
+
+    - The New damage spells associated with the item in Darkness Falls are getting toned down some.
+
+    - The Accursed Avernal Short Sword now increase Slash skill.
+
+    - Some of you may find your robes look different. We have started adding the new robes to the game for Friars and casters.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

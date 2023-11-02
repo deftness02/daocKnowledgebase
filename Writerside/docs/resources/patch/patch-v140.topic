@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.40" id="patch-v140">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.40</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ==========================
+
+
+    Dark Age of Camelot
+
+    Version 1.40 Release Notes
+
+    Thursday, January 3, 2002
+
+    ==========================
+
+
+
+    MAGIC SYSTEM UPDATE
+
+    - Spells from the Magician Aura of Turning line in the Way of the Moon list can now be cast on friendly realm mates - previously they could only be cast on yourself.
+
+    - The range on the Wizard's Explosive Blast line and the Eldritch's Lesser Null Squall AE Direct Damage have been slightly increased.
+
+    - New area-effect direct damage line in the Mentalist Illusions (light spec)list:
+    3 Deluge of Illusion
+    7 Flood of Illusion
+    13 Sea of Illusion
+    19 Rush of Illusion
+    26 Flux of Illusion
+    34 Inundation of Illusion
+    44 Cataclysm of Illusion
+
+    - New area-effect root line in the Druid's Nature specialization track:
+    4 Patch of Ivy
+    10 Patch of Vines
+    16 Patch of Tangleweed
+    22 Field of Ivy
+    29 Field of Vines
+    39 Field of Tangleweed
+    49 Expanse of Tangleweed
+
+    - New Constitution buff added to Naturalist's Nurture base track:
+    5 Oak's Stoutness
+    11 Oak's Stamina
+    15 Oak's Girth
+    24 Redwood's Stoutness
+    33 Redwood's Stamina
+    43 Redwood's Girth
+
+    - New group heal added to Druid's Regrowth spec track:
+    13 Healing Conflux
+    22 Renewing Conflux
+    34 Restoring Conflux
+    44 Reviving Conflux
+
+
+
+    WORLD NOTES
+
+    Midgard Quests:
+
+    Quest: Taldos' Amulet. Taldos will no longer disappear when you turn in the amulet to him, making it possible for more people to turn in objects to him. He will continue disappear with the morning light.
+
+    Quest: Blessed Enchantments: The one handed axe is now usable in the left hand slot.
+
+    Quest: Silent Death. Players that completed Silent Death, received a two handed axe, and turned it into Eindridi to get it repaired have been receiving one handed axes in return. Players may now go to Bork in Huginfell to exchange this one handed axe for their two handed one. All axe exchanges for this quest have been moved to Bork.
+
+    Quest: The Three Sisters. Spiritmasters that received a staff with a focus of runecarving may go to Anrid in Jordheim to exchange it for the correct staff.
+
+    Quest: The War Continues. The Shadowblade trainer Elin will now tell players to seek out Morlin Caan in Jordheim rather than Inaksha.
+
+    Quest: The Red Dagger. The journal entries for The Red Dagger are once again correct.
+
+    Quest: Blessed Enchantments. All ice giants are now dropping eyes for this quest.
+
+
+    Hibernia Quests:
+
+    Quest: Alastriona's Chest. Nightshades, Rangers, Heroes and Casters who have completed the Alastriona's Chest quest can turn in their Reinforced Skinner's Gloves to Alastriona for a new set of gloves usable by their class. Players must have completed the quest, and must turn in the old pair of gloves before receiving the new pair.
+
+    Players that complete the quest will get level-appropriate gloves.
+
+
+    Midgard Monsters:
+
+    - Stripe, Furf, and Thasior in Skona Ravine have better chances of spawning now. Some of these monsters do have placeholders that will need to be dispatched before they will appear.
+
+    - Local children around Mularn have been instructed to discontinue feeding leftovers to the vein spiderlings. As a result, the newer generation of vein spiderlings seems to have diminished in size.
+
+
+    Albion Monsters:
+
+    - Lyonesse: The cathedral of old has become overtaken with followers of Lord Arawn. Their thirst for death rivals that of the Arawnites. Travelers beware!
+
+    - The small skeletal centurions in Cornwall have been adjusted to act more appropriately for their level.
+
+    - Those familiar with Camelot Hills may notice that a few things have changed. The guardsmen don't seem too worried, though they did note an increase number of some creatures such as boulderlings, wild sows, bandits, and dragon ants.
+
+    - In the Salisbury Plains, Slythcur has been a busy mother, and some of her newer spawn have migrated across the road to make more room for themselves.
+
+    - The bandit camp in the hills behind West Downs seems to be having an increase of activity of late.
+
+    - The stone circles in the Salisbury Plains, frequented by pagan worshippers, have also shown signs of increased activity.
+
+    - Skeletal Centurions have taken command of the fallen roman tower on the banks of the Avon River.
+
+    - Sir Merin recently captured and interrogated one of the villainous tomb raiders that have been violating the burial mounds and barrows in Salisbury. From that interrogation, we've learned that the tomb raiders have become somewhat more organized. They seem to have also hired mercenaries from outside their organization to aid them in their grave robbing activities. These mercenaries apparently didn't come cheap and are considerably more seasoned than most raiders we've seen to date. Sir Merin came to the conclusion that the southeastern border of the Plains is somewhat more dangerous than it already was.
+
+
+    Hibernia Monsters:
+
+    - Miner Cucugar and his sheevra friends are also no longer hiding in trees in
+    silvermine.
+
+    - The Valley of Silvermine has seen some changes, including additional camps
+    of daemhons and spectres.
+
+    - The new Sentinel Champions in Innis Carthaig have made the Unseelie Envoy rather nervous. As a result, the Envoy and his escorts have chosen to take a more concealed route that makes a wide berth around the village.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

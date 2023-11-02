@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.63" id="patch-v163">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.63</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ===========================
+
+
+    Dark Age of Camelot
+
+    Version 1.63 Release Notes
+
+    ===========================
+
+
+
+    DARK AGE OF CAMELOT: FOUNDATIONS
+
+    With 1.63, Dark Age of Camelot: Foundations makes its debut. This is the optional housing expansion - you can download it if you wish. For more information about Foundations, go to www.camelotherald.com/housing/ where you'll find information about the expansion, including a user's guide, house descriptions, maps and other invaluable information.
+
+
+    Getting the Foundations Client
+
+    In order to install Foundations, you first must install the client. Here is a list of places where you can find the Foundations client:
+
+    - Download. It is approximately 55 megs. Go to www.camelotherald.com/housing for a list of download locations.
+
+    - From the CD included in the July issue of Computer Gaming World (SI Client Only).
+
+    - From the Dark Age of Camelot: Gold Edition (SI Client Only).
+
+    There are two different download options for Foundations: a Classic client version, and a Shrouded Isles version. Obviously, if you have Shrouded Isles, you must install the Foundations SI client, and vice versa.
+
+    Please note that the version of Foundations on the magazine CD and the Gold Edition CD will require about a 15mb patch when you first launch the game after installing. The magazine and Gold Edition CDs are for the SHROUDED ISLES CLIENT ONLY. If you have classic Camelot, you'll have to download the Foundations Classic client.
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - Added extended delve descriptions for all spells.
+
+    - Fixed a bug in delve where most '%' symbols weren't displaying properly.
+
+    - Fixed a bug where the sell value of Unique Items greatly decreased after zoning the first time after they were found.
+
+    - Fixed a bug with the /clock displaying the wrong times for noon and midnight.
+
+    - The Unique Object Generator focus staff drops should no longer be a "xxxxx Focus Staff" unless there is a focus bonus on the object. The generic name for the staves has been changed to "Invoker's Staff."
+
+    - We have expanded the /ignore command to filter out more messages from anyone on your ignore list. In addition to the text that it used to block, it will now block:
+
+    /yell
+    /yell
+    Chat Group
+    Guild Chat
+    Alliance Chat
+    Officer Chat
+    Emotes (/bow and /em )
+
+
+
+    CRAFTING NOTES
+
+    We've decided to remove some of the extra steps required in crafting items. The purpose of these changes is not to decrease the overall concept of time, or coin, that goes into these tradeskills, but to remove some of the extra possible frustration of the added layers that they create.
+
+    With this we have "flattened" Weaponcraft and most of Armorcraft. Flattening is the process in which we remove the extra steps needed to make a final recipe. Previous to this, if you wanted to make a weapon, you had to make two sub-components first, then combine them to make the final weapon. Now, you simply use the same amount of total materials that you would have making the sub-combines, and the same overall amount of time... but you fire off a single recipe. No more 100% quality hilts, just to get a 94% final weapon.
+
+    In Armorcraft, we've removed the need to create studs, wires, scales, and strapping (this also includes the various studded recipes in Albion Tailoring). We've replaced them with the best equivalent amount of raw materials, erring on the smaller side. This will cause the costs of the armors to change a minor amount, but nothing on a grand scale. And yes,
+    Armorcraft still requires Tailoring components. Please note that this change will cause a slight variance in the costs from what you are used to, but not by much.
+
+    Also, you will notice that most of the recipes in Weaponcraft, Armorcraft, Tailoring, and Fletching will now show you the level of the item that is created from said recipe, when you delve them. As we continue moving forward, we will continue trying to add more useful information to help the crafter do his job.
+
+    Other crafting notes
+
+    - Flattened the recipes for Weaponcraft and Armorcraft in all three realms, and Tailoring in Albion
+
+    - Added level values to most of the recipes in Weaponcraft, Armorcraft, Tailoring, and Fletching for all three realms.
+
+    - Added Woodworking recipes that allows for the ability to create smaller, or larger, versions of various pieces of furniture for housing.
+
+
+
+    CLASSIC CAMELOT WORLD NOTES
+
+    Classic/SI - Guild track quest rewards, except for the epic quest armors, have been upgraded to Shrouded Isles standards in bonus points, except in a few rare instances where the item was at or above the desired bonus point value already. No object was decreased in bonus points.
+
+    We have added guild bounty point merchants to coincide with the bounty merchants in the capital cities and expansion starting cities. The NPC names are as follows:
+
+    Camelot:
+    Torrence Edelmar
+    Elenya Edelmar
+    Luce Edelmar
+    Daniel Edelmar
+    Alexander Edelmar
+
+    TirNaNog:
+    Kindara
+    Ansdar
+    Gandralla
+    Aileithe
+    Agheth
+
+    Jordheim:
+    Torig
+    Elaran
+    Aglanar
+
+    Caer Gothwaite:
+    Samuel Kriston
+
+    The Grove of Domann:
+    Elkrin
+
+    Aegirhamn:
+    Ankha
+
+
+    Albion Quests
+
+    - Lady Nimue will now spawn in the following locations for the times listed below.
+
+    Avalon Marsh - NIGHT ONLY spawn.
+    Camp Forest - DAY ONLY spawn.
+    Snowdonia - DAY ONLY spawn.
+
+
+    Midgard Quests
+
+    - Thorgil's Daughter - The tomte Rygnol has been moved back to the Executioner's Room.
+
+    - Wisdom of Time: Gashir - The bug causing the Priestess of Gashir and her Elves to blink when players approach them has been fixed.
+
+
+    Albion Dungeon Notes
+
+    - Keltoi Fogou: Beven is no longer charmable.
+
+    Albion Monsters
+
+    - Hunter Kenwin and Guardian Aron at Campacorentin Station now give Kill Tasks.
+
+
+    Midgard Monsters
+
+    - Raumarik Revenant now has his damage table set correctly. He will also no longer heal himself when hitting a player wearing a breastplate dropped by Legion.
+
+
+    Hibernia Monsters
+
+    - Word has it that the Meruchas have been appearing more frequently by the water in Connacht.
+
+
+    Item Notes
+
+    - The Omni Bloodhide Robe (Albion) can now be dyed.
+
+    - The Omni Bloodhide Gloves and Omni Bloodhide Boots (Midgard) should now be named properly for the slot in which they equip.
+
+    - The 80% quality items intended for salvage purposes will now drop as 89% quality items.
+
+    - The Midgard small training shield now has the correct speed.
+
+    - Bonedancers can now equip the Vest of the Diabolic.
+
+    - The Obsidian Longsword (Midgard) can now be traded to other players.
+
+    - The Forked Mephit Tail (Hibernia) now increases blunt instead of crush.
+
+    - The Ebony Arms of the Corrupt (Albion) now increases energy resist in place of a duplicate body resist.
+
+    - The class restrictions on the Manaweave Ring (Albion) have been removed.
+
+    - Muryan tricksters in Albion should now be dropping level appropriate items.
+
+    - The Vindicator set of staves from Cursed Forest should now have particle effects.
+
+    - The Fallen Archer's Dagger (Albion) will no longer drop. It has been replaced with a new item, the Felled Archer's Dagger, that uses the proper model. The original version will remain as-is for players who already possess one.
+
+    - The Stoic Defender (Hibernia) can now be salvaged.
+
+    - Shadowhands Gloves (Albion) can now be dyed.
+
+    - The Hibernia version of the Gossamer Soultourn Sleeves will now salvage for a lower value. The salvage value was inadvertently set too high on this item.
+
+    - The following items that were spiritmaster and runemaster only are now set to allow bonedancers: Twisted Evil Emerald Scepter, Twisted Evil Ruby Scepter, Twisted Evil Sapphire Scepter, Twisted Evil Diamond Scepter, Snow Crystal Runecarver's Staff, Snow Crystal Summoner's Staff, Darkened Staff of Hoarfrost, Suppressor's Staff of Hoarfrost, Regal Lupine Staff, Royal Lupine Staff, Icebound Effluvium Staff of Runes, and Icebound Effluvium Staff of Summoning.
+
+    - The Prismatic Studded Gloves (Midgard) should now have the proper AF.
+
+    - The Ember Necklace (Midgard) should now be the proper level.
+
+    - The Elven Arrows and Barbed Elven Arrows (Albion) will now stack to 100.
+
+    - Skull-embossed Gauntlets (Albion) should now salvage.
+
+    - The Huntsman's Jerkin (Midgard) can be dyed with the appropriate dye type.
+
+    - Deathrune Robes (Albion) can be dyed with the appropriate dye type.
+
+    - All store-bought focus staves should now salvage.
+
+    - The rust colored dyepot is now called "rust colored cloth dye."
+
+    - The Brimstone Breastplate (Midgard) now has the proper magic bonus. Note that this change will not retroactively update for players who already possess this item. The change only affects future "drops" of this one-time drop item.
+
+    - The Mephit Wing (Hibernia) can now be equipped in the cloak slot.
+
+    - Robes of Regalia (Hibernia) can now be salvaged.
+
+    - The required level for the weapon rewards in Ancestral Secrets (Midgard), Lost Seeds (Hibernia), and Lost Stone of Arawn (Albion) has been lowered to level 48.
+
+    - Faded Sleeves (Albion) now look like studded armor instead of leather.
+
+    - The parthelonians in the frontiers should now drop only common loot and ROG magic loot, while the parthelonians in Cursed Forest should now only drop common loot and the handmade magic loot they've always had.
+
+
+
+
+
+
+    SHROUDED ISLES WORLD NOTES
+
+    Midgard Quests
+
+    - Gem of the Dwarven King - Players may now only use Longbeard's Necklace in the area where they locate the box containing the Gem of the Dwarven King. Players trying to use the necklace outside of that area will receive a message that they cannot use the necklace.
+
+
+    Midgard Dungeon Notes
+
+    - Trollheim: We have reenabled "Bring A Friend" inside this dungeon to pre-1.62 levels.
+
+
+    Monster Notes
+
+    - Dungeons and outdoors: Particle effect based monsters such as water elementals and blobs will now scale properly on the fly. Water elementals will grow during rainstorms and shrink when the storms have passed. Certain types of blobs that split in two when they suffer a particularly devastating attack will now properly change scale on the fly.
+
+    Albion
+
+    - Master Reginald the Rogue trainer in Caer Gothwaite is now a Saracen rather then an Avalonian
+
+
+    Items Notes
+
+    - The cold cervideth shroud (Hibernia) can now be equipped.
+
+    - Kvasir's Sword of Blight and Hjalmar's Thorned Bow (Midgard) can now be dyed with weapon enamels.
+
+    - The Robes of the Severed Soul (Albion) has been renamed to Vest of the Severed Soul.
+
+    - Tuscar's Runed Buckler (Midgard) now increases energy resist in place of a second heat resist entry.
+
+    - The Choker of Catlike Quickness (Hibernia) has been renamed to Choker of Catlike Acuity.
+
+    - Luso's Claws (Midgard) should now be set to the correct DPS.
+
+    - The Death Shroud (Hibernia) should now equip in the cloak slot.
+
+    - The Vest of the Gravewalker (Albion) now increases matter resist in place of a duplicate body resist entry.
+
+    - Steinvor's Sturdy Axe (Midgard) has a different particle effect that fits a little better than the previous one.
+
+    - Players should now be able to trade the gem rewards from the Malignant Creatures quest in Albion.
+
+    - Mammoth Lined Leggings (Midgard) can now be dyed.
+
+    - Weno'iak's Chain Leggings (Albion) now increase enhancements instead of augmentation.
+
+    - Weno'iak's Chain Mittens (Albion) will now increase stats correctly.
+
+    - The Vine Covered Scythe (Hibernia) had the haste proc replaced with a life tap proc.
+
+    - Ancient Brass Longsword - procs a minor vitality drain
+
+    - Ancient Brass Cudgel - indendiary pyre (fire DD)
+
+    - Ancient Brass Rapier - electrical DD
+
+    - Ancient Brass Pike - mana DD
+
+    - Ancient Brass Lochaber Axe - mana DD
+
+    - Ancient Brass Lucerne Hammer - mana DD
+
+    - Ancient Brass Battlehammer - fire DD
+
+    - Ancient Brass Two-Handed Sword - stamina heal
+
+    - Ancient Brass-Tipped Whip - damage shield
+
+    - Ancient Brass-Shod Staff - fire DD
+
+    - Ancient Brass-Shod Quarterstaff - minor vitality drain
+
+    - Ancient Brass Scythe - Protective Aura of Flame (damage shield)
+
+    - All weapons for the The Lost Seed quest in Hibernia have had procs added to them.
+
+    - Claidheamh falcata - Minor vitality drain
+
+    - Birrag Cuaille mace - Incindiary Pyre
+
+    - Cuinnsear dagger - void DD
+
+    - Ailm Darach spear - ice DD
+
+    - Bruais Creigeir shillelagh - Incindiary pyre
+
+    - Ard-Ennoilys sword - damage shield
+
+    - Corran scythe - dark DD
+
+    - Caorrunn Calbh staff - Fire DD
+
+    - Gneiss (Hibernia) should now drop 95% quality items. This will only apply to future drops after this patch. Any items from Gneiss before this patch will not retroactively update.
+
+    - The spell charge on the Ancient Spore Cluster's Cloak (Hibernia) has been changed from an endurance regen.
+
+    - The spell charges on the Olcasgean Root Drum, Olcasgean Root Lute, and Olcasgean Root Flute (Hibernia) has been changed so as not to interfere with any of the bard's music spells.
+
+    - The skelks in World's End will no longer drop small amounts of copper. Itemized as an "animal" this mob should not be dropping cash at all.
+
+    - The Insidious Samn's Eye (Hibernia) no longer has 2 separate cold resists listed.
+
+    - The Tab'fren series of staves in Albion have new models and particle effects.
+
+    - The Braided Ivy Staff (Hibernia) has a new model.
+
+    - The Cold's Touch Staff (Albion) now has a particle effect.
+
+    - The Guthlac Great Shield (Midgard) has a new model.
+
+
+    Cooperative Server Object Notes
+
+    - The Glowing Dreaded Seal now stacks to 10.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

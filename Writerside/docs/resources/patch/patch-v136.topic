@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.36" id="patch-v136">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.36</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    Factions - All Realms:
+    There was an faction error assigning positive faction gains to groups. All members of a group should now receive a positive faction hit, not just the player getting the killing blow. Those responsible for this mistake have been forced to sit inside with shades drawn on this beautiful fall day.
+
+    Dverge Faction (Midgard):
+    There was an error in repairing dverge faction - which has been addressed. It is now easier to raise dverge faction. Those who had previously raised their dverge faction should now be able to complete the quests involving the dverge.
+    Quest: Slevinï¿½s Powder (Hibernia)
+    layers on step two of Slevin's Powder should now be able to complete the step by following the journal entry instructions: Speak with Slevin about [Roane Maidens].
+    Quest: Widowerï¿½s Hunt (Midgard):
+    Players stuck at step 4 of Widower's Hunt can now return to Yver in Haggerfel and continue to the quest by right-clicking on him. Dreadkane Dwarfeater will now be easier to find.
+    BUG FIXES
+
+    We found and fixed a server problem that was plaguing communication (groups, who commands, guild chat, etc.) across zones on many different servers last night.We fixed some lingering group bugs that caused random players in the group window to become "grayed-out" randomly, even if they were in the same zone.
+    There was a weapon in Hibernia (the Pestilent Sickle) that had its quality inadvertently set far too high, resulting in the weapon hitting for max damage every time it hit an enemy. This has been fixed. The fixed weapon will now drop as loot, and all weapons in player's inventories have been converted to a more appropriate quality.
+    WORLD NOTES
+
+    Hibernia Quest: Anxious Healer:
+    A fix has gone in for players stuck on the Anxious Healer quest. This will fix the problems for players who have already turned in Lashold's Claw to Kimba but are still being told to turn in Lashold's Claw. Players at this step should go back to Kimba in Lough Gur and right click on her. They will then be able to continue on the quest.
+
+    <chapter title="" id="v136-">
+        <list id="v136-">
+            <li>
+                <p id="v136-"></p>
+            </li>
+            <li>
+                <p id="v136-"></p>
+            </li>
+            <li>
+                <p id="v136-"></p>
+            </li>
+            <li>
+                <p id="v136-"></p>
+            </li>
+        </list>
+    </chapter>
+
+
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.58" id="patch-v158">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.58</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    =========================
+
+
+    Dark Age of Camelot
+
+    Version 1.58 Release Notes
+
+    Tuesday, January 7, 2003
+
+    =========================
+
+
+
+    RESPEC NOTES
+
+    In order to give players the chance to respec at high levels, we've put in the ability to find objects in the world that will grant the player a realm ability or career specialization respec.
+
+    Because of their extreme power and high worth, these objects are currently found only on the dragons in each realm's mainland. On their death, Golestandt, Gjalpinulva, and Cuuldurach will now drop fifty Luminescent Stones. Half of these will be Full Career Skill respec stones, half Realm Skill respec stones. These stones can be traded or sold to other players as any other object in the game.
+
+    Luminescent stones can then be taken to special new type of NPC (listed below) and turned in to receive the associated Career or Realm respec.
+
+    Please note that after performing a respec, all choices made are your responsibility. Here are the respec NPCs, the objects they will take, and their respec abilities:
+
+    Camelot:
+    Ellette Redding - Luminescent Exerpise Stone – Career Skill Respec
+    Paiton Hazlett - Luminescent Exeregum Stone – Realm Skill Respec
+
+    Jordheim:
+    Tordis - Luminescent Exerpise Stone – Career Skill Respec
+    Haili - Luminescent Exeregum Stone – Realm Skill Respec
+
+    Tir na Nog:
+    Dywana - Luminescent Exerpise Stone – Career Skill Respec
+    Bretta - Luminescent Exeregum Stone – Realm Skill Respec
+
+
+
+    WINDOWED MODE NOTES
+
+    We're holding off on Windowed mode for the time being, while we address some technical and support issues. We'll keep you posted on when it will arrive.
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - NPCs that are charmed and have healing abilities now will generate more aggression.
+
+    - Necromancers can no longer control siege weapons in shade mode.
+
+    - You can now use left-axe styles on PVE and PVP servers if wielding Albion slashing or Hibernian blade weapons.
+
+    - Monsters will no longer accept stacked items as quest triggers.
+
+    - We fixed a bug where you could have a difficult time picking to select monster in dungeons or in front of objects.
+
+    - Damage adds are now clamped to be the maximum possible damage you could have done in a swing rather than the actual damage done (which was subject to randomness). This will allow those classes that have damage-adds but cannot spec in weapons (i.e. clerical classes) to once again be able to use damage-adds to help them solo monsters.
+
+    - When a player in a group casts an AE damage spell, it no longer puts everyone in the group into combat. This will mean that abilities such as Mystic Crystal Lore will now "work" the way they did previously.
+
+
+
+    LINE OF SIGHT FIXES
+
+    - Necromancers now must be visible to their controlled creatures to perform "pet cast" spells. This fixes the exploit where Necromancers could park their pets in keep towers and wander around outside, and have their pets cast at the Necromancer's target.
+
+    - Pets of classes such as the Enchanter, Animist, and Bonedancer (and any other class that can cast offensive spells) will not be able to cast spells on a target unless that target is visible to the pet. We expect this fix to take care of the LOS issues for Enchanter-type pets most of the time, but players still may run into situations where the spells are cast even though the pet cannot "see" its target. We will continue to work on this problem as needed.
+
+
+
+    PVP SERVER NOTES
+
+    We've analyzed the player numbers and level progression on Modred and Andred and are now making some changes calculated to bring up the population of the PvP servers. Based on our analysis, we've found that even though players get more experience from killing other players, they still level slower than on the live servers on average because they take more deaths (both PvE and PvP) than do players on the normal servers. In light of this, we're making the following changes:
+
+    - We've increased the experience gained by killing level 1 - 30 monsters.
+
+    - Experience for killing other players has been increased.
+
+    - on PVP servers there's now a 5 minute timer for no experience, realm points, or gold. This timer used to be 15 minutes, which resulted in the majority of PvP kills not generating experience, realm points, or gold.
+
+    - Low level dungeons (those under 30th level) have been made PvP-safe (i.e. no kill zones).
+
+    - The maximum level cap for a few of the dungeons have been changed:
+
+    - Cursed Tomb will be capped at 32
+    - Vendo Caves will be capped at 44
+    - Koalinth Caverns will be capped at 32
+
+    - In patch 1.59 (i.e. the next live patch after this one), the maximum level cap for Catacombs of Cardova will be changed to level 45. The delay for the changes in these dungeons are dependent upon the epic quests that some classes may need to complete. It is highly recommended that players on the Arc of Ages and Craft of Retribution quests complete these quests before this change goes live.
+
+    - In order to ease new characters into the PvP server community, we're putting all newly created characters in a series of "newbie" guilds. These guilds are roughly based on the character's starting location, so all players in the same area will probably be in the same guild. There are four guilds per Realm, each named based on the geographical location. Characters can remove themselves from these guilds by doing a "/gc quit" any time. Please note that characters can technically remain in these guilds for the life of their character, should they choose to do so. Being automatically put in a guild at creation gives new characters an instant chat group and a sense of community with the other players around them. They can discard this guild at any time, and join a player-run guild when they meet the right guild.
+
+
+
+    SPELL AND REALM ABILITY NOTES
+
+    - Added Determination to the Savage realm ability list.
+
+    - Fixed some bugs in the power costs of the Animist Sap Strength line. Some were taking no power at all, and some were taking too much. Now all are set to the correct power cost.
+
+    - The Animist Briar Eruption spell should now be properly awarded at L17 in the Verdant Mastery line.
+
+    - The Animist Woodspirit Sheath (AOE Bladeturn) line in Verdant Mastery should now pick targets to buff correctly. Please note that it still (correctly) picks random targets in its AOE (up to its maximum), so not everyone in the area will be protected.
+
+
+
+    CLASSIC CAMELOT WORLD NOTES
+
+    On the PVP and Co-operative servers you can now buy spell crafting materials used by the other realms in each realms major city.
+
+    - In Tir Na Nog look for Morolt.
+    - In Camelot City look for Anyon Becket.
+    - In Jordheim look for Embla.
+
+    Midgard Quests: Bonedancers working on the "Saving the Clan" quest should no longer have to /say Arnfinn to Danica continue on the level 48 portion of the quest. Also, Arnfinn should now respond to Bonedancers and step them on the quest.
+
+
+    Realm v. Realm - Frontier Keeps: Resolved a problem with couriers broadcasting when entering their destination keep region. Couriers should now only broadcast when initially spawning.
+
+    Dungeon: Earthquakes have shaken the Silvermine Mountains, collapsing large portions of the Spraggon Den. The spraggons, confused and disoriented by the earthquake sought a new leader to guide them. Finally, one was chosen to lead them. His first order of business was to rebuild the den. Adventurers on the live servers are warned of this Pendragon note. Please do not log out in the spraggon den, or your character may log in and fall through the world.
+
+    Items: Midgard: The Bonedancer reward 'Odin's Eye Choker' now has the correct skill bonus on it (Bone Army).
+
+
+
+    SHROUDED ISLES WORLD NOTES
+
+    - The horse from Caer Diogel to Caer Gothwaite will no longer run through the middle of trees.
+
+    Albion Quests: Players working on the quest "Restoring the Magic" should once again find Adelon on the ground instead of too far away to speak to him.
+
+    Albion Dungeon: Krondon: There was an error with the faction of the ogres inside of Krondon where players have been receiving positive faction hits with the faction of ogres inside of Krondon by slaying monsters on the Drakoran Legion faction. We have retro-actively corrected this on Pendragon - and it will go live with the next version. The ogres inside of Krondon will now be aggressive towards all intruders that venture into their domain, regardless of any previous faction gains. Note that this change will not affect the ogres outside of Krondon.
+
+
+    Albion Monsters
+
+    - The hit points and resistances on Apocalypse have been lowered a bit.
+
+    - Rain elements in Aldland will now disappear when they kill a target and after they have been in combat for 20 seconds.
+
+
+    Albion Quests: Players stuck on step 5 of "Spirits of the Orchard" can now get their seeds from Tomos by right-clicking on him. If Tomos is not up, players will have to kill Nalsor again to spawn Tomos, then right-click on him. (Note that this change was also read into the live servers)
+
+
+    Items
+
+    - Noguribando's Vest (Hibernia) should now have the appropriate bonus amounts.
+
+    - Grul's Glorious Trident (Midgard) should now drop at the correct level with appropriate bonuses.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

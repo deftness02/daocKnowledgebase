@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.48" id="patch-v148">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.48</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ========================
+
+
+    Dark Age of Camelot
+
+    Version 1.48 Release Notes
+
+    March 19, 2002
+
+    ========================
+
+
+    RVR CHANGE
+
+    - We've reduced the level based to-hit penalties in RvR combat for lower level players attacking higher level players. Thus, lower level RvR players (35-40) will be able to hit higher level players (45-50) more often but for less damage. Please note that a side effect of this change is that high level players will no longer get "bonus" damage against players 2 quantas or more below them (low green and grays) - which means you character will do less damage against low green and gray enemy players. The purpose of this change is to make players of wider level ranges viable in RvR.
+
+
+
+    EXPERIENCE CHANGE
+
+    In order to lessen the tedium of leveling in the 35-50 level range, we're making a change that should help players of those levels gain experience faster. Experience clamps have been raised from 1.1x a same level kill to 1.25x a same level kill. This change has two effects: it will allow lower level players in a group to gain more experience faster (15% faster), and it will also let higher level players (the 35-50s who tend to hit this clamp more often) to gain experience faster.
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - Chat filters have been moved to the server for filtered system messages. This should help reduce bandwidth in big battles.
+
+    - Weapon Effects on mage staves should now show when the mage casts a spell. In general, weapon effects only show when a weapon is drawn and the player is in combat mode. Mages are rarely in combat mode. Thus, the staff weapon effects shows when a spell is cast and lasts until the mage moves, jumps, or strafes.
+
+    - The animation speed of campfires and smoke clouds has been slowed to normal speed.
+
+    - Solo experience now follows the same clamping rules as group experience. We had an issue where a group of people could disband and fight a monster individually and get more experience per player.
+
+    - You can no longer use charged items when mesmerized.
+
+    - When a Realm conquers a keep that is owned by a Guild, the keep will show only the new Realm's banners. There was a bug that kept the original Guild's banners on the keep even though a new Realm had conquered it. Of course when the Guild that led the siege claims the keep, that Guild's banner will then be displayed.
+
+    - Some extremely high level items required far too much money to repair. This has been fixed.
+
+    - You can no longer use siege equipment when dead.
+
+    - The /GC UPGRADE flags no longer resets when a server is rebooted.
+
+    - You can no longer enter stealth mode while mezzed.
+
+    - Previously, a player who used shift-rightclick to remove a Cleric's buff also removed that same buff from all other players with that buff cast by the same Cleric. This has been fixed.
+
+    - When a keep door is open and is repaired back up to 25%, it can now be closed. Previously it required a 100% repair.
+
+    - Guilds can now change their emblem only once. There is no time limit on this; it can be done any time after the guild emblem is initially selected - however, it can be done only once.
+
+    - High level poison damages have been increased. Assassin characters should see an increase in their poison damages.
+
+    - You should now be able to melee while using /stick more easily than before, although it still is not a guaranteed hit.
+
+    - Players should now get their 50th level abilities and spells when they raise to 50th level. Really. We promise this time. Unlike the previous two times when we said we'd fixed this but really hadn't; now, we have. Also, chars who have already attained 50th level will be converted to have their 50th level abilities.
+
+    - When you claim a keep, that keep's guard guild names should now dynamically update when their cloak/shield symbol updates. Previously, they only updated when you quit and come back in.
+
+    - When an NPC has damaged a player and you get no Realm Points, you'll now get a message telling you.
+
+    - Guild leaders now implicitly have the permissions to CLAIM and UPGRADE a keep without setting the flags to Y.
+
+    - Rank titles should now print correctly when you gain rank levels. Previously, you would get the proper rank, but the message telling you of your new rank was listing an incorrect title.
+
+    - Commas have been added to experience prints when you complete a task or quest.
+
+    - Guards will now face you to salute when you click on them (if they are designed to do that).
+
+    - Attack speed debuff spells no longer keep the target from evading or blocking. It now literally only slows down their attacks.
+
+    - There is now a timer on how often you can /say and /yell, twice per second for /say and once per second for /yell. You should only notice this if you are using a macro.
+
+    - "Camp bonuses" have been substantially upped in dungeons. Now camp bonuses in dungeons are, on average, 20% higher than outside camp bonuses.
+
+    - Guilds can no longer claim multiple keeps. If they have multiple keeps - only the last keep taken stays with the guild.
+
+    - Heal spells have no effect on doors (and never had). Now, when you cast a heal spell on a door, you get a message telling you that it has no effect.
+
+    - Characters can now have 16 total buffs on them at any one time. Previously, they could have 20; now the "extra" 4 buff slots are reserved for debuffs/poisons/dots and other "enemy" effects.
+
+    - Player encumbrances are now adjusted on the fly as ingredients are consumed due to upgrading and repairing.
+
+    - You can no longer fire arrows or cast spells through the terrain - such as "underneath" through a hill into a keep.
+
+    - Concentration pools should be calculated correctly when you quit and log back in while rez-sick.
+
+    - Bounty Points are no longer given in the Battlefields. Bounty points are your Realm's payment to you for defending your Realm. Because the Battlefields are training grounds, not real Realm combat, no Bounty Points will be given.
+
+    - You should no longer be able to repair a keep door when in the room above the door.
+
+    - You can now see more than 65000 bounty points printed on your screen. This was a display problem only - you did have more bounty points; they just didn't print.
+
+    - The racial resistances were printing incorrectly (reversed). They now show correctly in your RESISTANCE screen.
+
+
+
+    NEW GUILD COMMANDS
+
+    We've added a few new guild commands, some of which have already slipped into the live version. These commands let you specify a guild web page and guild email address, which show up on your guild's listing on the Camelot Herald. The other new commands are for alliance messages of the day and its associated rank settings.
+
+    /gc webpage [the.guildpage.com] - is an additional line set by the leader that can be display in a /gc info command, as well as on the Herald.
+
+    /gc email [contact@guildpage.com] - is an additional line set by the leader that can be displayed in a /gc info command, as well as on the Herald.
+
+    /gc amotd - Alliance Message Of The Day set by the alliance leader and viewable by all members of the alliance who log in. Note, that follower guild leaders can edit *their guild* amotd, but this information is not displayed. In other words, the information is stored on the guild, if this guild, in the future became an alliance leader, the amotd would display.
+
+    /gc omotd - Officer Message Of The Day - set by the guild leader for the officers.
+
+    /gc edit [ranknum] motd [y/n] - ability for the guild leader to allow a rank to edit the guild motd.
+
+    /gc edit [ranknum] alli [y/n] - ability for the guild leader to allow a rank to enter/leave alliances (create a diplomatic officer).
+
+
+
+    ART NOTES
+
+    - We've added more cloth robes to the game. You may notice that your mage's outfit is different when you log into the game - as there are many more robes to go around now, we've spread the new robe graphics around.
+
+    - Friars now have a few of their own robes, which are naturally colored (i.e. not a mage robe tinted brown).
+
+    - Previously, Guild Emblems were displaying backwards on all shields. This has been fixed.
+
+    - The Glimmer King Dragon now has the same "glow in the dark" effect as other monsters in that zone.
+
+
+
+    NEW BATTLEFIELD ZONES
+
+    We have added two new restricted RvR battlefield zones, which brings the total number of Battlefields up to 3. Each is restricted by level. The lowest is for levels 20-24, the second for levels 25-29, and the third is for levels 30-35. The intent of these battlefields is to provide a training ground where lower-level characters can practice and learn RvR tactics without having to worry about higher-level players marauding them. Each Battlefield has been configured to allow each player approximately 100 enemy "kills" before you will no longer be allowed to port there.
+
+    The Battlefields:
+
+    - Caledonia - levels 30 - 35, Realm rank 1, Realm level up to 9
+
+    - Murdaigean - levels 25 - 29, Realm rank 1, Realm level up to 5
+
+    - Thidranki - levels 20 - 24, Realm rank 1, Realm level up to 3
+
+    The medallion merchant's speech has been updated to reflect the changes within the Battlegrounds. Should you have questions on the function of the portals or which battleground your level/realm rank can travel to, please seek him out.
+
+
+
+    CAMELOT HERALD GUILD DISPLAY OPTIONS
+
+    The Camelot Herald (www.camelotherald.com) displays Guild Information. Version 1.48 allows guild leaders to specify which options are displayed on these web pages.
+
+
+    Character display options:
+
+    The default setting for characters to be displayed is name, class, level, realm points and guild affiliation.
+
+
+    Items under the characters control:
+
+    /webdisplay nopoints - If this flag is set to on (default), realm points are displayed on the herald. Off - not displayed.
+
+    /webdisplay trades - If this flag is set to on, tradeskill levels are displayed on the herald. Off (default) - not displayed
+
+
+    Guild display options:
+
+    /gc displayofficers - If this flag is set to on (default), a hierarchy of the guild from ranks 0-9 is displayed. Off - not displayed.
+
+
+
+    SPELL SYSTEM NOTES
+
+    - The Albion Cabalist's Ruby Simulacrum pet should be proccing properly, and the poison DoT procced by the Emerald Simulacrum has had its damage increased.
+
+    - Fixed icons of new Wizard bolts.
+
+    - Resistance debuff component of Runemasters' Minor Raven Bolt line and Raven Drove line should debuff the proper element now.
+
+    - In order to buff out Wizard damage, we've added a bolt to the Wizard's Fire specialization Pyromancy list. It uses the same timer as the Bolt of Lava line.
+
+    4 Minor Fire Streak
+    8 Fire Streak
+    14 Minor Flame Streak
+    19 Flame Streak
+    25 Minor Incendiary Lance
+    33 Incendiary Lance
+    41 Minor Flame Spear
+    50 Flame Spear
+
+
+
+    WORLD NOTES
+
+    - We've removed the central patrols in the Battlefield, these realm guards now will guard the island area only and should not be able to be pulled to the portal keeps.
+
+    Albion One-time Drops: Dai - Keltoi BattleMail (will now drop for Minstrels)
+    Tusker - Tusker's Old Wound (will now drop for Minstrels)
+
+
+    Midgard Faction
+
+    The Guardians of Midgard are now aggressive to those who enter their territory. Note that Midgard residents should receive positive benefits to the Guardian faction when hunting traditional enemies of the realm.
+
+
+    Albion Encounters
+
+    Lyonesse: Sister Blythe has tapped into the hidden power of the Temple of Arawn. It is rumored she now has the ability to rise the dead and command them to do her will!
+
+    Lyonesse / Cornwall: It seems as though the pygmy goblins in Lyonesse have been toying with new magics of late, explosions have been heard in the area. There have been reports of more strange monster activity in Lyonesse and Cornwall.
+
+    Pennine: Sir Bors has received troublesome reports from a scout in the Pennine Mountains. It appears Lord Elidyn can now wield farie magic. The scout claims Lord Elidyn's power can change frogs into Ellyll heroes!
+
+
+    Hibernia Encounters
+
+    Bri Leith: Travelers returning from the Valley of Bri Leith report strange gusts of wind in the southern regions of the valley. Rumors are that some sort of magical beast is responsible.
+
+    Lough Gur: A group of adventurers returning from Lough Gur have reported that they were attacked by grasping roots when traveling through the forest.
+
+
+    Midgard Encounters
+
+    Muspelheim: A giant in Muspelheim has apparently found a new way to harness the power of lava. This giant has been throwing glowing boulders at any passers, slaying more than one unwary adventurer.
+
+    Vanern Swamp: Magical storms have been illuminating the evening sky in the Northeastern region of the swamp. The hagbui have been restless of late and seem more defensive of their lands. Extra caution would be advised when traveling in the region.
+
+
+    Hibernia Quests
+
+    Quest: Wolf Infestation: Players that follow the Way of Nature and use Caoimhe in Ardee as their trainer will now receive their level 4 trainer quest.
+
+    Quest: Returning for more/Traces of Mad Changelings: Lusmorebane will now give casters Lusmorebane's Jeweled Necklace when they kill him for the Traces of Mad Changelings quest. Enchanters, Eldritches, and Mentalists who received the Belt of Spryness may return it to Tressa Gorrym'jiarg on the hill above Druim Cain in Bri Leith to exchange it for Lusmorebane's Jeweled Necklace.
+
+
+    Midgard World
+
+    Cursed Tomb: Players seeking adventure in the Cursed Tomb will no longer need to fear
+    Commander Draugr who wanders past the entrance. Finding no match for himself at the front of the dungeon, he now seeks refuge deeper within awaiting those who wish to challenge his might.
+
+    Vendo Caverns: Hunters have reported that some of the bears within the dungeon have migrated to safer havens away from the cramped confines of the Caverns. There have also been reports of strange occurrences within the snakepit, but the cause of this remains unseen.
+
+
+    Hibernia World
+
+    Spraggon Den: Spraggon Den has had a few changes. Players adventuring within the dungeon should find that a few more "safe spots" have been added to the dungeon.
+
+
+    RvR World Note
+
+    - The keep lords in Caer Benowyc should not be getting stuck on the roof of Caer Benowyc. Therefore, "This monster is too far away to attack." messages should be much less common in Caer Benowyc.
+
+    - The Albion mile fort gates can now be attacked, broken, and repaired.
+
+
+    New Material Merchants
+
+    The new merchants in the Merchant keeps should now be spawning correctly.
+
+    Merchants selling the higher level tradeskill materials have also been added to the Relic Keeps.
+
+    Albion:
+    Eythan Greene – Castle Myrddin
+    Kathlynne Snowe – Castle Excaliber
+
+    Midgard:
+    Sidroc Johannson – Grallarhorn Faste
+    Synnove Byornsdottir – Mjollner Faste
+
+    Hibernia:
+    Eadaoin T'Kela – Dun Dagda
+    Galen MacDugal – Dun Lamfhota
+
+
+
+    OBJECT NOTES
+
+    We've scrubbed through the object database and fixed many small bugs that have been accumulating.
+
+
+    Item fixes:
+
+    - Stonewatch Bracer should now be set to the correct level.
+
+    - Ancient witherwoode bark was changed to a more appropriate icon.
+
+    - Stringed puppets, dolls, and hinges now have an icon.
+
+    - Cat Hide Boots and the cloth Tomte Tunic are now dyeable by the appropriate dye.
+
+    - The Runic Manslayer was returned to its previous proc'ing state.
+
+    - Typos fixed in the "Webbed Shadow Jerkin", "Rogue Infiltrator Pendant", "Keltoi Infiltrators Disguise", "guide to infiltration", "Empyrean Mist Cloak", "deamhan hound tooth", "deamhan hound claw", "deamhan hound pelt", and a few others.
+
+    - The Furlined Hunter's Belt can now be equipped.
+
+    - The Snake Charm now has a level, and with that, it should be displaying condition, durability, etc. correctly.
+
+    - The Ollipheist Eye now has a level.
+
+
+    Several items ended up with some resist bonuses listed twice as a result of the resist consolidation a few weeks ago. The following are the ones that have been changed thus far:
+
+    Ring of the Mental Fortress, Ghoulish Shackle, Shadowsteel Necklace, Belt of Spryness, Bracer of Dauntless Courage, Thunder-striders Leggings, Majestic Mantle of the Eternal, Svartalf Crafted Belt, Dread Blackscale Hauberk, Jewel Spiked Gauntlets, Restless Centurion Belt, Latticed Shadow Vest, Gossamer Seolc Sleeves, Drum of Fading Valor, Aeiry Belt
+
+
+    Other item fixes:
+
+    A few dropped weapons, and some of the player-crafted weapons were displaying delve information indicative of the item possessing a proc, although the proc wasn't named, nor did the weapon actually proc. This should be fixed for all the player-crafted weapons, and for the dropped weapons reported as bugged in this repect.
+
+
+    Stackable Items:
+
+    The object database has been overhauled! A large portion of the common loot drops are now stackable in a person's inventory, in varying numbers. This includes regular and pristine versions of many pelts and carapaces, small-sized body parts (ew!), small non-magic items (for example, rings or gems), flat items such as paper or notes, small junk loot, and medium junk loot. NOTE: The items may not automatically stack in a player's inventory when picked up. To stack an item, click on the icon in your inventory, move the cursor to the icon of a duplicate item, and click again. Once an item is stacked, it cannot be separated into single objects again, and the whole
+    stack is sold when interacting with a vendor.
+
+    - The drop rates for epic monsters in Raumarik, Cursed Forest and Llyn Barfog have been substantially increased. Happy hunting!
+
+    - The Woebegone Boots will now drop with the proper material setting.
+
+    - The Medal of Valor should now have the proper level and con.
+
+    - The Boots of Loki now increase Dexerity by 6 instead of increasing the climb skill.
+
+    - The Glimmerspirit Shortbow will now drop with the proper material setting.
+
+    - The Stonewatch bow now increases dexerity instead of bow skill.
+
+    - The Smiter's Belt is now equipable on the waist.
+
+    - The Supple Frogskin Pants can now be dyed.
+
+    - The Runed Clay Gloves now increase poison skill instead of backstab.
+
+    - The Mire walker's Helm now has the correct AF.
+
+    - The Bog Stider's Hauberk should now have the correct AF.
+
+    - The Belt of Animation should now Con correctly.
+
+    - The Black Golden-embossed Hood can now be dyed.
+
+    - The Majestical Ring should now be able to be equiped in either ring slot.
+
+    - The Cave Prowler's Gauntlets had the second quickness entry changed to
+    Strength.
+
+    - The Enraged wolf Pelt Cloak can now be dyed.
+
+    - The Ruby Dusted Robe can now be dyed.
+
+    - The Diamond dusted robe can now be dyed.
+
+    - The Emerald Dusted robe can now be dyed.
+
+    - The Drakulv Mightcaller Ring now has the correct icon.
+
+    - The Ripper Jerkin can now be dyed.
+
+    - Sinach fangs can now be carried.
+
+
+
+    CRAFTING SYSTEM UPDATE
+
+    - The 9th/10th material type recipes are in. If you have the appropriate skill/rank you should be able to see the newer recipes.
+
+    - The amount of raw wood needed in the final recipe/step for all Siege Engines has been halved.
+
+
+    Clarification on /repair and the trade window repair
+
+    The /repair on the ground takes about half the skill required to make the item. So if a sword requires a skill of 800 to make, it takes about a skill of 400 to /repair it. This allows you to repair items that are way above your level, but only takes time to do. This also limits you to being able to repair only one at a time.
+
+    The trade window repair takes about the skill required to make the item. So a sword that takes a skill 800 to make will take about an 800 skill to repair it with the trade window. This allows a highly skilled crafter to repair multiple items without any extra delay associated with it.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

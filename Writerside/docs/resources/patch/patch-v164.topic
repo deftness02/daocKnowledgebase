@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.64" id="patch-v164">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.64</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    =======================
+
+
+
+    Dark Age of Camelot
+
+    Version 1.64 Release Notes
+
+    Tuesday, August 12, 2003
+
+
+    =======================
+
+
+
+
+    NEW THINGS AND BUG FIXES
+
+
+    - Upgraded keeps that are /released will now return to un-upgraded levels. Previously, when a guild claimed and upgraded a keep, then later released the keep, the guards would retain some of the bonuses for being upgraded (including having the appearance of being upgraded guards) even though the keep was unclaimed. In addition to the keep reverting, all the NPC guards will now revert to normal un-upgraded status when a keep is released.
+
+    - The Mastery of Arms realm ability should now be affecting attack speed properly.
+
+    - We have fixed all known icon problems with regards to combat styles and spells. No changes were made to the actual styles or spells, only the icons were changed.
+
+    - Using the /lastname command without entering a new last name will now allow characters to erase their current last name, as requested by the Role Playing Team Lead.
+
+    - The CHAT.LOG file will no longer be automatically closed when you zone. It will still close when you exit the game to go back to the character select screen.
+
+    - Information from delve, /relic, /realm, etc, are now written to your chat.log.
+
+    - A new /effects flag, group, which will show any spells cast on or by your group members. (Settable by /effects group or in the options menu).
+
+    - New naming options, in both the /hidenames and /shownames command as well as the options dialog. Before: Self, Players, Monsters, Gravestones. Now: Self, Players, Monsters, Gravestones, Groupmates, Guildmates, Enemy Players.
+
+    - A new /faceloc command has been added. This will turn your character to face these local coordinates.
+
+    - Salvages on stacks of items will now return the correct amount of salvage materials. If there are not enough items in the stack to return anything, an error message will be returned to the player and the salvage will not take place.
+
+    - The error messages that previously occurred when you were too close to another repo man and trying to remove an object from your vault have been fixed. Note that a few of the repo man error messages (Wrong realm, doesn't service this vault) will no longer appear, instead only a generic "You aren't close enough to a vault or a consignment merchant!" message will appear.
+
+    - The /release house command is no longer case sensitive.
+
+    - Studded armor will check armor crafting and tailoring for Albion players and use whichever skill is higher for repairs.
+
+    - Lockbox and consignment monies will combine to pay a house's rent if neither alone has enough, but their combined sum is.
+
+    - A consignment merchant can no longer sell items if it is already holding over 200 plat.
+
+    - You can no longer sell items back to get more than 200 platinum on your character.
+
+    - '/sshot ' -- will allow you to give a base name for your screenshots. For example, to name your screenshots: Raid-01.jpg, Raid-02.jpg, type: /sshot Raid
+
+    - A new slash command, "/househelp". Normally, most of the housing popups are shown only the first time you do things. Typing /househelp will cause them to be shown again.
+
+    - Right clicking on Spellcrafting and Alchemy items in Consignment Merchant windows will now show their normal mini-info quick description.
+
+    - Fixed a bug where you could port into the housing zone and no houses would appear.
+
+    - When you click on a house, it will now print the house owner's name and the lot number to your system message buffer.
+
+    - Added an extra tag at the end of weapons and armor on consignment merchants - both types will now show quality, armor will show AF and weapons will show DPS in the merchant window:
+
+    arcanite two-handed sword [200g] (99%, 15.1 dps)
+    heavy caliocht vest [200g] (100%, AF 35)
+
+    - Archer line of sight is now checked both at the draw and the release of a shot.
+
+
+
+    CLIENT PERFORMANCE OPTIMIZATIONS
+
+    We have added a new performance option to decrease hitching and pausing in key game situations: when first going into towns or portal keeps after zoning, and first encountering large RVR groups of enemies from other realms.
+
+    The option is under the "Config Performance" menu that allows you to control how the client loads skins from disk. This will allow you to partially load some of the textures the game uses to avoid hitches and pauses in key game situations.
+
+    - [No Precaching] will work largely as before.
+
+    - [Precache Armor Skins] is the suggested regular setting. Armor skins will be partially loaded into memory. It will take up more memory on average than [No Precaching], but it will eliminate some hitches and pauses.
+
+    - [Precache All Skins] is recommended for machines with >512MB of RAM. This option will cause the game to take up more memory, but should significantly decreases hitches as you run around the world.
+
+    These options are documented in-game in the "Config Performance" menu (under "Options" at the character select screen.)
+
+    We have optimized the creation of houses as you move around the housing zone. You should experience far less hitching and lag as you move around or zone into these zones.
+
+
+
+    THE PLAYER MARKET SYSTEM
+
+    Dark Age of Camelot now has a new player market system, where player crafters can choose to publish all the wares being displayed on their consignment merchants to a database than can be searched by other players. Please note that this system will only be available in housing zones.
+
+    If you are a merchant, to publish the contents of the consignment merchant that you own to the search engine database, type "/listmerchant". Typing /listmerchant again removes your merchant from the database. Once a merchant is in the database, all changes to that merchant will be updated on the fly (price changes, adding items to merchant, items being sold from merchant, etc) with no further intervention from the user. Note that /listmerchant will only work when you are near a house you own.
+
+    To search the consignment merchant database, you will right click on the Market Explorers that are placed at the entrance to each area, as well as in the central market of each zone. Use the window to enter information about the item you are searching for, and click "search". A list of all items matching your search criteria will be returned to you in pages of 20 items at a time. You can page through the items using the Previous and Next buttons."
+
+    Please note that when you get a list of items back from your search, you will be given a lot number where the consignment merchant selling the item can be found - you must then go to that merchant to purchase the item.
+
+    Skill lists on the Player Market Query window will only show those skills available to your realm (except on Gaheris, Mordred, and Andred where it will show skills from all three realms).
+
+
+
+
+    NEW ROLEPLAYING CHAT FILTER
+
+    1.64 has a new feature for Roleplayers, an "/rpfilter" that lets you filter out commonly used game terms and abbreviations for any text that you wish. It works as follows:
+
+    /rpfilter will filter your clients chat, eg:
+    /rpfilter LFG looking for group
+
+    So if anyone in chat says "/s LFG blah blah blah" your client will actually print:
+
+    So and so says, "looking for group blah blah blah".
+
+    The chat is only altered client-side, the server and logs will have all the original text as it was typed.
+
+    Restrictions:
+
+    - The string to replace must be between 3 and 10 characters long.
+
+    - The string to replace it with may be between 1 to 20 characters long.
+
+    - Case insenstive (lfg is treated the same as LFG, lFG, LfG, etc)
+
+    - The new RP filter will try to not replace words that are parts of larger words. It does so by checking either side of the search string to see if there are characters around the letters it tries to replace. So, in the case of "/rpfilter LFG looking for group"
+
+    LFG -> looking for group
+    xLFG -> xLFG
+    xLFGx -> xLFGx
+    LFG!! -> looking for group!!
+
+
+
+    NEW ITEM FEATURES
+
+
+    - In this patch, we have added new bonus types to our dropped items. These bonus types are detailed below. At this time, these features are only available for the classic Camelot dragon loot and Shrouded Isles class-specific epic dungeon armor.
+
+    - The existing items on classic Camelot dragons have been upgraded with these new bonus types, and new items added to their treasure tables. Please note that a few items were near or at the desired bonus point level, so those few items did not receive any noticeable increases. No bonuses were lowered on any of the existing dragon items.
+
+    - The Shrouded Isles class-specific epic dungeon armors have also been tweaked to get rid of mutually exclusive bonuses. Players who already have some of these items may notice a few new features in the delve information.
+
+    - ALL magic skills - This bonus will increase your skill in any and all of your spell lines. In other words, if your item is updated to have "ALL magic skills: +3", then all of your spell lines (if your class has multiple spell lines) will have a +3 skill increase from that item.
+
+    - ALL melee weapon skills - This bonus will increase your skill in many weapon types. This bonus does not increase shield, parry, archery skills, or dual wield skills (hand to hand is the exception, as this skill is also the main weapon skill associated with hand to hand weapons, and not just the off-hand skill). If your item has "All melee weapon skills: +3" and your character can train in hammer, axe and sword, your item should give you a +3 increase to all three.
+
+    - Focus: ALL spell lines - This bonus will give you focus for all your focus spell lines. "Focus: ALL spell lines: 50" would mean that your focus staff gives you 50 focus in darkness, suppression, and runecarving, if you're a runemaster.
+
+    - Acuity - This bonus will increase your casting stat, whatever your casting stat happens to be. If you're a druid, you should get an increase to empathy, while a bard should get an increase to charisma.
+
+    - The "old" dragon items from Cuuldurach, Golestandt, and Gjalpinuva will now drop made of level 10 materials, instead of the standard classic Camelot level 8 materials. Unfortunately, this does not apply to existing original dragon items...to accomplish this, totally new items had to be made that are copies of the original set of dragon items, because an object's material cannot be changed retroactively. Of these new items, most armor pieces are set to be reactive procs now, and some of the less popular weapon procs are changed to more favorable ones.
+
+
+
+    CRAFTING NOTES
+
+    - Added new "level 51" weapons into Fletching and Weaponcraft to help give a slightly broader choice of weapons now for various specs. This has caused the side-effect of increasing the "max skill" for these tradeskills, due to where the new weapons ended up in the skill range.
+
+    - Fixed the levels that were shown when delving Fletching recipes. This is a manual entry and was off by a single level, or so, in a few of the items.
+
+    - Tried to spread out the new "level 51" Fletching recipes to help fill in the various skill gaps that existed in the recipes. We will review this going forward to see if any additional changes are required.
+
+    - All forges and lathes have been updated with the housing graphic.
+
+    - Note: The new magus staff has a hidden restriction that will not allow it to be equipped by anyone other than a focus caster.
+
+
+
+    CRAFTING BUG FIXES
+
+
+    - Changed the "osnadurtha gauntlet" recipes to be labeled "osnadurtha gloves" since that is what is made from said recipes.
+
+    - Corrected spelling on the various "mammalogy" potions.
+
+    - Albion boned armor now shows the correct level when you delve the various recipes.
+
+    - Hibernian spiked mace recipes now show the levels of said weapons.
+
+
+
+
+
+    CAMELOT CLASSIC WORLD NOTES
+
+
+    Quests- General
+
+    - Life Stones given out by Mystemas in Darkness Falls had Quality or Durability incorrectly set. Return to him to get stones with the proper settings.
+
+
+    Hibernia Quests
+
+    - The Piper's Price: Innis Carthaig has been suffering from a rat infestation. Perhaps you can help them.
+
+    - Viraniel’s Plague - Viraniel in Tir na Nog is suffering from a strange ailment. Seek her out and see what you can do to help her.
+
+    - Banba’s Road to Grandmaster - Banba in Howth is almost a grandmaster tailor! Speak with her and see how you can help her achieve her goal.
+
+    - The Lost Relics - Lobais in Tir Na Nog has been troubled by a vision that he's had. Speak with him to find out about it.
+
+
+    Realm v. Realm
+
+    - The spells that Master Eldritches, Master Wizards and the Master of Runes cast are now direct damage instead of bolts.
+
+    - The snare that all three realms Master casters cast has had it's casting range increased.
+
+    - Master Eldritches now cast void direct damage spells instead of fire based spells.
+
+    - Broadcast now works in all the Frontier Portal Keeps.
+
+    Relic Keep Guard Changes
+
+    - There is a small change to how some guards will now handle relic raids. For every Relic Keep, the interior doors will now be guarded by named guards from the keep that is closest to the other Relic Keep in that realm. For example, the interior doors of Castle Excalibur are now being guarded by Hurbury Knights. These inner door guards have been given strict instructions to not leave the courtyard at any time, and they also cannot be damaged by players outside of the area they protect.
+
+
+    Albion Monsters
+
+    - Argus Bowman a weapon merchant in Ludlow, has decided to put on the correct clothes for his realm.
+
+
+    Midgard Monsters
+
+    - In response to player feedback, Innocents in Dodens Grava are now aggressive to players.
+
+    Hibernia Monsters
+
+    - Eresidae in Emain is no longer charmable.
+
+    - The choppers in the Hibernian frontier will now group up correctly.
+
+    - Cuuldurach's call for help range has been slightly lowered to match that of the other old world dragons.
+
+
+    Frontier Dungeons
+
+    - In response to Team Lead feedback, we have converted the innocents in each realm's frontier dungeon so they will now protect that realm's players while still attacking players from other realms.
+
+
+    Item Notes
+
+    - The Cloak of Elemental Buffering (Midgard) should no longer have blank level, condition and durability attributes.
+
+    - The sapphire seal hand to hand weapons should now be available on the sapphire seal weapon merchant for Midgard.
+
+    - The Omni Warscale Coif and the Omni Warscale Boots (Hibernia) should equip in the proper slots.
+
+    - The Lesser Telamon Scimitar (Albion) now has magic bonuses.
+
+    - The Eir Blessed Pendant (Midgard) should look like a necklace.
+
+    - The Ranger Charm (Hibernia) increases stealth instead of parry.
+
+    - The Grim Bound Ring (Albion) can now be equipped in either ring slot.
+
+    - The Salisbury Dagger (Albion) is now called Salisbury Sword, which better reflects the weapon model it uses.
+
+    - The Diamond Lochaber Axe (Albion) now increases spirit resist in place of a 2nd matter resist entry.
+
+    - The Charred Scale Hauberk (Hibernia) now increases constitution instead of charisma.
+
+    - The Inconnu Fate Stone (Albion) has been increased in bonus amounts.
+
+    - The Ensorcelled Robes of Celerity (Albion) can now be dyed with leather dye.
+
+    - The Impish Gem (Albion) is now equipped in the gem slot, instead of the ring slot.
+
+    - The Bracelet of Enchanted Talent (Hibernia) now looks like a bracer instead of a ring.
+
+    - Ngadra should no longer drop Albion items for Midgard players.
+
+    - Fathomless Deepscale Gauntlets (Hibernia) now increase constitution in place of a dexterity increase that occurred twice on the object.
+
+    - The Doomcaller hammer (Albion) now increases matter resist in place of a body resist increase that occurred twice on the object.
+
+    - The class restrictions have been removed from the Bear Mask (Midgard).
+
+    - The drop rate for Bricriu Nemhthenga has been increased.
+
+    - The Perfect Life Stone and the Weakened Life Stone have been set with the correct durability.
+
+    - The Band of Sought Painworking (Albion) is now equippable in both ring slots.
+
+    - The Sinister Alluvion Falcata (Hibernia) should no longer have a spell listed in the delve information.
+
+    - The earthshakers will now drop the appropriate armor selections, instead of low level Warden weapons.
+
+    - The Rod of the Soulshade (Albion and Midgard) will now salvage for a more appropriate value.
+
+    - The Gold Lined Drinking Horn (Hibernia) is now stackable.
+
+    - Unique large shields from the Frontiers will no longer drop with Thane specific stats.
+
+    - The Cath Lute (Hibernia) is now salvageable.
+
+    - The Militia Great Mace of Night (Hibernia) now has a more appropriate particle effect.
+
+    - The Midgard version of the Book of Chaos will now grant a piety bonus instead of an intelligence bonus.
+
+    - The Bear Claw Talisman (Hibernia) has been granted higher bonuses due to the level of the item.
+
+    - The hill cat tooth (Midgard) has had the damage value removed, which was causing it to appear to be a weapon when it was not.
+
+    - The Gloves of the Resolute (Albion) are no longer restricted to specific classes.
+
+    - The Hard Leather Sleeves (Albion) are now able to be salvaged.
+
+    - The druidic spirits should no longer drop gear of inappropriate levels. (Albion)
+
+    - The named encounters (other than the dragons) in Sheeroe Hills, Dartmoor, and Malmohus now have their own exclusive item drops, instead of utilizing item drops from other parts of their respective zones.
+
+    - The Snow Sapphire (Albion), the Snow Emerald (Hibernia), the Snow Diamond (Midgard), the Verdant Ornate Ring (Albion), the Verdant Ornate Necklace (Albion), the Verdant Ornate Bracer (Albion), the Verdant Justice (Albion), the Verdant Ornate Shield (Albion), the Gilded Verdant Ring (Midgard), the Gilded Verdant Necklace (Midgard), the Gilded Verdant Bracer (Midgard), the Verdant Vengeance (Midgard), the Gilded Verdant Shield (Midgard), the Dazzling Verdant Ring (Hibernia), the Dazzling Verdant Necklace (Hibernia), the Dazzling Verdant Bracer (Hibernia), the Verdant Honor (Hibernia), the Dazzling Verdant Shield (Hibernia), the Shimmering Drakescale Bracer (Albion), the Shimmering Drakescale Chain (Albion), the Shimmering Drakescale Band (Albion), the Shimmering Drakescale Shield (Albion), the Shimmering Drakescale Staff (Albion), the Luminescent Drakescale Bracer (Midgard), the Luminescent Drakescale Chain (Midgard), the Luminescent Drakescale Band (Midgard), the Luminescent Drakescale Shield (Midgard), the Luminescent Drakescale Staff (Midgard), the Ethereal Drakescale Bracer (Hibernia), the Ethereal Drakescale Chain (Hibernia), the Ethereal Drakescale Band (Hibernia), the Ethereal Drakescale Shield (Hibernia), and the Ethereal Drakescale Staff (Hibernia) all have received additional bonuses due to their level.
+
+
+
+    SHROUDED ISLES WORLD NOTES
+
+
+
+    Albion Quests
+
+    - Casters that finish the quest The Stone of Arawn will now receive a focus staff instead of the previous staff which will no longer be given in the game. If you've already completed the quest and would prefer the new reward, you should return and speak with Honayt'rt in Wearyall Village.
+
+    - Clerics will now be given a choice to choose a more cleric-appriopriate weapon as their reward for The Stone of Arawn. If you've already completed the quest and would prefer the new reward, you should return and speak with Honayt'rt in Wearyall Village.
+
+    - The weapon rewards from the quest The Lost Stone of Arawn can now be traded between players.
+
+
+    Hibernia Quests:
+
+    - Level 49 players can now do the Writhing Death quest as well as level 50's, and we have added some additional rewards. If you've already completed this quest, just return and speak with Treal in Cothram Gorge to choose one of the new rewards. You don't need to bring your original reward.
+
+    - Casters that finish the quest The Lost Seed will now receive a focus staff instead of the previous staff which will no longer be given in the game. If you've already completed the quest and would prefer the new reward, you should return and speak with Terod in Droighaid.
+
+
+    Midgard Quests
+
+    - Casters that finish the quest Ancestral Secrets will now receive a focus staff instead of the previous staff which will no longer be given in the game. If you've already completed the quest and would prefer the new reward, you should return and speak with Ota Yrling in Aegirhamn.
+
+
+    Dungeon Notes
+
+    - Galladoria: The Organic Energy Mechanism will now properly command its minions to attack players engaged in the encounter. This closes some exploits that made the encounter much easier than intended.
+
+
+    Item Notes
+
+    - The following changes have been made in Tuscaren Glacier: the class specific chest pieces have been moved to Hurika, Torst, Jailer Vifil, and Fornfrusenen. This means that Issorden, Elder Icelord Suttung, and Elder Icelord Hjalmar will no longer drop the chest pieces they have been. King Tuscar now has a small chance of dropping the necklaces that can only be used with a class's full suit of armor equipped.
+
+    - Nosdoden (Midgard), Myrddraxis (Hibernia), and Xanxicar (Albion) will now drop more items per kill.
+
+    - The Ebony Impaler (Albion) has a new particle effect that fits the weapon model a little better than the previous one.
+
+    - The Tab'fren series of staves in Albion can now be dyed with the epic dungeon weapon enamels.
+
+    - Gloves of the Sagacious Naturalist (Hibernia) will now increase creeping path and verdant path appropriately.
+
+    - The +bow increase on the Petrified Bow (Hibernia) had been removed. The other magic bonuses on the item have been increased.
+
+    - The treasure tables on the Rift (Midgard) have been corrected so that items will drop as intended. In addition, the number of drops per kill has been increased, as well as the quality of future drops. Please note that quality of drops previous to this patch will not update retroactively.
+
+    - The Staff of Mind and Body (Albion) can now be dyed with weapon enamel from the epic dungeons.
+
+    - The Spined Piercer (Hibernia) now has a particle effect.
+
+    - The Fine Easmarach Skin (Hibernia) can be dyed with the appropriate enamel dye now.
+
+    - Handmade magic items (Items not created through the Unique Item Generator) from SI mobs level 40+ should now drop with the proper magic bonus. This change will not apply to drops already existing on your characters...it will only apply to future drops of these items. If you should find any new handmade magic items from named mobs in SI that drop without the proper bonus, please /report the bugged item in-game.
+
+    - Mammoth Boned Boots (Midgard) should now have the proper AF.
+
+    - The Unique Object drops from Orylle (Albion) should now drop as appropriate level items. Unfortunately, this does not apply to items that dropped previous to this patch.
+
+    - The Azure Prayerbound set from Caer Sidi can now be dyed with leather dye.
+
+    - Dagar's handmade drops should now drop at 95% quality instead of 89. This change will only affect future drops, not drops acquired before this patch.
+
+    - The Essence Shifted Whip (Albion) is now set to do slashing damage as intended, instead of crushing damage.
+
+    - The Emissary's Tasseled Belt (Midgard) is now called the Emissary's Imbued Carnelian, as it fits in the gem slot and not the belt slot.
+
+    - The Death's Kiss Axe (Albion) now has a particle effect.
+
+    - The Death Shroud (Hibernia) will now accept an emblem and dye.
+
+    - The Ogre's Pious Belt (Albion) now has a correct belt icon.
+
+    - The Goosedown Slippers' (Hibernia) extra cold resist bonus has been changed to matter.
+
+    - Nesnuir's Staff (Midgard) has had the intelligence bonus replaced with a piety bonus.
+
+    - The Belt of Palifan, Palifan's Belt, and Palifan's Woven Belt have all had their bonus statistics increased to be more appropriate to the level of the item.
+
+    - The portal scrolls are no longer able to be worn around the neck.
+
+    - The Flesh Stretched Riddle Staff (Albion) had its salvage value increased to an appropriate value.
+
+    - Items using the "Titans Speed" proc should now have a buff duration of 1 minute after they proc.
+
+    - The bugbear scavengers in Tur Suil should now drop more appropriate items.
+
+    - The Shining Aura Cloak (Albion) has had the +Chants bonus changed to a +Resist bonus.
+
+    - The Cyclop's Pupil (Albion) has had the +Chants bonus changed to a +Dex bonus and had its other stats increased to bring them to more appropriate levels.
+
+    - The Death Entrancement Ruby (Albion) should now look like a ruby in your inventory.
+
+    - The Hammer of the Otherworld (Albion) has had its +Flexible bonus lowered so that it can be used by players of the appropriate level.
+
+    - Medairis' Tail (Albion) should no longer drop at 70% condition.
+
+    - The Enchanter piece Moonspun Robe (Hibernia) has had its salvage value increased to the appropriate level.
+
+    - The Enchanted Gold Chain (Hibernia) should now look like a necklace instead of a ring in your inventory.
+
+    - The Blackhearted Great Sword (Midgard) should now cost the correct amount to repair.
+
+    - The class-specific epic dungeon armor suits have been tweaked to get rid of mutually exclusive skill increases. Please see the "New Item Features" section to get details.
+
+    - The +battlesongs increase on the skald's Tuscaren Glacier suit has been replaced with +parry.
+
+    - The +battlesongs increase on the Frozen Blackhearted Axe has been replaced with +strength.
+
+    - The +valor increase on the Bladed Crystal Leggings has been replaced with +shield.
+
+    - The reactive proc spell attached to the leg and sleeve pieces from each of the epic dungeon armor suits has been changed to an ablative proc, instead of a direct damage proc.
+
+    - The Knotted Vine Belt (Hibernia), the Belt of Leaves (Hibernia), the Fern Leaf Belt (Hibernia), the Braided Willow Belt (Hibernia), the Braided Root Belt (Hibernia), and the Twisted Root Belt (Hibernia) have received additional bonuses due to their level.
+
+    - The Dancing Staff (Midgard) has had its stats increased to be more appropriate for the item's level and by popular demand now has focuses instead of the Power and Resist bonuses.
+
+    - The Dancing Staff of Darkness (Midgard) has also had its stats increased to be more appropriate for the item's level and by popular demand now has focuses instead of the Power and Resist bonuses.
+
+    - The Vine Wrapped Bladeblocker (Hibernia) no longer increases mutually exclusive weapon skills
+
+
+
+
+
+    UNIQUE OBJECTS & SPELLCRAFTING:
+
+    - A few bonus names for focus were changed, due to spacing limitations in the name:
+
+    Old name New name
+
+    Matterbound Focus Phasebound Focus
+    Spiritbound Focus Soulbound Focus
+    Shadowbound Focus Fogbound Focus
+    Mentalbound Focus Mindbound Focus
+    Blightbound Focus Woebound Focus
+    Minionbound Focus Thrallbound Focus
+
+
+
+    FOUNDATIONS NOTES
+
+    - A new housing zone has been introduced in each realm:
+
+    - Old Sarum in Albion.
+    - Arothi in Midgard.
+    - Dunshire in Hibernia.
+
+    - With the introduction of the new housing zones, we have increased the decay rate on the reverse auctions of the housing lots. Lots will now drop at 1.2 platinum per hour, instead of the 500 gold per hour decay rate. Further, the minimum price on a housing lot has been lowered to 300 gold.
+
+    - Permission level for Consignment merchant added with Deposit/Remove items, and Withdraw cash permissions.
+
+    - Permission level added to allow players other than the owner to pay rent. Please note that this is cash-only; others cannot pay rent with Bounty Points.
+
+    - CLASS friend type added to house permissions. Now you can set up your house to include or exclude certain classes.
+
+    - RACE friend type added to house permissions. Now you can set up your house to include or exclude certain races. This was added at the request of the Roleplaying Team Lead.
+
+    - Vault IDs are now displayed when the vault is opened.
+
+    - We have added a new /bountyrent command. This will allow players to directly pay for their house rent with bounty points, rather than purchasing tokens which may not be correct in value. This will also only allow players who are guild leaders to pay with their own guild bounty points - rather than a guild leader buying bounty tokens for his own house - or buying guild tokens and using them on a future guild house. The syntax is /bountyrent personal/guild . The amount is the number of bounty points you wish to spend. Each bounty point is worth 1gp in rent. Only house owners and guild leaders can perform this command.
+
+    - When placing a garden object, the player will be told how many more slots are remaining in the garden.
+
+    - When placing an interior object, the player will be told how many more slots are remaining in the interior.
+
+    - If you are the primary owner of a personal house, your house lot # will be displayed in the 'Additional Information' section of your character sheet.
+
+    - Apprentice and Grandmaster Merchants now carry all 5 types of feathers.
+
+    - Valmak's Remains, Tuka's Remains, Oldest's Remains, Coimirceoir's Remains, and Geirshnae's Remains should have appropriate inventory icons.
+
+    - Siegecraft Supplies merchants now carry siegecraft ammo.
+
+    - A 20 gold rent token is now available from the housing bounty stores. Additionally - Players will be able to turn the 100 gold rent token back in to the house bounty merchant. The merchant will make change for the players and hand back five 20 gold rent tokens.
+
+    - A Taxidermy Supplies merchant is now available to purchase from the interior housing merchant hookpoints.
+
+    - The Nosdoden Wall Trophy should now place correctly.
+
+    - Easmarach should now drop Easmarach's Remains as intended.
+
+    - The scale of the Nkosi Floor Trophy has been toned down to better fit inside the houses.
+
+    - The portal keep and Shrouded Isles teleporters for sale in the houses have been combined. There is now one NPC for each realm that can be purchased in your house that will teleport to both locations. All old NPC's have been replaced with a combined NPC.
+
+    The names for the NPCs are as follows:
+    Svasud Faste and Aegirhamn Teleporter
+    Druim Ligen and Domnann Teleporter
+    Castle Sauvage and Gothwaite Teleporter
+
+    - Since the portal keep and Shrouded Isles teleporters have been combined into one NPC, players who wish to dispose of their old Shrouded Isles teleporters can sell the Gothwaite Harbor Teleporter object, Domnann Grove Teleporter object, or Aegirhamn Teleporter back for full purchase price.
+
+    - Players in Hibernia can now obtain mantid trophies by killing Klzkizk and Kriszixk.
+
+    - Trophy items are no longer sellable to npc merchants for 2cp. They can still be sold to other players.
+
+    - We have slightly altered how the Hearth passage scrolls and medallions work. If you own a lot or a house, the medallions will function as they always have. However, if you do not own a lot or a house and try to use the Hearth passage items, it will now teleport you to the entrance of the housing area instead of previously where it would do nothing at all and still use the medallion or scroll.
+
+    - The Dye, Tincture & Enchantment Supplies merchant should now have all the appropriate catalysts.
+
+    - Two new signs have been added to the garden signs store, House for Sale and Battle Plunder for Sale.
+
+    - The low hedge, barrel, two barrels, and three barrel stack available from the garden store should now have the intended prices.
+
+    - All known locations where players would 'lose' interior decorations by placing them in a spot where they could not be picked back up have been fixed.
+
+
+
+
+
+    COOPERATIVE SERVER
+
+    - The evil Lords in the keeps on Gaheris will now call the monsters in the keep for help when attacked.
+
+    - Fixed an issue at Dun Da Behnn where one of the Ghostly Glimmer Warders would spawn over and over till the keep was taken.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

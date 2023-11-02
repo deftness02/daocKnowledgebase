@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.54" id="patch-v154">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.54</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ============================
+
+
+
+    Dark Age of Camelot
+
+    Version 1.54 Release Notes
+
+    Tuesday, November 11, 2002
+
+
+    ============================
+
+
+
+    Welcome to Dark Age of Camelot version 1.54, a major addition to the game. In this version are several complete new game systems - Spellcraft/Alchemy and Dueling - as well as many smaller tweaks and additions that have been requested by the Camelot community - 10 hotbars of 10 keys each, color coding of names, macros in chat text. Additionally, we've made some substantial updates to the frontier outpost RvR system and many updates to siege warfare to make it easier and more advantageous to use.
+
+
+
+    SPELLCRAFT AND ALCHEMY
+
+    Spellcraft and Alchemy make their debut in Dark Age of Camelot with this update, which are the two crafting skills that allow player crafters to imbue weapons and armor with magical properties. This is an extensive system that has many options and associated skills. For full documentation of the Spellcraft and Alchemy, go to the Camelot Herald at www.camelotherald.com/documentation/spellcraft/. You'll find all the information you need to get started there.
+
+    General Overview of Spellcraft/Alchemy
+
+    Spellcraft and Alchemy work exactly like the other tradeskills as far as their recipes, and the objects they create go. Once you have the object, you "combine" them, via the trade window to an object.
+
+    For example, Player A takes their Sword they want to have strength added to it to a Spellcrafter. They place it in a trade window with the Spellcrafter. The Spellcrafter places a strength Gem in the sword's gem socket and clicks the "combine" button. Satisfied (both players will get text information on the combine, how many points it took, etc), Player A places some money in the trade window and hits accept. The Spellcrafter then hits accept, the combine happens. Viola! Player A has a sword with a strength bonus, and the Spellcrafter has the satisfaction of making another magic item.
+
+    The "forge" object for Spellcraft and Alchemy is the new Alchemy table that you will see placed in various parts of the home cities. You will find the merchants needed for these two crafts close by.
+
+    The tools that you will need for various recipes are the Spellcraft Kit, Alchemy Kit, and Mortar and Pestle. The kits are always needed for their specific trade, the Mortar and Pestle is needed for making any of the poisons.
+
+    You may need to scroll sideways in the Spellcraft/Alchemy Merchants to find the items that you need (using the new multiple store indexes per merchant feature).
+
+
+    Names of Guild Masters:
+
+    Albion
+
+    Spellcraft Guild Master: Clayton Gage
+    Alchemy Guild Master: Adelaide Dinsmore
+
+    Midgard
+
+    Spellcraft Guild Master: Hradi Thorleif
+    Alchemy Guild Master: Armod Dag
+
+    Hibernia
+
+    Spellcraft Guild Master: Shannen
+    Alchemy Guild Master: Aslander
+
+
+    Trade Skill Reset
+
+    In order to "wipe" your trade skills so that your character can learn Spellcraft/Alchemy if they already belong to another trade Order, we've put in a special quest in each Realm that will guide your character through the process. Please note that you can only go on this quest ONCE, and you can only do it to switch from whatever tradeskill you currently know to Spellcraft or Alchemy - NOT to any other tradeskill.
+
+    We've placed an NPC in each of the capital cities of each realm in the general vicinity of the name registrar. Each of these NPC’s will instruct you as to the process of changing your order. Please note that once you have established yourself within the new order, you cannot change back. All of these changes are final!
+
+    Change Trade Order NPCs:
+
+    Albion – Edie Wharton
+    Hibernia – Fabrice
+    Midgard – Gudmund
+
+
+
+    RVR/FRONTIER KEEP CHANGES
+
+    We've made a few changes to make taking and holding frontier keeps much more attractive. The changes are designed to make it slightly easier to defend keeps, as well as give you more reason to control them. We will be making more enhancements to this system over time.
+
+    - Now, when a guild claims an outpost, all guards from that outpost raise one level. Additionally, as the keep is upgraded - one level is added to every guard for every upgrade level on the keep. Note that the named guards at the relic keeps are "from" these outposts and enjoy the same upgrades.
+
+    - Heal spells now receive a bonus from the power relic - finally healing classes will benefit by their Realm controlling power relics.
+
+    - Now, when the outer door of a keep is destroyed, all scouts from the outpost still alive will converge on the keep door to attempt repel all attackers.
+
+    - Players now receive an exp bonus when fighting within 16,000 units of a keep controlled by your realm or your guild. You get 20% bonus if your guild owns the keep or a 10% bonus if your realm owns the keep.
+
+
+
+    NEW 10 ICON/10 BANK TOOLBAR
+
+    - With great ado, we now support 10 hotbars with 10 icons each.
+
+    - There has also been a new slash command added, /qbar which allows you to pick a quickbar with a slash command. Example: /qbar 2 switches to your second quickbar, the same as pressing Shift-2. This change allows you to assign /macro commands that will select between different quickbars. The current quickbar page will now persist across zoning and quitting.
+
+
+
+    NEW MONSTER/PLAYER NAME COLOR SYSTEM
+
+    We now support an alternative scheme to display the names over all in-game models (player, monster, and enemy player). There is a new slash command: "/colornames" that enables the new name coloring scheme:
+
+    Monsters: Names are colored by con color
+    NPCs: Cyan
+    Realm Enemies: Red
+    Guild Members: Dark Green
+    Group Members: light orange/brown
+    Players: Normal Color (light blue)
+    Graves/Dead People: Brown
+    Selected Target: White
+
+    Note that when you turn this on, selected target is no longer yellow, it is white. Yellow names are yellow-con level monsters.
+
+    To restore the game to the old system, type "/oldnamecolors", which restores the original name coloring. Your name coloring preference will persist across zoning and quitting.
+
+
+
+    NEW NAME TOGGLING SYSTEM
+
+    There is another new slash command used to hide player, monster, and grave names. The command is as follows:
+
+    /hidenames players monsters
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.62" id="patch-v162">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.62</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    =========================
+
+
+    Dark Age of Camelot
+
+    Version 1.62 Release Notes
+
+    =========================
+
+
+
+    After a long development and testing cycle, here is Dark Age of Camelot version 1.62. It started out development as a "Hibernia tweak and bug fix patch", but quickly mushroomed into a general class balance and bug fixing patch. We've substantially updated/tweaked/adjusted light tanks, pet classes, archers, and made many more changes to other classes.
+
+    We know that there are more items to tweak and fix in the game, but we strongly feel that with 1.62, we've come a lot closer to bringing more balance to the game, as well as some needed new features. As always, there are more things to do, and we'll keep working on any outstanding bug fixes and balance issues as we do future patches.
+
+    A big Thank You must go out to the Team Leads who have been so helpful in providing feedback and testing for 1.62 as it has gone through the testing process. You should all be proud of yourselves.
+
+
+    Here's a list of just the major items we've addressed in 1.62:
+
+    - Many many tweaks and fixes to Hibernian classes. Yes, we know there are more to make in the future, but the list of items done for Hibernian classes in 1.62 is extensive.
+
+    - Addressed Realm Balance via the new /level command. Now, if you have a level 50 character on any server, you can create level 20 characters on any other server, and level 30 characters on specific Realms on different servers that we have determined to be underpopulated. We'll see how this affects Realm balance and make more changes as appropriate.
+
+    - Archers. Archers been given some extra tools to work with - Penetrating Arrow and Quick Shot.
+
+    - Addressed Left Axe combat style being very overpowered. Not a popular decision with Berserkers and Shadowzerks, but a good one for game balance.
+
+    - Addressed light tank issues. Mercenaries and Blademasters have had combat style damage increased on one chain each on their Dual Wield/Celtic Dual styles, as well as bleed damage from those styles that cause bleeding was increased across the board. Additionally their special abilities (Dirty Tricks and Triple Wield) have been made more attractive and useful.
+
+    - Implemented the "newbie guild" system on all live servers.
+
+    - Pet Classes. We made many enhancements and refinements to various pet classes from each Realm.
+
+    - Re-tuned several high-level encounters. Dragons in each Realm are now easier to kill, as is the final encounter in Galladoria (Hibernia, Shrouded Isles).
+
+    - Found the infamous "Block/Parry" bug and fixed it.
+
+    - Re-tuned the way Bolt spell damage is assessed. You should now see Bolt damages raised, especially when hitting lightly armored targets.
+
+
+
+    CLASS CHANGES AND 1.62
+
+    Because 1.62 has so many sweeping changes to so many classes, we are designating this a "class balance patch" and will be granting single line respecs to everyone in the game (level 5 and above) regardless of class or Realm.
+
+    Things to remember when using this type of "gift" single line respecs:
+
+    - YOU WILL NOT BE GIVEN THE RESPEC IF if you already have 2 unused single respecs, or if your character has a full respec that you haven't used.
+
+    - THE RESPEC WILL BE STRIPPED FROM YOUR CHARACTER if you do not use it before the next time you level. If you want to use the respec, use it immediately after logging in; otherwise you risk leveling and losing the respec.
+
+    All Assassin classes in 1.62 who had the See Hidden Realm Ability will have that ability stripped from their character and have the points invested in it returned to them, for use in specializing in any other Realm Abilities they wish (including re-investing in See Hidden if they so choose).
+
+
+
+    NEW THINGS AND BUG FIXES
+
+
+    - We found and fixed the infamous "Block/Parry bug" - the one that caused players to block and parry less often when attacked by a grouped opponent. This change will have the most effect in RvR situations where you are fighting an opponent who is in a group. This fix will also fix an issue with opponents appearing to be "in melee" and having bolt spells fired at them blocked more often than intended.
+
+    - Bolt Spells in general have had their damage calculation modified so that now you should see damages slightly increased across the board, with much more damage inflicted against lightly armored (leather, cloth) opponents. Please note that this change is for RvR only - it does not affect bolt damage against monsters.
+
+    - Side Positional combat styles now will work an extra 15 degrees towards the rear of an opponent, and rear position styles work in a 60 degree arc rather than the original 90 degree standard. This change should even out the difficulty between side and rear positional combat styles, which have the same damage bonus. Please note that front positional styles are not affected by this change.
+
+    - We slightly adjusted combat style (and combat style only) bleed effects so that higher versions go above 7 damage on the initial "tick".
+
+    - /mbuy is now added to the command history (accessible by pressing Shift-Up Arrow)
+
+    - /clock now toggles display of a new window that shows the current time of day (real time, not game time)
+
+    - Renamed several keys in the keyboard config to make their use more clear.
+
+    - When you level, if your strength increases, your encumbrance will properly increase.
+
+    - For casters with concentration points, when you level, your concentration pool is now properly updated.
+
+    - You may now delve items in your vault to see additional information about them.
+
+    - All of the craft recipe windows now display your current skill level in the window title, for example: Armorcrafting (705).
+
+    - Deaths from DOTs cast by players (including assassin poisons) after the casting player has died and released or quit will no longer result in an experience loss death.
+
+    - All Nearsight spells now have a 1 minute immunity timer.
+
+    - There was a bug where Savage combat styles that hit more than one target were hitting multiple targets even when the opening for that particular style was not performed correctly. Now, you'll have to get the style off successfully (i.e. meet the opening criteria) in order to hit multiple targets.
+
+    - When salvaging cloth items, Clothworking will be checked now instead of Tailoring.
+
+    - If you had any items from your backpack on your quickbar (poisons, potions, etc) the quickbar icons would be deleted whenever you traded with another player. This is now fixed and the icons should remain on the quickbar and still point to the correct items in your backpack.
+
+    - You can now /face your pets.
+
+    - If you were far enough away from your pet for a long enough duration, sometimes your pet window would pick up another creature in the zone and start displaying its health. This will no longer happen -- if you are too far away from your pet for too long, the pet's health meter will now disappear completely. When you move back in range of your pet, the health meter will reappear with the correct information.
+
+    - (SI Only) Fixed a bug that was causing player hair/head textures to be drawn incorrectly on ATI Radeon 9000+ cards.
+
+    - (SI Only) The new Battlegrounds, Abermenai (BG0), should now have a splash screen picture when you are entering the zone.
+
+    - All monsters names whose names begin with a vowel should now use the article 'an' instead of 'a'.
+
+    - Many spell icons were set incorrectly - we've scrubbed through all of them and made many fixes and adjustments.
+
+    - Monsters should no longer target a necromancer in shade mode after the pet has been rooted.
+
+    - There was a bug when repairing an object directly from the trade window would display a timer bar with a "flashing" indicator bar. Now, repairing in the trade window should no longer give any repair timer bar - repair is instant, so no bar is needed.
+
+    - Specialization will now adjust the amount healed in heal over time spells.
+
+    - There was a bug on the PvP servers where some Bard pulsing songs would not take effect because of the immunity timer. This has been fixed.
+
+    - Alliances on the Co-Op server (Gaheris) will no longer be reset every time a new patch is launched.
+
+
+    Chat Tab Changes
+
+    You can now modify your chat tabs to change chat channels to talk in Alliance or Officer chat by default. When you change the outgoing chat type for a tab, the tab will now change names to reflect your choice.
+
+    Right click on the name of the tab group, and right click on the name of the message type that you would like to talk to. Your chat tab will change names to reflect this. You can set it to: Say, Broadcast, Group, Guild, Alliance Chat, Officer Chat, or Chat Group.
+
+    To control what messages are visible in this channel, check or uncheck the boxes to the left of the message type.
+
+    To change colors for a specific message type, click on the name of the message type and use the arrow buttons.
+
+
+
+    THE LIGHT TANK EXPLAINED
+
+    There's been a lot of discussion, controversy, and misunderstanding about light tanks in Dark Age of Camelot. One of the main requests we get is an explanation for what purpose a light tank serves in a group (both in PvE and RvR). In our definition, light tanks are Blademasters, Mercenaries, and Berserkers. There is a fuzzy line in some places (the Savage can also be considered a light tank) but for the purposes of this discussion, we're only talking about Blademasters, Mercenaries, and Berserkers.
+
+    The purpose the light tank was designed for was to be a damage dealer, but not have much defense. Because of this, they should not be a good one-on-one class, but they should be able to do a great amount of damage when not holding aggression from an enemy player or monster.
+
+    A way of illustrating this is that a Blademaster should not be able to go head to head (one on one) with an Armsman or Warrior (primary tank) and reliably win. However, a Blademaster and a Hero working together should be much more effective in dealing damage than two Heroes working together. The same holds true for the other Realms - A Mercenary should not be able to take on a Warrior head to head and win reliably, but a Mercenary/Armsman team should be quite effective. This is why the primary combat style chains for these light tanks are positional in nature - they assume that someone else is holding a monster or enemy player's aggression.
+
+    From reading this description, everyone familiar with these three classes will know that they deviate from the design goal in several different points. Berserkers do more damage, as they can (usually) go head to head with a same-level primary tank from an enemy realm and win. Those who play Blademasters and Mercenaries know that in RvR they can not only not go head-to-head with an enemy tank, but they are not even as effective as intended in tandem with another primary tank - two Armsmen or two Heroes are more effective than working with their Realm's light tank.
+
+    In light of this, we are making some changes in 1.62 to even the playing field. Mercenaries and Blademasters do less damage than they should, so in this update, we are increasing substantially the bleed damage on their high-spec level styles that have a bleed component, as well increasing the damage on some other styles. In addition, we're making some changes to Blademaster and Mercenary special abilities in this version - check out the "Class Updates" section below, for more details.
+
+    The Berserker being overpowered comes from the fact that Left Axe combat styles do too much damage overall, which makes them - as well as "Shadowzerks" - do more damage than they should. So, Left Axe style damage is being reduced to return Berserkers to be consistent with the light tank philosophy.
+
+
+    Blademaster Changes
+
+    - The Blademaster Triple Wield special ability has been updated. It is now on a 7 minute re-use timer (it was previously set to 30 minutes). It now will stack properly with other damage adds - it will always increase damage no matter what other buffs or damage adds are currently affecting the Blademaster. Triple Wield also now makes Blademasters immune to critical melee damage.
+
+    - The Ice Storm -> Tempest -> Supernova chain has been modified for Blademasters only (i.e. Rangers and Nightshades are not affected by this). The damage for each has been increased, and Ice Storm now has a short stun component.
+
+    - Increased bleed damage for Celtic Dual combat styles Tempest and Twin Star. This is a Blademaster ONLY change - other classes that receive Celtic Dual will not see increased bleed effects on these styles.
+
+
+    Mercenary Changes
+
+    - The Mercenary Dirty Tricks special ability is now on a 7 minute re-use timer (it was previously set to 30 minutes), and has changed in effect. It now activates a 30 second offensive proc effect on the Mercenary that applies a 10 second debuff on the Mercenary's target every time it is hit. This debuff gives the target a 50% chance to fumble all their melee attacks while under the debuff's effect.
+
+    - The damage for both styles in the Flank -> Shadow's Rain combat style chain has been increased for Mercenaries only (Infiltrators are not affected).
+
+    - Increased bleed damage for Dual Wield combat styles Dark Tendrils and Dual Shadows. This is a Mercenary ONLY change - other classes that receive Dual Wield will not see increased bleed effects on these styles.
+
+    - The Dual Wield combat style Dark Tendrils is now based off Parry for Mercenaries. Formerly it was based off Evade. Please note that Infiltrators will still have Evade as the opening for this style.
+
+
+    Left Axe Changes
+
+    - Reduced the damage done by Left Axe Combat Styles. This will affect both classes that can specialize in Left Axe (Berserkers and Shadowblades).
+
+    - Berserker Left Axe Snowsquall, Icy Brilliance, and Aurora Borealis have had their damage slightly increased (based on the new damage, see previous note) for the Berserker (only, this change will not affect the Shadowblade). Additionally, Aurora Borealis now chains off of Icy Brilliance and has a cold-based DD proc.
+
+
+
+    THE /LEVEL COMMAND
+
+    Dark Age of Camelot now supports creating new mid-level (20th level) characters for those players who have attained 50th level on any character on any server. In addition, we've flagged certain Realms on some servers as "underpopulated" - on those Realms, if you are eligible to use the /level command, you'll be able to create a new 30th level character.
+
+    Check the Camelot Herald at www.camelotherald.com for a list of Realms (by Server) where /level will grant you a level 30.
+
+    Once the flag is set, you can enter the game as a brand-new first level character with zero experience points. You must target your trainer and use the /LEVEL command to grant your player experience. You'll start with at least enough experience to raise to 20th level (30 on some Realms on some servers). You must go to your trainer and right click on him to gain levels.
+
+    Note that any existing character who is below the experience being granted can use the /level command. Use of this command will grant experience to reach level 20.5 or level 30.5
+
+    Please note that we can dynamically change what level (20 or 30) the /level command will grant you. When we decide to change a Realm's /level status, we'll make a post on the Herald to announce the change.
+
+
+
+    NEWBIE GUILDS
+
+    We've implemented the newbie guild system, so now all new characters will be pre-set in a guild. This is the same system that has been featured on the PvP servers for the last few months. Now, when you create a new character, you'll be placed in a guild that is based on your new character's starting location. This will give legitimately new players some community in their general starting area via guild chat and an easy way to meet up with like-level new players.
+
+    There are four guilds per Realm, each named based on the geographical location. You can remove yourself from the newbie guild by doing a "/gc quit" any time. Please note that you can technically remain in these guilds for the life of your character, should you choose to do so. Being automatically put in a guild at creation gives you an instant chat group and a sense of community with the other players around you. You can discard this guild at any time, and join a player-run guild when they you meet and are invited to the right guild.
+
+
+
+    HIBERNIA CLASS UPDATES
+
+    Valewalker Changes
+
+    - The Valewalker base melee ability has been increased. Valewalkers will now do more damage every time they hit a target with a melee weapon.
+
+    - Changed combat style Damaging Grasp to be a rear positional style to make it easier to use. Previously it was in a chain.
+
+    - Changed combat style Stunning Blade to have a to-hit bonus.
+
+    - Changed Valewalker Close Path line to a shout with a 20 second recast timer.
+
+    - Added Mystic Crystal Lore, Raging Power, Wild Power, and Wild Arcana to the Valewalker RA list.
+
+    - Many Valewalker spells had inconsistent icons. These have been fixed.
+
+
+    Animist Changes
+
+    - Animist pets will no longer attempt to attack monsters that are set as "no kill" - merchants, gatekeepers, etc.
+
+    - Animist pets will now target all enemy players. Previously they would not attack gray or purple enemy players.
+
+    - The line of sight check for ground target turret summon spells should now be done before the spell is cast. This should prevent animists from losing power when they attempt to cast a turret in an area they can't see.
+
+    - The "In Air" check on turret casts has been removed because all turrets should be created on the nearest point of ground. The "You can't cast this spell in the air!" message will not be seen as much now. However, there are still some (vastly reduced) situations where this message will erroneously appear. We will continue to work on this problem in future patches.
+
+    - Animist pets will target purple monsters. Previously they would not attack any monsters higher than red.
+
+    - Corrected an AI bug in the Essence of the Tree, Guardian Emissary, and Woodspirit Sheath bombers that was causing problems with buffing other targets.
+
+    - The Constraining Spirit line has had its range increased to 1500.
+
+    - The Grove's Assailant line will now display correct information when delved.
+
+    - Animist Turrets should no longer attempt to target things which are not in their line of sight.
+
+    - Many Animist spells had inconsistent icons. These have been fixed.
+
+    - Increased range of the Animist Dancing Spark line to 1500.
+
+    - The Ligneous Sheath line of turrets should now properly buff realm-mates within range of their melee buffer spell.
+
+    - The turrets summoned by the Vent of Elemental Resistance and Vent of Physical Resistance spell lines now must be killed normally. Previously, they would always die on the first instance of damage taken by an enemy.
+
+    - Please note that we are aware of additional Animist line of sight issues that have not been addressed in 1.62. These problems still affect, in some cases, pet and caster line of sight. We'll keep working on these issues in future Camelot versions.
+
+
+    Bard Changes
+
+    - Ameliorating Melodies now heals twice as much (its tick frequency was halved from 3 seconds to 1.5 seconds).
+
+    - Rhythm of Hibernia, Rhyme of Earth, and Chant of Healing have all had their ranges increased to 2000.
+
+    - Added Dodger to the Bard RA list to give them the option of boosting their evasion chance while playing instruments.
+
+    - Bard Pulses on the PvP server should now work while their PvP immunity timer is up whether they're targeting themselves or not.
+
+
+    Warden Changes
+
+    - Added Mastery of Blocking, Wild Healing, and Mastery of Healing to the Warden's RA list.
+
+    - Increased the heal values on the Solar Conversion line, and increased the fatigue cost reduction on the Attack Unfading line. This is to give a reasonable reward for sacrificing martial skills for spec in Regrowth.
+
+
+    Eldritch Changes
+
+    - The Lesser Mana Ripple line has had its cast time reduced to 2.5 seconds, making it similar to PBAEs in the other realms.
+
+    - The spells Blank, Obliterate, and Extinguish Coordination have had a radius component added to them, making them similar to the Lesser Health Dispersal line.
+
+    - Reduced cast time of the Ethereal Concussion line to 2.6 seconds; this brings it in line with the Gleam Ray line.
+
+    - Added a baseline single-target strength debuff shout in Way of the Eclipse:
+
+    8 Cancel Strength
+    15 Negate Strength
+    21 Unmake Strength
+    29 Abrogate Strength
+    35 Void Strength
+    43 Vitiate Strength
+    50 Null Strength
+
+    - Added a baseline single-target dexterity debuff shout in Way of the Eclipse:
+
+    11 Void Snare
+    19 Void Net
+    25 Void Web
+    33 Void Clamp
+    40 Void Lock
+    48 Void Chains
+
+    - The Lesser Kinetic Dispersal line has had its attack speed debuff component replaced with a snare component.
+
+    - Eldritch class special RA Negative Maelstrom has had a cold resist debuff component added (and its base damage slightly reduced to compensate).
+
+
+    Enchanter Changes
+
+    - Tuned pet AI to allow pets to melee better while on the run.
+
+    - Raised threshold at which the underhill ally will heal.
+
+    - Changed underhill zealot AI so that it will no longer charge opponents instead of casting.
+
+    - Fixed underhill zealot's resist debuffing spell to properly debuff heat damage.
+
+    - Changed Dazzling Flash line to be a single target melee damage debuff.
+
+
+    Mentalist Changes
+
+    - Halved the round cost of the Illusory Enemy line.
+
+    - Decreased the cast time of the Delusion line to 3 seconds and increased the range to 1500.
+
+    - Changed the Curative Trance line to be a true Heal-over-time. It lasts 10 seconds, has a 2 second frequency, and has had its cost and healing amounts adjusted accordingly.
+
+    - Adjusted the costs of the Curative Trance. The new costs are:
+
+    10 Curative Trance 18
+    21 Restorative Trance 34
+    32 Healing Trance 47
+    43 Sanative Trance 58
+
+
+    Hero Change
+
+    - Stag Form ability is no longer usable while sitting. Hopefully this should eliminate some "misfires". It also now has an appropriate icon.
+
+
+
+    ARCHER NOTES
+
+    It's time to give Archer classes a bump in ability, as they have been somewhat left behind by the addition of many new abilities and spells in other classes. In this version, we attempt to bring the Archer back in line to be a fun to play class. However, it is not our intention to ever return the Archer to the sniping overpowered force that he was at Camelot's launch. These changes should make the Archer useful and fun, but not make him overpowered.
+
+    By "Archer", we are referring to the Hunter, Ranger, and Scout.
+
+
+    General Archer Notes
+
+    - We've adjusted the way we calculate fumbles for Archery. Archery attacks have always had fumbles calculated differently than regular melee attacks. We've reworked this part of the Archery fumble calculation to be more in line with the way melee fumbles work, meaning Archers should notice a substantial decrease in their fumble rates, somewhere on the order of 1/4 what they were.
+
+    - Camouflage timers will no longer be reset by PvE attacks. Only an attack by the Archer on another player or a pet or turret controlled by another player will reset the timer. Camouflage is designed to let the Archer scout in PvP situations, so PvE interactions should not affect its timer.
+
+    - We have seen complaints that Archers miss their targets at a higher rate then melee fighters. Please be aware that we have run extensive tests as well as looked at the formulas and have found the miss rates for Archers and melee are the same. We will continue to look into this as more reports and logs are generated by Archers, but for now there are no miss fixes.
+
+    - We have modified how the See Hidden ability interacts with Archer classes. We've varied the range that an assassin can see a non camouflaged hidden archer anywhere from 1/4 to 3/4 of the current range depending on the archer's stealth spec vs the assassin's level. On average this means that an assassin will have to be within about 1/2 the range that he can see the archer from compared to how the system works currently on the live servers.
+
+
+    Critical Shot Notes
+
+    - We've changed the way that aggression is calculated when Archers use Critical Shot against monsters. Now, aggro generated from damage done by a Critical Shot is divided among all group members of the Archer. Please note that the Archer will still get a fraction more damage than any other group member, but it will now be much easier to pull the monster off the Archer once it has been hit by a Critical Shot. This should make Archers one of the better monster "pullers" for any PvE group.
+
+
+    Arrows And Bladeturn
+
+    All three Archers now receive a new skill called "Penetrating Arrow", which allow them to penetrate, to some extent, Bladeturn spells. Here's the details:
+
+    - Penetrating Arrow will never go through Bladeturns (both pulsing and single-target) on the character that cast the spell. This means that a Warden who casts a bladeturn on himself will never have his own personal bladeturn penetrated.
+
+    - Bladeturns cast on group/realm mates can be penetrated. So a Hero that has a pulsing bladeturn (or single target) on him from a friendly Warden can have that bladeturn penetrated.
+
+    - Archers receive Penetrating Arrow based on their specialization in their particular Bow skill. They get Penetrating Arrow 1 at 30th spec, Penetrating Arrow 2 at 40th spec, and Penetrating Arrow 3 at 50th spec. Lower levels of PA do less damage by not fully penetrating the bladeturn. The highest level of PA does normal damage.
+
+    - Additionally, Longshot and Volley penetrate ALL Bladeturns, regardless of who cast them.
+
+    - Please note that in this version we have made sure that self bladeturns will no longer be overwritten by other bladeturns.
+
+
+    Rapid Fire
+
+    The three Archers now also receive a new ability called "Rapid Fire", which allows them to release their bow shot before the normal bow timer. Here's the details:
+
+    - When an Archer has this skill, at any time after halfway through their normal bow timer they can release the shot.
+
+    - If you release the shot 75% through the normal timer, the shot (if it hits) does 75% of its normal damage. If you release 50% through the timer, you do 50% of the damage, and so forth - The faster the shot, the less damage it does.
+
+    - Rapid Fire shots takes the same endurance as a normal bow shot, but do less damage.
+
+    - Archers receive Rapid Fire 1 at 35 specialization level in their particular bow skill, and Rapid Fire 2 at spec level 45. The difference between the two is how much endurance they take - RF 2 takes less endurance than RF 1.
+
+    - Please note that you cannot use Rapid Fire with Longshot or Volley.
+
+
+
+    PET CLASS NOTES
+
+    In order to encourage pet casters to spec in their pet specialization spells, we are making many additions and tweaks to some of the pet casters in all three realms.
+
+    General Pet Notes
+
+    - You can now /face your pets.
+
+    - Pet targeted spells should now recognize whether the pet is out of range before the spell is cast.
+
+    - If you were far enough away from your pet for a long enough duration, sometimes your pet window would pick up another creature in the zone and start displaying its health. This will no longer happen - if you are too far away from your pet for too long, the pet's health meter will now disappear completely. When you move back in range of your pet, the health meter will reappear with the correct information.
+
+
+    Pet Control Note
+
+    We've changed the way that the different "modes" (passive, aggressive) work when controlling pets. Now, pets in aggressive mode will automatically attack non friendly targets (before that target performs any aggressive actions), so long as they are within the pet's aggressive range and the pet isn't currently engaged in another action.
+
+    In order to still allow the previous "aggressive behavior", where a pet in aggressive mode would not take any action on a target attacking the controller until the controller told it to, we have also changed the way that Passive mode works. Pets in Passive mode will now set their target, attack, and change to defensive mode when the "attack" button on the Pet Control Window is pressed.
+
+    The only exception to this new pet control change is the Bonedancer, due to the complexity of his commander/minion AI. For those Bonedancers who used Aggressive mode for passive behavior, you should instead use Passive mode, since in Aggressive mode your pets will not attack monsters. In RvR Bonedancer pets will attack players higher than "gray con" however. We will look at this issue in 1.63 and address it should the need arise.
+
+
+    Animist Changes
+
+    - Bombers now use the wisp model and will be visible at all times. Previously they used another effect that caused them to disappear in some cases.
+
+    - It is no longer be possible to summon turrets that cannot be attacked by melee attacks.
+
+    - Tangler turrets now cast increasing duration roots.
+
+    - Animists now have access to the RA Wild Minion.
+
+    - The Animist pet summoned by the Forestheart Ambusher Realm Ability have been increased to the proper amount of hitpoints for its level.
+
+
+    Spiritmaster/Runemaster/Bonedancer Changes
+
+    - Added a L50 DD, Obsidian Strike, in the Darkness base list to make it more consistent with the base lists in other Realms.
+
+    - Increased damage on Runemaster Runes of Pain line to be commensurate with damage adds in the other realms.
+
+    - The Cold and Matter resist debuffs in the Runemaster Runes of Destruction list (Vex of Cold line and Vex of Soil line) have been adjusted to require a higher spec to debuff the damage type of the baseline DD. The Vex of Cold line requires higher specialization level now, while Vex of Soil requires less. The new levels for all Runes of Destruction resist debuffs (Vex of Heat didn't change) are:
+
+    22 Vex of Heat
+    33 Vex of Fire
+    45 Vex of Flames
+    27 Vex of Cold
+    36 Vex of Frost
+    48 Vex of Ice
+    25 Vex of Soil
+    34 Vex of Dirt
+    46 Vex of Earth
+
+
+    Spiritmaster Changes
+
+    - Changed the Gift of the Fallen line to be realm castable with a 60 second duration. This means you can now cast it on friendly Realm members.
+
+    - Reduced casting time of the Dampen Lifeforce line to 2.5 seconds to make it consistent with other casters.
+
+    - Added a pet-only mez reduction buff, Tenacious Warrior Spirit at L35 and Indomitable Warrior Spirit at L45 in the Spirit Enhancement list, to help compensate for spirit warriors' lack of ranged attack.
+
+    35 Tenacious Warrior Spirit
+    45 Indomitable Warrior Spirit
+
+    - Spiritmaster pets, starting with the spirit soldier, now have a chance to take the melee attack for their controller. The chance increases up to the spirit champion. The caster must be standing close to the pet for this ability to be used.
+
+    - Added a pet-only attack speed buff to the Spirit Enhancement list.
+
+    10 Spirit of Melee
+    16 Spirit of Attack
+    21 Spirit of Combat
+    27 Spirit of Battle
+    34 Spirit of War
+    41 Spirit of Strife
+
+    - Added the Hinder Prey line to the Spirit Enhancement list, a pet-only offensive proc buff that gives the caster's pet a chance to ensnare a target for a short time. The speed reduction increases with higher levels, and it won't break in combat.
+
+    28 Hinder Prey
+    38 Snaring Blow
+    48 Hunter's Trap
+
+
+    Cabalist/Spiritmaster/Enchanter Changes
+
+    - Increased value on pet-only spec stat buffs to be equal to spec buff levels.
+
+
+    Cabalist Changes
+
+    - The Strengthen Golem and Hurry Golem lines should be checking the correct skill now.
+
+    - Added a line of pet-only runspeed enhancement buffs to the Vivification list.
+
+    25 Tracker Enhancement
+    35 Chaser Enhancement
+    45 Pursuer Enhancement
+
+
+    Enchanter Notes
+
+    - The underhill zealot pet now will always cast the DD + debuff spell. Previously it also had a chance of casting a DD + Snare spell which was not as effective as the DD + Debuff.
+
+    - Added a pet-only buff to the Enchantment Mastery list that enhances the effectiveness of the pet's spells. Against targets higher level than the pet, this should reduce the chance of a full resist. If used against lower level targets, damage done will go up.
+
+    40 Beguiling Will
+    50 Insidious Will
+
+    - Added a pet-only buff to the Enchantment Mastery list that gives a chance of a self heal each time the pet is hit in melee.
+
+    29 Enchanted Armor
+    38 Shimmering Armor
+    49 Splendorous Armor
+
+    - Swapped the levels of the Enchanter Amplify Heat and Amplify Matter lines. Previously, Enchanters were doing high amounts of damage too easily by being able to debuff an extremely high level DD of the same element. With this change, Enchanters will still be able to use this strategy, but now the amount of damage they can inflict will be more variable.
+
+    New Heat Debuff
+    27 Amplify Heat
+    36 Endow Heat
+    49 Empower Heat
+
+    New Matter Debuff
+    23 Amplify Matter
+    33 Endow Matter
+    44 Empower Matter
+
+
+    Mentalist Changes
+
+    - Ghostly Enemy now adds undead to the list of monster types that can be charmed, and Dream Enemy can charm any type of creature.
+
+
+
+    SPELL AND REALM ABILITY NOTES
+
+    - Changed the Shaman Minor Earth Invigoration line (fatigue regeneration buff) to be realm targeted concentration buff. If the target of this buff moves more than 1500 world units away from the caster, it will stop affecting the target until he moves back within this range. As with all concentration buffs, if the caster is killed all the buffs he is supporting will drop.
+
+    Spells
+
+    - All Bolts have had their cast times reduced to 2.5 seconds.
+
+    - Fixed a bug where heal-over-time spells were not updating the target's health properly.
+
+    - Fixed a bug where snares that fire off combat styles were using a lower value than intended.
+
+    - Resist debuffs will now interrupt casters once again. Several versions ago, resist debuffs were temporarily changed to shouts and when that happened their interrupt checks were removed. Soon after that patch, resist debuffs were returned to a castable spell (i.e. were no longer shouts). However, they were still set incorrectly to non-interruptible. They have now been correctly returned to interruptible, as they are no longer shouts.
+
+    - Self bladeturns will no longer be overwritten by other bladeturns.
+
+    - Strength (and strength only) debuffs and disease spells should no longer reduce a player's encumbrance below their unbuffed maximum. Debuffers were using the fact that you could reduce an enemy to 0 movement speed as an effective one minute total snare with no counter, which was not the intention of strength debuff spells.
+
+
+    Realm Abilities
+
+    - The Wizard class special Realm Ability Volcanic Pillar has had its damage and radius increased.
+
+    - The Augmented Acuity RA now affects power pool and damage for Nightshade spell abilities.
+
+    - The Whip of Encouragement Realm Ability has had its reuse timer lowered to 10 minutes and will no longer break in combat.
+
+    - The Excited Frenzy Realm Ability has had its reuse timer lowered to 10 minutes and it should properly increase a pet's attack speed.
+
+
+
+    OTHER CLASS UPDATES
+
+    - Hibernia: Elves can now be Blademasters.
+
+
+
+    CLASSIC CAMELOT WORLD NOTES
+
+    Epic Zones Revisited
+
+    In a continuing effort to revitalize under-utilized areas of the game, we have revisited the three zones that contain the original dragons. After evaluating all three, we are adding new AI for all the existing named mobs to increase the variety of encounters in the zone, and tweaking the Dartmoor and Sheeroe Hills zones so they will hopefully have as much appeal for players in those realms as Malmohus has for Midgard players. In order to do this, we have decreased the scout range of all scout mobs in each zone. This should allow players to navigate the zone easier and lower the chances of having mobs aggro from distances that are too far for players to deal with. We have also lowered the spawn times of some generators that were spawning faster than players were able to reliably deal with.
+
+    Additionally, all three dragons have had their damage on one of their two breath spells greatly lowered.
+
+
+    /Leveled Character Equipment
+
+    With the /level command, a system has been added to equip the newly high leveled characters with some base equipment. The following NPCs will be able to assist you in obtaining these items.
+
+    Camelot: Hadreth, Assistant Wells, Galaris Pritchard, and Lucia Pritchard.
+
+    Tir na Nog: Carraent, Aetheonyc, Rhyryn, Gwucyn, Somyr, and Caryan
+
+    Jordheim: Gair and Kelleher
+
+
+    General Quest Notes
+
+    - Item drops for the Level 20+ bounty quests should now all be stackable. The quest NPC's will only take one item at a time, so players will need to unstack the items in order to turn them in.
+
+    - We are thrilled to announce that the winning entries of the "Once Upon a Time..." quest contest have been implemented into the game. There is one for each realm: The Hibernian quest is called, "Two Ales, Ailish!," the Albion quest is called "Heart of Albion," and the Midgard quest is called, "The Legend of Fenrir's Folly." Be sure to read the winning entries on the Herald, we are certain you'll be as impressed with them as we were, and hope that you'll enjoy our implementations of these wonderful stories.
+
+
+    Albion Quests
+
+    - "Heart of Albion": Lady Nimue in Avalon Marsh seeks someone willing to gather the scattered shards of the Pendant of Hope.
+
+
+    Hibernia Quests
+
+    - "Two Ales, Ailish!" Speak with Iao in the Green Rose Pub in Tir na Nog. He seems to have lost his glasses and could use some help finding them.
+
+    - Season of Remorse - Irksa, in Howth, has been asking for a brave soul to help rescue some noble empyreans.
+
+
+    Midgard Quests
+
+    - Silent Death - Savages that received a hand to hand weapon but are specced another way, may now turn in their hand to hand weapons to Vahn in Mularn for a ONE TIME weapon exchange. Be very sure this is what you wish to do because all trades are considered final.
+
+    - The Legend of Fenrir's Folly - Silvertone in Vasudheim has an interesting story to tell about an adventure with his friends and the dread wolf Fenris.
+
+    - Dying wish and Burning Realm - Gudlor, in Huginfell, is seeking adventurers to help defend the realm.
+
+
+    Monsters
+
+    - Albion: The Fallen Warriors in Barrows are now set correctly to undead monsters.
+
+    - A new wisp model has been added to the game. You should see them floating about the world.
+
+    - Albion: The Rock Giant Wizards and Shamans in the Albion frontier are now correctly set to uncharmable.
+
+    - Midgard: Fixed a problem with the Vendo Snake Charmer in the Vendo Caverns where upon his death, the summoned snakes would vanish. Now, they will remain up until they have been killed.
+
+    - Hibernia: The Troglodytes and Thorg in Treibh Caillte have been correctly set to type "humanoid".
+
+    - Hibernia: The Amalgamate Parthanans should now spawn correctly.
+
+
+    Item Notes
+
+    - We have enhanced items in one dungeon per realm to increase the dungeons desirability as a hunting ground. Note that these changes are retro-active. If you have any items from the following dungeons; Koalinth, Tepok’s Mine, and The Cursed Tomb, give them a check. Many items from these areas were increased in effectiveness.
+
+    - The reactive procs on Omni armor were set to the intended spell for each location.
+
+    - The Diamond Dagger (Albion) now increases the slash skill and not thrusting.
+
+    - Dommel's Fiery Gauntlets (Hibernia) received after this patch should salvage for the proper material.
+
+    - Robes of the Neophyte (Albion) can now be dyed with the appropriate dye type.
+
+    - The Blodstein Ring (Midgard) now has the following stats: +2 power, +2 cave magic, +2 mending.
+
+    - The Elder Staff of Iceshadow, Elder Staff of Icy Sundering, Elder Staff of Frozen Runes, and Elder Staff of Windy Calling (Midgard) can now be equipped by bonedancers, and also have had particle effects added.
+
+    - The Deamhan Circlet of Speed (Hibernia) has been replaced with a new level-appropriate version called the Deamhan Circlet of Agility. Note that this new item is not the original item, so the Deamhan Circlet of Speed players may already own will not be updated.
+
+    - Each realm now has a suit of "roleplay" clothes, available on the existing roleplay hat merchants. Just like the roleplay hats, these outfits are intended for looks only, so they do not qualify as armor pieces.
+
+    - The curmudgeon crab-catcher in Hibernia should no longer drop Albion items.
+
+    - The Resilient Sleeves, Resilient Gloves, and Cap of the Keen Mind (Albion) no longer have class restrictions, so that necromancers are able to use these items as well.
+
+    - Siegecraft items should now have an inventory icon.
+
+    - The Lightbringer sword (Albion) now increases the slash skill instead of chants.
+
+    - The Vendo Flesh-flayer (Midgard) will no longer delve as having a proc. This item was not intended to be a proc'ing weapon, so the spell was removed.
+
+    - The flint knife (Albion) will no longer delve as having a proc. This item was not intended to be a proc'ing weapon, so the spell was removed.
+
+    - Most of the boss mob loot in the frontier dungeons has been upgraded. The old stats were compared to SI's boss mob imbue points and brought up to par. The only items that were not increased were already equal to or above equivalent SI boss mob loot in bonuses. In addition, a few new items were added for the Reaver, Necromancer, Animist, Valewalker, Savage and Bonedancer.
+
+    - Instances where objects that began with a vowel but were prefixed by the article "a" (a orb of animation) have been corrected.
+
+    - All cloaks can now have dyes and emblems applied.
+
+    - Future drops of the Sleeves of Night Fire (Hibernia) should salvage for chitin strips as intended. Any drop previous to this patch will salvage for diamond bars.
+
+    - Future drops of the Shadowsilk Gloves, Shadowsilk Vest, Shadowsilk Pants, Elven Gossamer Gloves, Elven Gossamer Vest, and Elven Gossamer Sleeves (all from Hibernia) should be the correct level for the mobs from which those items drop. Players who already own those items will need to go out adventuring to replace those items, as the field changed will not automatically update on existing items.
+
+    - A focus of deathsight has been added to the Mortal Coil Scrying Staff (Albion).
+
+    - The Lifeblinder staff (Albion) has been replaced with a new staff called Staff of the Lifeblinder. The Lifeblinder staves already in existence will remain unchanged, but will no longer drop. The new version of the staff has a focus added in place of one of the bonuses from the original Lifeblinder.
+
+    - Particle effects have been added to the Flesh Stretched Riddle Staff, Mortal Coil Scrying Staff, the old version of the Lifeblinder staff, and the new Staff of the Lifeblinder (all in Albion).
+
+    - The cloth version of the Sleeves of Buri (Midgard) should now look like cloth armor and can be dyed with cloth dye.
+
+    - The Wretched Skin Robe (Albion) should salvage for the proper amount.
+
+    - The Heavy Bastard Sword (Hibernia) should no longer appear to have a proc in delve info.
+
+    - The items in Dartmoor, Sheeroe Hills, and Malmohus have been upgraded to Shrouded Isles standards in bonus points, except for the dragon-specific loot. All items changed were increased in points...no items bonuses were lowered.
+
+    - The Njessi Carved Fang (Midgard) should now require sword skill instead of two-handed.
+
+    - The Lucent Spirit Helm (Hibernia) no longer increases strength twice. Instead, one of the strength entries is now dexterity.
+
+    - The Omni Enchanted Cap and Omni Enchanted Boots (Hibernia) should now be named properly for the slot in which they equip.
+
+    - Blessed Loki Boots (Midgard) should now salvage properly.
+
+    - The Sword of the Fiery Heart (Midgard) now has stat increases.
+
+
+
+    SHROUDED ISLES WORLD NOTES
+
+    Bounty Quest Notes
+
+    - All SI Bounty quest items have been changed to sellable and stackable. The maximum stack is 15. NPCs will not take an entire stack. You will need to unstack and give bounty items one at a time.
+
+
+    Porting Note
+
+    - We have removed the wait time for the portal from the expansion areas to the realm portal keeps after another player begins to teleport back. Players can now teleport back to the portal keeps at any time without waiting for the portal ceremony to finish.
+
+
+    Midgard Quests
+
+    - Stoneheart - The Runed Cloak of the Trolls and the Cloak of the Troll Fathers needed to complete this quest are no longer tradeable.
+
+    - Ota's Quest - Berserkers who recieved the Griffin's Impervious Pelt Shield will be able to turn that into Ota Yrling in Aegirhamn for a new item that is useable by Berserkers.
+
+    - Mammoth Hunt - Vorkald will now give Furry Boned Legs with the appropriate AF. For those who received the original legs, you may return to Vorkald and turn them in to receive the appropriate ones.
+
+    - Mammoth Hunt: We have slightly toned down the difficulty of step 5, which requires players to clear a Morvalt camp.
+
+
+    Albion Quests
+
+    - Free the Rogue - we have made some significant changes to this quest to make it easier for players to lure Mercal from his hiding place. Also, players no longer need to accompany Mercal on his return to town, he will meet you there.
+
+    - The Lost Stone of Arawn - Sali'ah now let's the players know that the archmace is a two-handed weapon.
+
+
+    Hibernia Quests
+
+    - Fylara's Armor - In response to player concerns about the long wait for broodmothers, we have decreased the wait time between broodmother spawns.
+
+
+    Albion Monsters
+
+    - Caer Sidi: The Apocalypse encounter should no longer stall and be unable to restart after a failed attempt.
+
+    - Dales of Devwy: The spawn rate of the Hoges, Lindon, Dyer, Parmenter and Tinctor ghost families have been lowered slightly.
+
+    - Caer Sidi: Lich Lord Ilron should no longer reset his encounter when he is not supposed to.
+
+    - Players releasing to the bindstone at Wearyall Hill are less likely to be attacked by monsters around the bindstone.
+
+    - Haunted appletree seedlings will be longer be given as kill tasks.
+
+    - The amount of time before Xanxicar's lair (The Crystal Cave) fills with lightning has been increased.
+
+
+    Hibernia Monsters
+
+    - Aroon the Urlamhai in Galladoria should not aggro through the walls anymore.
+
+    - The special sonic attack used by most shriller monsters should now work reliably.
+
+    - Lesser anglators should no longer attack you while invisible.
+
+    - The difficulty of the final Galladoria encounter has been lowered.
+
+
+    Midgard Monsters
+
+    - Iarnvidiurs Lair: Hurjavelen will no longer BAF with the other mobs in it's area.
+
+    - Aegir's Landing: The Morvalt that join Gormor and his lieutenants in their disease attack on Dyrfjell will no longer linger outside of the town after their leaders have left or been killed.
+
+
+    Dungeon Notes
+
+    - Trollheim: A bug in 'The Rift' encounter in Trollheim that did not allow The Rift monster to give experience or drop loot has been fixed.
+
+    - Trollheim: Bring a friend problems where monsters would attack from below or above a room have been reduced.
+
+    - Tuscaren Glacier: Several bugs with the Icelord Skuf and Steinvor encounter have been fixed. Steinvor's seers should now work better. Both Steinvor's and Skuf's magical abilities should now work better.
+
+
+    Item Notes
+
+    - Flurry's Dancing Defender (Albion) should now increase +slash resist, instead of having two separate thrust resist entries.
+
+    - Steinvor's Sturdy Axe, Steinvor's Frenzied Axe, and Skuf's Cave Crusher (Midgard) can now be dyed with the weapon dyes from Tuscaran Glacier.
+
+    - The Vine Wrapped Defender (Hibernia) has a new model.
+
+    - The Ancient Stag Spine Spear (Hibernia) no longer has two spirit resist entries. Instead, one of the entries has been replaced by slashing resist.
+
+    - Easmarach's Stinger (Hibernia) can now be dyed with the weapon dyes from Galladoria.
+
+    - The Water Cat Pelt (Midgard) should now stack properly.
+
+    - The Vest of the Infamous Blade (Albion) should now look like leather armor as intended.
+
+    - The Cured Saracen Skin Cloak, Cured Highlander Skin Cloak, Cured Avalonian Skin Cloak, and Cured Briton Skin Cloak (Albion) can now have an emblem and dye applied.
+
+    - The spelling of Tiaga's Blessed Charm and Tiaga's Charm (Hibernia) is now correct.
+
+    - The Ancient Engraved Maul (Midgard) should now look like a two-handed hammer as intended.
+
+    - The Drakoran Scale Chain (Albion) is now set to the appropriate level.
+
+    - The Symbiotic Wrap and Arcane Symbiotic Wrap (Albion) now look like a bracer as intended.
+
+    - Urchin filchers (Albion) should no longer be dropping level 8 jewelry.
+
+    - Soxulfr's Hammer Belt (Midgard) should now equip in the waist slot as intended.
+
+    - The Sapphire Encrusted Ring (Albion) that equipped in the waist slot has been renamed Sapphire Encrusted Belt.
+
+    - The Bladed Crystal Rapier (Hibernia) now increases intelligence instead of the valor skill.
+
+    - Devmer in Albion should no longer drop jewelry items with focus increases.
+
+    - The Morvalt Obsidian Sword in Midgard that is a bounty quest item can no longer be equipped.
+
+    - The proc on the Brazen Stout Defender (Albion) has been changed to a different spell that should no longer conflict with a friar's own buffs.
+
+    - The particle effect on Steinvor's Frenzied Axe (Midgard) should fit correctly.
+
+    - Shambler's Large Axe (Midgard) should now increase the axe skill instead of slash.
+
+    - The Belt of the Deceitful (Albion) should now look like a belt instead of a bracer.
+
+    - The Darkened Vine Dirk (Hibernia) can now be dyed with the weapon enamels from Galladoria.
+
+    - The urchins in Albion should be dropping level appropriate gear now.
+
+    - In Caer Sidi, there were two drops called "Diamond Encrusted Ring." One of those items fits in the waist slot, and the name has been changed to Diamond Encrusted Belt, as originally intended.
+
+    - The Ancient Brass-shod Staff (Albion) now has a reuse timer and can be recharged.
+
+    - Host's Regenerative Skin (Albion) can be dyed.
+
+    - Yrjo in Aegirhamn now sells low level spears. Niklaas now sells low level two-handed axes, hammers and swords.
+
+    - The Emissary of Logi hand-made loot (Midgard) has had a few changes. The Emissary's Ring now increases parry instead of slash. Also, the Emissary's Ring, Logi's Gem, and the Emissary's Tassel Belt did not have the correct amount of points assigned to magic bonuses. These have been increased to the appropriate level on all three items.
+
+    - The Griffin Claw (Midgard) is no longer wieldable in the left hand.
+
+    - The model for the Dreaded Frost bound Fang has been changed to better reflect the area it comes from.
+
+    - The Mayor's Ruby Ring (Midgard) can now be equipped in the ring slot.
+
+    - The Griffon Slicer, Dark Weaved Vest, and Dark Weaved Leggings (Midgard) now have a proc chance set.
+
+    - The Vine Covered Scythe and Verdant Scythe from Galladoria have new weapon models and particle effects.
+
+    - The Verdant Recurve Bow and the Primal Windwalker's Bow from Galladoria now have new bow models.
+
+    - The Dreaded Frostbound Fang (Midgard) now has a particle effect.
+
+    - Anyone with a non-glowy version of Aroon's Ancient Staff or Aroon's Verdant Staff (Hibernia) should note that particle effects have been added.
+
+    - The Essence Shifted Flail and Essence Shifted Whip (Albion) should include their correct name in combat text (ex. You hit xxxx with your flail, You hit xxxx with your whip). Previously, the flail showed up as mace in combat text, while the whip showed up as flail.
+
+    - The Azure Silencer Fang and the Livid Silencer Fang (Albion) can now be dyed with the weapon enamels from Caer Sidi. Please note that using dye on these weapons will change only the hilt color.
+
+    - The Obsidian Doomspear (Midgard) should now proc as intended, and the +parry bonus has been changed to +stealth.
+
+    - Quillan's Reinforced Vest (Hibernia) should now be dyed with enamel dye instead of leather dye.
+
+    - The Shadowed Blackthorn Mace (Hibernia) will now repair for the correct cost.
+
+    - The Medallion of Albion (one of the rewards in the Secret Orders quest in Albion) has been changed. There will be NO TURN IN NPC for this quest. Don't look for one. Your item will simply update by itself.
+
+    - Palifan should no longer be dropping crossbows with longbow skill increases.
+
+    - The Disembodied Gauntlets (Albion) now increase the slash skill instead of sword.
+
+    - Gazsi's Friendship Staff (Midgard) can now be salvaged.
+
+    - Herbalist's Tunic of Power (Midgard) can now be salvaged.
+
+    - The Trident of Soulless Lament (Midgard) can now be dyed with the weapon enamels from Tuscaran Glacier.
+
+    - The Ring of Shadows (Albion) should now have the icon of a ring instead of a gem.
+
+    - The Morvalt Forced March Ring (Midgard) will now fit in the ring slot as intended.
+
+    - The Ring of Tangled Vines (Hibernia) now has a use timer and can be recharged.
+
+    - The following weapons from Tuscaran Glacier can now be dyed: Tuscarian Runewalkers Staff, Tuscarian Soul-tethering Staff, Tuscarian Nifl-tethered Staff, Tuscarian Soul-wrenchers Staff, Tuscarian Bonesplitters Staff, Tuscarian Bonewalkers Staff, and Tuscarian Shadow-tethered Staff.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

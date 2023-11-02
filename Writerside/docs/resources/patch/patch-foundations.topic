@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Shrouded Isles" id="patch-shrouded-isles">
+
+    <chapter title="Shrouded Isles Patch Notes" id="si-patch-notes">
+        <p id="si-intro">
+            The following patches mark the the "%expSi%" era of %daoc%.
+        </p>
+
+        <list id="si-patch-list">
+            <li>
+                <p id="patch-link-v156"><a href="patch-v156.topic">v1.56</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v157"><a href="patch-v157.topic">v1.57</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v158"><a href="patch-v158.topic">v1.58</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v159"><a href="patch-v159.topic">v1.59</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v160"><a href="patch-v160.topic">v1.60</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v161"><a href="patch-v161.topic">v1.61</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v162"><a href="patch-v162.topic">v1.62</a></p>
+            </li>
+
+        </list>
+    </chapter>
+
+</topic>

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.60" id="patch-v160">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.60</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ========================
+
+
+    Dark Age of Camelot
+
+    Version 1.60 Release Notes
+
+    Monday, February 24, 2003
+
+    ========================
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - (SI Only) The paperdoll image should no longer be corrupted by alt-tabbing in fullscreen mode.
+
+    - (SI Only) You can now run multiple instances of the client on the same computer simultaneously. You may not log into the same server on two different realms (except for Co-op and PVP servers). PLEASE BE AWARE that running two instances of Camelot on one computer is not recommended and will work with only the most advanced computer systems. You will be able to run two versions of Camelot simultaneously only if you have 512megs or more of system RAM. If you run into any problems with running two Camelot instances on the same computer, exit one of them before calling customer support.
+
+    - The Looking for Group window is now sortable by clicking on the column headers.
+
+    - Runes should no longer misprint the name of the first target they hit
+
+    - Area of Effect spells should no longer affect group members' camouflage timers
+
+    - Players can no longer become realm level 11. Realm Level 10 is the highest.
+
+    - You can no longer upgrade a keep door while mezzed, paralyzed, or in shade mode
+
+    - It should no longer be possible to earn exp from a duel, which was possible by using a number of class/pet combinations.
+
+    - Bonedancer pet levels will be counted in a more consistent way. This will fix a bug that allowed them to summon the pets in a certain order to have more pet levels total than were intended.
+
+    - Previously, there was a bug with name registration, where you would get a message that you already had a last name, even when you didn't. This erroneous message has been removed.
+
+    - If a necromancer is in a group which does all of the damage to a target without the necro/pet attacking at all and the rest of the group is killed, the monster should try to attack the pet, not the shade.
+
+    - Chat groups can hold up to 200 members
+
+    - Relics are now given up to 60 seconds to transfer between zones. This should fix most of the problems with players transferring between regions and losing their relic.
+
+    - There was a problem with the Bonedancer focus snare spell that would result in the character losing all spell points. This has been fixed.
+
+    - Each time a player attempts to enter/exit stealth, a roughly one and a half second timer is set in which they can't attempt to do it again. This fixes the stealth spamming exploit.
+
+    - (SI Client Only) Lava should now glow in Muspelheim.
+
+    - Delving store objects past the first page should now work.
+
+    - A number of bugs with the /groundassist command have been fixed. The range it can be used in has also been increased to help make it more useful for siege equipment "spotters".
+
+    - Dispel mesmerize spells will no longer remove the immunity timer if the target has a sleeping mesmerize effect on them.
+
+    - The Mercenary ability Dirty Tricks should delve properly now (it was previously delving as a "combat heal chant").
+
+    - Player guild messages and the guild Message Of The Day should now echo to other regions much more consistently.
+
+    - A Necromancer's target window will now update to reflect a target his pet has acquired, if he does not already have a target.
+
+    - Previously, the combat style Kelgor's Might (Midgard, Savage) would pull otherwise stationary NPCs from frontier keeps. This has been fixed.
+
+    - Randomly generated items have had their bonus points increased across the board, to make them more competitive with Spellcrafted items. In general Spellcrafted items have a huge benefit in customizability, while randomly generated items can have bonuses that, while individually nice, do not perfectly suit any one character. The higher bonus points will allow items to be generated that may have 3 bonuses that are worth using, even though
+    the 4th may not be perfectly tuned for a given character. High level monsters (70+) get even more bonus points, and random object drops from "epic" monsters now get a quality bonus as well. This should greatly reduce the chance of high level and boss monsters from dropping undesirable items, and produce some variety from existing spellcrafted templates.
+
+    - Now, when you use any timer-based ability, spell, or combat style that has a timer, the spell/ability/style hotkey on your quickbar will now "gray out". It will pop back into color mode once it's reusable again.
+
+    - When an item is dropped from a flying monster, it drops to the floor height on the server and the client. We had some issues with flying monsters over water and on slopes where the player could not get the item (it was "out of range"). These issues should now be fixed.
+
+    - When a Necromancer's constitution drops to 3 or below, he can no longer summon a shade. This change should primarily affect Necromancers on the PvP servers.
+
+    - If you are casting a non-targeted spell and your actual target dies or quits, it no longer cancels the spell. Examples of non targeted spells are: pet targeted, ground targeted or radius spells.
+
+    - In a dungeon, if an item or body is underwater, you should be able to click on it correctly. You used to get the "player is not visible" message.
+
+    - You should now get visual timers on your client when you Repair, Upgrade or Salvage.
+
+    - The following command states are now saved on the server: /SETWHO, /CANCELSTYLE and /NOQUEUE. The /COLORNAMES was always saved on the client by account and character. The /SPELLEFFECTS is not saved.
+
+    - Archers whose target dies while trying to release an arrow will now remain nocked, and they can select a new target.
+
+    - The Theurgist realm ability Siege Bolt can now be used against targets that are in combat.
+
+    - Longshot has had its cost reduced to 6 points. A refund is granted for players who have already purchased it.
+
+    - Volley has had its cost reduced to 8 points and its reuse time is now 15 seconds, significantly shorter than before. A refund is granted for players who have already purchased it.
+
+    - The initial time to prepare a Volley is now half of what it was.
+
+    - Necromancers in shade form can move through doors and stairs more easily.
+
+
+
+    BATTLEGROUND NOTES
+
+    Version 1.60 has a couple of large changes to the battleground system. The intent of these changes is to get more players involved in RvR at lower levels by incenting them with experience points. There are two major parts of these additions: we've added a new lower-level battleground for those players levels 15-19, and now you can gain lots of experience by completing each Battleground.
+
+    Experience for Battlegrounds
+
+    We've added a system for experience rewards for completing each battleground. Basically, when you complete a battleground, you can go to a new special NPC that will give you a medal. That medal can be taken to another new NPC and turned in for a significant amount of experience points.
+
+    To complete a battleground, you must achieve three objectives (note that only the keep raid must take place in the Battleground, the rest can be achieved in standard RvR):
+
+    1. Participating and living through a successful raid on a central keep that has been held by the enemy for at least 45 minutes
+
+    2. Being at the realm point cap for that battleground
+
+    3. Being in the level range for the battleground, plus one level.
+
+    Please note that the realm points need not all be earned in the battleground - they can be gained in standard RvR as well. Once players have participated in a keep raid and reached the required Realm Point level, players go to a new NPC in their home city and receive their medal of valor.
+
+    You can only receive the medal for a battleground if you are within the level range for that specific battleground, plus one level. For instance, you can only receive the Thidranki medal if you are between 20 and 25.
+
+    ALSO PLEASE NOTE THAT THE MAXIMUM RP FOR EACH BATTLEGROUND REMAINS UNCHANGED. IF YOU EARN MORE THAN THE MAXIMUM RP ALLOWED IN A PARTICULAR BATTLEGROUND AND YOU HAVE NOT YET TAKEN THE CENTRAL KEEP, YOU WILL NOT BE ABLE TO ENTER THAT BATTLEGROUND, AND THUS WILL NOT BE ABLE TO GET YOUR MEDAL OF VALOR.
+
+    Medal NPCs
+
+    Camelot: Commander Kise can be found on the porch of his house by The Mug.
+
+    Jordheim: Ostaden who is repairing his equipment at the local smithy.
+
+    TirNaNog: Mobryn who resides in a house near the Chamber of Arms.
+
+    After receiving the medal, players may turn in the medal and receive a substantial experience reward. Please note that battleground medals must be used within one level of the level cap for a battleground. For example, you can turn in the medal and receive the experience reward for Thidranki at 25 but not at 26 or above. You can only turn in one medal per battleground.
+
+    Battlefield Experience NPCs
+
+    Camelot: Sir Dinairak is in the royal library.
+
+    Jordheim: Aiesill is in the great hall.
+
+    TirNaNog: Rheollyn is in the palace courtyard.
+
+
+    New Low-Level Battleground
+
+    Additionally, a new battleground, Abermenai, has been opened for players to get their very first taste of RVR action at an earlier level. Characters can enter Abermenai if they are level 15-19. The realm point cap for this battleground is lower than Thidranki(125), but high enough so that players can purchase their first realm abilities at an earlier level.
+
+
+
+    MINSTREL CHANGES
+
+    - Minstrels now receive Danger Sense, Distractions, Climb Walls, and Safe Fall I - V by specializing in their Stealth skill. They receive these abilities at the same spec levels that Infiltrators do.
+
+
+
+    CORPSE SUMMONER CHANGES
+
+    Corpse Summoners are intended to help retrieve relics - some players are using corpse summoners to camp out in keeps and simply defend it, gaining Realm Points all the time. This had led to a situation where some Realms actively do not want their Relics. We're making two changes in this version to incent Realms to want to keep their Relics and to not over-use their Corpse Summoners.
+
+    1. Characters who are defending their home frontier against invaders with a corpse summoner in their realm will now receive a 15% RP bonus for each enemy relic they currently control (Up to a 60% total bonus) to recognize the added difficulty of defense in this situation and as an additional relic reward.
+
+    2. Characters now will not earn Realm Points in the 30 minutes following a resurrection at a corpse summoner.
+
+
+    NEW HATS
+
+    At long last, Dark Age of Camelot gets some new distinctive headwear. We'll be adding in new non-armor clothing outfits as well in a few weeks.
+
+    - New hats have been added to the game as well as patterns for two of the hats which can be crafted as armor.
+
+    Albion
+
+    Pointed Steeple Hat
+    Crown
+    Woodsman's Cap
+    Jester Hat
+    Tarboosh
+    Pointed Steeple Hat Pattern
+    Crown Pattern
+
+    Midgard
+
+    Pointed Steeple Hat
+    Circlet
+    Fur-Trimmed Cap
+    Winged Hat
+    Wolf-head Hat
+    Pointed Steeple Hat Pattern
+    Circlet Pattern
+
+    Hibernia
+
+    Pointed Steeple Hat
+    Wreath
+    Woodsman's Hat
+    Entwined Leaf Hat
+    Antlered Hat
+    Pointed Steeple Hat Pattern
+    Wreath Pattern
+
+
+    We have added 1 new merchant to each realm. These merchants travel between the two towns outside of the capital city and sell the hats and patterns that we have added.
+
+    Albion: Merwyn Hawley
+    Midgard: Vinandr
+    Hibernia: Melanaha
+
+
+
+
+    NEW CHAT GROUP COMMANDS
+
+    /cg listen - puts the chat group on listen mode. Only the moderator and leaders can speak.
+
+    /cg leader (name) - declare another member of the chat group as a leader. This player can invite other players into the chat group and speak when the chat group is on listen mode. You don't need to use parentheses.
+
+    /cg public - The chatgroup is public and anyone can join by typing /cg join
+
+    /cg private - The chatgroup is invite or password only.
+
+    /cg join (moderator name) - joins a public chat group by name of the moderator.
+
+    /cg join (moderator name) (password) - joins a private chat group which has a password set.
+
+    /cg password - display the current password for the chat group (moderator only)
+
+    /cg password clear - clear the current password (moderator only)
+
+    /cg password (text) - set a new password
+
+
+
+    NEW ANIMATIONS AND EFFECTS
+
+    - You now see an animation when drinking potions.
+
+    - You'll now see a graphical effect when you level.
+
+    - Binding now has an animation.
+
+    - A new effect has been added for when a Spellcraft overcharge goes horribly wrong.
+
+    - You'll now see a special animation when /praying at your gravesite.
+
+    - Three new emotes have been added - beg, induct, and dismiss. Use /beg to plead, /induct when inducting a new guild member (or other ceremonial occasion), and /dismiss to visually show someone that you're done with them.
+
+
+
+    NEW RVR "CON" COLORS
+
+    Any player level 35-50 will see any other player 35-50 who is lower than them as "yellow". You will still see players higher than you as orange/red/purple. If you or your target is lower than level 42, the con color will be the same as they have been. The intent of this change is to have high-level characters not immediately go after lower-level enemies that are "easy" kills.
+
+    Please note that this change does not affect anything other than how the player cons to you. To-hit, damage, etc, are NOT affected by this.
+
+
+
+    CRAFTING NOTES
+
+    - Fixed the stack size of Scales so they are once again created in stacks of 20.
+
+    - Wizened wood for Alchemy is now spelled correctly.
+
+    - The last two material types of the Wrought Jewelry Box for Midgard have been correctly set to 825 and 925 skill.
+
+    - Dropped timer for creating potions so that they are half of what they currently are.
+
+    - Shifted the 1000 skill potions/poisons down one rank so they show up while alchemists are skilling up in the 900 range
+
+
+
+    SPELL AND REALM ABILITY NOTES
+
+
+    General Magic Changes
+
+    - Life transfers can no longer be used on the caster.
+
+    Albion Changes
+
+    We're entering into the home stretch of Albion changes based on some detailed analysis of the realm's capabilities. Hopefully the recent changes will help smooth out the capabilities of the realm in RvR by making required RvR abilities more prevalent, without making them more powerful.
+
+    Cleric Changes
+
+    - Increased the range on the baseline stun to 1350, and decreased the cast time on the spec single target DD to 3 seconds.
+
+    - Added 2 new lines of buffs in the Enhancement spec track.
+
+    1) These spells are 10 minute group cast buffs, which for the duration give the chance to proc a healing effect when hit.
+
+    29 Strength From Adversity
+    38 Test of Faith
+    49 Trial By Fire
+
+    2) These spells are 15 minute self buffs which raise melee damage output.
+
+    17 Refiner's Strength
+    28 Purifying Strength
+    39 Mercybringer
+
+    Friar Changes
+
+    Added group targeted heal-over-time spell to Rejuvenation spec track:
+
+    24 Blessed Encouragement
+    34 Holy Encouragment
+    44 Champion's Encouragment
+
+    Minstrel Changes
+
+    - Significantly increased values on the higher levels of the Song of Healing line.
+
+    - Significantly reduced the cost of offensive shouts to be comparable to other classes.
+
+    - Increased stun shout duration to be comparable to other single target stun spells.
+
+    - Added new hit point buffer song (shoutable chant)
+
+    30 Barrier of Sound
+    40 Shield of Melody
+    50 Wall of Song
+
+    Mage (Base Class) Changes
+
+    - Instead of getting the root spell Minor Crippling at L3 in Body Destruction, Mages now get the Vitality Drain lifetap upgrade.
+
+    Sorcerer Changes
+
+    - Increased Mind Spec AE Mez to 1875 range.
+
+    Cabalist Changes
+
+    - Life transfers will now transfer up to the listed delve value before healing critical hits from RAs are factored in, and half the amount transferred will be deducted from the caster. The costs have been raised significantly however to bring them closer in cost to major heal spells. If the caster doesn't have enough life to cast the spell at full value, it will still cast successfully, but will reduce the caster to 1 hitpoint.
+
+    - Changed Ruby Simulacrum proc to be a ranged spell that can be interrupted.
+
+    - Increased melee damage on Sapphire Simulacrum.
+
+    - Increased defense on Emerald Simulacrum and the damage on its DoT proc.
+
+    - Increased damage on Jade Simulacrum's damage shield self buff.
+
+
+    Hibernian Bard Changes
+
+    - Significantly increased values in the higher levels of the Chant of Healing line.
+
+
+    Midgard Skald Changes
+
+    - Significantly reduced the cost of Warcry, Battle Whoop, and Stunning Shout lines to be comparable to other classes.
+
+    - Significantly increased values in the higher levels of the Simple Song of Rest line.
+
+
+    Realm Ability Changes
+
+    - Longshot now has a reuse timer of 5 minutes, and Volley now has a reuse timer of 15 seconds.
+
+    - Brilliant Aura of Deflection should now last 30 seconds (not 60) as the documentation on the Herald indicates.
+
+
+
+    SIEGE WARCRAFT NOTES
+
+    We've made a number of changes to siege warfare in 1.60. The intention of these changes is to make siege weapons useful in keeping and defending keeps. We've increased the viability of other siege weapons, so players will not have to rely on enormous numbers of Rams when attacking a frontier or relic keep.
+
+    Now, attackers should be able to use Catapults to attack players and NPCs inside the keep, wear them down, then use a more limited number of Rams to get through the doors. Of course, keep defenders can also use Catapults and Ballistae to protect themselves.
+
+    Additionally, we've made Catapults and Ballistae last longer in the world, and they are easier to build and carry than previously.
+
+    We'll be monitoring the effects of these changes on keep and relic raids and will make additional tweaks as necessary.
+
+    - Ballista and Catapult ammo now stack up to 20.
+
+    - The non-raw wood components for catapults and ballistae now weigh roughly half of what they did previously. This puts them down into the range of non-raw wood weight of the rams.
+
+    - Catapults and Ballistae will naturally degrade now half as fast as they did previously.
+
+    - The arming timer for Ballistae and Catapults has been cut in half.
+
+    - Rams can no longer attack enemy rams.
+
+    - Defending rams cannot target their own keep doors.
+
+    - Only 3 siege weapons can now attack a door at the same time.
+
+    - Ballista damage bonus has been substantially increased against enemy siege weapons.
+
+
+
+    CAMELOT CLASSIC WORLD NOTES
+
+    - The frontier monster camps that were added in 1.59 have had their difficulty tweaked slightly. They have had their levels lowered slightly to make the areas more enticing for players to hunt in.
+
+
+    Realm v. Realm - Frontier Keeps
+
+    - New named guards have replaced one of the personal guards that spawn when a keep is upgraded.
+
+    - Albion keeps will receive a "Captain", Hibernian keeps will receive a "Niallan", and Midgard keeps will receive a "Bryti" to help defend the wealth of the realm stored in the keep.
+
+    Experience Point Rewards
+
+    We have added an experience reward for 2 level ranges outside of the battleground. They are 35 to 40 and 40 to 45. In order to receive the experience reward you must take a merchant keep in an enemy frontier after it has been controled for at least 45 minutes. You must do this once for each level range.
+
+    After taking the keep, if you meet the minimum realm points for that level range, you may go to the medal NPC in the capital cities and receive your Medal of Valor.
+
+    Minimum Realm Level:
+    35-40 Realm level 2 rank 0
+    40-45 Realm level 2 rank 5
+
+    Once the medal is in a player's posession, it can be taken to the NPC in the capital cities that accepts the battleground medals. Again, a significant experience reward will be given.
+
+    In order to receive the medal and hand the medal in for experience, you must be within the appropriate level range. The medals cannot be saved for use outside of the level ranges listed above, and you can only receive each medal and experience reward only once.
+
+
+    Realm V. Realm - Battlegrounds
+
+    - Once a battleground keep has been held for 45 minutes, in addition to the shout made by the keep lord, an additional banner will appear signifying that taking the keep would result in the completion of the keep requirement for the battleground medal of valor.
+
+    - We have slightly altered the configuration of the battleground keeps so that the center keep doors face the portal keep that the keep is from. Changes are as follows:
+
+    Dun Abermenai faces a neutral location.
+
+    Thidranki Faste faces the Midgard portal keep (original layout)
+
+    Dun Murdaigean faces the Hibernia portal keep.
+
+    Caer Caledonia faces the Albion portal keep.
+
+
+    Albion
+
+    - Rumors in the alehouses around Prydwen Keep are that the Mithrans have begun converting some of the local youth to their dark ways. Adventurers may spot them lurking near the entrance to the cursed tomb of Mithra.
+
+
+    General Quest Notes
+
+    - All three home cities have arranged for an officiant to perform weddings. Please see either Gilby, Ardkill or Dillion to find out more about a wedding ceremony.
+
+    - The caster staff rewards for the level 40 guild quest have been changed. The new versions no longer have a proc; instead they now come with a charged effect. Anyone who completes the quests will now receive the new staffs. For anyone who has already completed the quests, an NPC has been added to each capital city that will gladly take the old staff and return the new one.
+
+    Midgard: Braden who is on the second floor in the house with the three caster trainers.
+
+    Hibernia: Vinry who can be found in the chamber of magic.
+
+    Albion: Magess Dejahra who can be found in the first floor of the library in the Academy.
+
+
+    Albion Quest Notes
+
+    - Weakened Bonds: Players should now find that Archdruid Glasan is once again spawning.
+
+    - Malignant Creatures: All players should now be able to complete this quest.
+
+    - Willing Sacrifice: Players should once again be able to summon High Priest Andania with a willing sacrifice.
+
+    - Hands of Fate: The Shade of Ambrosius should be working correctly again.
+
+
+    Albion Monsters
+
+    - Dooben in Avalon Marsh is can no longer be charmed.
+
+    - A heat resist debuff component has been added to Golestandt's breath weapon.
+
+    - The Ellyl and Ravenclan Giants located in Pennine Mountains have decided to send settlers to various places in Llyn Barfog. These explorers have taken their treasure and equipment along for the journey to aid them in their relocation.
+
+    - The Arawnites, Hollow Men, Cyclops and Bwcas of all types have decided to send bands of explorers into Lyonesse to discover new grounds to set up camp. Hoping that the new lands will prove safer to their kind, all of the worldly possessions of these monsters have been sent with the exploring bands.
+
+
+    New Hibernian Quests
+
+    - The Broken Seal(level 24): Druid Tobryn has been studying the koalinth near Tir Urphost. He is making quite a fuss about his findings. Pay a visit to Druid Tobryn in Tir Uphorst to find out what all the commotion is.
+
+
+    Hibernia Quest Notes
+
+    - The Lesser of Two Evils: Players should now find that the siabra and curmudgeons once again have their battle at high noon.
+
+
+    Midgard Quest Notes
+
+    - Gokstad's Jewel - This level 18 Hunter only quest, given out by Singrid, has been renamed "The Wanestone Jewel" quest to avoid confusion with the level 11 Shadowblade trainer quest, "Jewel Hunt".
+
+    - Dark Places of the Soul - Rumor has it that a woman in Fort Veldon by the name of Idona has happened upon some mysterious information. Perhaps you should visit her.
+
+
+    Darkness Falls Notes
+
+    - Prince Asmoien and Prince Ba'alorien's AI was updated to ensure their encounters reliability.
+
+    - The imp merchants of Darkness Falls will no longer aggro on characters from the realm they sell items for. They are also not attackable by the realm they sell items for. Players can still attack other realms merchants, but doing so will ruin their faction with their own merchants and not allow them to purchase items until they raise their faction. As a side effect of this change, none of these merchants will be killable at all on the PvE or PvP servers.
+
+
+    Tradeskill Merchant Notes
+
+    In keeping with our policy of not having tradeskill merchants in range of the tradeskill tools, we have moved many tools so it will not be possible to stand in one area, purchase materials, and craft without moving. The towns that have had tools moved are listed below, as well as what tools were moved.
+
+    Albion:
+    Cornwall station: The forge has been moved to a more appropriate location.
+
+    Midgard:
+    Gna Faste: The lathe and the forge have been moved to more appropriate locations.
+
+    Hibernia:
+    Innis Carthaig: The lathe has been moved to a more appropriate location.
+    Tir na Nog: The alchemy table has been moved to just outside of the druid cirle.
+
+
+    Item Notes
+
+    In order to compete with Shrouded Isles items, future item drops and quest rewards level 40+ will now come into existence with the magic bonus appropriate to the item's level, instead of the magic bonus that corresponds to the material from which it is made. Previously, the magic bonus was capped at 25% in most instances because the objects are made from their respective 8th level material type. As for Darkness Falls vendor items, the sapphire seal equipment will now have a 25% magic bonus, and the diamond seal equipment will have a 30% magic bonus. This change to the magic bonus for old world items DOES NOT apply to existing objects already in a player's inventory at the time of the patch...it applies only to future drops, future finished quests, and future DF vendor purchases.
+
+    The old world "uber rare" objects have had their magic bonuses upgraded to comply with current standards. These objects are the 90% quality ones you rarely see dropping in the old world, up to level 31. This applies only to future drops of these items, not ones that are currently in existence on a player.
+
+    - The Braided Darksteel Helm (Midgard) now buffs slashing and body resists, instead of having two separate body resist entries.
+
+    - Pants of the Risen (Albion) now have a spirit resist and energy resist, instead of having two separate energy resist entries.
+
+    - Bonedancers are now able to use the following staves: Rod of the Soulshade, Kropp's Staff, Stately Arcane Staff of Darkness, and Stately Arcane Staff of Suppression.
+
+    - The Brittle-bone Great Sword (Midgard) had an invalid spell proc removed.
+
+    - The salvage value for the Whirling Defender staff (Albion) has been corrected.
+
+    - Eir's Circlet (Midgard) can now be salvaged.
+
+    - Rod of the Soulshade (Albion and Midgard versions) can now be salvaged.
+
+    - Barbed Ebon Coif (Midgard) now has the correct chain icon and graphic instead of leather.
+
+    - The Siabrian Staff of Light, Siabrian Staff of Enchantment, and Siabrian Staff of the Void (Hibernia) now have the correct number of max charges.
+
+    - Seething Death Sleeves (Albion) now increase quickness in place of the second strength entry.
+
+    - Cap of the Keen Mind (Albion) now increases dexterity instead of charisma.
+
+    - Ebony Helm of the Corrupt (Albion) now has crush resist in place of a second cold resist entry.
+
+    - Grrar`s Cloak of Evasion (Albion) can now be dyed.
+
+    - Blessed Tyr Gloves(Midgard) now have the correct studded icon and graphic instead of leather.
+
+    - The Avernal Malison Flail should no longer display that it is left-hand wieldable.
+
+    - The Prismatic Hammer (Midgard) should now have the correct DPS and delay.
+
+    - The Runic Ember and the Frozen Soul-shatterer (Midgard) can now be equipped by Spiritmasters, Runemasters, and Bonedancers.
+
+
+
+    HORSE ROUTES
+
+    New horse routes that have been added:
+
+    Hibernia
+
+    Tir Urphost to Ardee
+    Ardee to Tir Urphost
+    Brynach to Drum Cain
+
+    Innis Carthaig to East Lough Derg
+    East Lough Derg to Innis Carthaig
+
+    (changed) Horse route from Innis Carthaig to Tir na mBeo now drops you off at the stable master.
+
+    Albion
+
+    Castle Sauvage to West Cornwall
+    West Cornwall to Castle Sauvage
+
+    Caer Ulfwych to Snowdonia Fortress
+    Snowdonia Fortress to Caer Ulfwych
+
+    Midgard
+
+    Nalliten to Galplen
+    Galplen to Nalliten
+
+    Gna Faste to Audliten
+    Audliten to Gna Faste
+
+
+
+    SHROUDED ISLES WORLD NOTES
+
+    Albion General
+
+    - Barak is no longer charmable.
+
+
+    New Albion Quests
+
+    Protecting Anniogel (level 8)
+    The Drakoran are a continual threat to the town of Anniogel in the Isle of Glass. Kaere, an Inconnu sent to aid Lady Treva Evasca, is seeking out brave souls to help her protect the town from possible attacks. Seek out Kaere if you wish to help protect Anniogel.
+
+    Undead Infestation (level 30)
+    Eafa Smith in Caifelle needs some worthy adventurers to help him with the undead infestation ruining his lands. Seek him out and hear his story.
+
+
+    Albion Quests
+
+    - Lost Treasure: Players who received the object "Grip of the Troll" may return it to Ariette outside of Fort Gwyntell and exchange it for a Charismatic Bracer. Players must have Lost Treasure in their completed quests list to exchange the object.
+
+    - Lost Treasure - When on the step to kill either a drakoran archiator or blue-green algae, the quest will now properly step when the algae is killed.
+
+    Albion Monsters
+
+    - We have fixed a small issue where Kelsanor could be enticed to leave his area. Now, he will no longer leave his area.
+
+
+    New Hibernia Quests
+
+    Cyllane's Cure (level 10)
+    Cyllane has recently come to Hy Brasil to give aid to Niara, the Priestess of the Grove. Cyllane must collect some things for Niara, but she does not know the land. She is looking for someone to help her. Speak to Cyllane in Bann-didein if you can aid her.
+
+    The Sylvan's Pain (level 47)
+    Some Sylvan have come down with some strange disease that causes them great pain! Sandu is offering a nice reward to any who can cure them. If you think you can help cure them, speak with him in Droighaid.
+
+
+    Hibernia Quests
+
+    - Blademasters who received the Ixthiar Skin Bracer of Silent Resistance can exchange it for the Ixthiar Skin Bracer of Strength by taking it back to Krazck in World's End. Players must have the quest Corruptors, Botonids and Trade in their completed quests list to exchange the bracer. From now on, Blademasters will receive the Ixthiar Skin Bracer of Strength as their reward for this quest.
+
+    - Twisted Evil - Raiaya now refers correctly to the quest rewards Song of the Vines, Song of the Scythe, and Song of Stealth.
+
+
+    New Midgard Quests
+
+    Solving the Argument (level 10)
+    Ailsa and Olvaerr in Dyrfjell are having a terrible argument and it's keeping Skorri from doing his job. Skorri is looking for someone to help him end the argument. If you think you can end the argument, speak with Skorri in Dyrfjell.
+
+    Helping the Weaponsmith (level 25)
+    Yrling in Aegir's Landing needs some help with some experimental armor he's been working on. If you're traveling that way, you could stop by and see if he needs help.
+
+
+    Midgard Quest Notes
+
+    - Savages have been added to the list of classes that may get the Ghastly Axe one-time drop quest.
+
+    - Morvalt Crystal: The material type was set incorrectly on two of the rewards for this quest. Because material type does not auto-update, players can take their Studded Mammoth Pants and their Fur Brushed Chain Legs back to Kekov and exchange them for a pair with the correct armor factor and material type. Players must have the Morvalt Crystal listed in their completed quests list. The exchange may only be performed once.
+
+
+    Midgard
+
+    - The Shambling Shade should no longer be given as a kill task.
+
+    - Some of the guards in Aegirhamn, Dyfjell, Bjarkan, and Hagall have been moved inside the town. This should make it a little easier for players using the /where command.
+
+    - Changed the "Enraged Scimitar Kit" in Aegir's Landing so the mob can no longer be given as a kill task.
+
+    - Some low level mob spawns near Aegir's Land in the newbie area were causing mobs to roam beyond the wall of the zone. This was changed so that mobs should no longer spawn or roam behind zone walls.
+
+    - The Morvalt larlings that were taking residence at the base of the large junction room with the bridges near Trollheim's entrance are no longer there.
+
+
+    Hibernia
+
+    - Cothrom Gorge: Dremcis will not summon his Beomarbhan pet as often as he did after it is slain. The Fuilslathach's will now dissolve a short time after the Beomarbhan's death.
+
+    - Guardians Moirne and Pairu have been moved inside the Grove of Domnann.
+
+    - Guardians have been moved inside the two forts of Droighaid. This should help players using the /where command.
+
+    - More Guardians have been added to the Grove of Aalid Feie.
+
+
+    Albion Dungeon Notes
+
+    - Krondon: The spell effects used in the Orylle and Orshom Brond encounter have been greatly reduced to improve framerates.
+
+
+    Midgard Dungeon Notes
+
+    - Tuscaren Glacier: King Tuscar's sword would only take on the magical properties of the first spell that hit him. His sword will now properly take on the magical properties of the spells he is hit with for short periods of time throughout the course of his battles
+
+    - Tuscaren Glacier: The spell effects used in the King Tuscar and Queen Kula encounter have been greatly reduced to improve framerates.
+
+
+    Crafting Notes
+
+    In keeping with our policy of not having tradeskill merchants in range of the tradeskill tools, we have moved many tools so it will not be possible to stand in one area, purchase materials, and craft without moving. The towns that have had tools moved are listed below, as well as what tools were moved.
+
+    Albion:
+    Fort Gwyntell: The alchemy table has been moved to a more appropriate location.
+
+    Midgard:
+    Knarr: The lathe, forge, and alchemy table have been moved to a more appropriate location.
+
+    Hibernia:
+    Aalid Feie: The forge and alchemy table have been moved to more appropriate locations.
+    Droighaid: The forge and alchemy table have been moved to more appropriate locations.
+
+
+    Item Notes
+
+    - The proc on the Monstrous Proboscis (Hibernia) should now be adding damage as intended. This should affect other weapons using the same proc type, in all realms.
+
+    - Ariach's Purged Staff (Albion) will no longer use "mace" in combat text.
+
+    - Thuxra's Twiggy Staff (Hibernia) should now proc correctly.
+
+    - The Dragon-shadow Crown (Midgard) should now increase the hand to hand skill instead of savagery.
+
+    - Players should now be able to use the weapons dyes in Tuscaren Glacier on all the weapons from that zone.
+
+    - Nokkvi's Mauler (Midgard) should now increase +hammer skill instead of +crush, and it should also be using the proper 1-hand hammer animations.
+
+    - Unok's Chain Leggings (Midgard) now increase cold and body resistances, instead of having two body resist entries.
+
+    - Durval's Bloodied Quarterstaff (Albion) should now proc correctly.
+
+    - Ancient Stag Skull (Hibernia) now increases crush and slash resistances, instead of having two slash resists.
+
+    - Studded Mammoth Pants (Midgard) are now able to be salvaged and dyed.
+
+    - Gneiss (Hibernia) in Cothrom Gorge has been itemized.
+
+    - The Earthmelder weapons behind the waterfall in the Hibernian Expansion Area should drop with the correct material setting now. Previous drops will not update.
+
+    - Tuscarian Bloodforged Sleeves had the thrown skill value replaced with parry. All sleeves will update.
+
+    - The Temmelig bracelet, one of the rewards for the Catla's Downfall quest has had its bonuses slightly modified to give players a higher bonus in Charisma and less of a bonus to Battlesongs.
+
+    - Scureol's Belt, from the Ogre's Might Quest, previously had Piety 5 and Constitution 5.
+    Because this belt is given to both Friars and Infiltrators, the 5 Constitution has been changed to Dexterity 5.
+
+    - The staff Quarter Might now has the correct bonus - a plus to staff.
+
+    - Vine Covered Sleeves (Hibernia) now increase blunt skill instead of piercing.
+
+    - The Hollowed Earthmelder Wrist unique item (Hibernia) should now equip in the proper slot. This change should automatically update for players who already have one.
+
+    - Khrin's Claw (Midgard) no longer increases power. Instead, the quickness bonus has been increased to +7.
+
+    - The Blade of Ibicus (Midgard) should no longer display that it is usable in the left hand.
+
+    - Ibicus Studded Sleeves (Midgard) are now made of metal instead of leather. Note that this does not auto-update.
+
+    - Keelladna Falion in Domnann should be dropping random object generator weapons that are the appropriate level.
+
+    - The Drakoran Scale Robe (Albion) is now set to the correct material and level.
+
+    - The Phosphorescent Belt (Hibernia) had the Piety bonus changed to Empathy.
+
+    - Particle effects were added to the weapons in Caer Sidi (Albion), Tuscaran Glacier (Midgard), and Galladoria (Hibernia). There are still some weapons in these dungeons that have no particle effects, because there are none that fit correctly at this time.
+
+    - Skilled Bowstring Ring (Midgard) will now equip in the ring slot as intended.
+
+    - Hallowed Legs (Albion) should now have +crush resist displayed instead of a blank 4% entry.
+
+    - Marine skrats should no longer be dropping Albion armor.
+
+    - Blood Spire Cloak (Albion) can now be given an emblem.
+
+    - Otrygg's Darkened Cloak (Midgard) can now be given an emblem.
+
+    - The Morvalt Obsidian Sword (Midgard ) can no longer be equipped. This is a bounty quest item and was not intended for use as a weapon.
+
+    - The following Albion gems can now be recharged: Caster's Minding Thoughts, Strengthening Power, Quickening Power, Darkening Powers.
+
+    - Wrapped Defender (Hibernia) was changed from +3 Valor to +10 constitution.
+
+    - The Vine Covered Sword (Hibernia) was changed from +3 Valor to +40 hits.
+
+    - The Vine Covered Hammer (Hibernia) was changed from +3 Valor to +40 hits.
+
+    - Frosty skeletts in Midgard should now be dropping equipment for the appropriate realm.
+
+    - Devmer's Holding Robe and Stolen Robes of an Ancient Friar in Albion should now have the appropriate sell value.
+
+    - Thrawn ogre thrashers in Albion should no longer be dropping a bonedancer staff.
+
+    - The following cloaks in Hibernia can now be dyed: Darkened Vine Cloak, Phosphorescent Cloak, Verdant Cloak, Braided Ivy Cloak and Shadowed Blackthorn Cloak.
+
+    - Itchy Wool Gloves (Hibernia) had the +6 power bonus reduced to +5 power. Players are able to receive these gloves at level 9, but the previous level of bonuses was preventing their use until level 10.
+
+    - The Grim Ward Ring (Albion) can now be equipped.
+
+    - Flurry's Dancing Blade and Flurry's Dancing Defender (Albion) should now be using the correct thrusting skill. Flurry's Dancing Defender can now be wielded in the left hand.
+
+
+    Beaded Resisting Stones
+
+    There will be a change to the Beaded Resisting Stones, one of the random quest rewards for Ancestral Secrets. IN 1.60, THE NECKLACE WILL BE SET TO NO TRADE. Everyone needs to make sure the necklace is where you want it to stay, because after the next patch you won't be able to give it to any other characters.
+
+    We are making this change because we will be implementing some changes in the quest that will allow ALL Midgard players the opportunity to get this highly coveted necklace, even if they have already finished the quest. Look for patch notes explaining the changes we made. Please note that quests that offer equivalent rewards for Albion and Hibernia are in the works.
+
+
+    Additional Salvage Changes
+
+    The new salvage chart introduced in version 1.59 has been applied to the handmade magic loot (not the "unique" ROG loot) from named mobs in Shrouded Isles. As a refresher, here is the chart again:
+
+    Item size:
+    small - small shields, small weapons, gloves, boots
+    medium - medium shields, medium weapons, sleeves, hats
+    large - large/2h weapons, large shields, legs, chest pieces
+
+    Salvage chart:
+    small - 5 metal/ore/strips; 12 leather/wood; 18 cloth
+    medium - 10 metal/ore/strips; 24 leather/wood; 36 cloth
+    large - 15 metal/ore/strips; 36 leather/wood; 54 cloth
+
+
+    New Delve Information
+
+    In Shrouded Isles, some of the named monster drops have a functionality that has been hard to explain, and to identify at a glance. Those items were set up as armor and weapon procs, but the procs are limited to a certain number of charges. The delve info for those items up until now only displayed the "charged magic item" portion of the item, which leads to many players being frustrated when the objects don't work with the "use" key. So, with this patch, the delve info for those charged-proc items has changed. If you have a piece of armor that has a charged proc, instead of seeing "charged magic item" above the number of charges, you will now see "Defensive Proc Charges." For weapons, if the proc is charged, you will now see "Offensive Proc Charges." Items that are set up to have normal charges will still display the usual "Charged Magic Item" line. Please note that these charged-proc objects can be recharged like a normal charged item.
+
+
+    Monster Loot Changes
+
+    The following quest monsters do not drop unique items anymore. These monsters are associated with quests and should not have had unique items associated with them, due to their respawn rate.
+
+    ALBION - Barak, Nalsor, Kelsanor, Pazia, Tyian, Avice Swett, Bartholomew Swett, Warin Grym, Everard Grym, Juliana Grym
+
+    MIDGARD - Pyserlian, Edrigu, Modolf, Loden, Urtzi
+
+    HIBERNIA - Cronwort, Fuilwort, Tachtwort, Luaire, Rinne, Taiore, Laraida, Adwyth, Drygau, Anhylaw
+
+
+
+    ITEM NOTES (SI & Classic)
+
+    - A few new armor skins for the high teens to low 40's players have been added as new items in various places around the old lands and Shrouded Isles.
+
+
+    COOPERATIVE SERVER NOTES
+
+    - All classes should now be able to complete the Mammoth Hunt Quest.
+
+    - Valewalkers and Animists should now be able to complete the Albion quest, Voices of the Dead.
+
+    - Grand Lord Martel has been slightly adjusted.
+
+    - Dun Ailinne and Caer Berkstead have had their difficulty slightly decreased.
+    Nottmoor Faste, Avarkar Faste, Hlidskialf and Blendrake Faste have had their difficulty slightly increased.
+
+    - Gote is no longer set as a name registrar.
+
+    Cooperative Server Quest Notes
+
+    - Animists should now be able to complete the Albion quest Restoring the Magic.
+
+    - Animists and Valewalkers should now be able to continue working on the Stoneheart Quest.
+
+    - Blademasters, Champions, Shamans and Spiritmasters should now be able to complete the Albion quest Malignant Creatures.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

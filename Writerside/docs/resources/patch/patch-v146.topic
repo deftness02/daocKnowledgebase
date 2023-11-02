@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.46" id="patch-v146">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.46</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ========================
+
+
+    Dark Age of Camelot
+
+    Version 1.46 Release Notes
+
+    ========================
+
+
+
+    ASSASSIN CHANGES
+
+    This version has some updates to the Assassin (Shadowblades, Nightshades, Infiltrators) classes, which should make them much more forgiving when it comes to training. We gave some of the classes additional abilities and all received a variable number of extra specialization points to give each of the Assassins a different "feel".
+
+    - Shadowblades have been given more hit points (as befits the more fighting-centric ethos of Midgard), as well as have had their specialization points raised to 2.2 per level.
+
+    - Nightshades now have a new line of level-based combat shout direct damage spells (in addition to the normal direct damage spells they already had) that they can use during combat to increase damage. They have also had their specialization points increased to 2.2 per level.
+
+    - Infiltrators have had their specialization points raised to 2.5 per level, a significant jump. This makes it possible for them to train much more in many more skills than they previously could, and have the chance to be much more well rounded.
+
+    In all three cases, existing assassin characters will be granted the spec points they "should have" gotten based on the new number of spec points per level.
+
+    Besides any additional needed balancing of existing abilities (poisons, damages, etc.), which will be done as necessary, this makes assassins complete except for the disguise skill which is still to be implemented. Disguise will be primarily an RvR-centric skill - our current plan for disguise is that all three assassin classes will be able to disguise: Infiltrators by an ability/skill, Shadowblades by a magical ability, and Nightshades by a spell. Thus, please note that we have removed spell points from Shadowblades, as the "spell" they will use to disguise will be an ability and will not require spell points.
+
+
+
+    FRIAR CHANGES
+
+    With this version we have made some changes to the Friar to address that class's relative weakness at higher levels.
+
+    - Friars now have 1.5 specialization points per level (up from 1.0). This will allow them to specialize more fully in a few skills, and make them much more well rounded than they have been up until now. All existing Friars will be awarded the spec points they "should have" gotten, and can take advantage of this change immediately by spending these spec points.
+
+    - Friars now get Evade 5 at 33rd level.
+
+    - Friars now receive a line of Armor Absorption buff spells on their Enhancements specialization. See the spell system changes section for more information.
+
+    - Friars can now use shields (although not spec in them). Shields were never intended to be a big part of playing a Friar, but they were supposed to be able to at least equip and use them.
+
+    Friar Spell Change
+
+    We fixed a couple of problems with existing Friar spells that should make specializing in Enhancements much more useful.
+
+    - We converted Saint's Vigor (pulsing fatigue regen) to a shout so it can be activated in combat.
+
+    - We converted all the rest of the fatigue regeneration spells (Saint's Energy up through Saint's Tenacity) to reduce fatigue costs in a more consistent manner than they did before. Now these spells are self only duration effect, not pulsing spells, that progressively reduce the fatigue costs of all endurance-using activities.
+
+    - We changed the Speed of the Angel line to be a self only shout, that gives a 30 second haste buff that's should be quite effecitve. It can be re-used every 3 minutes.
+
+
+
+    MINSTREL/MENTALIST CHARM SPELL CHANGES
+
+    We've changed the way that Mentalists and Minstrels pulsing charm spells work, based on player feedback and testing. This new system should be much easier to use than the old system, and have greater results.
+
+    - The Minstrel Charm does not require an instrument in hand while it is being used. Thus, a Minstrel can now have a controlled pet and melee at the same time.
+
+    - Even when the target is switched, the spell will continue to pulse on the original monster you had targeted. This means you can have two targets engaged at once, should you choose to do so (one for your pet, one for you).
+
+    - The Minstrel/Mentalist has an almost certain chance to charm/retain control of a creature his level or lower, although there is a small random chance that it could fail. The higher the level of the charmed creature compared to the Minstrel/Mentalist, the greater the chance the monster has of breaking the charm. Please note that your specialization level in the magic skill that contains the charm spell will modify your base chance of charming and retaining control. The higher your spec level, the greater your chance of controlling.
+
+    - If the charm breaks, the charmed monster will wipe his agro list and only agro on the player who was charming him. All creatures attacking the charmed creature will forget their agro against him.
+
+    - Please note that there is a small per-round power point cost for the Mentalist when they have a monster under their control.
+
+
+    Minstrel/Mentalist Charm Overview
+
+    The Minstrel/Mentalist charm ability does not work the way other charms work, nor is it intended to. This charm is intended not as a "pet" ability in the sense that all other pet abilities in the game are intended, but as an added ability that can be used for assistance during group or solo combat, or during emergency situations when charming a foe may work to the advantage of the group or solo player.
+
+    To charm a monster, you no longer require the use of the flute (for Mnstrels). Simply target the monster and use the corresponding spell/song for your charm. Monsters at or below your level will have a very small chance of resisting the charm as it pulses, which means there's always an element of risk involved. You may also charm monsters above the your level (oranges, reds and low purples), though as the monster level increases above that of the caster's, so does the risk of the monster resisting the charm and aggressing the caster. It is advised to not risk charming orange, red or purple monsters unless you believe the situation warrants this emergency action and only if you are prepared to accept the potential penalties involved with doing so.
+
+    Note that when a monster is charmed and in battle, and the charm pulse stops (or the monster is no longer under your control), the previously charmed monster's aggression will be turned away from the monster it was fighting and toward the caster until it is recharmed, it dies, the caster dies or the caster moves beyond the normal AI timer-based range of the monster. As casters become more experienced with using this ability, they should learn how to manipulate it to best fit their needs when solo or group hunting, so a degree of skill is involved.
+
+    Tip: When a charm breaks, the monster will immediately aggress the caster. This includes times when the caster actually releases the monster, so it's advisable to have the pet window set to "Stay" and then to get a comfortable distance away before releasing the monster, or to ensure you are capable of killing the monster upon releasing it.
+
+    Tip: You may use other songs in conjunction with this type of charm, though doing so will require song "twisting" - where you switch between playing two songs.
+
+    Bugs to note: There is a bug with the Minstrel's charm, where upon releasing the pet, even if you are further than melee range, the monster will still interrupt your current song when it aggresses (speed, mana or health), though only for the ten seconds the timer takes to elapse and for the song to restart (as with any other monster when the monster is aggressing in melee range). This is a known issue and will be fixed at some point in the future.
+
+    World Issues: We're aware of the limitations and availability of charmable, humanoid monsters (for Minstrels and Sorcerers) in Albion's high level zones - primarily Lyonesse, Dartmoor and Stonehenge Barrows - and we're taking steps to resolve this issue soon, so please watch for announcements.
+
+
+    ARCHERY ADJUSTMENTS
+
+    - We've decreased (again) the aggro that archers do to monsters while fighting monsters. This means that archers can now do even more damage to monsters without having the monster turn on them.
+
+    - We've increased the damage that archer Critical Shot does against higher-level monsters (monsters only, no change was made to RvR CS damage).
+
+    - Archers will hit more often in group situations - the group melee "to-hit" bonus has been increased. Archers (as well as any melee attacker) has more of a chance to hit a monster based on the number of people in the group. Archers now have a bonus over and above the regular melee bonus on "to-hit".
+
+    - Arrows that do different damage types (crush/slash/thrust) will now correctly show the damage additions.
+
+    - Archers will no longer see tenths of seconds when readying arrows. We never intended archers to see their timer on such an intimate level - it was initially set that way for balancing and debugging purposes in beta, and was never changed. Please note that all other timers in the game (spell timers, ability timers, etc.) print in seconds, not tenths of seconds. PLEASE NOTE THAT WE DID NOT INCREASE DRAW TIMES OR IN ANY WAY CHANGE DRAW TIMES IN THIS PATCH. We changed only the way that this is printed to you.
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - When we made all Stun/Mez/Root spells not chain cast-able a few versions ago, we unintentionally left the Spiritmaster point blank AE mesmerize line (the Gloom Wave line) as chain cast-able. This has been fixed, so you can no longer chain-mez with this line of spells.
+
+    - When you are trading to a craftsman who can repair - the craftsman can click on a new "repair" flag in the trade window to turn the trade into a repair session. For more information, see the section "new repair system", later in this release note.
+
+    - Bleed and Acid damage have been correctly assigned to body and matter resistance types.
+
+    - "/EFFECT SELF" should now show the correct spell effects that you cast on other players.
+
+    - Graphical weapon effects should now show correctly to other players. Previously, all weapons showed graphical effects to the person holding them, but some did not show up that way to other players looking at them. Now, they all work.
+
+    - We fixed a bug with evade that will effect those characters with evade 6 or above. You'll now see yourselves evading more often if you are a high level assassin character.
+
+    - You can now add multiple people to a chatgroup with a single slash command. Use /CG INVITE etc
+
+    - When an assassin poisons an enemy and the poison does DOT damage, the assassin will now be able to rehide even though he is doing damage against the target.
+
+    - Pets will no longer warp after killing an opponent and returning.
+
+    - Pets should now properly use their spells after engaging a target.
+
+    - Charged items (wands, etc) can no longer be used against players in your realm.
+
+    - Repairs on doors now cost 1/4 the wood they used to but only repair 1/2 the condition. Thus, to repair a door up to full will now take 1/2 the total wood but take twice the total time.
+
+    - Relic Keep doors are no longer upgradable. They will spawn at a high wood level (8) and will remain there. They can still be repaired.
+
+    - Recharger NPCs now work properly. They will now replenish charged items.
+
+    - There was a bug that prevented monsters from buffing and healing one another (if they are so designed). This has been fixed.
+
+    - There is better feedback on some of the tradeskill "fail" messages which tells you what level of the appropriate skill you need in order to create the object.
+
+    - When you are carrying a Relic and are killed, the Relic will now drop on the ground where you died.
+
+    - You can now longer pick up Relics (or any other items) while dead.
+
+    - You can no longer equip/unequip items while you are mesmerized.
+
+    - You can no longer perform dual wield/celtic dual combat styles while you are holding a sword and a shield.
+
+    - There was a bug that caused Intercept to stop working after only a few seconds if the enemy attacking your friend never landed a blow (i.e. missed).
+
+    - A charmed/controlled pet will now chase a target for a certain distance, and then return to its master. Previously, it would chase its target forever.
+
+    - Spell text messages of hidden (stealthed) players will no longer print to other players in the area.
+
+    - The Demon and Imp models inadvertently were introduced into the game a few versions ago with the other's skins attached to them. This has been fixed: the demon is now red and the imp is now green.
+
+    - If you are hidden, BAF monsters will no longer target you, if you are hidden before they are pulled.
+
+    - You can now cast damage spells on and send Theurgist pets to attack doors.
+
+
+    NEW REPAIR SYSTEM
+
+    To repair an object without dropping it on the ground, follow these steps:
+
+    1) The player (who wants the item repaired) drops the item on the (player) smith.
+
+    2) This brings up a trade window between the two players.
+
+    3) The smith clicks on the REPAIR box in the lower left of the trade window. Only the smith (receiving player of the trade) can click on this box.
+
+    4) The title of the window will now change.
+
+    5) The Player can add as many items as he likes to be repaired. If the smith cannot repair any item added, the repair box will uncheck and both will get a print.
+
+    6) The Player can add coins to the trade to pay for the repair.
+
+    7) The smith can add neither coins nor items to the repair/trade when in repair mode. Any items and money in the trade when repair is clicked should be cleared out.
+
+    8) When both click "Accept" all items are repaired and returned to the Player. All coins are moved to the smith.
+
+
+
+    SPELL SYSTEM CHANGES
+
+    Spell resistence buffs and debuffs are now in the game. Currently resistance buffs and debuffs only affect direct damage and bolt spells (not DOT, damage adds or damage shields).
+
+    Sorcerer body spec list
+    23 Illusions of Flame (heat resistance debuff)
+    33 Visions of Flame
+    44 Dreams of Flame
+
+    24 Illusions of Winter (cold resist debuff)
+    34 Visions of Winter
+    46 Dreams of Winter
+
+    27 Illusions of the Wastes (matter resist debuff)
+    36 Visions of the Wastes
+    48 Dreams of the Wastes
+
+    Cabalist Spirit spec list
+    22 Diminish Immunities (debuff body)
+    33 Disspate Immunities
+    46 Banish Immunities
+
+    24 Diminish Will (debuff spirit)
+    36 Dissipate Will
+    47 Banish Will
+
+    28 Diminish Conductivity (debuff energy)
+    37 Dissipate Conductivity
+    49 Banish Conductivity
+
+    Cleric enhancement spec
+    24 Spiritual Shield (spirit buff)
+    36 Spiritual Guard
+    47 Spiritual Barrier
+
+    27 Energy Shield (energy buff)
+    37 Energy Guard
+    48 Energy Barrier
+
+    23 Shield of Health (body buff)
+    33 Guard of Health
+    45 Barrier of Health
+
+    Friar enhancement spec
+    21 Resillience of the Wanderer (heat buff)
+    31 Fortitude of the Wanderer
+    46 Piety of the Wanderer
+
+    25 Hearth's Blessing (cold buff)
+    35 Hearth's Benison
+    48 Hearth's Gift
+
+    27 Attunement to Creation (matter buff)
+    37 Blessing of Creation
+    49 Oneness with Creation
+
+    Spiritmaster darkness spec
+    22 Dampen Health (body debuff)
+    33 Suppress Health
+    45 Extinguish Health
+
+    25 Dampen Spirit (spirit debuff)
+    35 Suppress Spirit
+    48 Extinguish Spirit
+
+    27 Dampen Capacity (energy debuff)
+    38 Suppress Capacity
+    49 Extinguish Capacity
+
+    Runemaster runecarving spec list
+    22 Vex of Heat (heat)
+    33 Vex of Fire
+    45 Vex of Flames
+
+    25 Vex of Cold (cold)
+    34 Vex of Frost
+    46 Vex of Ice
+
+    27 Vex of Soil (matter)
+    36 Vex of Dirt
+    48 Vex of Earth
+
+    Healer Augmentation spec
+    23 Gods' Health (body buff)
+    33 Gods' Vigor
+    46 Gods' Potency
+
+    24 Gods' Drive (spirit)
+    36 Gods' Will
+    47 Gods' Spirit
+
+    27 Thunder Affinity (energy)
+    37 Storm Affinity
+    48 Lightning Affinity
+
+    Shaman augmentation spec
+    23 Wrap of the Deep (heat buff)
+    30 Shroud of the Deep
+    43 Caress of the Deep
+
+    24 Warmth from Below (cold buff)
+    35 Heat from Below
+    45 Fires from Below
+
+    25 Rock Unity (matter buff)
+    38 Stone Unity
+    48 Cavern Unity
+
+    Enchanter mana spec
+    23 Amplify Heat (heat debuff)
+    33 Endow Heat
+    44 Empower Heat
+
+    24 Amplify Cold (cold debuff)
+    34 Endow Cold
+    46 Empower Cold
+
+    27 Amplify Matter (matter)
+    36 Endow Matter
+    49 Empower Matter
+
+    Eldritch void spec
+    22 Nullify Hardiness (body debuff)
+    33 Negate Hardiness
+    45 Void Hardiness
+
+    26 Nullify Spirit (spirit)
+    35 Negate Spirit
+    48 Void Spirit
+
+    27 Nullify Dissipation (energy/electricity)
+    39 Negate Dissipation
+    49 Void Dissipation
+
+    Druid Nurture spec
+    23 Strength of the Sun (resist heat)
+    32 Resillience of the Sun
+    43 Aura of the Sun
+
+    24 Warmth of the Badger (resist cold)
+    35 Warmth of the Wolf
+    45 Warmth of the Bear
+
+    26 Earth Affinity (resist matter)
+    38 Earth Bond
+    48 Earth Union
+
+    Warden nurture spec
+    22 Bolster Health (resist body)
+    32 Bolster Resillience
+    43 Bolster Heartiness
+
+    23 Warden's Courage (resist spirit)
+    33 Warden's Honor
+    48 Warden's Spirit
+
+    27 Defy Thunder (resist energy)
+    37 Defy Storm
+    49 Defy Lightning
+
+
+    - Buff-casting spellcasters can now have up to 20 concentration spells cast on their friends at one time. The previous limit was 16.
+
+    - Added new absorption buffs to the Friar Enhancement specialization track. Blessing of Resilience adds 5% melee damage absorption, Blessing of Absorption adds 10%, and Blessing of Dissipation adds 15%.
+
+    26 Blessing of Resilience
+    34 Blessing of Absorption
+    44 Blessing of Dissipation
+
+
+    - Added a direct damage shout to the Nightshade magic abilities. It will automatically be awarded as you level. It has a short range and a 20 second recast timer, and can be used in combat.
+
+    6 Dart of Night
+    9 Dagger of Night
+    13 Knife of Night
+    18 Stiletto of Night
+    24 Arrow of Night
+    31 Rapier of Night
+    39 Spear of Night
+    48 Lance of Night
+
+
+
+    WORLD NOTES
+
+    Midgard Quests:
+
+    Quest: Silent Death: Bork will no longer offer players a yes/no choice for selling the skull. If you chose ‘No’ and are now stuck on step 3, you can return to Bork in Huginfell and right click on him to continue the quest.
+
+    Quest: Hole of the Dead: Players that Dwarven Boots of Air or Gloves of the Eternal that con green to them should return to Frimeth in Vasudheim to exchange them for an updated pair. Players may only exchange their item one time.
+
+    Quest: Family Business: Slippers of Favor have been adjusted so they give a bonus to piety instead of intelligence. The items will be updated automatically, there's no need to turn them in to get the correction. Also, NPC Thrand has moved closer to civilization. He felt it would be in his best interest to relocate to just outside Mularn, near the guard tower
+
+    Due to popular demand, the Gloves of the Spined Backpiercer have been returned to the game. On a related note, there's a pretty new face in the svartalf camp.
+
+    Quest: The War Continues: Hunters will no longer be offered a shield as a choice for their level 40 guild track quest nor will they be allowed to trade in their weapon for a shield. Hunters that have a Midnight Defender, either from completing their guild track quest or trading in their weapon may now return to Mildrid in Haggerfell and exchange the shield for their choice of a weapon (1h sword, 2h sword, bow, spear). Hunters may only perform this shield trade in once!
+
+    Quest: Hole of the Dead
+    Items Dwarven Boots of Air and Gloves of the Eternal will now con correctly.
+
+    Quest: Evening’s Empty Blessings
+    Adjustments have been made to the quest journal so players will have better information about their tasks.
+
+    Quest: Fervent
+    The elder sveawolf has gotten too old to lead players to Wildtooth anymore. He will give you directions to find Wildtooth.
+
+    Quest: Klippa’s Claw
+    Players will no longer have to die to Riv to obtain the Riva hauberk. Players should follow their quest journal rather than doing what they THINK they should do to obtain the rewards for this quest.
+
+    Hibernia Quests:
+
+    Quest: Morven's Return
+    Blademasters and Druids who find repairing Cathbad's Blade a little too costly can turn the weapon in to Cathbad, in Howth, who will replace it with the same weapon minus the pricey repair cost. Players can only do this one time, and must have completed the quest.
+
+    Quest: Summoner's Expulsion
+    The Summoner has been tuned to be not quite so deadly to low level questers.
+
+    Albion Quests:
+
+    Quest: Guild preparation: Humberton base class trainers will now respond to players when asked about a specific class.
+
+    Quest: Traveler's Way -- Supply Run: Players who are stuck on step one can continue along this quest by following new instructions in their journal.
+
+    Quest: Abolishment of Sacrifice: Sacrificer Harish should now spawn a bit more frequently.
+
+    Quest: Cloak of Shades Part 1: Those hunting undead druids in Salisbury should now receive their quest item.
+
+    Object: Rancid Black Tooth: This item should now "proc" as normal.
+
+    Quest: Traveler's Way - Dwarf raid. Raised the level of Girdle of Stalwart Spirit to make it a more appropriate reward for this quest.
+
+    Quest: Departed Hero: Players stuck on this quest can check their journal for instructions on what to say to Lieutenant Brude to continue.
+
+
+
+    Albion Monster Encounters:
+
+    The manes and grumoz demons look slightly different than before.
+
+    The Tylwyth Teg camp areas along the north border of Snowdonia have been adjusted. They should no longer be out of range when they are clearly standing right in front of you.
+
+    The Legendary Afanc has migrated to different part of Llyn Barfog, though still along the water. Scouts report that she seems to have acquired a few odd behaviors.
+
+    Hibernia Monster Encounters:
+
+    The Coruscating Mines have been adjusted slightly to make it a little more group-friendly in a few areas.
+
+    The Cursed Forest has been modified to improve it as a general hunting ground. Groups should be able to find easier paths to the eastern portions of the zone. There are more spots to pull to, and make camp now as well.
+
+    Cornwall: Troubled by the continuing ravages on their lands in Cornwall, the Cornwall
+    Farmers have begun showing more friendliness to those who hunt their enemies.
+
+    Tomb of Mithra: The undead denizens of the tomb of Mithra should now be giving appropriate bonuses and resistances to attackers.
+
+
+    Midgard Monsters:
+
+    The black orms are no longer white.
+
+    Vanern Swamp: Hunters from Vanern report that Mokkurvalve has been restless of late. Though nobody has gotten close enough for a thorough examination, most that have seen him recently are confirming that he has added bulk.
+
+
+    Hibernia Monsters
+
+    Cliffs of Moher: The Selkies have increased the size of their expedition near the cliffs of Moher.
+
+    Cursed Forest: Rangers returning from the Cursed Forest are telling horrific tales of being chased by a swarm of Fire blights. It is unknown what connection these foul monsters may have to Blight itself.
+
+
+    Hibernian Factions:
+
+    The land sheeries and water sheeries have banded together to fight their respective enemies. The land sheeries have agreed to wage war on curmudgeons who enter their territory, in exchange for the water sheeries pledge to assault any Koalinth trespassers.
+
+    The Selkie and Suire are also responding to the Koalinth menace, putting aside their longstanding differences, at least temporarily, to concentrate on their mutual enemy.
+
+
+
+    TREASURE NOTES
+
+    - Two more dungeons have been itemized: Midgard's Cursed Tomb, and Albion's Roman Catacombs. This means there are now three dungeons that have yet to be itemized (one in each Realm). Those are coming soon.
+
+    - The Stonefoot press is now much smaller.
+
+    - The Forge Tender's Tunic is now spelled correctly.
+
+    - The Dispositional Cloak had the evade skill replaced with dexterity. The constitution penalty was removed.
+
+    - The Frozen Windswept Axe bow has stat bonuses.
+
+    - The bonuses on the Howl at the Moon axe were changed slightly.
+
+    - The Jet Bone Shield had the its stat bonus changed from Piety to Strength.
+
+    - The Smoking Sable Protector now additionally buffs Piety.
+
+    - The Cailiondar Rapier should now "con" properly. Its DPS was originally incorrectly set and would result in the weapon remaining orange to the player.
+
+    - The Drakulv Militia Great Axe now increases the correct skill.
+
+    - The Empyrean had their loot tables fixed.
+
+    - The Deluged Kelp helm now increases parry skill (was incorrectly set to smite).
+
+    - The Gnarled Witherwoode staff now increases parry skill (was also set incorrectly to smite).
+
+    - The Shepherds Shod Staff now increases parry skill instead of smite.
+
+    - Mad Changelings should not drop 0 cp loot any longer.
+
+    - The "Ancient Ebon Ring" should now have the correct power level.
+
+    - The "fylgja pelt" can now be carried.
+
+    - The Scepter of Intellect and the Deathrune Robes had the class restriction "elementalist" replaced with "cabalist."
+
+    - Corrected the AF on the Ancient Bloodbound Boots (they were 36th level but should have been 50th level).
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

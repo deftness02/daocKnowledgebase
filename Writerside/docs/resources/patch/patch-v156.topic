@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.56" id="patch-v156">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.56</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    Dark Age of Camelot
+
+    Version 1.56 Release Notes
+
+    Tuesday, December 3, 2002
+
+    ENTER: SHROUDED ISLES
+
+    With 1.56 comes the launching of Dark Age of Camelot: Shrouded Isles, the first expansion pack for the game. Shrouded Isles is a major upgrade for players of Camelot - it has an all-new graphics engine, an ambient music soundtrack, revamped interfaces, new lands to explore, six new classes, and three new races. With Shrouded Isles, you'll be able to find new weapons and armor, experience a newer, deadlier, monster AI, and loads of new content. As of today, if you have purchased the SI box, you'll now be able to explore the new continents and play the six new classes. For information on the new continents, races, and classes, please visit the Shrouded Isles web site at www.shroudedisles.com.
+
+
+
+    A NOTE ON CLASS CHANGES
+
+    1.56 has a lot of class tweaks and balance changes, and new stuff to test. Hunters and Warriors get boosted in melee power. Healing-types now get RP for resurrecting their friends, and we've changed resurrection spells around a bit to support that. There is a new type of healing spells for each Realm's primary healers that will make keeping people alive in RvR much easier. We have also taken steps to address the problems of Assassins being able to fight in melee combat better than we intended. Read through these notes closely.
+
+
+
+    HUNTER CHANGES
+
+    We've decided to make Hunters more effective in Melee combat. These changes will help them greatly in both PvE as well as RvR:
+
+    - All Hunter melee skills base damages have been increased "behind the scenes". The specific melee skills involved are sword and spear. Hunters will now notice that they do more damage every time they attack an opponent with these weapon types. Hunters now do more base damage than the other two Archer classes, and will not need to do anything to take advantage of this change - it will happen automatically every time they hit with a weapon.
+
+    - Hunters have been given a new line of spells in their Beastcraft specialization that allows them to insta-cast a wolf pet. This can be done at any time, even in combat. These are shouts that cost 25% power and have a 2 minute recast time. Please note that if a Hunter is controlling a charmed pet, they cannot summon a wolf pet. Here's the list:
+
+    1 Hunter's Companion 80%
+    7 Hunter's Pet 80%
+    13 Hunter's Ally 80%
+    20 Hunter's Protector 80%
+    32 Hunter's Avatar 82%
+
+
+
+    WARRIOR CHANGE
+
+    In order to make the Warrior more of a melee damage-dealer, we've increased his weapon skills (again, behind the scenes, as with the Hunter) so that he will do more damage every time he hits with an Axe, Hammer, or Sword (both 1 and 2h). With this change, the Warrior now does more base damage than any other class in the game. Warriors don't need to do anything to take advantage of this change - it will happen automatically every time they hit with a weapon.
+
+
+
+    ASSASSIN CLASS CHANGES
+
+    Because of the great advantages Assassin classes - Nightshades, Shadowblades, and Infiltrators - now have over almost any other class in the game (poisons, stealth, devastating combat styles, good base damage, extremely high evade, etc.), we've decided to take some steps to bring them back in line with the rest of the classes in the game. We realize that these three classes are not exactly the same, but they all have a combination of abilities that make them more powerful than other classes of their level. The overall design goal of the assassin is to have them be able to defeat opponents using a combination of stealth and their "backstab" combat style chains. Now, with these changes, they'll have to use more strategy to defeat their target opponents. There's no way to sugar coat this - these steps will make Assassins less effective in direct combat.
+
+    - We've removed the Ignore Pain Realm Ability from all three Assassin classes. These classes have been granted back the realm training points they spent to get Ignore Pain. It was an oversight that Assassins were given IP at all, and we should have taken it away sooner.
+
+    - We are capping the maximum amount that any player (of any class) can evade at 50%. Assassins are the only classes that can currently go above this cap, by linking together their Evade 7 ability, plus the Realm Ability Dodger, plus stat bonuses. Assassins will be granted a Realm Ability respec for those who no longer want Dodger ability (as it is usually Dodger that pushes them above 50%). Please note that you will get the realm ability respec only if you currently have Dodger and you are a Nightshade, a Shadowblade, or an Infiltrator.
+
+
+
+    SPREAD HEAL SPELLS AND BATTERY HEAL REALM ABILITY
+
+    The three base healing classes (Clerics, Healers, Druids) now have a new type of healing spell that will help them in heavy battle - particularly RvR - situations. This spell type is called a "Spread Heal". These spells need no target - they search through the group applying healing power to whoever is lowest in health (As a percentage of their max, not as a straight value) until the group is full or the pool has been used. These spells should be especially useful in RvR encounters where targeting is a problem and many people can be taking damage at the same time. In normal PvE encounters or where one target specifically is taking the most damage, directed heals remain the most efficient and effective option. When everyone in the group is low, standard group heals remain the best option. Spreadheals fall somewhere in between - when some members of the group are still full or near full, and some members are falling fast, these heals will be the most efficient option.
+
+    Cleric Rejuvenation spec
+    30 Gift of the Host
+    39 Boon of the Host
+    48 Blessing of the Host
+
+    Healer Mend spec
+    30 Ancestor's Gift
+    39 Ancestor's Favor
+    48 Ancestor's Boon
+
+    Druid Regrowth spec
+    30 Regenerating Spirits
+    39 Resuscitating Spirits
+    48 Reviving Spirits
+
+
+    Battery of Life Realm Ability
+
+    Also, a new realm ability is now available to the primary healers in each realm at a 10 realm point cost, called Battery of Life, which is a different variety of spreadheal. It allows the user to create a spreadheal pool that essentially remains on him as a battery; checking every round to see if anyone needs healing and applying it when needed just like a spreadheal. If the entire battery is not used, the remaining amount remains on the caster waiting to be used. This ability should also be particularly useful in RvR - it can grant the healer the initiative to heal before everyone in his group starts taking damage. As soon as the group begins taking damage they're already being healed by the battery, and the healer can begin casting another spell which will hopefully be cast before the battery runs out. The battery and the spreadheal used together should go a long way towards allowing healers in RvR to do what they're intended to do - keep the group alive as long as they have the power left to do so. One important difference to note about the battery from spreadheal - it does not flow into the caster, only their group mates. This is not intended to be an automatic complete heal for the healer.
+
+
+
+    RESURRECTION SPELL CHANGES
+
+    Due to the recent change where you now receive Realm Points for resurrecting your realm-mates in RvR battles, we've had to change some of the resurrection spells. Here's the list:
+
+    - All resurrection spells now have a 4 second cast time.
+
+    - The power costs for all resurrection spells have not been changed.
+
+    - When casting a resurrection spell, you receive a message and the spell cancels if the target is already considering a resurrection from someone else.
+
+    - Resurrection sickness now goes from 100% to 50% when doing a "full rez" on another player.
+
+    - Low level resurrection spells now give 5% RP's to the caster and high level rezzes do up to 15% of the RP's to the caster. Mid level ones are between the two.
+
+
+
+    RESPEC NOTES
+
+    With the class changes that come with 1.56, we're giving the following respec options to the various classes affected by the changes:
+
+    - all primary healing classes over level 30 get a single-line respec (because of spread heal).
+
+    - all primary healing classes get a realm ability respec (because of heal battery).
+
+    - Hunters get a full respec (because of new wolf pets and melee combat changes).
+
+    - all Assassin classes automatically get the points back they initially spent for Ignore Pain, and IP is stripped from their character, if they had IP to begin with.
+
+    - all Assassin classes get a realm ability respec if they have Dodger, Ignore Pain, or First Aid.
+
+    Please note that if you meet these criteria, but you already have a respec of the type listed here, you will not get an additional one - for example, if you are an Infiltrator with a Realm Respec that you haven't used, you won't get another one. But, if you are an Infiltrator who does not have a Realm Ability respec, you will be given one.
+
+
+
+    INTERFACE NOTES
+
+    - There is a new window - the Command Window - which has two rows of buttons of commonly-used Camelot commands. You'll find things like "attack", "sit", "relic status" and so forth on this window. You can Shift-Left-Click buttons on the Command Window to make quickbar buttons out of them.
+
+    - There is a new "Options" window (displayed by clicking "options" from the character stat/information window). This dialog lets you specify in-game settings like sound/music/ambience/ambient music volumes, and name-color scheme. The Shrouded Isles client has many more options as well.
+
+    - The mini-info window (comes up when you right click on an item) is now a separate window and doesn't share a window with your target/health window.
+
+    - There are no longer "white" con color items when you are crafting. When a crafting recipe was on a skill boundary (about to change from red to orange con), it would turn white for one skill point.
+
+    - When you use a performance configuration slash command or popup command from in game, the changes are saved and should reflect in the main configuration window.
+
+    - The compass is now be on by default for new players
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - We now support eight characters per realm per server.
+
+    - Healing-type classes will now receive Realm Points for resurrecting a friendly player. Please note that you will not get Realm Points for resurrecting someone if they did not "give" Realm Points when they were killed. Also please note that the number of RPs you can get from one resurrection is capped at 2x the RPs that you yourself are worth.
+
+    - Characters in the main menu will now perform an emote after being selected.
+
+    - Dying a standard PvE or Suicide fall death should no longer allow you to use the corpse summoner. PvP deaths are not affected by this change.
+
+    - Corpse summoners can no longer summon corpses while in combat.
+
+    - Any summoned pet to a ground target should now obey visibility (turrets for animists).
+
+    - You should no longer see your circular shadow below you when swimming in classic shadows. Likewise, you should no longer see your high definition shadow below you for new shadows when swimming.
+
+    - Fixed a bug where brush was sorted incorrectly versus rivers in the classic client.
+
+    - Shadows for large monsters on hills should no longer be clipped oddly in terrain zones from certain angles.
+
+    - You can no longer load the Expansion zones while running the Classic client. Previously, you could run the expansion client, teleport to an expansion zone, then run the classic client and try to enter with that same character, resulting in either a client crash or you'd end up in an empty zone. Now if you try to enter a SI zone with the classic client, you'll get an error message, and it won't let you load.
+
+    - The zone loading bar has been moved to not interfere with pretty loading screens.
+
+
+
+    NEW EMOTES
+
+    There are five new emotes:
+
+    - "/ponder" - for when you just want to go "hmmmmmm".
+
+    - "/military" - a military salute.
+
+    - "/present" - to present someone with something.
+
+    - "/taunt" - a very naughty gesture when you really want to insult someone.
+
+    - "/rude" - a rude gesture.
+
+
+
+    SOUND AND MUSIC NOTES
+
+    The new sound options allow independent volume setting for each of the following:
+
+    - Sound Effects: gameplay sounds (combat sounds, spells, etc.)
+    - Music: basically, the MP3s (play when you enter the game, towns, combat music, etc.)
+    - Ambient Sound Effects: random non-music sounds (birds, wind, etc.)
+    - Ambient Music: self-explanatory
+
+    You should be able to set these options in the old Character Select options menu and in the new in-game options menu. Possible settings are: "Off", 1-9 (increasing volume) & "Full" (full volume).
+
+    Sound setting changes made in either the Character Select options menu or the in-game options menu should persist between play sessions.
+
+    Additional Notes:
+
+    In the Main Menu of the game, you can change the sound settings (via the Options button) but they won't take effect until you enter the game or exit and come back in. However, if you change the settings in the in-game options menu, the volume should change in real time giving an audible cue to the current sound level (if sounds or music is playing at the time).
+
+    In the original "classic" Camelot, you only have 2 sound options: Sound Effects and Music. In this case, the Ambient Effects use the Sound Effects volume value while music uses the Music volume value.
+
+
+
+    SPELL NOTES
+
+    - Dexterity buffs now affect casting speed on monsters.
+
+
+
+    WORLD NOTES
+
+    The following monsters have had their models changed:
+
+    - Weakened Demon
+    - red rager
+    - Vrede
+    - flame thrower
+    - Bright Flame
+    - fire phantom
+    - Spirit of Flames
+    - flame spout
+
+    - Dungeon: Darkness Falls: Marbo, the Sapphire Seal Merchant, will now sell a Corrupted Dismal Vest for Berserkers.
+
+    - All three dragon lairs have been extended in area (to allow better raid co-ordination)
+
+    Albion: A new horse route has been added from Snowdonia Station to Llyn Barfog.
+
+    Hibernia: A new horse route has been added from Brynach to Cursed Forest.
+
+    Midgard: A new horse route has been added from Gna Faste to West Skona.
+
+    Midgard: A new horse route has been added from West Skona to Gna Faste.
+
+    Realm v. Realm - Frontier Keeps: Corpse Summoners will no longer appear at Bledmeer Faste, Dun Crauchon and Caer Benowyc.
+
+
+    Treasure, General
+
+    - The Radiant Moonclipper (Albion) now salvages for the appropriate amount.
+
+
+
+    PvP SERVER WORLD NOTES
+
+    - We've added three medallions of passage to all city medallion merchants. These medallions will port you to the expansion starting zones and will only work if you have purchased the expansion. New Port Destinations: Gothwaite Harbor, Aegirhamn, Grove of Domnann
+
+
+
+    TRADESKILL NOTES
+
+    - Fixed the Skill value that the newer Albion Spellcraft gems were set to be more appropriate for what they are
+
+    - Split the new Albion weapons out to separate lists appropriately
+
+    - Changed the name of the wizened wood to wisened wood
+
+    -Added Soul Rending spec and focus gems to Albion Spellcraft: Steaming Fervor Sigil and Steaming Sigil
+
+    - Removed the Soulrending Focus gem from Albion spellcraft
+
+    - Fixed new weapon components only using 10th rank materials for Albion and Midgard
+
+    - Fixed recipes where a "null" object was created in Albion
+
+    - Fixed all of the icons for the newer weapons to use the appropriate icon for said weapons (i.e. flexible, hand to hand, and scythes)
+
+    - Fixed weapons that are leather, instead of metal, to have their DPS progress normally
+
+    - Fixed issue with Midgard Alchemy, Herbcraft, etc, not showing up properly.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

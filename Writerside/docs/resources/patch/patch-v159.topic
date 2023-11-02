@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.59" id="patch-v159">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.59</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    =========================
+
+
+    Dark Age of Camelot
+
+    Version 1.59 Release Notes
+
+    Thursday, January 23, 2003
+
+    =========================
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - Windowed mode and the ability to Alt-Tab have been enabled in the Shrouded Isles client. Remember, you may have significant technical issues when you run the game in windowed mode; be sure to report any problems you find.
+
+    - Poisons applied to weapons will now save when zoning.
+
+    - In some cases, when a keep lord was killed (usually by a GTAOE spell), the keep status would not be changed. This has been fixed.
+
+    - A new command for pets has been added - HERE - which commands the pet to come to your position. Look for it on your pet control window.
+
+    - The Looking for group system should now work across zones. It stores up to 30 of each type of group leaders or solo players, and displays the zone name. LFG status is now saved when zoning.
+
+    - You can no longer /INVITE hidden players on PvP severs.
+
+    - Certain negative effects on the player would not be overwritten by more powerful negative effects (like slow spells). This has been fixed, and will fix a number of style related effect issues that rely on these spell types.
+
+    - Savages will no longer be able to resist their self parry buff (Nails of Kelgor line).
+
+    - The Purge realm ability is now properly available to Necromancers.
+
+    - All Savages now are properly awarded Ignore Laceration at L48 Savagery.
+
+    - Necro pets now only get item resistance bonuses from their controller (previously resistance bonuses from buffs were being passed down as well, allowing double effects).
+
+    - Necro power taps cast on monsters now cap the amount of power regained at the monster's current hitpoints or level, whichever is lower.
+
+    - Necromancers in shade mode can no longer use charged items.
+
+    - Long macros and macros with commas are no longer cut off when you log out or zone.
+
+    - Sylvan using Large Weapon combat styles will now animate correctly.
+
+    - We fixed a bug where sometimes, in rare cases, guild would be created using the same guild number. This led to problems where guild messages of the day showed messages from other guilds, mis-assignment of guild emblems, etc.
+
+    - The stack sizes of the Spellcraft ingredients have been changed from 1 to 10.
+
+    - Previously, when you /assisted someone, you would target them but your targeting/summary window would not immediately update to reflect it. This has been fixed and it will now update as soon as you target them.
+
+    - There was a problem where, when moving stacks of objects, sometimes the quantity designated was not calculated, and only one object in the stack was moved. We fixed, this and now, if you drop a stack on the icon square, it will bring up the stack splitter dialog. Also, if you drop a stack on the text area (next to the icon, where the item name is displayed) it moves the whole stack without asking you. This will allow you to move stacks without any extra clicks.
+
+    - Previously, when you make a macro with %T, and have yourself targeted, the macro always returned , for your own name. This has been fixed.
+
+    - There was a bug where the command window would not function after you selected someone's name on the looking for group window. This has been fixed.
+
+
+
+    BUYING MULTIPLE ITEMS
+
+    You may now buy multiple items at once. With the merchant dialog open, select an item and Shift-LeftClick on the "BUY" button. It will open a window that allows you to select how many of the item you would like to purchase. LeftClicking the left and right arrows on this dialog increases/decreases the amount by 1, Shift-LeftClicking on the left and right arrows increases/decreases the amount by 10.
+
+    If you click on an item's icon in the merchant window, so that the icon of the item you want to purchase is attached to your mouse cursor, you can use the slash command "/mbuy #" where # is the number (from 1 to 100) that you would like to purchase.
+
+    This will allow you to macro exact quantities onto your quickbar: eg: /macro BUY50 /mbuy 50
+
+    NOTE: Buying multiple items is the same as if you selected the item and clicked "buy" X times. This means that if you are buy 10 of an item that is already stacked in stacks of 10, you are buying 100 total items.
+
+
+
+    SPELL NOTES
+
+    We've taken a long look at Albion's spellcasting classes, as well as the Thane in Midgard, with an eye towards making them more fun to play and functional.
+
+    Theurgist Changes
+
+    - Theurgist elementals can no longer be rooted or mezzed.
+
+    - Theurgist Confusing Gust line has had its radius raised to 350.
+
+    - Increased range of Theurgist summons to 2000.
+
+    Wizard Changes
+
+    - Reduced casting time of Burst of Steam line to 2.5 seconds, which matches the Spiritmaster and Enchanter PBAE cast times.
+
+    Friar Changes
+
+    - Increased duration of all Friar self buffs to 15 minutes.
+
+    Sorcerer/Cabalist Changes
+
+    - Increased value on L48 self shield Nullify Offense to 250.
+
+    Sorcerer Changes
+
+    - Sorcerers can now charm any monster type. This should strengthen their Mind spec considerably, and facilitate better charming in dungeons (where many monsters are undead).
+
+    - Added Minion Control to the Sorcerer RA list.
+
+    - Increased radius of Fog, Blanket and Cloud of Senility to 350.
+
+    - Added a power regen buff to Mind spec list so that all three realms have a version of this spell:
+
+    5 Comprehension of Power
+    15 Perception of Power
+    26 Perspicuity of Power
+    36 Cognition of Power
+    46 Lucidity of Power
+
+    - Instead of adding more crowd control to any realm, Sorcerers are getting two new ways of dealing with crowd control.
+
+    1) Added a self mez-duration reduction buff to Mind Spec.
+
+    16 Shield Mind
+    27 Harden Mind
+    35 Steel Mind
+    45 Invulnerable Mind
+
+    2) Added group mez-duration reduction chant to Mind Spec.
+
+    29 Solidarity of Mind
+    39 Unity of Mind
+    49 Brotherhood of the Mind
+
+    General Magic Changes
+
+    - Increased duration of all self-only buffs that had 10 minute timers to 15 minutes.
+
+    - Fixed a delve bug that affected the "cast time" print. Spells with fractional cast times were truncating the fractional component, so spells with 2.5 second cast times (for example) were listed as 2 seconds. Unless noted elsewhere in the patch notes, no cast times actually changed, they just print correctly now. Please note that spells on the Camelot Herald have always included the fractions of a second; it is only the delve print function that is being updated.
+
+    Thane Changes
+
+    - Removed recast timer from Thor's Minor Bolt line. This is consistent with the Call Mjolnir line, which also doesn't have a recast timer.
+
+    - Changed Thor's Vigor line from a Strength only to Strength/Constitution buff.
+
+
+
+    CLASSIC CAMELOT WORLD NOTES
+
+    - We have revised the dragon AI to provide a more consistent breath weapon use in all three realms.
+
+    - Midgard Quests: Players working on the "Helping the Svartalfar" quest will no longer be able to get the rabid sveawolf skull from any sveawolf. They must get it from the rabid sveawolf.
+
+
+    Realm v. Realm - Frontier Keeps
+
+    - We have added additional camps of higher level mobs for players to hunt at each keep so they can take advantage of the keep experience bonus for claiming a keep.
+
+    - We have modified the spawn of the guard patrols as well as modified the area these patrols cover. The patrols closest to enemy portal keeps have been reduced in number and the area they patrol has been reduced as well. Patrols closest to the border keeps have been increased in number.
+
+    Caledonia
+
+    - The door for the central keep has been moved making it easier for players using rams to damage the door. Prior to this change, rams were not as effective on the door because the door was placed slightly inside the proper location making it very difficult to target. Players will not see a visual change, but the ease in damaging the door should be noticeable.
+
+    - Monsters: Monsters summoned by Summoner Lossren in the Summoners Hall will no longer drop loot. (already fixed on live)
+
+    - We have revised the dragon AI in all three realms - in an effort to provide a more predictable encounter, as far as breath weapon use, for Golestandt, Cuuldurach, and Gjalpinulva.
+
+    Hibernia: After having been annihilated by a combination of disease and the brutality of the Fomorians in eons long past, the souls of the Parthelonians have become restless and seek to extract vengeance against the Fomorians and any other unlucky individual that cross their path.
+
+
+    Item Notes
+
+    - The Seafarer's Death Shroud (Midgard) can now by dyed.
+
+    - Future drops of the Sapling Staff (Hibernia) should salvage for the correct material type.
+
+    - Gold Stitched Boots (Midgard) should now correctly appear as cloth.
+
+    - The Feverish Runner Drum (Hibernia) can now be salvaged.
+
+    - The Ring of Abundance (Midgard) now increases piety, not intelligence.
+
+    - The Dried Moss Ring (Hibernia) should now equip in the ring slot.
+
+    - The Mandible Headed Axe (Midgard) should no longer display that it has a proc.
+
+    - The Deathsight Perfection Bracer (Albion) has had its magic bonuses slightly altered so that it will not continue to generate a "fails to affect you" message. The new magic bonuses are: resist darkness 6%, skill deathsight +6, power +1, stat int +9.
+
+    - The Poorly Woven Vest (Midgard) has been replaced with a new drop, the Poorly Woven Garb.
+
+    - The Circle Protector Ring (Albion) can now be worn in the ring slot.
+
+    - The Spider Keeper's Gloves (Hibernia) now has thrust and body resist, instead of two body resist entries.
+
+    - The Decorated Seashell Staff (Hibernia) should now salvage for the appropriate material.
+
+    - The Seething Death Boots (Albion) that are actually leggings have been renamed Seething Death Leggings.
+
+    - The Sable Boots of Dementia (Albion) now increase slashing and body resistances, instead of having two body resist entries.
+
+    - The Gauntlets of Mortification (Albion) now increase crushing and cold resistances, instead of having two cold resist entries.
+
+    - The Worn Mail of Dissolution (Albion) now increases thrusting and body resistances, instead of having two body resist entries.
+
+    - The Diseased Rat Tail (Albion) now increase spirit and body resistances, instead of having two body resist entries.
+
+    - The Flesh Stretched Riddle Staff (Albion) now has a Death Servant focus added.
+
+    - Future drops of the Bear Mask helm (Midgard) should salvage for the correct material. Please note that this does not apply to Bear Masks that currently exist in a player's inventory at the time of this patch.
+
+
+
+    SHROUDED ISLES WORLD NOTES
+
+    - Albion Quests: Lost Treasures: Due to a bug, the reward portion of the quest has been restructured. If your quest journal now says 'Step 13 - Choose your second bracer from Ariette' and you did not make a first choice, return to Ariette behind Fort Gwyntell in Dales of Devwy and she will allow you to get your first bracer. Players will no longer be able to get unlimited no-sell, no-trade bracers.
+
+    - Albion Quests: Players on Ogre's Might who killed Scureol Hyrde and have the Channeler's Orb, but couldn't turn the item in to Master Xavier can now turn the item in and finish the quest.
+
+    Midgard Quests
+
+    - The quest "Silent Death" has been opened to Savages and Bonedancers. Also, ALL rewards for this quest have been changed to "No Sell".
+
+    - Mammoth Hunt - Savages that received the non-functioning Tusk Bladed Fist can take it to Bothrar Hadd in Bjarkan (Gripklosa Mountains) and exchange it for a functioning Tusk Bladed Fist. Players must have Mammoth Hunt listed in their completed quests to exchange the item. Players may only trade in their Tusk Bladed Fist once.
+
+    - Mammoth Hunt: The spells on the following rewards for this quest were set
+    incorrectly. They now have the correct spells. The rewards affected are:
+    Ivory Bladed Hammer, Tusked Handled Battlehammer, Tusk Blade, and Boned
+    Ivory Staff.
+
+    - Mammoth Hunt: There were some other problems with the Tusked Handled
+    Battlehammer that could not be auto-updated. Because of this we have made it
+    non-functioning. Any player who now has a non-functioning Tusked Handled
+    Battlehammer (now called a Broken Tusked Handled Battlehammer) should take
+    it to Bothrar Hadd in Dyrfjell and exchange it for a working one. Because
+    the object will not be usable at all anymore, players do not have to have
+    Mammoth Hunt in their completed quests list to perform the exchange. Players
+    may still only exchange one Battlehammer.
+
+    - Bonedancers have been added to the available classes for the Stripe quest.
+
+    - A woman named Medana has come to Aegir's Landing to help stop Catla Gardasdottir's mad plans. Anyone that is level 49 or 50 should speak to Medana in Dyrfjell if they wish to help.
+
+    - Mucking Through the Ick: Savages and Bonedancers have been receiving the wrong rewards for this quest. Savages who received the Silkstand Belt (+2 power) can take it to Belyria in Haggerfel and exchange it for the Hardened Silkstrand Belt. Bonedancers who received the Hardened Silkstrand Belt (+HPs) and would prefer the Silkstrand Belt (+power) can also speak to Belyria and exchange their belt. Players must have completed the Mucking Through the Ick quest and have the belt with them to exchange it. The exchange may only be done once.
+
+    Albion Monsters
+
+    - Avalon Isle: Nalsor would sometimes chase players indefinitely or kill them again at their bindstone after they release. This should no longer happen.
+
+    - Isle of Glass: A drakoran commander has been spotted in the drakoran encampments in the Northwest of the Isle of Glass. It is suspected that he is planning an attack on Avalonian positions in that region. He has only been seen plotting with his underlings in the early morning hours.
+
+    - Crystal Cave: The Xanxicarian Elite have been toned down slightly. They also chant correctly during battle now.
+
+    Midgard
+
+    - NPC Changes Bjarken: Berge is now a Smith instead of a Vault Keeper. Sisko now sells Dye making supplies and enchanting/recharging supplies.
+
+    - NPC Changes in Hagall: Alfdis Rannveig is now a Smith instead of a Healer. She has been moved from Bjarken to Hagall. Mikkal will no longer sell spellcrafting supplies for other realms. A new enchanter has come to the town of Hagall. His name is Bolverk and he can be found near the three huts in the town.
+
+    - NPC Changes in Knarr: Reynilda will now sell Midgard spellcrafting supplies instead of Hibernian ones.
+
+    - Monsters: Midgard: Iarnwood: The skalds of Aegir are telling tales of a horrible creature named Sariloc in Iarnwood forest. The beast is supposedly very deadly and can reportedly swallow a kobold in one bite. It is unknown if this beast actually exists or is merely a rumor.
+
+    - Ibicus should no longer spawn inside the bridge.
+
+    Hibernia
+
+    - Cothrom Gorge: Travelers passing by the waterfall have reported that the area now smells of death. There are also reports of earth tremors in that area. Some even claim to have seen the very rock around the waterfall move! Globs of green sludge have been collecting behind the waterfall as well. There is some speculation that the sludge is the source of the foul odor, but others suspect that something else lurks behind the waterfall.
+
+    - Vigilant Rock: The sylvanshades south of Necht have reportedly appointed a leader as well as placed a scout to watch over the area.
+
+    Treasure Changes in Vigilant Rock
+
+    - The randomly generated objects that dropped from the monsters Rinne, Taiore, and Laraida in the Vigilant Rock will now drop off Tuliros. The randomly generated objects that dropped on Luaire will now drop off Merugat. Tuliros and Merugat roam in the twisted sylvan valley where Luaire and his co-horts are located.
+
+    - Luaire, Rinne, Taiore, and Laraida have been returned to their normal quest spawn timer.
+
+    Treasure Changes in Vale of Balor
+
+    - The randomly generated objects that dropped from the monsters Adwyth, Drygau, and Anhylaw will now drop off the monsters Cragger and Monger. Cragger (a fomorian) can be found in one of the houses around the Fomorian town area in Vale of Balor. Monger (an ixthiar) can be found in and around one of the tree-trunk houses in the ixthiar area in the Vale of Balor.
+
+    - Adwyth, Drygau, and Anhylaw have been returned to their normal quest spawn timer.
+
+    Expansion Item Notes
+
+    - Bonedancers may now wear the Stripe Hide Helm.
+
+    - The bonuses on the Necromancer's initiate gift, Necromancer's Staff, have been changed to match the other caster initiate gifts. Necromancers will now receive a focus staff at level 5 that contains all three of their spell lines.
+
+    - The Pelted Fury cloak reward given to Runemasters, Spiritmasters, Healers, and Shamans for the "Ota's Quest" the has been altered. The cloak is a multi-class cloak that previously favored runemasters and spiritmasters. The skills have been adjusted so all four classes will gain a skill benefit.
+
+    - Gazsi's Battle Hammer and Gazsi's Blade (Midgard) should now proc correctly.
+
+    - Dagda's Cauldron (Hibernia) has been renamed to Cauldron of Clarity to avoid confusion with the relic Cauldron of Dagda.
+
+    - The Staff of Repugnance (Albion) is now wielded as a two-handed weapon.
+
+    - The Ring of Tangled Vines (Hibernia) should now equip correctly for Hibernia players.
+
+    - The Golden Disk Brake (Albion) should no longer display that it has a proc.
+
+    - The Azure Prayerbound suit of armor in Caer Sidi should now appear as leather instead of studded.
+
+    - The Masterful Agony Boots (Hibernia) now increase mana magic skill instead of body magic.
+
+    - The Barkstripper's Scythe (Hibernia) can now be recharged.
+
+    - The Silvered Leather Jerkin (Hibernia) now has body and slashing resist, instead of two separate body resist entries.
+
+    - The dwarf Ornulf of Delling Crater should now have Midgard appropriate drops.
+
+    - The Birghirian Hauberk (Midgard) can now be worn by shadowblades.
+
+    - Gorvos' Frozen Bardiche (Albion) now buffs crush resist instead of power.
+
+    - The haunted rowans in Caldey should now be dropping appropriate level unique item focus staves.
+
+    - The Glacier Jewel with the resistances to cold, slashing, and body should now work at the correct level (47).
+
+    - The Braided Ivy and Vine Staff now has the correct focus - mentalism.
+
+    - Albion: Ariach's Purged Staff is now correctly set as a two-handed weapon.
+
+    - The Darkened Vine Necklace (Hibernia) now correctly increases empathy instead of piety.
+
+
+    Unique Item Generator
+
+    In the expansion areas and certain dungeons the Unique Item generator is used. Areas that use these see more treasure drops on average than old areas of the game. We had not altered the salvage on the objects to compensate for that fact. The base objects for the Random Item Generator now have a consistent salvage value and are now broken down by size.
+
+    Small items - small weapons, small shields, boots and gauntlets.
+
+    Medium items - medium sized weapons, medium shields sleeves and helms.
+
+    Large items - large weapons, large shields, leggings and chestpieces.
+
+    Metal / Strips / Ore Wood / Leather Cloth
+    S 5 12 18
+    M 10 24 36
+    L 15 36 54
+
+
+    Epic Dungeon Item Notes
+
+    The second pass through the epic dungeons is done. The following changes were made to improve the risk vs. reward in Caer Sidi, Tuscarian caves, and Galadoria.
+
+    - The class set armor pieces are now all level 51.
+
+    - The reactive procs on those pieces were upgraded.
+
+    - Many items received increased bonuses.
+
+    - Salvage was heavily reduced in these dungeons.
+
+
+    Tur Suil Changes
+
+    - Queen Qunilaria's drop rates were altered. She will now only drop 1 100Q item, with a *chance* to drop randomly generated items.
+
+    - The Gloves of the Black Archer are now correctly known as the Sleeves of the Black Archer (Albion).
+
+    - Fur Brushed Chain Leggings (Midgard) can now be dyed and salvaged.
+
+    - The charges on the Gatekeeper's Reversion Cloak (Midgard) can now be used. However, please note this item is NOT rechargeable.
+
+    Epic Dungeon Notes
+
+    We are closely watching the Risk vs reward in the epic dungeons and will continue to do so. These are the first of possible changes and are geared towards smaller raid groups.
+
+    1) All non-boss monsters in Caer Sidi, Tuscarian Caverns, and Galadoria now drop more coin.
+
+    2) All non-boss monsters in Caer Sidi, Tuscarian Caverns, and Galadoria had their drop rates increased.
+
+    3) Numerous treasure table bugs were fixed in the Tuscarian Caverns.
+
+    4) Lord Lron Should in Caer Sidi should now drop items.
+
+
+    COOPERATIVE/PVP SERVER WORLD NOTES
+
+    Albion Quests: Free the Rogue! - Animists and Valewalkers should now be able to complete this quest.
+
+    Hibernia Quests: Crace's Desire - players from Albion and Midgard should now be able to finish this quest.
+
+    - All Portal Master NPCs on the PvP/PvE Servers will now respond to the key words [port me]. You must be wearing the medallion of your target destination in order for this to work. This is just an additional method to use the Portal Masters. You can still continue to use them the previous way if you choose.
+
+
+
+    PVP SERVER NOTES
+
+    - The maximum level cap for Catacombs of Cardova has been changed to level 45. The delays for the changes in this dungeon are dependent upon the epic quests that some classes may need to complete. For players who are over the level cap and are attempting to complete their epics, we have provided the following options for the PvP servers only:
+
+    - Arc of Ages – Players over 45th level and attempting to perform step 4 can now find the forgotten emperor in Cornwall, west of the Catacombs.
+
+    - Craft of Retribution – Players over 45th level and attempting to perform steps 5, 6, or 7 can now find and animated version of the Amulet of Fasius Previlus in Cornwall, near the Cornish Giants.
+
+
+
+    COOPERATIVE SERVER WORLD NOTES
+
+    - Grand Lord Martel's difficulty has been adjusted.
+
+    - The monsters that have taken control of Grallarhorn Faste on Gaheris have become stronger.
+
+    - The "Famine" one-time drop is now do-able by necromancers.
+
+    - The encounters at Hildskialf Faste, Bledmeer Faste and Nottmoor Faste have had their difficulty increased.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

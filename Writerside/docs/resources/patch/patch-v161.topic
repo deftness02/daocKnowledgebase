@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.61" id="patch-v161">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.61</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    =========================
+
+
+    Dark Age of Camelot
+
+    Version 1.61 Release Notes
+
+    Tuesday, April 1, 2003
+
+    =========================
+
+
+
+
+    OVERCAPPING CHANGES
+
+    We've raised the player stat caps so that high level buff spells will not exceed the cap. Players who receive high level buff spells from friendly casters will notice this change the most. This means that races that a high starting stat (such as strength or dexterity) will now be able to buff it a bit more than those races that do not have a high starting stat.
+
+
+
+    NEW THINGS AND BUG FIXES
+
+    - Pressing Shift-LeftClick on your pet's name in the pet window will now create a hotbar icon that you can drag to your quickbar. Pressing this new hotkey will select your pet. (Note: The rest of the buttons/commands on the pet window could already be made into hotkeys by Shift-LeftClicking on them).
+
+    - The mousewheel will now scroll the chat buffers and the quickbar when your mouse cursor is hovering over them.
+
+    - If another player traded 10 items with you, the 10th item would incorrectly show up in your trade window on later trades. This has been fixed.
+
+    - Pressing TAB to toggle the interface will now hide/restore all windows correctly. Previously, some windows (such as the compass) would not be hidden, and other windows (the Command Window) would not reappear after you toggled the interface back on.
+
+    - There were many monster pathing issues in Avalon City. These have been fixed.
+
+    - All frontier zones have been itemized using the Unique Object Generator system. All monsters killed in all frontier zones will now drop loot.
+
+
+    - Some Bards were able to chain-cast their spells in the Minor Lullaby line, bypassing the 5 second recast timer. This has been fixed.
+
+    - Some Mage cloth helms were incorrectly using the plate helm graphic. This has been fixed.
+
+    - We now have new crafting sounds. You'll now hear a distinct sound for crafting failure, lose-item failure, success, and masterpiece.
+
+
+
+
+
+
+
+    CLASSIC CAMELOT WORLD NOTES
+
+    Unique Item Generator Notes
+
+    - Unique object drops from Midgard should no longer have +thrown.
+
+    - "Unique item" friar robes can now be dyed. This change should apply retroactively for any "unique" friar robes.
+
+    - Midgard chain items should no longer drop with +thrown.
+
+    - Items in the 1-10 level range will only use points on two bonus slots instead of being spread across all four. Items 11-20 will use points on three bonus slots. Items 21+ will use the normal four bonus slots.
+
+    - The variance on magic bonus has been removed. All Unique Object Generator items should drop with the proper magic bonus amount for that item's material level.
+
+    - The variance on item points has been removed. All Unique Object Generator items should drop with the total proper amount of item points for the monster's level.
+
+    - The quality ranges for common monster Unique Object Generator drops, drops from named monsters less than level 50, and drops from named monsters higher than level 50 have been narrowed. The base quality for these drops is now 89%, and can extend to 100% depending upon which category the monster falls into.
+
+    - Resists on items level 1-10 will be a little less common than before.
+
+    - Caster staves will no longer be class-restricted in the 1-6 level range.
+
+
+    New Merchants
+
+    The following merchants in the Camelot Classic world now carry Necromancer focus staves:
+
+    Gardowen Egesa - Camelot
+    Doreen Egesa - Cotswold Village
+    Eabae Egesa - Ludlow Village
+    Loretta Egesa - Lethantis Association
+    Daisi Egesa - Adribard's Retreat
+
+    The following merchants in the Camelot Classic world now carry Reaver flexible weapons:
+
+    Tyngyr Blade - Adribard's Retreat
+    Langston Fall - Caer Ulfwych
+    Ethan Farley - Camelot
+    Grannis Ynos - Cotswold Village
+    Ban Ronem - Humberton Village
+    Alburn Hale - Prydwen Keep
+    Ember - Snowdonia Station
+
+    The following merchants in the Camelot Classic world now carry Animist focus staves:
+
+    Iaine - Ardagh
+    Eleri - Ardee
+    Izold - Ceannai
+    Marus - Connla
+    Cait - Howth
+    Mearchian - Mardagh
+    Jiskarr de'Mordan - Tir na Nog
+    Romney - Tir na Nog
+
+    The following merchants in the Camelot Classic world now carry Valewalker scythes:
+
+    Iama - Alainn Bin
+    Brenna - Ardagh
+    Creirwy - Ardee
+    Keir - Caille
+    Glyn - Connla
+    Glennard - Innis Carthaig
+    Lavenna - Tir na mBeo
+    Kedric - Tir na Nog
+
+    The following merchants in the Camelot Classic world now carry Bonedancer focus staves:
+
+    Niniver - Fort Atla
+    Ysunoic - Galplen
+    Elengwen - Huginfel
+    Anya Vinsdottir - Jordheim
+    Raelyan - Mularn Village
+    Merwdda - Vasudheim
+
+    The following merchants in the Camelot Classic world now carry Savage hand to hand weapons:
+
+    Armond - Audliten
+    Svard - Dvalin
+    Yop - Fort Atla
+    Hlif - Fort Veldon
+    Gestod - Galplen
+    Burr - Haggerfel
+    Auda - Huginfel
+    Ema - Jordheim
+    Hrolf - Mularn Village
+    Leik - Vasudheim
+
+
+    General Notes
+
+    - We have added a horse route from Snowdonia Fortress to Humberton.
+
+    - The horse routes that go to Tir Urphost in Hibernia will take a different route that will bring you closer to Koalinth Caverns.
+
+    Quests
+
+    - In the following quests involving the following monsters, players who are on the appropriate step will receive credit if they die while attempting to kill the monster, but their allies get the kill:
+
+    Scureol in Ogre's Might, Quillan Muire in Muire Tomb, and Callilepis in Nisse's Lair
+
+
+    Hibernia Quests
+
+    - Broken Seal should now be able to be completed.
+
+
+    Realm V. Realm - Battlegrounds
+
+    - Players who attempt to capture the battleground or merchant keeps for the experience reward and die will receive the requirement if they are within the keep region when the lord is killed by their allies.
+
+    - Fixed an issue in Murdaigean where the additional banner that would spawn when Albion controlled the keep would be a Midgard Banner.
+
+
+    Midgard Dungeons
+
+    - We fixed a problem with an arachite prelate attacking players with a root spell through the walls at the entrance of Spindelhalla.
+
+
+    Monster Notes
+
+    - The three dragons located in the epic zones should provide more feedback to players during their encounter to help players developing strategies for the encounter.
+
+    - Ibicus should no longer spawn behind a zone wall.
+
+    - The monsters that roam the area by Koalinth Caverns have moved to a new hunting ground.
+
+    - Fixed the Parthelonians so that they will correctly group up and BAF.
+
+
+    Item changes in the frontiers
+
+    - The four Summoners in the Summoner's Hall dungeon now have a chance to drop a Luminescent Abrogo Stone. These stones can be turned in to the NPC's listed below to receive a Realm Skill Respec. A different type of respec stone is dropped in Shrouded Isles - see below.
+
+    Camelot: Paiton Hazlett - Luminescent Abrogo Stone – Realm Skill Respec
+
+    Jordheim: Haili - Luminescent Abrogo Stone – Realm Skill Respec
+
+    Tir na Nog: Bretta - Luminescent Abrogo Stone – Realm Skill Respec
+
+    - Frontier monsters are now itemized using new class specific random object generator templates.
+
+    Items
+
+    - Bards Song now has dexterity instead of empathy.
+
+    - The Prismatic Hammer (Midgard) should now have the correct DPS and delay.
+
+    - The Runic Ember and the Frozen Soul-shatterer (Midgard) can now be equipped by Spiritmasters, Runemasters, and Bonedancers.
+
+    - The Cath Cloak (Hibernia) now has body resistance 6 instead of duplicate body resist entries.
+
+    - The Bloody Fang (Midgard) should now be the appropriate level.
+
+    - All dropped alchemy components are now marked as no sell. Note: these items did not previously have a sale value. They have been marked as no sell to prevent players from mistakenly selling them for 0 copper.
+
+    - The Malevolent Shield (Midgard) can now be equipped by Healers and Shamans.
+
+    - Gloves of Night (Hibernia) may now be salvaged.
+
+    - The second body resist entry on the Bracer of the Pious Defender (Albion) has been changed to energy.
+
+    - Wispy Rigid Orm Spine (Midgard) may now be salvaged.
+
+    - Particle effects were added to many of the weapons in Dartmoor, Cursed Forest and Raumarik.
+
+    - The Mouldering Moor Boots (Albion) should now drop with the appropriate level/AF. This does not apply to any drops of this item previous to this patch.
+
+    - The Blue Diamond Staff (Midgard) can now be used by Bonedancers.
+
+    - The Chain of Suppression (Midgard) now increases suppression as the name suggests.
+
+    - One of the doubled body resist entries on the Worn Jewel Dusted Vest (Hibernia) has been changed to heat resist.
+
+    - The Omni Hunting Boots, Omni Hunting Gauntlets, Omni Warchain Boots, Omni Warchain Gloves, and Omni Warchain Coif (Midgard) should now have the appropriate name and icon sorted out correctly.
+
+    - The Ceremonial Robe (Hibernia) can now be salvaged.
+
+    - Troll Hide Sleeves (Albion) can now be dyed.
+
+    - Silverwolf Sleeves (Midgard) now give a bonus to piety in place of intelligence.
+
+
+
+    SHROUDED ISLES WORLD NOTES
+
+    - We have revisited many of the monsters of Iarnwood and lowered their aggressiveness and their attack radius in order to compensate for the low visibility in the zone. Players should not be attacked my monsters they were unable to see often as was previously possible. The area is still dangerous, but it should be much easier to navigate safely around the wildlife.
+
+
+
+    Major Changes to Ancestral Secrets Quest
+
+    The long awaited changes to the Ancestral Secrets quest in Midgard are finally here. Here’s what we did to allow all players a chance to get the coveted Beaded Resisting Stones as well as the other random rewards. We have made the quest Ancestral Secrets repeatable. If you have already completed the quest once you may go back to Ota Yrling in Aegirhamn and get it again. The rewards are still given out randomly after you are teleported by Jaklyr, and you may only get each random reward once. Once you have all three random rewards, Ota will no longer give out the quest. The standard rewards for the quest have not changed. Players that complete the quest two or more times will not be offered the standard rewards at the end of the quest. Instead they will receive a small amount of experience and a decent amount of gold.
+
+    Other important changes to this quest:
+
+    - The Ancestral Keeper’s level has been raised. Taking a few friends with you is advised.
+
+    - The Beaded Resisting Stones are now flagged NO TRADE because everyone now has the chance to get the Necklace for themselves.
+
+    There is an Albion and a Hibernian version of this quest. The Albion version is called The Lost Stone of Arawn and begins with Honayt’rt in Wearyall Village. The Hibernian version is called The Lost Seed and begins with Terod in Droighaid. Each quest offers a version of the Beaded Resisting Stones as well as the other two random rewards.
+
+
+    Hibernian Quests:
+
+    Krazckz will now offer players a choice of rewards for finishing the quest "Corruptors, Botonids and Trade." If you have already completed the quest and would like to choose a something different, bring your old reward back to Krazckz and he will exchange it one time.
+
+    Monsters
+
+    - Albion: Xanxicar in the Crystal Cave will no longer spam his stomping message. Also his defense has been lowered slightly.
+
+    - Albion: All ogres are now a part of the Children of Orylle faction and will automatically be aggressive to all players.
+
+    - Midgard: Iarnvidiur should now take slightly more damage from attacks.
+
+
+
+    Albion Dungeons
+
+    - Krondon: The oozes of Krondon have burrowed another way out of the dungeon. Players can now use this as a secondary entrance and exit point for the dungeon which will avoid the ogres guarding the main entrance.
+
+
+    Midgard
+
+    - Urlo the spellcraft merchant in Agerirhamn has moved from outside on the ledge to inside by his fellow merchants.
+
+    - Old Matriarch's healing has been toned down.
+
+
+
+    Item changes in the epic dungeons
+
+    - Monsters in Caer Sidi, Tuscaran Glacier and Galladoria now have a chance at dropping a single line respec stone. Note that non boss monsters have a significantly different drop rate than named boss monsters. These stones can be turned in to the following NPC's:
+
+    Albion: Mae Oswy - Humberton Castle
+    Midgard: Hjortr - Vasudheim
+    Hibernia: Ita - Mag Mell
+
+    - The jewelry drops in the epic dungeons (Caer Sidi, Tuscaran Glacier and Galladoria) have received an increase in imbue points.
+
+    Items
+
+    - The magic bonuses on the Blackened Arcanium Crescent (Albion) have been modified to be more reaver appropriate. The magic bonuses are now: +flexible 4, +parry 4, +hitpoints 60, +piety 15.
+
+    - The Light Walker's Blade (Hibernia) should now have a particle effect that fits correctly.
+
+    - The Obsidian Bastard Sword, Obsidian War Hammer, Obsidian Great Sword, and Obsidian Great Spiked Hammer (Midgard) should now increase the correct weapon skill.
+
+    - The Dread bone Great Hammer (Midgard) should now look like a hammer instead of an axe.
+
+    - The Nature's Blessed Cudgel (Hibernia) has a different proc attached that should not interfere with the spells of the weapon's intended class.
+
+    - The unique items from Durval (Albion) should now be set to the appropriate level when dropping. Note that this does not apply to objects received from Durval before this patch.
+
+    - Sys'sro's Robes of Substance (Albion) can now be dyed.
+
+    - Brungar's Slasher (Midgard) no longer increases the slash skill. In addition, the magic bonuses have been increased to the appropriate level for the item.
+
+    - The Seething Frostbound Axe (Midgard) has a different proc attached that should no longer interfere with the spells of the weapon's intended class.
+
+    - The drop rate for Old Matriarch (Midgard) is now set appropriately for the encounter.
+
+    - The Sacristan Coward's Belt (Albion) should now have the appropriate inventory icon.
+
+    - The Rift (Midgard) should now drop items as intended.
+
+    - Thuxra's Rooty Staff (Hibernia) has been renamed to Thuxra's Rooty Spear and Thuxra's Twiggy Staff has been renamed to Thuxra's Twiggy Spear.
+
+    - The second body resist entry on the Smiting Pendant (Albion) has been changed to spirit.
+
+    - The drop rate for the garran treant seedlings that are part of the Cuinn encounter in Hibernia have been adjusted to the appropriate level.
+
+    - The Gilded Songster's Vest, the Blessed One's Leggings, and the Songsung Leggings (Albion) can now be dyed by the appropriate dye type.
+
+    - Shadow Walker's Blade now has the correct particle effect.
+
+    - The lathe in Bjarken has been moved to a more appropriate location.
+
+    - The alchemy table in Gothwaite Harbor has been moved t a more appropriate location.
+
+    - The Verdant Scythe (Hibernia) has a different proc attached that should not interfere with the spells of the weapon's intended class.
+
+    - The Krrzck guardians and the Krrzck warlocks (Hibernia) will now drop more level appropriate treasure.
+
+    - Krrkxrx will no longer drop items when it is killed. This mob is a quest NPC and was not intended to be killed for loot.
+
+    - In Caer Sidi, there were two drops called "Emerald Encrusted Ring." One of those items fits in the waist slot, and the name has been changed to Emerald Encrusted Belt, as originally intended.
+
+    - The new versions of Xaga's Tethered Staff and Xaga's Enshrouded Staff (Hibernia) should now have the same particle effects as the old versions.
+
+    - The Mace of the Valiant and the Bladed Crystal Rapier (Hibernia) had the +valor skill replaced with bonuses that are more useful for champions.
+
+    - The Ebonynight Void Belt (Albion) and the Ebonynight Spirit Belt have been renamed to bracelets as intended.
+
+    - The Mammoth Lined Leggings (Midgard) can now be salvaged.
+
+    - The Flayed Skin Necklace (Albion) should now display as a necklace in a player's inventory.
+
+    - The Rapier of the Otherworld (Albion) has been renamed to Dirk of the Otherworld to correctly reflect the weapon model.
+
+    - The common cash loot item "scimitar cat pelt" has been renamed to "scimitar cat hide", to avoid confusion with the "Scimitar Cat Pelt" that is turned in as a bounty quest item.
+
+    - The Darkened Vine Cloak can now have an emblem applied.
+
+    - The furry urchin cape, furry urchin shroud, and furry urchin mantle (Albion) can now be dyed and have an emblem applied.
+
+    - Shambler's War Hammer (Midgard) should now have +1 hammer, and +2 crush resist.
+
+    - The Mace of Aid (Albion) now increases piety instead of the +crush skill.
+
+    - The Blood Spire Cloak can now be dyed.
+
+    - The common cash loot item "skimmer skin" has been renamed "ragged skimmer skin" to avoid confusion with the "Skimmer Skin" that is turned in as a bounty quest item.
+
+    - The Shadowed Blackthorn Cloak, Phosphorescent Cloak, and Verdant Cloak (Hibernia) can now have an emblem applied.
+
+    - The Bladed Fang (Midgard) should now have the correct DPS.
+
+    - Sterkvill (Midgard) can now be salvaged.
+
+    - Nokkvi's Mauler (Midgard) should now proc as intended.
+
+    - The Darkened Defender (Hibernia) can now be salvaged.
+
+    - Magister Kurgol's Vest (Midgard) now increases piety instead of intelligence.
+
+    - The Braided Ivory Cloak can now have an emblem applied.
+
+    - Agmundr's Foe Hammer (Midgard) now has a particle effect that fits a bit better than previously.
+
+    - All of the Tab'Fren series of staves in Albion should have the appropriate particle effect attached.
+
+    - Durval's Staff of Blindness (Albion) should now have the correct DPS.
+
+    - Grrar's Cloak of Evasion (Albion) can now have an emblem and dye applied.
+
+    - The particle effect should fit correctly on the following staves:
+
+    Runed Mammoth Bone, Griffon Bone Staff, Call of the Griffon Staff, Empyrean Runewalkers Staff, Lord of Niflheim Staff, and Empyrean Bonewalker's Staff, in Midgard
+
+    Staff of the Dragon Lich, Staff of the Weary Mind, Staff of the Thunder Swarm, Eye of the Hellfires, and Dark Staff of the Construct, in Albion
+
+
+    COOPERATIVE SERVER NOTES
+
+    - The hard to target lifeless scouts at Caer Hurbury have been moved.
+
+    - Lowered the aggro range of the tormented knights guarding Caer Erasleigh.
+
+    - The Rock Giant Shamans inside Caer Benowyc should no longer cast at people outside the keep.
+
+    - Bledmeer Faste has had its difficulty increased.
+
+    - The encounters at Glenlock Faste, Hlidskialf Faste and Nottmoor Faste have had their difficulty increased.
+
+    - The bosses of the Relic Keeps will now drop more Glowing Dreaded Seals then before.
+
+
+
+    TRADESKILL NOTES
+
+    - The higher level material stores (materials 6-10) now carry the essential tools for crafting.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

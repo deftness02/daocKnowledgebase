@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="v1.53" id="patch-v153">
+
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.53</title>
+
+    <tip>
+        <p>
+            <control></control>
+        </p>
+    </tip>
+
+    ==========================
+
+
+    Dark Age of Camelot
+
+    Version 1.53 Release Notes
+
+    ==========================
+
+
+    Here's the total release note for version 1.53. This new live patch has a wealth of new tweaks and content. We've made substantial changes to the experience point curve to give levels 40-45 a faster progression, as well as now allow players of more disparate levels to group together without the experience penalty. We've made updates to melee classes to address their concerns and to make them more effective in RvR combat. We've added a new dungeon in the Frontier of each Realm. And, of course, we've made a myriad other updates to classes, objects, quests and the game world.
+
+    EXPERIENCE POINT PROGRESSION CHANGES
+
+    - After gathering a year's worth of data, and listening to Team Lead and player concerns, we are lessening the experience point curve between levels 40-45. Under the current system, from levels 1 to 40, the time-played per level slowly increases. At level 40, time played increases dramatically and remains the same (give or take) from 40 to 50. We had intended a smoother curve from levels 40 to 45 to "ramp up" to levels 45 to 50 (which we intended to take a long time). In order to compensate for this, we've reduced the number of monsters you will need to kill between levels 40-45 - you'll still get the same amount of experience points per kill, but you'll need to kill fewer monsters each level.
+
+    - The experience awarded for killing 35th to 40th level monsters has been increased. We had a "bump" in our awarded experience per level of kill at that range and we're smoothing out the curve by raising the experience awarded per kill.
+
+    - The experience awarded for completed quests has been increased by 10% across the board (more than 10% for levels 40-45, due to the "fewer monsters killed per level change").
+
+
+
+    GROUPING AND EXPERIENCE CHANGE
+
+    - We've relaxed the rules that govern the experience clamp that occurs when lower level characters group with higher level characters and the group fights monsters deemed unchallenging to the group's total strength. You should now be able to group with a wider range of players in the group without suffering an experience point penalty.
+
+
+
+    MELEE CLASS UPDATE
+
+    In order to make everyday life in RvR more fun and compelling for primary melee characters, we've made some updates to the Realm Ability system, as well as added a new "free" ability to some melee classes. These changes and updates are focused on the RvR capabilities of these classes, hence the use of the Realm Ability system to implement the changes.
+
+    The intent of the changes is to make primary melee classes (i.e. those melee classes that do not have spells) able to close with their enemies better, and to be able to have the chance of preventing their enemies from escaping once they have closed with them.
+
+    The following changes to realm abilities for Armsmen, Mercenaries, Heroes, Blademasters, Warriors and Berserkers have been made:
+
+    - Reduced cost of the Realm Ability Ignore Pain to 8 points.
+
+    - Reduced cost of the Realm Ability Determination to 1/2/3/6/10 points.
+
+    - Reduced cost of the Realm Ability Purge for these classes to 4 points.
+
+    - Added new passive Realm Ability "Prevent Flight" When active, if the tank's selected target turns and runs, the tank has a 35% chance of hitting and proccing a 50% snare for 10 seconds. Cost: 14 points.
+
+    All of these primary melee tanks will be able to respec their Realm abilities to take advantage of these changes.
+
+    Additionally, we've added a new (level-based) ability called "Charge", learned by Blademasters, Mercenaries, and Berserkers only, at 40th level. To charge, the tank selects an enemy, and initiates this ability. When active, the tank sprints at full sprint speed, with no endurance loss, for 10 seconds towards the target. If he breaks off, or changes target, or the 10 seconds expires, the tank goes back to normal running speed. Can be used every 5 minutes.
+
+
+
+    PALADIN UPDATES
+
+    We are making the following updates to Paladins to make them more desirable in RvR, and to generally make them slightly more effective at upgrading their group's overall power and effectiveness.
+
+    - All Paladin chants have had their range increased to 1500 (their regeneration chant was at 700).
+
+    - The Paladin self armor-factor chant now stacks with other armor factor buffs.
+
+    - A new line of endurance regeneration chants have been added to the Paladin. These new chants consume power.
+
+    - A new line of stackable resistance buffs have been added to the Paladin. These new chants stack with the resistance buffs of other classes and consume power.
+
+    The new spells (all take power at every pulse):
+
+    - Endurance Regeneration line
+    2 Chant of Endurance
+    12 Chant of Stamina
+    22 Chant of Persistence
+    32 Chant of Resilience
+    42 Chant of Perseverance
+
+    - Resistance to Heat/Cold/Matter, stacks with single element buffs:
+    27 Elemental Ward
+    46 Elemental Shield
+
+    - Resistance to Body/Spirit/Energy, stacks with single element buffs:
+    25 Soul Ward
+    44 Soul Shield
+
+
+    NEW THINGS AND BUG FIXES
+
+    - Found and fixed a bug that was causing players to not evade, parry and block in RvR at the same rate that they were parrying/blocking/evading against monsters. All characters who evade, block, and/or parry should now see themselves parrying/blocking/evading much more often in RvR.
+
+    - We've substantially updated the in-game (F1) help system.
+
+    - Realm Abilities now have their correct icons.
+
+    - We finally fixed the long-standing print bug with the display of cloth armor's Armor Factor. You'll see the number go up or down by 1-3 points (depending on your level) because now the correct Armor Factor is being printed. We made this fix now to lessen the confusion over cloth armors now that spellcraft/alchemy are enabled.
+
+    - Several "fall-through" problems in various dungeons fixed.
+
+    - You can now highlight an item in a store and click "buy" multiple times to buy multiple items.
+
+    - The middle button can once again be configured in the keyboard configuration.
+
+    - Gold should now update correctly when trading to another player. Start a trade, then change the amount of money in your trade window. It should correctly update to the other player.
+
+    - "making change" in the trade window should work correctly. Try to trade a single gold to another player. Then try to "pull back" 20 or so silver. You should no longer see 1G -20S on the screen - it should make correct change.
+
+    - All held equipment (weapons, shields, helms, etc) should now be "lodded" (removed) from the figure at a distance of 2500 units. Note that at this distance the player is approximately 22 pixels tall. This should help frame rate.
+
+    - When you delve your weapons, the correct base and clamped DPS are printed - they were reversed.
+
+    - When you right click on an item in the incoming trade window, it now correctly shows the bonus field.
+
+    - When a player had a combat style selected on his mouse and an Accept/Decline dialog appeared, the dialog would not work correctly. This has been fixed.
+
+    - /FOLLOW, /STICK and /FACE have been added to the command repeat (shift-up) queue.
+
+    - /follow, /stick, and /face can now be bound to a keyboard key in the keyboard set up screen.
+
+    - /REPORT commands and /APPEAL have been removed from the command repeat (shift-up) queue.
+
+    - a new slash command; "/scrollchat" has been added. This toggles the Chat Buffer scrolling. If it is toggled on, messages in your visible chat buffer will disappear after 90 seconds - but you'll still be able to view old messages by scrolling back in the chat buffer.
+
+    - Using a charge on a magic item now correctly brings a stealthed player out of hiding.
+
+    - You can no longer interact with shopkeepers who are away from their home (spawn) location.
+
+    - Realm Guards now drop cash when killed.
+
+    - The "Last Attacker" key in the keyboard configuration has been re-enabled.
+
+    - When you respec skills, you will now be displayed a dialog box that cautions you about the severity of what you are about to do, and forces you to click an accept/decline button.
+
+    - Any time you zone, you have a 30 second PVP invulnerability much like the PVP servers. Note that on standard servers, you will not get a message when your timer expires since it only affects you in rare cases (like the new PVP dungeons).
+
+    - Gray items now take 1/2 the time to craft for all Crafters.
+
+    - In order to prevent server spamming, you can now only /UPGRADE a keep once per 10 minutes.
+
+    - You should now be able to pick up the loot dropped by the Glacier Giant in the Midgard Frontier.
+
+    - Endurance Heal bounty potions will now properly update your endurance bar - it was working before, but was not updated properly on the interface.
+
+    - The recipe display bug - where more than 3 components in a recipe can now be displayed - has been fixed.
+
+    - Charged items with PBAE spells now work correctly - previously they required that the caster be self-targeted.
+
+    - The infamous "missing line" scroll bug on the tradeskill recipe window has been fixed - when you scroll down pages there was an item that was 'between' them that you could never see.
+
+    - The scroll page reset bug has been fixed - before, if you were scrolled down and crafted an item that increased your skill, the next time you clicked on the tradeskill window to open/close an item it would jump back to the first page.
+
+
+
+    SPELL SYSTEM CHANGES
+
+    - The damage of Thane Toothgrinder line spells has been increased.
+
+    - The recast timers on Thane Thor's Minor Bolt and Thunder Shout lines have been decreased from 30 to 20 seconds - you can now cast them more often.
+
+    - Shaman "Fungal" bolt spells and "Fungal" direct damage lines now have separate timers so they can be cast independently of each other.
+
+    - Added a new endurance regen buff to the Shaman Augmentation spec:
+    2 Minor Earth Invigoration (single target)
+    12 Lesser Earth Invigoration (single target)
+    22 Earth Invigoration (single target)
+    32 Greater Earth Invigoration (group target)
+    42 Superior Earth Invigoration (group target)
+
+    Please note that the two highest spells in the new Shaman Earth Invigoration line are in a separate line. You will keep Earth Invigoration for buffing realm allies not in your group.
+
+    - Fixed bug with damages on Spiritmaster Spirit's Revenge line - it has been increased to be on par with the damage of other casters.
+
+    - Fixed cast times and damage/costs on Bard Major Resurgence and Tones of Health lines. There was a problem where some Bard spells took too much power to cast and/or were not effective enough.
+
+    - Druid pets have been changed so that the trees do crushing damage, the cats do thrust damage, and the wolves do slashing damage. Previously, all pets did slashing damage - this gives them some variety.
+
+    - Snare should no longer work backwards - previously, it snared your target a little at the beginning of the effect, then ramped up to 100%. Now it correctly snares for full effect at the beginning of the spell, and slowly wears off.
+
+    - The icon for Paladin chants are now displayed in the concentration window, and can be canceled from there. The text reads "Pulse: " for the chant.
+
+    - Haste on pets should now work.
+
+    - Spiritmasters can now learn the realm ability "Wild Power".
+
+    - Fixed some errors in the Healer healing spells. Several had higher costs than intended; these have been reduced in cost.
+
+    - All Healer Pacification Spec-line root spells were erroneously set to be "chain-castable". This has been fixed.
+
+
+
+    REALM ABILITY SYSTEM UPDATE
+
+    - Added Wild Power to Cabalist realm ability list.
+
+    - Armor of Faith is now properly set to be 1 level for 10 points, which provides +150 AF for 60 seconds.
+
+    - Added Ethereal Bond to Minstrels.
+
+    - Changed description of First Aid to the following: "Self heal that heals a set amount of hit points per level gained in the ability. This value increases with the character's level. At level 50, it heals approximately 300 hitpoints per level. It cannot be used in combat."
+
+
+
+    WORLD NOTES
+
+    New Dungeons
+
+    Adventurers in all three realms are complaining of increased sightings of undead in their frontiers. There has been word that a new group has risen to power whose only interest is the complete and total domination of the three realms. By using their powerful magic, they have managed to carve a maze of dungeons beneath the frontier allowing them to enter and leave each realm's frontier at will. They have also amassed an army of undead big enough to wage a three-front war.
+
+    - We have found an entrance to Marfach Caverns in the Hibernian frontier of Breifine.
+
+    - In the Jamtland Mountains of the Midgard frontier, we have located the entrance to Gruva av Dod.
+
+    - The entrance to the Hall of the Corrupt has been located in the Pennine Mountains of Albion.
+
+    Item note: Common monsters in the RvR dungeons have been itemized with magic item drops under the new "Uniquely Generated Object" system explained in further detail below.
+
+
+    General Notes
+
+    - When your guild owns an outpost and a guard is slain at your outpost, you now receive a print via guildchat channel.
+
+
+    Midgard
+
+    Midgard: Huginfell no longer has two /broadcast regions - the number has been reduced to one.
+
+
+    Hibernia
+
+    - TirNaNog - the Chamber of Nature has been adjusted in size.
+
+    - TirNaNog - Cullin's Inn in Tir Na Nog has been named - The Green Rose Pub area has been increased to catch all of the patrons. Many of the merchants and NPC's in Tir Na Nog now have a richer backstory.
+
+    - Bri Leith - Fagan has ordered his forces to scout and report back on the activities in the Cursed Forest. To support this mission, a new town with a bindstone, Brynach, has been established in the valley of Bri Leith.
+
+    - The bindable areas in Tir Na mBeo and Ardagh have received bindstones.
+
+    - When taking a horse from Innis or Connla to Culraid the horse will no longer run through a tree.
+
+    - A smith, a poison merchant, a healer, and an arrow merchant have set up shop outside Culraid.
+
+    - Harpers now have lutes instead of drums.
+
+    - The Evern encounter in Breifine has been modified to be of like difficulty to that of the Glacier Giant.
+
+
+    Albion
+
+    Monsters: Albion : The Green Knight encounter has been modified to be of like difficulty to that of the Glacier Giant.
+
+    Albion Monsters: The pygmy goblins have been given additional intelligence and abilities, and adjusted in strength.
+
+
+    Quests: General
+
+    - Additional story-based kill tasks have been introduced in all three realms, targetting players level 41 and higher.
+
+    - Fixed many mispellings and incorrect directions in the quest journal. Thanks for reporting these!
+
+    Quests- General: A small number of "bounty" quest objects have had their "no sell" flags removed, so that even after you’ve completed the quests the maximum number of times the drops can be sold to a merchant. These items include Fell, Dangerous, and Malefic teeth, and soul gems, sett pelts and white pelts. Be careful that you don’t sell them before you’ve maxed the quest out, as they won’t be reimbursed to you.
+
+
+
+    Albion Quests
+
+    - A Deed of Old - Boneclaw Ring of Morra has had its level increased from 5 to 8.
+
+    - Lady Nimue's spell effects were getting in the way of players turning in objects to her. This effect has been fixed and she should now accept any items passed to her
+
+    - Secret Orders: The Arawn Commander will now only appear for players on the correct step of this quest.
+
+    - Legend of the Lake: We have made some changes to the 15th level portion of this quest in an attempt to bring it up to the level of other quests within the realm. The main change is the addition of two sub-quests to complement the existing "Barbaric Tales" and "Wizard Lost". Players who encounter this step of the quest will be given the option to perform two of the possible four sub-quests. Please note that these changes will not affect players that have already performed this section of the quest.
+
+    - The material type on Bernor's Numinous Robes has been upgraded to be in line with the rest of the epic armors. Wizards may notice their current robes appear to have lost a few levels. To exchange your current robe for the new one, please see Gardowen Egesa in Camelot. This exchange can only be made one time.
+
+    - A merchant by the name of Grindan Halig at Caer Ulfwych, is looking for a brave soul to descend into the Catacombs of Cardova and search for something.
+
+    - Willing Sacrifice - The Church has become deeply concerned about the presence of the followers of the Cult of Mithra in their midst, and how they might influence faithful Church members. Brother Codeth from the Church has been assigned to find adventurers willing to rid the realm of this evil.
+
+
+    Midgard Quests
+
+    - Asdis in Upplands is no longer charmable.
+
+    - It has been rumored that Gothi of the Juton possesses the power to reveal the object of one's dreams. You would be wise to seek him out and discover what power lies in your future.
+
+    - Tomte of Doom - Yandu, a well-known adventurer and explorer has new information about the Tomte Lair that she might be willing to share.
+
+    - Spiritmaster Trainers will now give out the level 7 quest as intended.
+
+    - Many of the merchants and NPCs in Jordheim now have a richer backstory.
+
+
+    Hibernia Quests:
+
+    - Straw's in Town - There should no longer be problems with players being unable to hit the elusive spraggon, Straw.
+
+    - Kinney of Connla has shown great concern over a mysterious man that frequents the town. It is said she seeks adventurers to assist her in this matter.
+
+    - Rest In Peace - The curse of the Muire family is almost complete. Gogarty Muire is the last surviving Muire and though he clings to the final shreds of sanity, it's only a matter of time before he too succumbs to madness and death.
+
+    - Lost Townsfolk of Bran Llyr - Clodagh and Enan will now respond correctly and transport players on the quest.
+
+    - Merle the Old will no longer strike back at unfortunate Hibernians that accidentally attack him.
+
+    - Search for the Missing Smith - The reward for this quest, Otherworldly Ring, has been improved to make it an appropriate level reward for this quest. If you already have this item it will automatically upgrade.
+
+    - Aid for Alainn Bin - Players that have completed this quest may choose to return to Rois in the Bog of Cullen to exchange their staff. The new staves are level 50, they have charges instead of procs, and they give a single higher spell focus instead of two lesser ones.
+
+
+    Realm v. Realm: Battlegrounds
+
+    - The Battleground keep lords now have similar abilities to the regular frontier lords.
+
+    - The few rare, remaining monsters that dropped loot in the Battlegrounds have been removed.
+
+    - The central keep guards in Dun Murdaigean, Thidranki Faste and Caer Caledon should no longer chase players to their portal keeps.
+
+    - Battlegrounds (ALL): We have added a new NPC type called a Siege Master. These Siege Masters can be found at your realm’s portal keep within the Battlegrounds. The primary purpose of these Siege Masters is to provide a method for players to gain experience in the use of siege weaponry in these RvR training grounds. Please visit this new NPC within your Battleground in order to gain more insight. Tokens sold from the Siege Masters will now reflect if you can use siege weapons at all. If you cannot use the weapon and attempt to buy one of these tokens, you will be warned. We have also added a general description of what each weapon can do to the Siege Master's introduction. Finally, the Siege Master can now also provide you with twenty units of ammo for your selected siege weapon.
+
+
+    Realm v. Realm: Frontier Keeps
+
+    - The Keep Lords have acquired new abilities and longer range bows to counter some of the more exploitive tactics used against them.
+
+    - Kirawyr is once again serving Albion in Nottmoor Faste.
+
+    - Several NPC archers at Bledmeer Faste, Dun Da Behn, Arvakr Faste, and Dun Ailinne have been moved to make them easier to target from outside the keeps.
+
+    - The crafting material and siege material merchants will now spawn more quickly at the merchant keeps.
+
+    - Hasteners will now buff all friendly player and npcs in range of the player activating the Hastener. This includes pets.
+
+
+    Dungeons: Hibernia
+
+    - Koalinth Caverns - The rare, existing, monsters of Koalinth Caverns have been capitalized appropriately.
+
+    - Treibh Caillte - Several rocky golems who insisted on facing the wall while fighting have been adjusted. The thralls have received new orders to attack and kill all on sight, and are consistently attacking all they see.
+
+    - Additionally, the constant traffic from Culraid to Treibh Caillte has forced the roaming monsters along this route to seek new homes.
+
+    - Muire Tomb - some of the murkmen hiding inside of the columns have been adjusted. The weak spiders who had wandered down to Frang's room have retreated to the entrance halls after Frang began baking spider crunchies on a daily basis.
+
+    - The untargettable Muire Hero in Connaire's room has been moved out of the wall.
+
+    - Spraggon Den - the untargettable spraggon cutter in the entrance room has been moved out of the wall.
+
+
+    Dungeons: Albion
+
+    - Tomb of Mithra - Acolyte Nascita has grown in strength and power.
+
+    - Tepok's mine - The cave fishers, fisher hatchlings, and cave bear cubs all have grown fat, lazy and non-aggressive after years of feasting on hapless wounded players.
+
+    - Catacombs of Cardova - New, faster, less damaging spears have been issued to the infantry. Sorcerors scouting the dungeon happily report that some moor boogeys appear to have wandered inside and set up a nest.
+
+
+    Dungeons: Midgard
+
+    - Cursed Tomb - The aggressive monsters at the entrance to Cursed Tomb have found new homes - scouts returning from the dungeon report that fewer wanderers appear to inhabit the dungeon.
+
+    - Spindelhalla - the untargettable cave trow trollkarls in the Pit area have moved into the interior of the room.
+
+    - Nisse's Lair: The tomte caitiff and tomte seer now command fewer allies.
+
+
+    Monsters: Albion
+
+    - Tales abound that the Green Knight has returned to Forest Sauvage. Should you encounter this knight, caution would be best. He cannot be happy with all that has happened during his absence.
+
+
+    Monsters: Midgard
+
+    - The soul sinkers in Myrkwood Forest will no longer chain cast their DOT.
+
+    - The Briton Woodcutters who had invaded Odin's Gate seem to have left as quickly as they came.
+
+    - A hoard of glacier fairies has descended upon the Glacier Giant within Odin’s Gate. These pests have done nothing but infuriate him. Expect the giant to be ever more unpleasant than before.
+
+
+    Monsters: Hibernia
+
+    - Cliffs of Moher - Coimirceoir once again resides with the Vehement Guardians. Their numbers have been reduced slightly.
+
+    - Grovewoods are no longer quite so adept at self-heals and have an increased chance to drop their quest related item.
+
+    - Ire wolves no longer drop badger parts and have an increased chance to drop their quest related item.
+
+    - The wraith Evern within Breifine has discovered the key to a powerful ritual! She now has the ability to summon fairies to do her bidding. Those who anger her must be ready for a prolonged battle.
+
+
+    Item Notes
+
+    - The Kraggon Cloak (Albion) now buffs cold and body resist, instead of body resist twice.
+
+    - The "elementalist" requirement on the Ebony Staff (Albion) has been changed to "cabalist.”
+
+    - The "studded warhound collar" should now have an icon.
+
+    - The "carrion drake talon" is no longer stackable, as it is meant to be a weapon.
+
+    - The spelling of "forgotten silk cloth" was corrected.
+
+    - The Softened Bark Frock (Albion) should now be dyable.
+
+    - The Plate of Eternal Midnight (Albion) now buffs spirit and body resist, instead of body resist twice.
+
+    - Several more common loot drops in Spindelhalla are now stackable.
+
+    - The Gauntlets of Celerity (Albion) should have the correct icon in a player’s inventory.
+
+    - The Resplendent Ring (Albion) now has an energy resist instead of two body resists.
+
+    - Players should now be able to sell player-crafted lutes to NPC merchants.
+
+    - The Vaporous Crown (Midgard) now buffs piety rather than intelligence.
+
+    - The Mischievous Bracer (Hibernia) now buffs cold and spirit resist instead of spirit twice.
+
+    - The Bone Necklace (Albion) should have the appropriate icon.
+
+    - The Huntman’s Cloak (Midgard) can now hold an emblem.
+
+    - The Putrefied Robes (Albion) can now be dyed with leather dye and should have the appropriate leather robe look.
+
+    - The Jeweled Rigid Leggings (Hibernia) now buffs body, energy, and spirit resist.
+
+    - The frontier zones are itemized with common loot.
+
+    - Many of the new monsters introduced in Treibh Caillte in 1.52 have new item drops.
+
+    - The following Albion instruments have been changed to drop as higher level instruments (This change should be considered an upgrade to future instruments that enter the game, not a retro-active fix to the existing instruments):
+    Ellyll Drum, Fine Asterite Drum, Drum of Fading Valor, Accursed Avernal Drum, Avernal Malison Drum, Ellyll Flute, Fine Asterite Flute, Flute of Dementia, Accursed Avernal Flute, Avernal Malison Flute, Polished Granite Flute, Ellyll Lute, Fine Asterite Lute, Lute of Haunting Melody, Accursed Avernal Lute, Avernal Malison Lute, Polished Granite Lute.
+
+    - The following Hibernian instruments have been changed to drop as higher level instruments (This change should be considered an upgrade to future instruments that enter the game, not a retro-active fix to the existing instruments):
+    Bodb's Wailing Drum, Glimmerstrike Drum, Accursed Demon Drum, Infernal Malison Drum, Coruscating Truesilver Drum, Drum of the Hollow Heart, Bodb's Wailing Flute, Topaz Studded Shell Flute, Warshade Flute, Accursed Demon Flute, Infernal Malison Flute, Coruscating Truesilver Flute, Flute of the Hollow Wind, Bodb's Wailing Lute, Cursed Lute, Deathwatcher Lute, Accursed Demon Lute, Infernal Malison Lute, Coruscating Truesilver Lute, Lute of the Hollow Soul.
+
+    - The Silvered Staff (Hibernia) should salvage for the correct material.
+
+    - More of the common loot drops in Coruscating Mines, Cursed Tomb, and the Vendo Caverns should now be stackable.
+
+    - Players should now be able to salvage cloth items.
+
+    - Player-crafted trinkets are now stackable up to 10.
+
+    - The Accursed Avernal Staff of Fire (Albion) is now appropriately class-restricted.
+
+    - The range on the Runic Throwing Axes and Tomte Throwing Axes (Midgard) has been increased to current throwing axe standards. These axes, along with the Infernal throwing Axes, have also had berserker added to the class restrictions.
+
+    - Arrows, bolts, poisons and thrown weapons can now stack to 100.
+
+    - Arrows, bolts, and thrown weapons are lighter.
+
+    - The base stack size for poisons is now 20 instead of 10. The cost per stack remained the same, this results in an overall reduction in poison cost.
+
+    - The "polished bone" (quest item) should no longer stack.
+
+    - Wolf Hide Leggings (Albion) should now be dyable.
+
+    - Players should now be able to pick up the Insidious Golden Band.
+
+    - Bounty potions are now usable in combat.
+
+    - In the Hibernia Darkness Falls stores, there were mistakenly two hauberks with the same name, the Avernal Hauberk. To alleviate confusion, the Avernal Hauberk which could be purchased with diamond seals is now called the Abysmal Hauberk, while the one that could be purchased with emerald seals remains the same.
+
+    - The following items have had the +pac stat increase changed to a more useful stat increase: Jewel of Vanera Swamp, Retainers Signet Ring, Corrupt Fiend-forged Helm, Corrupt Fiend-forged Hauberk, Corrupt Daemon-crafted Helm, Corrupted Daemon-crafted Hauberk, Corrupt Abyssal Helm, Golden Alloy Hammer, Eir Blessed Pendant, Soulbound Necklace, Wolftooth Hauberk, Healer’s Touch Necklace, Ancient Dragon Etched Coif, Valhalla Touched Gloves. Because of this change, please note the Bracer of Pacification is now known as the Bracer of Mending.
+
+    - The following items have had the +beastcraft stat increase changed to a more useful stat increase: Beastfriend’s Bracer, Shrunken Bear Skull.
+
+    - Blessed Tyr Gloves (Mid) can now be dyed with the appropriate dye type.
+
+    - Gauntlets of Celerity (Alb) can now by dyed with the appropriate dye type.
+
+    - The Collector Carapace is now spelled correctly and no longer stacks.
+
+    - The common mobs have in the RvR dungeons have been itemized with magic item drops.
+
+    - The Arcing Bludgeoner (Alb) should now be restricted to mercenaries only.
+
+    - The Rod of Souls (Alb) should now actually increase intelligence properly.
+
+    - The Petrified Bardic Wonder (Hibernia) now has a salvage value set.
+
+    - The Darkened Battle Shield (Hibernia) now has a salvage value set.
+
+    - The Dispositional Cloak (Midgard) can no longer be held.
+
+    - The Malefic Studded Helm (Midgard) now buffs piety and dexterity, instead of piety and empathy.
+
+    - The Ring of Arawn (Albion) that was previously a level 14 drop is now a level 40 drop. The stats on the item will remain the same.
+
+    - Shadowbinder's Mantle will now show its level correctly.
+
+
+
+    PvP-Server Specific Notes
+
+    - Material types 9 and 10 for all realms are now available at all 3 merchant keeps.
+
+    - The crafting material and siege material merchants will now spawn more quickly at the merchant keeps.
+
+    - Many of the PvP server quests are now available to players of all three realms - particularly the bounty and one time drop quests.
+
+
+
+    NEW OBJECT CREATION SYSTEM:
+
+    With the introduction of the new RvR dungeons, we are also unveiling a new system for treasure drops. This system is a change from the existing treasure drops that you have become accustomed to.
+
+    This system allows us to vary the power of similar items that drop from one monster. As such, each "Unique Object" that you recieve as treasure is different from those that have dropped before, and those that will drop in the future. Items can vary in quality, magic bonus, stat bonusses, skill bonusses, resist bonuses, etc. etc. Each object that drops under this new system will delve as a "Unique Object" to reflect the rarity of this particular combination of bonusses and quality. Please note that the name of these new items reflects the bonusses that are on the object.
+
+    Similar objects will have the same name, however the properties will be different - remember that delving will reveal the properties of the object.
+
+    To summarize:
+
+    1) Objects created under this system will have varying properties attached to them.
+    2) Some objects with different properties will have the same name.
+    3) Every object created under this system has "Unique object" listed when it is delved.
+    4) Players will have to delve every object to determine the value to the player.
+
+    <chapter title="" id="v1-">
+        <list id="v1-">
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+            <li>
+                <p id="v1-"></p>
+            </li>
+        </list>
+    </chapter>
+
+    <seealso>
+        <category ref="patchnotes">
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+            <a href="">/command</a>
+        </category>
+    </seealso>
+</topic>

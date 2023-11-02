@@ -242,15 +242,15 @@
 
     Certain classes have learned to evade attacks even when they cannot physically see their opponent. Advanced Evade allows evasion from attacks on you occurring from any direction.
     Celtic Dual
-    -> Combat Style List
+    ->Combat Style List
 
     The ability to effectively use two weapons in combat instead of one. This works only with one-handed weapons in Hibernia. The base chance to swing both weapons is 25%, and every time you train in Celtic Dual, your chance to swing both weapons is increased by .5%
     Dual Wield
-    -> Combat Style List
+    ->Combat Style List
 
     The ability to effectively use two weapons in combat instead of one. This works only with one-handed weapons in Albion. The base chance to swing both weapons is 25%, and every time you train in Dual Wield, your chance to swing both weapons is increased by .5%
     Left Axe
-    -> Combat Style List
+    ->Combat Style List
 
     Like Dual Wield, but only good with axes in Midgard. With Left Axe, you swing both weapons during every combat round, but your damage with those weapons is decreased.
     Berserk I
@@ -284,11 +284,11 @@
 
     This ability is native to the Blademaster. These masters of the blade art have learned to summon a magic sword to fight with them for 30 seconds, once per 7 minutes. The magical sword damages the enemy every time the Blademaster hits, inflicting 50% of the damage of the swing, and protects the Blademaster from all critical hit damage during that 30 seconds.
     Critical Strike
-    -> Combat Style List
+    ->Combat Style List
 
     The Thief-Only skill dealing with backstabs and roguish maneuvers.
     Savagery
-    -> Savagery List
+    ->Savagery List
 
     This skill is native to the Savage. Savagery is a set of spell-like abilities that modify the Savage's combat performance - chance to block, chance to evade, etc. However, unlike spells, the Savagery abilities cost Health and not Power.
 
@@ -299,7 +299,7 @@
 
     Stealth
 
-    The ability to hide yourself in the surrounding landscape. The better you are at this, the closer you can come to an enemy without it detecting your presence. Assassins and Minstrels gain access to the Distract, Safefall, and Climb Walls abilities by speccing Stealth. Please read the FAQ for more information.
+    The ability to hide yourself in the surrounding landscape. The better you are at this, the closer you can come to an enemy without it detecting your presence. Assassins and Minstrels gain access to the Distract, Safefall, and Climb Walls abilities by speccing Stealth. Please read the FAQfor more information.
     Distract
 
     The ability to temporarily direct a monster's attention in a different direction.
