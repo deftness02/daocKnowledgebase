@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Links of Classes" id="links-classes">
+
+    <chapter title="Class Links" id="class-links" instance="daoc165">
+
+        <p>
+            <a href="armsman.topic" id="link-class-armsman">Armsman</a>
+        </p>
+        <p>
+            <a href="cabalist.topic" id="link-class-cabalist">Cabalist</a>
+        </p>
+        <p>
+            <a href="cleric.topic" id="link-class-cleric">Cleric</a>
+        </p>
+        <p>
+            <a href="friar.topic" id="link-class-friar">Friar</a>
+        </p>
+        <p>
+            <a href="infiltrator.topic" id="link-class-infiltrator">Infiltrator</a>
+        </p>
+        <p>
+            <a href="mercenary.topic" id="link-class-mercenary">Mercenary</a>
+        </p>
+        <p>
+            <a href="minstrel.topic" id="link-class-minstrel">Minstrel</a>
+        </p>
+        <p>
+            <a href="necromancer.topic" id="link-class-necromancer">Necromancer</a>
+        </p>
+        <p>
+            <a href="paladin.topic" id="link-class-paladin">Paladin</a>
+        </p>
+        <p>
+            <a href="reaver.topic" id="link-class-reaver">Reaver</a>
+        </p>
+        <p>
+            <a href="scout.topic" id="link-class-scout">Scout</a>
+        </p>
+        <p>
+            <a href="sorcerer.topic" id="link-class-sorcerer">Sorcerer</a>
+        </p>
+        <p>
+            <a href="theurgist.topic" id="link-class-theurgist">Theurgist</a>
+        </p>
+        <p>
+            <a href="wizard.topic" id="link-class-wizard">Wizard</a>
+        </p>
+        <p>
+            <a href="animist.topic" id="link-class-animist">Animist</a>
+        </p>
+        <p>
+            <a href="bard.topic" id="link-class-bard">Bard</a>
+        </p>
+        <p>
+            <a href="blademaster.topic" id="link-class-blademaster">Blademaster</a>
+        </p>
+        <p>
+            <a href="champion.topic" id="link-class-champion">Champion</a>
+        </p>
+        <p>
+            <a href="druid.topic" id="link-class-druid">Druid</a>
+        </p>
+        <p>
+            <a href="eldritch.topic" id="link-class-eldritch">Eldritch</a>
+        </p>
+        <p>
+            <a href="enchanter.topic" id="link-class-enchanter">Enchanter</a>
+        </p>
+        <p>
+            <a href="hero.topic" id="link-class-hero">Hero</a>
+        </p>
+        <p>
+            <a href="mentalist.topic" id="link-class-mentalist">Mentalist</a>
+        </p>
+        <p>
+            <a href="nightshade.topic" id="link-class-nightshade">Nightshade</a>
+        </p>
+        <p>
+            <a href="ranger.topic" id="link-class-ranger">Ranger</a>
+        </p>
+        <p>
+            <a href="warden.topic" id="link-class-warden">Warden</a>
+        </p>
+        <p>
+            <a href="valewalker.topic" id="link-class-valewalker">Valewalker</a>
+        </p>
+        <p>
+            <a href="berserker.topic" id="link-class-berserker">Berserker</a>
+        </p>
+        <p>
+            <a href="bonedancer.topic" id="link-class-bonedancer">Bonedancer</a>
+        </p>
+        <p>
+            <a href="healer.topic" id="link-class-healer">Healer</a>
+        </p>
+        <p>
+            <a href="hunter.topic" id="link-class-hunter">Hunter</a>
+        </p>
+        <p>
+            <a href="runemaster.topic" id="link-class-runemaster">Runemaster</a>
+        </p>
+        <p>
+            <a href="savage.topic" id="link-class-savage">Savage</a>
+        </p>
+        <p>
+            <a href="shadowblade.topic" id="link-class-shadowblade">Shadowblade</a>
+        </p>
+        <p>
+            <a href="shaman.topic" id="link-class-shaman">Shaman</a>
+        </p>
+        <p>
+            <a href="skald.topic" id="link-class-skald">Skald</a>
+        </p>
+        <p>
+            <a href="spiritmaster.topic" id="link-class-spiritmaster">Spiritmaster</a>
+        </p>
+        <p>
+            <a href="thane.topic" id="link-class-thane">Thane</a>
+        </p>
+        <p>
+            <a href="warrior.topic" id="link-class-warrior">Warrior</a>
+        </p>
+
+    </chapter>
+
+
+</topic>

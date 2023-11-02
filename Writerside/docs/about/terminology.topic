@@ -49,6 +49,8 @@
                 </def>
                 <def title="Aggro" id="term-aggro">
                     "Aggression." Used to describe 1) a <a anchor="term-mob">mob</a> that is close enough to a character that it starts to run towards them to engage in combat, and 2) the amount of aggression a character has built up with a mob. The more damage you do to a mob, the more aggro you build up. The more aggro you have, the more likely the mob is to attack you. If you have too much aggro, the mob will attack you even if you are not the closest person to it. If you have too much aggro, you can try to reduce it by running away from the mob, or by using a <a anchor="term-detaunt">detaunt</a> combat style.
+
+                    A monster attacks based on proximity and how much they hate a target when multiple people are fighting it. This is called aggression and can be raised with regards to a monster when attacking it or helping a group attack it.
                 </def>
                 <def title="AI" id="term-ai">
                     This is the programming that controls the <a anchor="term-mob">mobs</a> and <a anchor="term-npc">NPCs</a> alike in-game.

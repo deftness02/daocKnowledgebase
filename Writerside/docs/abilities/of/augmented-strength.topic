@@ -5,5 +5,5 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Augmented Strength" id="augmented-strength">
 
-    <p>Start typing here...</p>
+    <p><a href="armsman.topic" id="link-test">Start typing here...</a></p>
 </topic>

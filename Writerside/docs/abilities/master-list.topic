@@ -5,5 +5,312 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Master List" id="master-list">
 
+
     <p>Start typing here...</p>
+
+    <chapter title="Master List" id="of-ra-master" instance="daoc165">
+        <p>
+
+        </p>
+
+        <list id="of-ra-master-list">
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-ameliorating" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-armor-faith" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-arrow-salvaging" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-aug-acuity" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-aug-constitution" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-aug-dexterity" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-aug-quickness" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-aug-strength" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-avoid-pain" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-avoidance-magic" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-battery-life" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-battle-yell" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-bladedance" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-brilliant-aura" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-bunker-faith" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-concentration" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-corporeal-disintegration" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-defender-vale" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-determination" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-dodger" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-doombringer" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-dualists-reflexes" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-ethereal-bond" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-excited-frenzy" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-faith-healing" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-falcons-eye" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-first-aid" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-forestheart-ambusher" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-fury-gods" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-grapple" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-group-purge" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-hail-blows" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-ichor-deep" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-ignore-pain" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-juggernaut" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-lifter" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-long-wind" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-longshot" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-majestic-will" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-archery" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-arms" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-blocking" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-concentration" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-healing" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-pain" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-parrying" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-stealth" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-arcane" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-art" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mastery-water" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-minion-control" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-mystic-crystal-lore" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-negative-maelstrom" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-perfect-recovery" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-prevent-flight" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-purge" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-raging-power" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-rain-annihilation" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-rain-fire" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-rain-ice" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-ravager" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-razorback" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-reflex-attack" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-regeneration" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-resilience-death" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-rune-decimation" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-second-wind" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-see-hidden" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-serenity" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-severing-tether" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-shadow-run" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-siege-bolt" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-soldiers-barricade" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-speed-sound" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-static-tempest" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-strike-soul" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-empty-mind" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-thornweed-field" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-tireless" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-toughness" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-trip" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-true-sight" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-tundra" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-unquenchable-thirst" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-vanish" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-veil-recovery" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-viper" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-void" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-volcanic-pillar" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-volley" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-whip-encouragement" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-whirling-dervish" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-wild-arcana" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-wild-healing" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-wild-minion" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-wild-power" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-winter-moon" />
+            </li>
+            <li>
+                <include from="links-of-ras.topic" element-id="link-of-ra-wrath-champion" />
+            </li>
+
+        </list>
+    </chapter>
+
+
 </topic>

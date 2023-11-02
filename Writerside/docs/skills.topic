@@ -29,8 +29,8 @@
         </p>
     </chapter>
 
-    <chapter title="Berserk" id="">
-        <p>
+    <chapter title="Berserk" id="skill-berserk">
+        <p id="def-skill-berserk">
             The
         </p>
     </chapter>

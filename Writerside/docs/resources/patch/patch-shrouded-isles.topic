@@ -3,105 +3,62 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Classic" id="patch-classic">
+       title="Shrouded Isles" id="patch-shrouded-isles">
 
-    <chapter title="Classic Patch Notes" id="classic-patch-notes">
-        <p id="classic-intro">
-            The following patches mark the the "%expClassic%" era of %daoc%.
+    <chapter title="Shrouded Isles Patch Notes" id="si-patch-notes">
+        <p id="si-intro">
+            The following patches mark the "%expSi%" era of %daoc%. Any data referenced on this website relating to this expansion will be
+            marked with the following icon: <img src="si.jpg" alt="Shrouded Isles icon"/>.
         </p>
 
-        <list id="classic-patch-list">
+        1.56
+        December 3, 2002
+        Shrouded Isles released, Hunters given more melee damage and a summonable pet, Warrior base melee damage increased, Ignore Pain removed from assassins, chance to Evade capped at 50%, Spread Heals and Battery of Life realm ability added, resurrection spells revised, interface updated, eight characters allowed per server, emotes added.
+        1.57
+        December 12, 2002
+        Gaheris (Co-op server) goes live, new emotes added, Animist spells updated.
+        1.58
+        January 7, 2003
+        Respec stones added to dragons, pet class line of sight fixes, PvP server experience gains increased, PvP server 'newbie guilds' started.
+        1.59
+        January 23, 2003
+        Windowed mode/alt-tab added for Shrouded Isles, buying multiple items allowed, Sorcerers given anti-crowd-control spells, all self-only buff durations increased to 15 minutes.
+        1.60
+        February 24, 2003
+        SI users can run multiple accounts on the same computer simultaneously, timer-based spells/abilities/etc 'grey out' when unavailable, Longshot and Volley (the archer Realm Abilities) reduced in cost and Volley improved, Battlegrounds can provide experience through taking the keep in each, 15-19 Battleground opened, Minstrels given rogue abilities (Danger Sense, Distractions, Climb Walls, Safe Fall), role-playing hats added, chat group functionality expanded, RvR con color system updated.
+        1.61
+        April 1, 2003
+        Player stat cap raised so that high level buffs are useful, respec stones added in Shrouded Isles epic dungeons, frontier monsters itemized with class-specific random object generator templates,  merchants added which sell items for new Shrouded Isles classes.
+        1.62
+        June 3, 2003
+        /level command added, Archer love (Penetrating Arrow and Quick Shot added, fumble chance decreased, See Hidden less effective vs. Archers), Left Axe style damage reduced, light tank dual-wield styles readdressed, newbie guilds added on all servers, block and parry RvR bug fixed, bolt damage improved, Blademaster and Mercenary special abilities revamped, Hibernia class changes (Valewalkers, Bards, Wardens, Animists, Eldritches, Enchanters, Mentalists, Heroes), Pet classes reviewed.
+
+        https://web.archive.org/web/20040206173950/http://www.classesofcamelot.com:80/patch_notes/index.asp
+
+        <list id="si-patch-list">
             <li>
-                <p id="patch-link-v135"><a href="patch-v135.topic">v1.35</a></p>
+                <p id="patch-link-v162"><a href="patch-v162.topic">v1.62</a></p>
             </li>
             <li>
-                <p id="patch-link-v136"><a href="patch-v136.topic">v1.36</a></p>
+                <p id="patch-link-v161"><a href="patch-v161.topic">v1.61</a></p>
             </li>
             <li>
-                <p id="patch-link-v137">v1.37 (no patch notes)</p>
+                <p id="patch-link-v160"><a href="patch-v160.topic">v1.60</a></p>
             </li>
             <li>
-                <p id="patch-link-v138"><a href="patch-v138.topic">v1.38</a></p>
+                <p id="patch-link-v159"><a href="patch-v159.topic">v1.59</a></p>
             </li>
             <li>
-                <p id="patch-link-v139"><a href="patch-v139.topic">v1.39</a></p>
+                <p id="patch-link-v158"><a href="patch-v158.topic">v1.58</a></p>
             </li>
             <li>
-                <p id="patch-link-v140"><a href="patch-v140.topic">v1.40</a></p>
+                <p id="patch-link-v157"><a href="patch-v157.topic">v1.57</a></p>
             </li>
             <li>
-                <p id="patch-link-v141">v1.41 (no patch notes)</p>
-            </li>
-            <li>
-                <p id="patch-link-v142"><a href="patch-v142.topic">v1.42</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v142b"><a href="patch-v142b.topic">v1.42b</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v143">1.43 (no patch notes)</p>
-            </li>
-            <li>
-                <p id="patch-link-v144"><a href="patch-v144.topic">v1.44</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v145"><a href="patch-v145.topic">v1.45</a> - Dragons &amp; Epic Zones</p>
-            </li>
-            <li>
-                <p id="patch-link-v145b"><a href="patch-v145b.topic">v1.45b</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v145c"><a href="patch-v145c.topic">v1.45c</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v145d"><a href="patch-v145d.topic">v1.45d</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v146"><a href="patch-v146.topic">v1.46</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v147"><a href="patch-v147.topic">v1.47</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v147a"><a href="patch-v147a.topic">v1.47a</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v148"><a href="patch-v148.topic">v1.48</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v148b"><a href="patch-v148b.topic">v1.48b</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v149"><a href="patch-v149.topic">v1.49</a> - Darkness Falls</p>
-            </li>
-            <li>
-                <p id="patch-link-v149b"><a href="patch-v149b.topic">v1.49b</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v150"><a href="patch-v150.topic">v1.50</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v150b"><a href="patch-v150b.topic">v1.50b</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v150c"><a href="patch-v150c.topic">v1.50c</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v151"><a href="patch-v151.topic">v1.51</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v152"><a href="patch-v152.topic">v1.52</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v153"><a href="patch-v153.topic">v1.53</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v154"><a href="patch-v154.topic">v1.54</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v155"><a href="patch-v155.topic">v1.55</a></p>
+                <p id="patch-link-v156"><a href="patch-v156.topic">v1.56</a></p>
             </li>
         </list>
+
     </chapter>
 
 </topic>

@@ -3,37 +3,38 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Shrouded Isles" id="patch-shrouded-isles">
+       title="Foundations" id="patch-foundations">
 
-    <chapter title="Shrouded Isles Patch Notes" id="si-patch-notes">
-        <p id="si-intro">
-            The following patches mark the the "%expSi%" era of %daoc%.
+    <chapter title="Foundations Patch Notes" id="foundations-patch-notes">
+
+        <p id="foundations-intro">
+            The following patches mark the "%expFoundations%" era of %daoc%.
         </p>
 
-        <list id="si-patch-list">
-            <li>
-                <p id="patch-link-v156"><a href="patch-v156.topic">v1.56</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v157"><a href="patch-v157.topic">v1.57</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v158"><a href="patch-v158.topic">v1.58</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v159"><a href="patch-v159.topic">v1.59</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v160"><a href="patch-v160.topic">v1.60</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v161"><a href="patch-v161.topic">v1.61</a></p>
-            </li>
-            <li>
-                <p id="patch-link-v162"><a href="patch-v162.topic">v1.62</a></p>
-            </li>
+        1.63
+        June 24, 2003
+        Housing added (Foundations optional expansion), /ignore command includes more text types, 'extra steps' removed from Armorcrafting and Weaponcrafting, lots of item and monster fixes.
+        1.64
+        August 12, 2003
+        Player market system (player-owned merchants) introduced, roleplaying chat filter added, new item bonuses (+ melee, + magic, + acuity) added, various interface and command improvements.
+        1.65
+        October 8, 2003
+        New Keep layouts, resist changes (different bonuses to resists applied separately), new SI zones unlocked, crafting quests introduced, Darkness Falls items updated, /hood added, mini style review.
 
+        https://web.archive.org/web/20040206173950/http://www.classesofcamelot.com:80/patch_notes/index.asp
+
+        <list id="foundations-patch-list">
+            <li>
+                <p id="patch-link-v165"><a href="patch-v165.topic">v1.65</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v164"><a href="patch-v164.topic">v1.64</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v163"><a href="patch-v163.topic">v1.63</a></p>
+            </li>
         </list>
+
     </chapter>
 
 </topic>

@@ -27,7 +27,7 @@
             <a href="realm-abilities.topic"/>
             <a href="patch-v135.topic" summary="Some patch notesd."/>
             <a href="patch-v136.topic">Patch Notes: v1.36</a>
-            <a href="patch-v137.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
+            <a href="patch-v138.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
         </primary>
 
 
@@ -36,7 +36,7 @@
             <a href="realm-abilities.topic"/>
             <a href="patch-v135.topic" summary="Some patch notesd."/>
             <a href="patch-v136.topic">Patch Notes: v1.36</a>
-            <a href="patch-v137.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
+            <a href="patch-v138.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
         </secondary>
 
 
@@ -46,14 +46,14 @@
                 <a href="realm-abilities.topic"/>
                 <a href="patch-v135.topic" summary="Some patch notesd."/>
                 <a href="patch-v136.topic">Patch Notes: v1.36</a>
-                <a href="patch-v137.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
+                <a href="patch-v138.topic" summary="Even more patch notes.">Patch Notes: v1.37</a>
             </cards>
 
             <cards narrow="true">
                 <title>Narrow %daoc%</title>
                 <a href="patch-v135.topic">Infiltrator</a>
                 <a href="patch-v136.topic">Ranger</a>
-                <a href="patch-v137.topic">Minstrel</a>
+                <a href="patch-v138.topic">Minstrel</a>
                 <a href="patch-v138.topic">Bonedancer</a>
                 <a href="patch-v139.topic">Skald</a>
                 <a href="patch-v140.topic">Bard</a>
@@ -65,14 +65,14 @@
                     <title>Some Patch Notes</title>
                     <a href="patch-v135.topic"/>
                     <a href="patch-v136.topic"/>
-                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
                     <a href="patch-v138.topic"/>
                 </group>
                 <group>
                     <title>Some Patch Notes</title>
                     <a href="patch-v135.topic"/>
                     <a href="patch-v136.topic"/>
-                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
                     <a href="patch-v138.topic"/>
                 </group>
             </links>
@@ -83,21 +83,21 @@
                     <title>Some Patch Notes</title>
                     <a href="patch-v135.topic"/>
                     <a href="patch-v136.topic"/>
-                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
                     <a href="patch-v138.topic"/>
                 </group>
                 <group>
                     <title>Some Patch Notes</title>
                     <a href="patch-v135.topic"/>
                     <a href="patch-v136.topic"/>
-                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
                     <a href="patch-v138.topic"/>
                 </group>
                 <group>
                     <title>Some Patch Notes</title>
                     <a href="patch-v135.topic"/>
                     <a href="patch-v136.topic"/>
-                    <a href="patch-v137.topic"/>
+                    <a href="patch-v138.topic"/>
                     <a href="patch-v138.topic"/>
                 </group>
             </links>

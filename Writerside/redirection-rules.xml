@@ -6,4 +6,16 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="2494f2e4">
+        <description>Created after removal of "Classic" from DAoC Haven</description>
+        <accepts>patch-classic.html</accepts>
+    </rule>
+    <rule id="18a4ef6b">
+        <description>Created after removal of "v1.39a" from DAoC Haven</description>
+        <accepts>patch-v139a.html</accepts>
+    </rule>
+    <rule id="1ab49324">
+        <description>Created after removal of "Augmented Strength" from DAoC Haven</description>
+        <accepts>aug-strength.html</accepts>
+    </rule>
 </rules>

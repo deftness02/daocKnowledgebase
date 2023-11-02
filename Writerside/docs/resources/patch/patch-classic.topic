@@ -5,34 +5,165 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Classic" id="patch-classic">
 
-    <chapter title="Classic" id="classic-patch-notes" instance="daoc155,daoc165">
-        <p>
-            The following patches mark the the "Classic" era of DAoC.
+    <chapter title="Classic Patch Notes" id="classic-patch-notes">
+
+        <p id="classic-intro">
+            The following patches mark the "%expClassic%" era of %daoc%.
         </p>
 
+        1.35
+        November 8, 2001
+        /face added, Archers have a chance to become visible before firing, /who upgraded, defensive skills work when not in combat mode, a realm controlling more keeps in an enemy realm spawns fewer guards at those keeps.
+        1.36
+        November 15, 2001
+        Spell icons revamped, delve works on merchant items, groups don't disband when zoning across regions.
+        1.37
+        December 4, 2001
+        +Skill bonuses awarded for Realm Ranks, Relic keep doors can be attacked, Berserker Frenzy usable every 7 minutes and grants a to-hit bonus, Nearsight spells added.
+        1.38
+        December 11, 2001
+        Falling damage and Safe Fall enabled, %chance to hit with second weapon for DW and CD increased, LA damage increased, Frontier Keep patrols increased, damage on combat styles increases with specialization in that skill.
+        1.39
+        December 18, 2001
+        Camelot Herald introduced, players can climb ladders, BMs and Mercs given DW/CD at 5 and their ranged weapon at 10 (instead of the other way around), attacks from a hidden assassin can't be parried, blocked, evaded, or bladeturned.
+        1.40
+        January 3, 2002
+        Spells added to the Mentalist, Druid, and Naturalist.
+        1.42
+        January 15, 2002
+        Assassin classes receive Climb, Heroes receive Stag form, Mercenaries get Dirty Tricks, Blademasters get Triple Wield, 'glowy' weapons added, mez/stun/root immunity timers added in RvR, Bounty points and stores introduced.
+        1.44
+        January 29, 2002
+        +stat items 50% more effective, debuffs more effective against buffs, instruments given bonuses like other objects, combat styles and spell effects can be delved, dexterity effects casting times, stealthers cannot use stealth while carrying a Relic, cloth caster defensive spells increased and added.
+        1.45
+        February 8, 2002
+        Stat "clamp" raised to 300, death experience penalty reduced for mid-high 30s, spell effects can be turned off, haste spells decreased in effectiveness, robe caster spells given chance to critical, Acuity buff and AoE DD spells added, pets given special abilities, Epic zones (including Dragons) added, many zones itemized.
+        1.46
+        February 21, 2002
+        Assassins given bonuses: Shadowblades, .2 spec points per level and more hit points per point of CON; Nightshades, .2 spec points per level and a line of DD shout spells; Infiltrators, .5 extra spec points per level. Friars buffed - set to 1.5 spec points per level, given Evade 5 at level 33, and more. Minstrel and Mentalist charm spells updated. Spell resistance buffs and debuffs introduced. Maximum number of concentration buffs available to a caster increased to 20.
+        1.47
+        March 5, 2002
+        Guilds can claim frontier keeps, 30-35 Battleground created, Paladin hit points increased, Champion hit points and damage increased, BMs given Evade III, Sorcerer/Minstrel/Mentalist charm spells affect more monster types, damage add chants stack with casted damage adds, Group resistance chants added to the Paladin, Bard, and Skald; Sorcerer and Cabalist given new spells; Relic bonuses increased to 10% per relic. 
+        1.48
+        March 19, 2002
+        Level-based to-hit penalties reduced in RvR, 35-50 experience caps raised, camp bonuses increased in dungeons, new guild commands added, 20-24 and 25-29 battlegrounds added, many common loot items set to stack.
+        1.49
+        April 9, 2002
+        Number of relics controlled affects number of relic guards and outposts spawn their own guards at a relic keep, Darkness Falls added, thrown weapons improved, Epic Quests added for levels 43-50.
+        1.50
+        May 8, 2002
+        Realm Abilities debut, ambient sounds added, combat styles updated - including style cancelling and backup, Shaman and Healers given new spells, crafted items given a minimum of 94% quality, 'level 51' crafted items added.
+        1.51
+        June 26, 2002
+        Left Axe damage increased, combat style icons revamped, card game added, Strike Team spell changes for all realms, healing spells improved.
+        1,52
+        August 7, 2002
+        Level-based to-hit modifier removed from RvR, level 50 RR5 players treated as level 51, 'Clerical' baseline AF buffs applied outside the AF cap, Midgard and Albion frontier zones updated to be more RvR-friendly, Respecs added (full for characters created at the time, and single-line at levels 20 and 40), Archers receive Camouflage, Blademasters and Mercenaries receive Flurry and Advanced Evade, armor tables (damage type vulnerabilities) updated, cure mez spells added, spell icons updated.
+        1.53
+        September 25, 2002
+        Experience curve from 40-45 decreased, melee classes given certain Realm Abilities (Ignore Pain, Determination, Purge) cheaper, Prevent Flight and Charge added, Paladins given new and improved spells, frontier dungeons unveiled, Random Object Generator system created.
+        1.54
+        November 11, 2002
+        Spellcraft and Alchemy added, hotkey toolbars expanded to 10 bars of 10 buttons each, siege weaponry reworked, new name color system created, dueling added, Darkness Falls items salvage values reduced, items auto-stack, and macros can include %t to indicate the current target.
+        1.55
+        November 25, 2002
+        Experience can be gained from RvR, Damage Add and Damage Shield spells capped for low level characters, corpse summoners added.
+
+        https://web.archive.org/web/20040206173950/http://www.classesofcamelot.com:80/patch_notes/index.asp
+
         <list id="classic-patch-list">
-            <li id="patch-link-v135"><a href="patch-v135.topic">v1.35</a></li>
-            <li id="patch-link-v136"><a href="patch-v136.topic">v1.36</a></li>
-            <li id="patch-link-v137"><a href="patch-v137.topic">v1.37</a></li>
-            <li id="patch-link-v138"><a href="patch-v138.topic">v1.38</a></li>
-            <li id="patch-link-v139"><a href="patch-v139.topic">v1.39</a></li>
-            <li id="patch-link-v140"><a href="patch-v140.topic">v1.40</a></li>
-            <li id="patch-link-v141"><a href="patch-v141.topic">v1.41</a></li>
-            <li id="patch-link-v142"><a href="patch-v142.topic">v1.42</a></li>
-            <li id="patch-link-v143"><a href="patch-v143.topic">v1.43</a></li>
-            <li id="patch-link-v144"><a href="patch-v144.topic">v1.44</a></li>
-            <li id="patch-link-v145"><a href="patch-v145.topic">v1.45</a></li>
-            <li id="patch-link-v146"><a href="patch-v146.topic">v1.46</a></li>
-            <li id="patch-link-v147"><a href="patch-v147.topic">v1.47</a></li>
-            <li id="patch-link-v148"><a href="patch-v148.topic">v1.48</a></li>
-            <li id="patch-link-v149"><a href="patch-v149.topic">v1.49</a></li>
-            <li id="patch-link-v150"><a href="patch-v150.topic">v1.50</a></li>
-            <li id="patch-link-v151"><a href="patch-v151.topic">v1.51</a></li>
-            <li id="patch-link-v152"><a href="patch-v152.topic">v1.52</a></li>
-            <li id="patch-link-v153"><a href="patch-v153.topic">v1.53</a></li>
-            <li id="patch-link-v154"><a href="patch-v154.topic">v1.54</a></li>
-            <li id="patch-link-v155"><a href="patch-v155.topic">v1.55</a></li>
+            <li>
+                <p id="patch-link-v155"><a href="patch-v155.topic">v1.55</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v154"><a href="patch-v154.topic">v1.54</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v153"><a href="patch-v153.topic">v1.53</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v152"><a href="patch-v152.topic">v1.52</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v151"><a href="patch-v151.topic">v1.51</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v150c"><a href="patch-v150c.topic">v1.50c</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v150b"><a href="patch-v150b.topic">v1.50b</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v150"><a href="patch-v150.topic">v1.50</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v149b"><a href="patch-v149b.topic">v1.49b</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v149"><a href="patch-v149.topic">v1.49</a> - Darkness Falls</p>
+            </li>
+            <li>
+                <p id="patch-link-v148b"><a href="patch-v148b.topic">v1.48b</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v148"><a href="patch-v148.topic">v1.48</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v147a"><a href="patch-v147a.topic">v1.47a</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v147"><a href="patch-v147.topic">v1.47</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v146"><a href="patch-v146.topic">v1.46</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v145d"><a href="patch-v145d.topic">v1.45d</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v145c"><a href="patch-v145c.topic">v1.45c</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v145b"><a href="patch-v145b.topic">v1.45b</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v145"><a href="patch-v145.topic">v1.45</a> - Dragons &amp; Epic Zones</p>
+            </li>
+            <li>
+                <p id="patch-link-v144"><a href="patch-v144.topic">v1.44</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v143">1.43 (no patch notes)</p>
+            </li>
+            <li>
+                <p id="patch-link-v142b"><a href="patch-v142b.topic">v1.42b</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v142"><a href="patch-v142.topic">v1.42</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v141">v1.41 (no patch notes)</p>
+            </li>
+            <li>
+                <p id="patch-link-v140"><a href="patch-v140.topic">v1.40</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v139"><a href="patch-v139.topic">v1.39</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v138"><a href="patch-v138.topic">v1.38</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v137">v1.37 (no patch notes)</p>
+            </li>
+            <li>
+                <p id="patch-link-v136"><a href="patch-v136.topic">v1.36</a></p>
+            </li>
+            <li>
+                <p id="patch-link-v135"><a href="patch-v135.topic">v1.35</a></p>
+            </li>
         </list>
+
     </chapter>
 
 </topic>

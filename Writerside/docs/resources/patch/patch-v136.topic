@@ -35,24 +35,22 @@
     Hibernia Quest: Anxious Healer:
     A fix has gone in for players stuck on the Anxious Healer quest. This will fix the problems for players who have already turned in Lashold's Claw to Kimba but are still being told to turn in Lashold's Claw. Players at this step should go back to Kimba in Lough Gur and right click on her. They will then be able to continue on the quest.
 
-    <chapter title="" id="v136-">
-        <list id="v136-">
+    <chapter title="" id="v1-">
+        <list id="v1-">
             <li>
-                <p id="v136-"></p>
+                <p id="v1-"></p>
             </li>
             <li>
-                <p id="v136-"></p>
+                <p id="v1-"></p>
             </li>
             <li>
-                <p id="v136-"></p>
+                <p id="v1-"></p>
             </li>
             <li>
-                <p id="v136-"></p>
+                <p id="v1-"></p>
             </li>
         </list>
     </chapter>
-
-
 
     <seealso>
         <category ref="patchnotes">

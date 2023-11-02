@@ -17,13 +17,17 @@
         patch notes based on their topic and affected game systems.
     </p>
 
-    <include from="patch-classic.topic" element-id="classic-patch-notes" instance="daoc165,daoc155"/>
+    <include from="patch-foundations.topic" element-id="foundations-patch-notes" instance="daoc165"/>
+
+    <include from="patch-shrouded-isles.topic" element-id="si-patch-notes" instance="daoc165"/>
+
+    <include from="patch-classic.topic" element-id="classic-patch-notes" instance="daoc165"/>
 
     <chapter title="Shrouded Isles" id="shrouded-isles-patch-notes" instance="daoc165">
         <p>
             The following patches mark the the "Shrouded Isles" expansion of DAoC.
             Any data referenced on this website relating to this expansion will be
-            marked with the following icon: <img src="si.jpg" alt="Shrouded Isles icon"/>.
+            marked with the following icon: <img src="icon-si.jpg" alt="Shrouded Isles icon"/>.
         </p>
 
         <list>
@@ -40,24 +44,7 @@
         </list>
     </chapter>
 
-    <chapter title="Foundations" id="foundations-patch-notes">
-        <p>
-            The following patches mark the the "Foundations" expansion of DAoC.
-        </p>
 
-        <list>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </list>
-    </chapter>
 
 
     <chapter title="Trials of Atlantis" id="trials-of-atlantis-patch-notes">

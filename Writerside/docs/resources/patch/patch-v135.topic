@@ -5,9 +5,17 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="v1.35" id="patch-v135">
 
-    <p>
-        <control>November 8, 2001</control>
-    </p>
+    <show-structure for="" depth="2"/>
+    <link-summary></link-summary>
+    <card-summary></card-summary>
+    <web-summary></web-summary>
+    <title>Patch Notes: v1.35</title>
+
+    <tip>
+        <p>
+            <control>November 8, 2001</control>
+        </p>
+    </tip>
 
     <chapter title="NEW THINGS AND BUG FIXES" id="v135-bug-fixes">
         <list id="v135-bug-fixes-list">
